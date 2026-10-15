@@ -1,0 +1,163 @@
+{
+ "masterclass": {
+  "url": "https://www.masterclass.com/",
+  "status": "UNCHECKED (403)"
+ },
+ "coursera": {
+  "url": "https://www.coursera.org/courseraplus/",
+  "prices": [
+   "$399",
+   "$49",
+   "$59",
+   "$79"
+  ],
+  "trials": [
+   "14-day",
+   "7-day"
+  ],
+  "status": "ok"
+ },
+ "skillshare": {
+  "url": "https://www.skillshare.com/en/pricing",
+  "prices": [
+   "$13.99",
+   "$167.88"
+  ],
+  "trials": [],
+  "status": "ok"
+ },
+ "udemy": {
+  "url": "https://support.udemy.com/hc/en-us/articles/360050856093-Udemy-s-refund-policy",
+  "prices": [],
+  "trials": [],
+  "status": "ok"
+ },
+ "linkedin-learning": {
+  "url": "https://www.linkedin.com/help/learning/answer/a700791",
+  "prices": [],
+  "trials": [],
+  "status": "ok"
+ },
+ "edx": {
+  "url": "https://support.edx.org/hc/en-us/articles/360013426573-What-are-the-differences-between-audit-free-and-verified-paid-courses",
+  "status": "UNCHECKED (403)"
+ },
+ "codecademy": {
+  "url": "https://www.codecademy.com/pricing",
+  "prices": [
+   "$0",
+   "$14.99",
+   "$19.99",
+   "$29.99",
+   "$39.99"
+  ],
+  "trials": [],
+  "status": "ok"
+ },
+ "datacamp": {
+  "url": "https://www.datacamp.com/pricing",
+  "prices": [
+   "$ 14",
+   "$ 28",
+   "$255"
+  ],
+  "trials": [],
+  "status": "ok"
+ },
+ "brilliant": {
+  "url": "https://brilliant.org/help/pricing-and-plans/how-much-does-brilliant-premium-cost/",
+  "prices": [],
+  "trials": [],
+  "status": "ok"
+ },
+ "domestika": {
+  "url": "https://www.domestika.org/en/plus",
+  "prices": [
+   "$13.79",
+   "$164.50",
+   "$329",
+   "$33.90"
+  ],
+  "trials": [],
+  "status": "ok"
+ },
+ "pluralsight": {
+  "url": "https://www.pluralsight.com/individuals/pricing",
+  "prices": [],
+  "trials": [
+   "10-day"
+  ],
+  "status": "ok"
+ },
+ "udacity": {
+  "url": "https://support.udacity.com/hc/en-us/articles/17527771361165-FAQs-about-Udacity-s-New-Subscription",
+  "prices": [
+   "$249,",
+   "$846"
+  ],
+  "trials": [],
+  "status": "ok"
+ },
+ "futurelearn": {
+  "url": "https://www.futurelearn.com/unlimited",
+  "status": "UNCHECKED (403)"
+ },
+ "khan-academy": {
+  "url": "https://support.khanacademy.org/hc/en-us/articles/202260114-Does-it-cost-money-to-use-Khan-Academy",
+  "status": "UNCHECKED (403)"
+ },
+ "great-courses-plus": {
+  "url": "https://www.thegreatcoursesplus.com/customer/plans?plus=y",
+  "prices": [],
+  "trials": [],
+  "status": "ok"
+ },
+ "babbel": {
+  "url": "https://my.babbel.com/en/prices",
+  "prices": [
+   "$1",
+   "$5"
+  ],
+  "trials": [],
+  "status": "ok"
+ },
+ "duolingo": {
+  "url": "https://www.duolingo.com/help/super-duolingo",
+  "prices": [],
+  "trials": [],
+  "status": "ok"
+ },
+ "alison": {
+  "url": "https://helpcenter.alison.com/en/articles/8206417-is-alison-really-free",
+  "prices": [],
+  "trials": [],
+  "status": "ok"
+ },
+ "teachable": {
+  "url": "https://www.teachable.com/pricing",
+  "prices": [
+   "$12",
+   "$120",
+   "$139",
+   "$15",
+   "$189",
+   "$240",
+   "$29",
+   "$39",
+   "$600",
+   "$69",
+   "$89"
+  ],
+  "trials": [
+   "30-day",
+   "7-day"
+  ],
+  "status": "ok"
+ },
+ "rosetta-stone": {
+  "url": "https://support.rosettastone.com/about-our-lifetime-subscription/",
+  "prices": [],
+  "trials": [],
+  "status": "ok"
+ }
+}

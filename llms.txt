@@ -45,3 +45,5 @@
 - https://coursegauge.com/disclosure.html
 - https://coursegauge.com/privacy.html
 - https://coursegauge.com/terms.html
+- https://coursegauge.com/pricing-tracker/
+- https://coursegauge.com/quiz/
