@@ -1,6 +1,8 @@
 import os, json
 BASE="https://coursegauge.com"
 BRAND="CourseGauge"
+CF_BEACON_TOKEN=""  # Cloudflare Web Analytics token; leave empty until issued
+BEACON=(f'<script defer src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon=\'{{"token": "{CF_BEACON_TOKEN}"}}\'></script>' if CF_BEACON_TOKEN else "")
 Y=2026; CHECKED="October 15, 2026"
 ADDR="5640 W Maple Rd, Ste 101, West Bloomfield, MI 48322"
 LOGO='<svg width="28" height="28" viewBox="0 0 32 32" aria-hidden="true"><circle cx="16" cy="16" r="15" fill="#1b4d3e"/><path d="M6 20 A10 10 0 0 1 26 20" stroke="#f2c14e" stroke-width="3" fill="none" stroke-linecap="round"/><path d="M16 20 L22 12" stroke="#fff" stroke-width="2.5" stroke-linecap="round"/><circle cx="16" cy="20" r="2.5" fill="#fff"/></svg>'
@@ -29,7 +31,7 @@ def page(path,title,desc,body,schema=None):
 <footer><div class="wrap"><p>© {Y} Joshua Israel Ventures LLC. All rights reserved. {BRAND} is owned and operated by Joshua Israel Ventures LLC.</p>
 <p>Joshua Israel Ventures LLC, {ADDR}</p>
 <p><a href="{r}terms.html">Terms</a> · <a href="{r}privacy.html">Privacy</a> · <a href="{r}disclaimer.html">Disclaimer</a> · <a href="{r}disclosure.html">Affiliate Disclosure</a> · <a href="{r}about.html">About</a> · <a href="{r}contact.html">Contact</a></p>
-<p>Platform names and trademarks belong to their respective owners and are used only to identify the services reviewed. {BRAND} is not affiliated with or endorsed by them.</p></div></footer></body></html>"""
+<p>Platform names and trademarks belong to their respective owners and are used only to identify the services reviewed. {BRAND} is not affiliated with or endorsed by them.</p></div></footer>{BEACON}</body></html>"""
     d=os.path.dirname(path)
     if d: os.makedirs(d,exist_ok=True)
     open(path,"w").write(html); PAGES.append(url)
@@ -64,7 +66,7 @@ home=f"""<h1>Find the online course platform that fits how you learn</h1><p>{BRA
 page("index.html","Online Course Platform Reviews and Comparisons","Sourced, independent reviews and comparisons of MasterClass, Coursera, Skillshare, Udemy and more.",home)
 for f in sorted(os.listdir("data/legal")):
     t,body=open("data/legal/"+f).read().split("\n",1)
-    page(f.replace(".html.txt",".html"),t,f"{t} for {BRAND}, operated by Joshua Israel Ventures LLC.",body.replace("{BRAND}",BRAND).replace("{ADDR}",ADDR))
+    page(f.replace(".html.txt",".html"),t,f"{t} for {BRAND}, operated by Joshua Israel Ventures LLC.",body.replace("{ANALYTICS}",("We use Cloudflare Web Analytics, a cookie-free, privacy-first service that counts page views without tracking individuals." if CF_BEACON_TOKEN else "If we add analytics in future, we will update this policy before doing so.")).replace("{BRAND}",BRAND).replace("{ADDR}",ADDR))
 open("sitemap.xml","w").write('<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'+''.join(f"<url><loc>{u}</loc><lastmod>2026-10-15</lastmod></url>\n" for u in PAGES)+"</urlset>\n")
 bots=["Googlebot","Bingbot","GPTBot","OAI-SearchBot","ChatGPT-User","ClaudeBot","Claude-Web","anthropic-ai","CCBot","Google-Extended","Applebot","Applebot-Extended","PerplexityBot","Bytespider","Amazonbot","meta-externalagent","cohere-ai","DuckDuckBot","YandexBot"]
 open("robots.txt","w").write("".join(f"User-agent: {b}\nAllow: /\n\n" for b in bots)+f"User-agent: *\nAllow: /\n\nSitemap: {BASE}/sitemap.xml\n")
