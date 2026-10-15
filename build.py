@@ -1,9 +1,9 @@
 import os, json
 BASE="https://joshuaofisrael.github.io/course-review-site"
-BRAND="Studyvane"
+BRAND="CourseGauge"
 Y=2026; CHECKED="October 15, 2026"
 ADDR="5640 W Maple Rd, Ste 101, West Bloomfield, MI 48322"
-LOGO='<svg width="28" height="28" viewBox="0 0 32 32" aria-hidden="true"><circle cx="16" cy="16" r="15" fill="#1b4d3e"/><path d="M16 5 L20 16 L16 27 L12 16 Z" fill="#f2c14e"/><circle cx="16" cy="16" r="2.5" fill="#fff"/></svg>'
+LOGO='<svg width="28" height="28" viewBox="0 0 32 32" aria-hidden="true"><circle cx="16" cy="16" r="15" fill="#1b4d3e"/><path d="M6 20 A10 10 0 0 1 26 20" stroke="#f2c14e" stroke-width="3" fill="none" stroke-linecap="round"/><path d="M16 20 L22 12" stroke="#fff" stroke-width="2.5" stroke-linecap="round"/><circle cx="16" cy="20" r="2.5" fill="#fff"/></svg>'
 CSS="""*{box-sizing:border-box}body{margin:0;font:17px/1.6 system-ui,-apple-system,Segoe UI,Roboto,sans-serif;color:#1a1a1a;background:#fbfaf7}
 a{color:#0b5a8a}header,footer{background:#1b4d3e;color:#fff}header a,footer a{color:#fff}.wrap{max-width:860px;margin:auto;padding:0 18px}
 header .wrap{display:flex;align-items:center;gap:10px;flex-wrap:wrap;padding:12px 18px}.brand{font-weight:700;font-size:1.2rem;text-decoration:none;display:flex;gap:8px;align-items:center}

@@ -1,4 +1,4 @@
-# Studyvane
+# CourseGauge
 > Independent, sourced reviews and comparisons of online course platforms. Owned by Joshua Israel Ventures LLC.
 
 - https://joshuaofisrael.github.io/course-review-site/reviews/masterclass.html
