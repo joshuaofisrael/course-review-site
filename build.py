@@ -1,5 +1,5 @@
 import os, json
-BASE="https://joshuaofisrael.github.io/course-review-site"
+BASE="https://coursegauge.com"
 BRAND="CourseGauge"
 Y=2026; CHECKED="October 15, 2026"
 ADDR="5640 W Maple Rd, Ste 101, West Bloomfield, MI 48322"

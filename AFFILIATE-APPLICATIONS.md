@@ -5,7 +5,7 @@ Joshua must submit these himself (or approve them). Most of these programmes run
 ## Answers to paste (same for every programme)
 - **Legal entity:** Joshua Israel Ventures LLC (Florida LLC)
 - **Business address:** 5640 W Maple Rd, Ste 101, West Bloomfield, MI 48322
-- **Website:** https://joshuaofisrael.github.io/course-review-site/ (replace with the custom domain once attached)
+- **Website:** https://coursegauge.com/ (replace with the custom domain once attached)
 - **Website name:** CourseGauge
 - **Category:** Education / Online learning reviews and comparisons
 - **Promotional methods:** content and editorial: in-depth reviews, comparison tables, "best of" guides, SEO. No paid search on brand terms, no coupon/incentive sites, no email spam.
