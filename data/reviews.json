@@ -7,7 +7,7 @@
   "facts": [
    [
     "Pricing model",
-    "Annual subscription: Standard $120/yr, Plus $180/yr, Premium $240/yr (shown as $10, $15, $20 per month billed annually)"
+    "Annual membership: Standard $10/mo, Plus $15/mo, Premium $20/mo, billed annually ($120, $180, $240 a year)"
    ],
    [
     "Monthly option",
@@ -15,7 +15,7 @@
    ],
    [
     "Free trial",
-    "None listed on the plans we checked"
+    "Not shown on the plan pages we checked"
    ],
    [
     "Devices",
@@ -28,6 +28,10 @@
    [
     "Renewal",
     "Auto-renews; renewal notice sent 30 days before"
+   ],
+   [
+    "Refunds",
+    "30-day money-back guarantee (per MasterClass homepage)"
    ]
   ],
   "good": "Curious learners who enjoy polished, documentary-style lessons and want breadth across cooking, writing, music, business and more. Plus or Premium suits households because of extra streams and profiles.",
@@ -45,6 +49,10 @@
    [
     "MasterClass Help: Subscription charge and renewal",
     "https://www.masterclass.com/help-center/masterclass/answers/master-class-subscription-charge--id--q3jd0bW7TXSVZP7pTXYV6Q"
+   ],
+   [
+    "MasterClass plan chooser",
+    "https://www.masterclass.com/checkout"
    ]
   ]
  },
@@ -56,7 +64,7 @@
   "facts": [
    [
     "Pricing model",
-    "Coursera Plus $59/month (annual plan also offered; see official pricing); single courses and programs $49\u2013$79/month"
+    "Coursera Plus $59/month or $399/year; single courses and programs $49\u2013$79/month"
    ],
    [
     "Monthly option",
@@ -85,7 +93,7 @@
   ],
   "good": "Career changers and upskillers who want structured programs, graded assignments and recognisable certificates.",
   "bad": "Hobbyists who want short creative classes, and anyone who will study for only a few weeks at a time and forget to cancel.",
-  "take": "If you'll study for most of the year, compare the annual Plus price on Coursera's site with 12 months of the $59 monthly plan; annual Plus has a 14-day refund window.",
+  "take": "At list prices, seven months of monthly Plus ($413) cost more than one year of annual Plus ($399), so choose annual only if you'll study most of the year. Annual Plus has a 14-day money-back guarantee.",
   "sources": [
    [
     "Coursera Plus page",
@@ -113,7 +121,7 @@
    ],
    [
     "Free trial",
-    "Yes; payment details required, cancel before it ends"
+    "7 days"
    ],
    [
     "Features",
@@ -126,6 +134,10 @@
    [
     "Regional pricing",
     "Prices vary by location"
+   ],
+   [
+    "Refunds",
+    "7-day trial: one-time refund if requested within 48 hours of the charge and unused; no refunds for renewals; EU/UK 14-day cooling-off"
    ]
   ],
   "good": "Illustrators, designers, photographers, crafters and freelancers who learn best by making something.",
@@ -139,6 +151,10 @@
    [
     "Skillshare Help: What does Skillshare cost?",
     "https://help.skillshare.com/hc/en-us/articles/204526768-What-does-Skillshare-cost"
+   ],
+   [
+    "Skillshare Help: subscriptions, pricing and refunds",
+    "https://help.skillshare.com/hc/en-us/articles/4402806767117-How-do-Skillshare-subscriptions-pricing-and-refunds-work"
    ]
   ]
  },
@@ -171,6 +187,10 @@
    [
     "Certificates",
     "Certificate of completion (not accredited)"
+   ],
+   [
+    "Personal Plan price",
+    "From $13.00/month, billed monthly or annually"
    ]
   ],
   "good": "Self-directed learners who want one specific practical skill (a programming language, an exam, a software tool) at a low one-off cost.",
@@ -188,6 +208,10 @@
    [
     "Udemy Help: Personal Plan",
     "https://support.udemy.com/hc/en-us/sections/206458388-Pricing-coupons"
+   ],
+   [
+    "Udemy Personal Plan",
+    "https://www.udemy.com/personal-plan/"
    ]
   ]
  },
@@ -298,6 +322,14 @@
    [
     "Student discount",
     "Pro Student pricing for eligible students"
+   ],
+   [
+    "Free trial",
+    "7 days, card required"
+   ],
+   [
+    "Refunds",
+    "No refunds on subscriptions (exceptions can be requested via support)"
    ]
   ],
   "good": "Complete beginners and career switchers who want guided, hands-on practice.",
@@ -311,6 +343,14 @@
    [
     "Codecademy Help: Price",
     "https://help.codecademy.com/hc/en-us/articles/360022052834-Price-of-Codecademy"
+   ],
+   [
+    "Codecademy Help: Pro free trial",
+    "https://help.codecademy.com/hc/en-us/articles/360009112313-Codecademy-Pro-Free-Trial"
+   ],
+   [
+    "Codecademy Help: refund policy",
+    "https://help.codecademy.com/hc/en-us/articles/360007421393-Pro-Refund-Policy"
    ]
   ]
  },
@@ -330,7 +370,7 @@
    ],
    [
     "Premium price",
-    "Pricing page on Oct 15, 2026 showed a special price of $14/month billed annually, against a regular $28"
+    "$35/month billed monthly; $14/month billed annually (special price, regular $28) on Oct 15, 2026"
    ],
    [
     "Student plan",
@@ -343,6 +383,10 @@
    [
     "Pausing",
     "Monthly subscribers can pause; yearly plans cannot be paused"
+   ],
+   [
+    "Refunds",
+    "Terms of Use: fees are non-refundable except as stated; no prorated refund on cancellation"
    ]
   ],
   "good": "Analysts and aspiring data scientists learning Python, R, SQL and AI tools.",
@@ -360,6 +404,10 @@
    [
     "DataCamp Support: Promos FAQ",
     "https://support.datacamp.com/hc/en-us/articles/360012481334-DataCamp-Promos-Frequently-Asked-Questions"
+   ],
+   [
+    "DataCamp Terms of Use",
+    "https://www.datacamp.com/terms-of-use"
    ]
   ]
  },
@@ -375,7 +423,7 @@
    ],
    [
     "Price",
-    "Not listed in the help centre; shown on brilliant.org/subscribe and varies by region"
+    "Individual $30/month or $20/month billed annually; Family (6 seats) $60/month or $40/month billed annually"
    ],
    [
     "Included",
@@ -383,7 +431,7 @@
    ],
    [
     "Free option",
-    "K-12 teachers and their students may qualify for free Premium"
+    "Free plan with a daily lesson; K-12 teachers and students may qualify for free Premium"
    ],
    [
     "Certificates",
@@ -397,6 +445,10 @@
    [
     "Brilliant Help: How much does Premium cost?",
     "https://brilliant.org/help/pricing-and-plans/how-much-does-brilliant-premium-cost/"
+   ],
+   [
+    "Brilliant subscribe page",
+    "https://brilliant.org/subscribe/"
    ]
   ]
  },
@@ -453,7 +505,7 @@
    ],
    [
     "Free trial",
-    "Free trial available on individual plans"
+    "10 days (excludes labs and sandboxes)"
    ],
    [
     "Included",
@@ -465,7 +517,11 @@
    ],
    [
     "Price",
-    "See the official pricing page; promotions run periodically"
+    "Billed yearly: Core Tech $21/mo, AI+/Cloud+/Data+/Security+ $24.50/mo, Complete $39/mo. Billed monthly: Core Tech $30, Complete $55"
+   ],
+   [
+    "Refunds",
+    "No refunds on individual subscriptions (cancel anytime)"
    ]
   ],
   "good": "IT pros and developers preparing for certifications or building cloud, security and data skills.",
@@ -479,6 +535,10 @@
    [
     "Pluralsight Help: Skills plan comparison",
     "https://help.pluralsight.com/hc/en-us/articles/31499201424020-Skills-plan-comparison"
+   ],
+   [
+    "Pluralsight Help: Individual subscription renewal",
+    "https://help.pluralsight.com/hc/en-us/articles/24357218375588-Individual-subscription-renewal"
    ]
   ]
  },
@@ -605,7 +665,7 @@
    ],
    [
     "Price",
-    "Shown on the plans page; promotional offers are common"
+    "Monthly, quarterly and annual plans; the prices we saw were in EUR only, so check the plans page for US pricing"
    ],
    [
     "Format",
@@ -614,6 +674,14 @@
    [
     "Certificates",
     "No"
+   ],
+   [
+    "Free trial",
+    "7 days for new customers"
+   ],
+   [
+    "Refunds",
+    "No refund for early termination (per plans page)"
    ]
   ],
   "good": "Lifelong learners who enjoy in-depth lectures.",
@@ -622,7 +690,7 @@
   "sources": [
    [
     "The Great Courses Plus: plans",
-    "https://www.thegreatcoursesplus.com/customer/plans?plus=y"
+    "https://plus.thegreatcourses.com/customer/plans"
    ]
   ]
  },
@@ -638,7 +706,7 @@
    ],
    [
     "Price",
-    "Shown on Babbel's prices page; sales are frequent"
+    "$17.95 for 1 month; $45.75 per 3 months; $80.70 per 6 months; $107.40 per 12 months; Lifetime $299.99"
    ],
    [
     "Format",
@@ -684,6 +752,14 @@
    [
     "Certificates",
     "No (Duolingo English Test is a separate product)"
+   ],
+   [
+    "Free trial",
+    "1 week for Super"
+   ],
+   [
+    "Refunds",
+    "Duolingo terms: payments nonrefundable unless required by law; app-store refunds via Apple or Google"
    ]
   ],
   "good": "Anyone building a daily language habit on a budget.",
@@ -697,6 +773,14 @@
    [
     "PCMag: Duolingo review",
     "https://www.pcmag.com/reviews/duolingo"
+   ],
+   [
+    "Duolingo Super",
+    "https://www.duolingo.com/super"
+   ],
+   [
+    "Duolingo Terms",
+    "https://www.duolingo.com/terms"
    ]
   ]
  },
@@ -782,7 +866,7 @@
    ],
    [
     "Price",
-    "Varies by region and promotion"
+    "$19.99/month billed monthly, or $159/year ($13.25/month)"
    ],
    [
     "Certificates",
@@ -796,6 +880,10 @@
    [
     "Rosetta Stone Support: Lifetime subscription",
     "https://support.rosettastone.com/about-our-lifetime-subscription/"
+   ],
+   [
+    "Rosetta Stone plans",
+    "https://www.rosettastone.com/buy"
    ]
   ]
  }

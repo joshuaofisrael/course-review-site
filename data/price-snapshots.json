@@ -1,10 +1,10 @@
 {
  "masterclass": {
-  "url": "https://www.masterclass.com/",
+  "url": "https://www.masterclass.com/checkout",
   "status": "UNCHECKED (403)"
  },
  "coursera": {
-  "url": "https://www.coursera.org/courseraplus/",
+  "url": "https://www.coursera.org/courseraplus",
   "prices": [
    "$399",
    "$49",
@@ -18,19 +18,14 @@
   "status": "ok"
  },
  "skillshare": {
-  "url": "https://www.skillshare.com/en/pricing",
-  "prices": [
-   "$13.99",
-   "$167.88"
-  ],
+  "url": "https://help.skillshare.com/hc/en-us/articles/4402806767117-How-do-Skillshare-subscriptions-pricing-and-refunds-work",
+  "prices": [],
   "trials": [],
   "status": "ok"
  },
  "udemy": {
-  "url": "https://support.udemy.com/hc/en-us/articles/360050856093-Udemy-s-refund-policy",
-  "prices": [],
-  "trials": [],
-  "status": "ok"
+  "url": "https://www.udemy.com/personal-plan/",
+  "status": "UNCHECKED (403)"
  },
  "linkedin-learning": {
   "url": "https://www.linkedin.com/help/learning/answer/a700791",
@@ -56,17 +51,14 @@
  },
  "datacamp": {
   "url": "https://www.datacamp.com/pricing",
-  "prices": [
-   "$ 14",
-   "$ 28",
-   "$255"
-  ],
-  "trials": [],
-  "status": "ok"
+  "status": "UNCHECKED (403)"
  },
  "brilliant": {
-  "url": "https://brilliant.org/help/pricing-and-plans/how-much-does-brilliant-premium-cost/",
-  "prices": [],
+  "url": "https://brilliant.org/subscribe/",
+  "prices": [
+   "$20",
+   "$40"
+  ],
   "trials": [],
   "status": "ok"
  },
@@ -91,12 +83,7 @@
  },
  "udacity": {
   "url": "https://support.udacity.com/hc/en-us/articles/17527771361165-FAQs-about-Udacity-s-New-Subscription",
-  "prices": [
-   "$249,",
-   "$846"
-  ],
-  "trials": [],
-  "status": "ok"
+  "status": "UNCHECKED (403)"
  },
  "futurelearn": {
   "url": "https://www.futurelearn.com/unlimited",
@@ -104,10 +91,12 @@
  },
  "khan-academy": {
   "url": "https://support.khanacademy.org/hc/en-us/articles/202260114-Does-it-cost-money-to-use-Khan-Academy",
-  "status": "UNCHECKED (403)"
+  "prices": [],
+  "trials": [],
+  "status": "ok"
  },
  "great-courses-plus": {
-  "url": "https://www.thegreatcoursesplus.com/customer/plans?plus=y",
+  "url": "https://plus.thegreatcourses.com/customer/plans",
   "prices": [],
   "trials": [],
   "status": "ok"
@@ -122,7 +111,7 @@
   "status": "ok"
  },
  "duolingo": {
-  "url": "https://www.duolingo.com/help/super-duolingo",
+  "url": "https://www.duolingo.com/super",
   "prices": [],
   "trials": [],
   "status": "ok"
@@ -155,8 +144,12 @@
   "status": "ok"
  },
  "rosetta-stone": {
-  "url": "https://support.rosettastone.com/about-our-lifetime-subscription/",
-  "prices": [],
+  "url": "https://www.rosettastone.com/buy",
+  "prices": [
+   "$ 13",
+   "$ 159",
+   "$ 19"
+  ],
   "trials": [],
   "status": "ok"
  }

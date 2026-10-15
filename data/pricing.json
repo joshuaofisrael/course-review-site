@@ -1,22 +1,202 @@
 [
-["masterclass","Not offered (billed annually)","From $120/yr ($10/mo billed annually)","SEE","SEE","SEE","SEE","https://www.masterclass.com/"],
-["coursera","Coursera Plus $59/mo; single programs $49–$79/mo","SEE","7 days (monthly Plus)","SEE","Annual Plus: 14-day refund request","Yes","https://www.coursera.org/courseraplus/"],
-["skillshare","Via Skillshare app (app store pricing)","$167.88/yr ($13.99/mo)","Yes (length: see official)","SEE","SEE","SEE","https://www.skillshare.com/en/pricing"],
-["udemy","SEE (Personal Plan)","SEE (Personal Plan)","May be offered to first-time Personal Plan subscribers","SEE","Eligible courses: 30 days; Udemy.com subscriptions: none unless required by law","SEE","https://support.udemy.com/hc/en-us/articles/360050856093-Udemy-s-refund-policy"],
-["linkedin-learning","Via LinkedIn Premium: SEE","Via LinkedIn Premium: SEE","1 month (Premium trial)","No standalone individual plan","SEE","Yes","https://www.linkedin.com/help/learning/answer/a700791"],
-["edx","Priced per course","Priced per course","Not applicable","Audit track (no graded work or certificate)","SEE","Verified track (paid)","https://support.edx.org/hc/en-us/articles/360013426573-What-are-the-differences-between-audit-free-and-verified-paid-courses"],
-["codecademy","Plus $29.99; Pro $39.99","Plus $14.99/mo; Pro $19.99/mo (billed annually)","Free trial offered (length: see official)","Basic: $0","SEE","Plus and Pro: certificates of completion","https://www.codecademy.com/pricing"],
-["datacamp","SEE","$14/mo billed annually (special price; regular $28) on Oct 15, 2026","SEE","Basic: first chapter of every course","SEE","Premium","https://www.datacamp.com/pricing"],
-["brilliant","SEE","SEE","SEE","K-12 teachers and students may qualify for free Premium","SEE","SEE","https://brilliant.org/help/pricing-and-plans/how-much-does-brilliant-premium-cost/"],
-["domestika","Plus $33.90/mo","Plus $164.50 first year; renews at $329","SEE","SEE","SEE","Yes, for purchased courses completed","https://www.domestika.org/en/plus"],
-["pluralsight","SEE","SEE","Free trial on individual plans","SEE","SEE","SEE","https://www.pluralsight.com/individuals/pricing"],
-["udacity","$249/mo","$846 for 4 months upfront, then monthly","SEE","SEE","SEE","SEE","https://support.udacity.com/hc/en-us/articles/17527771361165-FAQs-about-Udacity-s-New-Subscription"],
-["futurelearn","SEE","Unlimited $349.99/yr ($244.99 offer shown Oct 15, 2026)","SEE","SEE","SEE","SEE","https://www.futurelearn.com/unlimited"],
-["khan-academy","Free","Free","Not applicable","Core library free","Not applicable","SEE","https://support.khanacademy.org/hc/en-us/articles/202260114-Does-it-cost-money-to-use-Khan-Academy"],
-["great-courses-plus","SEE","SEE","SEE","SEE","SEE","SEE","https://www.thegreatcoursesplus.com/customer/plans?plus=y"],
-["babbel","SEE","SEE","SEE","SEE","SEE","SEE","https://my.babbel.com/en/prices"],
-["duolingo","Super: SEE","Super: SEE","SEE","Yes (with ads and limits)","SEE","SEE","https://www.duolingo.com/help/super-duolingo"],
-["alison","Free courses","Free courses","Not applicable","Study and complete free","SEE","Free learner record; certificates optional paid (some free)","https://helpcenter.alison.com/en/articles/8206417-is-alison-really-free"],
-["teachable","Starter $39, Builder $89, Growth $189 (creator plans)","Starter $29/mo, Builder $69/mo, Growth $139/mo billed annually","7 days","No free plan","30-day money-back guarantee","Growth plan: course certificates","https://www.teachable.com/pricing"],
-["rosetta-stone","SEE","SEE (lifetime option exists)","SEE","SEE","SEE","SEE","https://support.rosettastone.com/about-our-lifetime-subscription/"]
+ [
+  "masterclass",
+  "Not offered (annual membership only)",
+  "Standard $10/mo, Plus $15/mo, Premium $20/mo (billed annually)",
+  "SEE",
+  "SEE",
+  "30-day money-back guarantee",
+  "SEE",
+  "https://www.masterclass.com/checkout"
+ ],
+ [
+  "coursera",
+  "Coursera Plus $59/mo; single programs $49\u2013$79/mo",
+  "Coursera Plus $399/yr",
+  "7 days",
+  "SEE",
+  "Annual Plus: 14-day money-back guarantee",
+  "Yes, on completion",
+  "https://www.coursera.org/courseraplus"
+ ],
+ [
+  "skillshare",
+  "SEE",
+  "SEE",
+  "7 days",
+  "SEE",
+  "7-day trial: one-time refund if requested within 48 hours of the charge and unused; no refunds on renewals (EU/UK: 14-day cooling-off)",
+  "SEE",
+  "https://help.skillshare.com/hc/en-us/articles/4402806767117-How-do-Skillshare-subscriptions-pricing-and-refunds-work"
+ ],
+ [
+  "udemy",
+  "Personal Plan from $13.00/mo (billed monthly or annually)",
+  "SEE",
+  "SEE",
+  "SEE",
+  "SEE",
+  "SEE",
+  "https://www.udemy.com/personal-plan/"
+ ],
+ [
+  "linkedin-learning",
+  "SEE",
+  "SEE",
+  "SEE",
+  "No standalone individual plan",
+  "SEE",
+  "SEE",
+  "https://www.linkedin.com/help/learning/answer/a700791"
+ ],
+ [
+  "edx",
+  "Priced per course",
+  "Priced per course",
+  "Not applicable",
+  "Audit track (no graded work or certificate)",
+  "SEE",
+  "Verified track (paid)",
+  "https://support.edx.org/hc/en-us/articles/360013426573-What-are-the-differences-between-audit-free-and-verified-paid-courses"
+ ],
+ [
+  "codecademy",
+  "Plus $29.99; Pro $39.99",
+  "Plus $14.99/mo; Pro $19.99/mo (billed annually)",
+  "7 days (card required)",
+  "Basic: $0",
+  "No refunds on subscriptions (exceptions via support)",
+  "Plus and Pro: certificates of completion",
+  "https://www.codecademy.com/pricing"
+ ],
+ [
+  "datacamp",
+  "Premium $35/mo",
+  "Premium $14/mo billed annually (special price; $28 struck out)",
+  "SEE",
+  "Basic: first chapter of every course",
+  "Fees non-refundable except as stated in Terms",
+  "Premium and Teams",
+  "https://www.datacamp.com/pricing"
+ ],
+ [
+  "brilliant",
+  "Individual $30/mo; Family (6) $60/mo",
+  "Individual $20/mo; Family $40/mo (billed annually)",
+  "SEE",
+  "Yes (Free plan with daily lesson)",
+  "SEE",
+  "SEE",
+  "https://brilliant.org/subscribe/"
+ ],
+ [
+  "domestika",
+  "Plus $33.90/mo",
+  "Plus $164.50 first year; renews at $329",
+  "SEE",
+  "SEE",
+  "SEE",
+  "Yes, for purchased courses completed",
+  "https://www.domestika.org/en/plus"
+ ],
+ [
+  "pluralsight",
+  "Core Tech $30/mo; Complete $55/mo",
+  "Core Tech $21/mo; AI+/Cloud+/Data+/Security+ $24.50/mo; Complete $39/mo (billed yearly)",
+  "10 days (excludes labs and sandboxes)",
+  "SEE",
+  "No refunds on individual subscriptions",
+  "SEE",
+  "https://www.pluralsight.com/individuals/pricing"
+ ],
+ [
+  "udacity",
+  "$249/mo",
+  "$846 for 4 months upfront, then monthly",
+  "SEE",
+  "SEE",
+  "SEE",
+  "SEE",
+  "https://support.udacity.com/hc/en-us/articles/17527771361165-FAQs-about-Udacity-s-New-Subscription"
+ ],
+ [
+  "futurelearn",
+  "SEE",
+  "Unlimited $349.99/yr ($244.99 offer shown Oct 15, 2026)",
+  "SEE",
+  "SEE",
+  "SEE",
+  "SEE",
+  "https://www.futurelearn.com/unlimited"
+ ],
+ [
+  "khan-academy",
+  "Free",
+  "Free",
+  "Not applicable",
+  "Core library free",
+  "Not applicable",
+  "SEE",
+  "https://support.khanacademy.org/hc/en-us/articles/202260114-Does-it-cost-money-to-use-Khan-Academy"
+ ],
+ [
+  "great-courses-plus",
+  "EUR only seen: \u20ac18/mo (US price: see official)",
+  "EUR only seen: \u20ac135/yr (US price: see official)",
+  "7 days (new customers)",
+  "SEE",
+  "No refund for early termination",
+  "SEE",
+  "https://plus.thegreatcourses.com/customer/plans"
+ ],
+ [
+  "babbel",
+  "$17.95/mo (1 month); $15.25/mo (3 months); $13.45/mo (6 months)",
+  "$107.40/yr ($8.95/mo); Lifetime $299.99 one-time",
+  "SEE",
+  "SEE",
+  "SEE",
+  "SEE",
+  "https://my.babbel.com/en/prices"
+ ],
+ [
+  "duolingo",
+  "Super: SEE",
+  "Super: SEE",
+  "1 week",
+  "Yes (free plan)",
+  "Payments nonrefundable unless required by law; app-store refunds via Apple/Google",
+  "SEE",
+  "https://www.duolingo.com/super"
+ ],
+ [
+  "alison",
+  "Free courses",
+  "Free courses",
+  "Not applicable",
+  "Study and complete free",
+  "SEE",
+  "Free learner record; certificates optional paid (some free)",
+  "https://helpcenter.alison.com/en/articles/8206417-is-alison-really-free"
+ ],
+ [
+  "teachable",
+  "Starter $39, Builder $89, Growth $189 (creator plans)",
+  "Starter $29/mo, Builder $69/mo, Growth $139/mo billed annually",
+  "7 days",
+  "No free plan",
+  "30-day money-back guarantee",
+  "Growth plan: course certificates",
+  "https://www.teachable.com/pricing"
+ ],
+ [
+  "rosetta-stone",
+  "$19.99/mo",
+  "$159/yr ($13.25/mo)",
+  "SEE",
+  "Free sample lessons only",
+  "SEE",
+  "SEE",
+  "https://www.rosettastone.com/buy"
+ ]
 ]
