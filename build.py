@@ -20,7 +20,7 @@ def page(path,title,desc,body,schema=None):
         "publisher":{"@type":"Organization","name":"Joshua Israel Ventures LLC","address":{"@type":"PostalAddress","streetAddress":"5640 W Maple Rd, Ste 101","addressLocality":"West Bloomfield","addressRegion":"MI","postalCode":"48322","addressCountry":"US"}}}]
     if schema: ld.append(schema)
     r="../"*path.count("/")
-    html=f"""<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+    html=f"""<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="google-site-verification" content="DCgsX3z63BjvDcQOFDkDgY4Mh44YQBuzn1vVoMX8nYs"><meta name="msvalidate.01" content="942EB99DB458637348E2ADBDEBDAA7AE"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>{title} | {BRAND}</title><meta name="description" content="{desc}"><meta name="robots" content="index,follow,max-snippet:-1,max-image-preview:large">
 <link rel="canonical" href="{url}"><link rel="icon" href="{r}logo.svg"><style>{CSS}</style>
 <script type="application/ld+json">{json.dumps(ld)}</script></head><body>
