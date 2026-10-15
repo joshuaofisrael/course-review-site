@@ -9,3 +9,6 @@ Static online course review site for Joshua Israel Ventures LLC. Plain HTML/CSS,
 
 ## Intellectual property
 All writing, structure, design, the "CourseGauge" name and the SVG logo are original work of Joshua Israel Ventures LLC. Reviews are based on platforms' own public pricing/help pages, cited on every page; no text is copied or paraphrased from competitor review sites. Course platform names are used only descriptively (nominative fair use) and never in our brand or domain. No third-party images are used; any future image must be original or properly licensed (CC0 or credited open licence). Name check (Oct 15, 2026): see BRAND-CHECK.md.
+
+## IndexNow
+Key file: `2e39508c439447c8b3541321bc9f2792.txt` (key also in `.indexnow-key`). After each deploy, run `python3 indexnow.py` to submit every URL in the sitemap.

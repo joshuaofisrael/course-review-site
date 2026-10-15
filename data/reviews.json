@@ -1,72 +1,802 @@
 {
-"masterclass":{"name":"MasterClass","tagline":"celebrity-led lessons, annual billing only","url":"https://www.masterclass.com/",
-"verdict":"MasterClass is best treated as inspiration and craft insight from famous practitioners, not as a credential. Every plan unlocks the full library; you pay more only for extra simultaneous devices and offline viewing.",
-"facts":[["Pricing model","Annual subscription: Standard $120/yr, Plus $180/yr, Premium $240/yr (shown as $10, $15, $20 per month billed annually)"],["Monthly option","Advertised as billed annually"],["Free trial","None listed on the plans we checked"],["Devices","Standard 1; Plus up to 2 simultaneous streams; Premium up to 6"],["Certificates","Not a credential-focused platform"],["Renewal","Auto-renews; renewal notice sent 30 days before"]],
-"good":"Curious learners who enjoy polished, documentary-style lessons and want breadth across cooking, writing, music, business and more. Plus or Premium suits households because of extra streams and profiles.",
-"bad":"Anyone who needs certificates, graded work or step-by-step job skills. The upfront annual charge also makes it a poor fit for trying something for a month.",
-"take":"Pick Standard if you watch alone online; Plus if two people share or you want offline downloads. Set a reminder before the renewal date, since the plan auto-renews.",
-"sources":[["MasterClass homepage (pricing from $10/mo billed annually)","https://www.masterclass.com/"],["MasterClass Help: About membership plans","https://www.masterclass.com/help-center/masterclass/answers/about-master-class-membership-plans--id---KTOuuyVSJOaE7YwVZu2Og"],["MasterClass Help: Subscription charge and renewal","https://www.masterclass.com/help-center/masterclass/answers/master-class-subscription-charge--id--q3jd0bW7TXSVZP7pTXYV6Q"]]},
-"coursera":{"name":"Coursera","tagline":"university and industry certificates","url":"https://www.coursera.org/",
-"verdict":"Coursera is the strongest pick here if you want certificates from universities and companies. Coursera Plus bundles most of the catalog for one price.",
-"facts":[["Pricing model","Coursera Plus $59/month or $399/year; individual courses and certificates priced separately"],["Monthly option","Yes"],["Free trial","Monthly Plus starts with a 7-day free trial"],["Refunds","Annual Plus has a 14-day money-back guarantee"],["Certificates","Yes, certificates for completed courses"],["Catalog","10,000+ courses (per Coursera)"]],
-"good":"Career changers and upskillers who want structured programs, graded assignments and recognisable certificates.",
-"bad":"Hobbyists who want short creative classes, and anyone who will study for only a few weeks at a time and forget to cancel.",
-"take":"At list prices, roughly seven months of monthly Plus costs more than one year of annual Plus, so commit to annual only if you will study most of the year.",
-"sources":[["Coursera Plus page","https://www.coursera.org/courseraplus/"],["Coursera Help: Coursera Plus (trial and refund terms)","https://www.coursera.support/s/article/learner-000001075?language=en_US"]]},
-"skillshare":{"name":"Skillshare","tagline":"project-based creative classes","url":"https://www.skillshare.com/",
-"verdict":"Skillshare suits creatives who like short, hands-on classes with a project at the end. The web price is an annual plan charged upfront.",
-"facts":[["Pricing model","Annual membership $167.88/yr (shown as $13.99/month) on the web pricing page"],["Monthly option","Via the Skillshare app through your app store"],["Free trial","Yes; payment details required, cancel before it ends"],["Features","Offline viewing, subtitles, transcripts"],["Certificates","Not credential-focused"],["Regional pricing","Prices vary by location"]],
-"good":"Illustrators, designers, photographers, crafters and freelancers who learn best by making something.",
-"bad":"Learners who need accredited certificates or deep technical curricula.",
-"take":"Use the trial to finish one or two class projects; if you do, the annual plan is reasonable value.",
-"sources":[["Skillshare pricing","https://www.skillshare.com/en/pricing"],["Skillshare Help: What does Skillshare cost?","https://help.skillshare.com/hc/en-us/articles/204526768-What-does-Skillshare-cost"]]},
-"udemy":{"name":"Udemy","tagline":"buy one course or subscribe","url":"https://www.udemy.com/",
-"verdict":"Udemy is the most flexible option: buy a single course and keep lifetime access, or subscribe to the Personal Plan for a curated collection. Refund rules differ sharply between the two.",
-"facts":[["Pricing model","Individual course purchases, or Personal Plan subscription (monthly or annual access)"],["Catalog","250,000+ courses overall (per Udemy); Personal Plan is a curated subset"],["Free trial","May be offered to first-time Personal Plan subscribers"],["Refunds","Eligible individual courses: 30-day refund policy. Subscriptions bought on Udemy.com: no refunds unless required by law"],["Access","Purchased courses: lifetime access"],["Certificates","Certificate of completion (not accredited)"]],
-"good":"Self-directed learners who want one specific practical skill (a programming language, an exam, a software tool) at a low one-off cost.",
-"bad":"Anyone wanting consistent quality control: courses come from independent instructors, so check reviews and previews.",
-"take":"For one or two skills, buy courses individually and keep them. Consider the Personal Plan only if you will work through several courses within the subscription period.",
-"sources":[["Udemy plans and pricing","https://www.udemy.com/pricing/"],["Udemy refund policy","https://support.udemy.com/hc/en-us/articles/360050856093-Udemy-s-refund-policy"],["Udemy Help: Personal Plan","https://support.udemy.com/hc/en-us/sections/206458388-Pricing-coupons"]]},
-"linkedin-learning":{"name":"LinkedIn Learning","tagline":"business skills bundled with Premium","url":"https://www.linkedin.com/learning/",
-"verdict":"LinkedIn Learning is solid for business and software skills, but individuals can only get it through LinkedIn Premium or an employer, school or library.",
-"facts":[["Pricing model","No standalone individual subscription; included with LinkedIn Premium. PCMag reports Premium Career at $39.99/month or $239.88/year"],["Free trial","Premium free trial (typically one month), card required"],["A la carte","Individual course purchases are not offered"],["Catalog","16,000+ courses (per LinkedIn)"],["Certificates","Certificate of completion"]],
-"good":"Job seekers who also want Premium networking features, and anyone with free access via a library or employer.",
-"bad":"Learners who only want courses and do not value Premium's other features.",
-"take":"Check whether your public library or employer already gives you access before paying.",
-"sources":[["LinkedIn Help: LinkedIn Learning subscription overview","https://www.linkedin.com/help/learning/answer/a700791"],["LinkedIn Help: Premium free trial","https://www.linkedin.com/help/linkedin/answer/a1355837"],["PCMag: LinkedIn Learning review (pricing)","https://www.pcmag.com/reviews/linkedin-learning"]]},
-"edx":{"name":"edX","tagline":"university courses with a free audit track","url":"https://www.edx.org/",
-"verdict":"edX lets you audit many university courses free, then pay to upgrade to a verified certificate. Prices are set per course.",
-"facts":[["Pricing model","Per course; free audit track or paid verified track"],["Free option","Audit track: temporary access to course materials, no graded assignments or certificate"],["Certificates","Verified certificate on the paid track"],["Price","Varies by course; check the course's enrollment options"]],
-"good":"Learners who want academic content and to try a course before paying for a certificate.",
-"bad":"People wanting an all-you-can-learn subscription or creative hobby classes.",
-"take":"Audit first; upgrade before the course's upgrade deadline only if you want the certificate.",
-"sources":[["edX Help: Audit vs verified","https://support.edx.org/hc/en-us/articles/360013426573-What-are-the-differences-between-audit-free-and-verified-paid-courses"],["edX Help: What does it cost to take a course?","https://support.edx.org/hc/en-us/articles/206211958-What-does-it-cost-to-take-a-course"]]},
-"codecademy":{"name":"Codecademy","tagline":"interactive coding in the browser","url":"https://www.codecademy.com/",
-"verdict":"Codecademy is a beginner-friendly way to learn to code by writing code in the browser, with paid tiers for career paths and certifications.",
-"facts":[["Pricing model","Free basic tier; Plus and Pro paid plans"],["Plus","$14.99/month billed annually or $29.99 billed monthly (per pricing page at time of check)"],["Pro","$19.99/month billed annually or $39.99 billed monthly; adds career paths, interview prep and certifications"],["Student discount","Pro Student pricing for eligible students"]],
-"good":"Complete beginners and career switchers who want guided, hands-on practice.",
-"bad":"Experienced developers wanting advanced, project-heavy material.",
-"take":"Start on the free tier; upgrade to Pro only when you're ready for a full career path.",
-"sources":[["Codecademy pricing","https://www.codecademy.com/pricing"],["Codecademy Help: Price","https://help.codecademy.com/hc/en-us/articles/360022052834-Price-of-Codecademy"]]},
-"datacamp":{"name":"DataCamp","tagline":"data and AI skills, hands-on","url":"https://www.datacamp.com/",
-"verdict":"DataCamp focuses on data science, analytics and AI with short interactive exercises. Watch for frequent promotions on the annual plan.",
-"facts":[["Pricing model","Free tier plus Premium subscription; Teams plans available"],["Premium price","See current pricing page; annual promotions are common"],["Student plan","Discounted Premium Student plan for eligible students"],["Promotions","Promo pricing generally applies to annual plans, per DataCamp's promo FAQ"]],
-"good":"Analysts and aspiring data scientists learning Python, R, SQL and AI tools.",
-"bad":"Learners outside data topics.",
-"take":"Try the free chapters, then buy annual Premium during a promotion if you'll use it all year.",
-"sources":[["DataCamp pricing","https://www.datacamp.com/pricing"],["DataCamp student plan","https://www.datacamp.com/pricing/student"],["DataCamp Support: Promos FAQ","https://support.datacamp.com/hc/en-us/articles/360012481334-DataCamp-Promos-Frequently-Asked-Questions"]]},
-"brilliant":{"name":"Brilliant","tagline":"interactive math, science and CS","url":"https://brilliant.org/",
-"verdict":"Brilliant teaches math, science and computer science through interactive problem solving rather than video lectures.",
-"facts":[["Pricing model","Brilliant Premium subscription; limited free access"],["Price","See Brilliant's help center; prices vary by region"],["Format","Interactive lessons and problems"],["Certificates","Not credential-focused"]],
-"good":"Learners who enjoy puzzles and want to build quantitative intuition in short daily sessions.",
-"bad":"People who want certificates or long-form lectures.",
-"take":"A good daily habit tool; pair it with a course platform if you need credentials.",
-"sources":[["Brilliant Help: How much does Premium cost?","https://brilliant.org/help/pricing-and-plans/how-much-does-brilliant-premium-cost/"]]},
-"domestika":{"name":"Domestika","tagline":"creative courses, buy or subscribe","url":"https://www.domestika.org/",
-"verdict":"Domestika offers creative courses you can buy individually or access through the Domestika Plus subscription.",
-"facts":[["Pricing model","Individual course purchases or Domestika Plus subscription (monthly or annual)"],["Price","Shown on the Plus page and varies by region"],["Renewal","Plus auto-renews"],["Focus","Illustration, design, crafts, photography and other creative fields"]],
-"good":"Creatives who want in-depth courses from working professionals, many originally produced in Spanish with subtitles.",
-"bad":"Learners seeking business, tech or accredited content.",
-"take":"Buy a single course if one topic interests you; consider Plus only if you'll take several.",
-"sources":[["Domestika Plus","https://www.domestika.org/en/plus"],["Domestika Support: Paying for Plus","https://support.domestika.org/hc/en-us/articles/4417429219345-How-do-I-pay-for-the-Domestika-Plus"]]}
+ "masterclass": {
+  "name": "MasterClass",
+  "tagline": "celebrity-led lessons, annual billing only",
+  "url": "https://www.masterclass.com/",
+  "verdict": "MasterClass is best treated as inspiration and craft insight from famous practitioners, not as a credential. Every plan unlocks the full library; you pay more only for extra simultaneous devices and offline viewing.",
+  "facts": [
+   [
+    "Pricing model",
+    "Annual subscription: Standard $120/yr, Plus $180/yr, Premium $240/yr (shown as $10, $15, $20 per month billed annually)"
+   ],
+   [
+    "Monthly option",
+    "Advertised as billed annually"
+   ],
+   [
+    "Free trial",
+    "None listed on the plans we checked"
+   ],
+   [
+    "Devices",
+    "Standard 1; Plus up to 2 simultaneous streams; Premium up to 6"
+   ],
+   [
+    "Certificates",
+    "Not a credential-focused platform"
+   ],
+   [
+    "Renewal",
+    "Auto-renews; renewal notice sent 30 days before"
+   ]
+  ],
+  "good": "Curious learners who enjoy polished, documentary-style lessons and want breadth across cooking, writing, music, business and more. Plus or Premium suits households because of extra streams and profiles.",
+  "bad": "Anyone who needs certificates, graded work or step-by-step job skills. The upfront annual charge also makes it a poor fit for trying something for a month.",
+  "take": "Pick Standard if you watch alone online; Plus if two people share or you want offline downloads. Set a reminder before the renewal date, since the plan auto-renews.",
+  "sources": [
+   [
+    "MasterClass homepage (pricing from $10/mo billed annually)",
+    "https://www.masterclass.com/"
+   ],
+   [
+    "MasterClass Help: About membership plans",
+    "https://www.masterclass.com/help-center/masterclass/answers/about-master-class-membership-plans--id---KTOuuyVSJOaE7YwVZu2Og"
+   ],
+   [
+    "MasterClass Help: Subscription charge and renewal",
+    "https://www.masterclass.com/help-center/masterclass/answers/master-class-subscription-charge--id--q3jd0bW7TXSVZP7pTXYV6Q"
+   ]
+  ]
+ },
+ "coursera": {
+  "name": "Coursera",
+  "tagline": "university and industry certificates",
+  "url": "https://www.coursera.org/",
+  "verdict": "Coursera is the strongest pick here if you want certificates from universities and companies. Coursera Plus bundles most of the catalog for one price.",
+  "facts": [
+   [
+    "Pricing model",
+    "Coursera Plus $59/month or $399/year; individual courses and certificates priced separately"
+   ],
+   [
+    "Monthly option",
+    "Yes"
+   ],
+   [
+    "Free trial",
+    "Monthly Plus starts with a 7-day free trial"
+   ],
+   [
+    "Refunds",
+    "Annual Plus has a 14-day money-back guarantee"
+   ],
+   [
+    "Certificates",
+    "Yes, certificates for completed courses"
+   ],
+   [
+    "Catalog",
+    "10,000+ courses (per Coursera)"
+   ],
+   [
+    "Free option",
+    "Many courses can be audited free; certificates require payment"
+   ]
+  ],
+  "good": "Career changers and upskillers who want structured programs, graded assignments and recognisable certificates.",
+  "bad": "Hobbyists who want short creative classes, and anyone who will study for only a few weeks at a time and forget to cancel.",
+  "take": "At list prices, roughly seven months of monthly Plus costs more than one year of annual Plus, so commit to annual only if you will study most of the year.",
+  "sources": [
+   [
+    "Coursera Plus page",
+    "https://www.coursera.org/courseraplus/"
+   ],
+   [
+    "Coursera Help: Coursera Plus (trial and refund terms)",
+    "https://www.coursera.support/s/article/learner-000001075?language=en_US"
+   ]
+  ]
+ },
+ "skillshare": {
+  "name": "Skillshare",
+  "tagline": "project-based creative classes",
+  "url": "https://www.skillshare.com/",
+  "verdict": "Skillshare suits creatives who like short, hands-on classes with a project at the end. The web price is an annual plan charged upfront.",
+  "facts": [
+   [
+    "Pricing model",
+    "Annual membership $167.88/yr (shown as $13.99/month) on the web pricing page"
+   ],
+   [
+    "Monthly option",
+    "Via the Skillshare app through your app store"
+   ],
+   [
+    "Free trial",
+    "Yes; payment details required, cancel before it ends"
+   ],
+   [
+    "Features",
+    "Offline viewing, subtitles, transcripts"
+   ],
+   [
+    "Certificates",
+    "Not credential-focused"
+   ],
+   [
+    "Regional pricing",
+    "Prices vary by location"
+   ]
+  ],
+  "good": "Illustrators, designers, photographers, crafters and freelancers who learn best by making something.",
+  "bad": "Learners who need accredited certificates or deep technical curricula.",
+  "take": "Use the trial to finish one or two class projects; if you do, the annual plan is reasonable value.",
+  "sources": [
+   [
+    "Skillshare pricing",
+    "https://www.skillshare.com/en/pricing"
+   ],
+   [
+    "Skillshare Help: What does Skillshare cost?",
+    "https://help.skillshare.com/hc/en-us/articles/204526768-What-does-Skillshare-cost"
+   ]
+  ]
+ },
+ "udemy": {
+  "name": "Udemy",
+  "tagline": "buy one course or subscribe",
+  "url": "https://www.udemy.com/",
+  "verdict": "Udemy is the most flexible option: buy a single course and keep lifetime access, or subscribe to the Personal Plan for a curated collection. Refund rules differ sharply between the two.",
+  "facts": [
+   [
+    "Pricing model",
+    "Individual course purchases, or Personal Plan subscription (monthly or annual access)"
+   ],
+   [
+    "Catalog",
+    "250,000+ courses overall (per Udemy); Personal Plan is a curated subset"
+   ],
+   [
+    "Free trial",
+    "May be offered to first-time Personal Plan subscribers"
+   ],
+   [
+    "Refunds",
+    "Eligible individual courses: 30-day refund policy. Subscriptions bought on Udemy.com: no refunds unless required by law"
+   ],
+   [
+    "Access",
+    "Purchased courses: lifetime access"
+   ],
+   [
+    "Certificates",
+    "Certificate of completion (not accredited)"
+   ]
+  ],
+  "good": "Self-directed learners who want one specific practical skill (a programming language, an exam, a software tool) at a low one-off cost.",
+  "bad": "Anyone wanting consistent quality control: courses come from independent instructors, so check reviews and previews.",
+  "take": "For one or two skills, buy courses individually and keep them. Consider the Personal Plan only if you will work through several courses within the subscription period.",
+  "sources": [
+   [
+    "Udemy plans and pricing",
+    "https://www.udemy.com/pricing/"
+   ],
+   [
+    "Udemy refund policy",
+    "https://support.udemy.com/hc/en-us/articles/360050856093-Udemy-s-refund-policy"
+   ],
+   [
+    "Udemy Help: Personal Plan",
+    "https://support.udemy.com/hc/en-us/sections/206458388-Pricing-coupons"
+   ]
+  ]
+ },
+ "linkedin-learning": {
+  "name": "LinkedIn Learning",
+  "tagline": "business skills bundled with Premium",
+  "url": "https://www.linkedin.com/learning/",
+  "verdict": "LinkedIn Learning is solid for business and software skills, but individuals can only get it through LinkedIn Premium or an employer, school or library.",
+  "facts": [
+   [
+    "Pricing model",
+    "No standalone individual subscription; included with LinkedIn Premium. PCMag reports Premium Career at $39.99/month or $239.88/year"
+   ],
+   [
+    "Free trial",
+    "Premium free trial (typically one month), card required"
+   ],
+   [
+    "A la carte",
+    "Individual course purchases are not offered"
+   ],
+   [
+    "Catalog",
+    "16,000+ courses (per LinkedIn)"
+   ],
+   [
+    "Certificates",
+    "Certificate of completion"
+   ]
+  ],
+  "good": "Job seekers who also want Premium networking features, and anyone with free access via a library or employer.",
+  "bad": "Learners who only want courses and do not value Premium's other features.",
+  "take": "Check whether your public library or employer already gives you access before paying.",
+  "sources": [
+   [
+    "LinkedIn Help: LinkedIn Learning subscription overview",
+    "https://www.linkedin.com/help/learning/answer/a700791"
+   ],
+   [
+    "LinkedIn Help: Premium free trial",
+    "https://www.linkedin.com/help/linkedin/answer/a1355837"
+   ],
+   [
+    "PCMag: LinkedIn Learning review (pricing)",
+    "https://www.pcmag.com/reviews/linkedin-learning"
+   ]
+  ]
+ },
+ "edx": {
+  "name": "edX",
+  "tagline": "university courses with a free audit track",
+  "url": "https://www.edx.org/",
+  "verdict": "edX lets you audit many university courses free, then pay to upgrade to a verified certificate. Prices are set per course.",
+  "facts": [
+   [
+    "Pricing model",
+    "Per course; free audit track or paid verified track"
+   ],
+   [
+    "Free option",
+    "Audit track: temporary access to course materials, no graded assignments or certificate"
+   ],
+   [
+    "Certificates",
+    "Verified certificate on the paid track"
+   ],
+   [
+    "Price",
+    "Varies by course; check the course's enrollment options"
+   ],
+   [
+    "Free trial",
+    "No trial needed: audit track is free"
+   ]
+  ],
+  "good": "Learners who want academic content and to try a course before paying for a certificate.",
+  "bad": "People wanting an all-you-can-learn subscription or creative hobby classes.",
+  "take": "Audit first; upgrade before the course's upgrade deadline only if you want the certificate.",
+  "sources": [
+   [
+    "edX Help: Audit vs verified",
+    "https://support.edx.org/hc/en-us/articles/360013426573-What-are-the-differences-between-audit-free-and-verified-paid-courses"
+   ],
+   [
+    "edX Help: What does it cost to take a course?",
+    "https://support.edx.org/hc/en-us/articles/206211958-What-does-it-cost-to-take-a-course"
+   ]
+  ]
+ },
+ "codecademy": {
+  "name": "Codecademy",
+  "tagline": "interactive coding in the browser",
+  "url": "https://www.codecademy.com/",
+  "verdict": "Codecademy is a beginner-friendly way to learn to code by writing code in the browser, with paid tiers for career paths and certifications.",
+  "facts": [
+   [
+    "Pricing model",
+    "Free basic tier; Plus and Pro paid plans"
+   ],
+   [
+    "Plus",
+    "$14.99/month billed annually or $29.99 billed monthly (per pricing page at time of check)"
+   ],
+   [
+    "Pro",
+    "$19.99/month billed annually or $39.99 billed monthly; adds career paths, interview prep and certifications"
+   ],
+   [
+    "Student discount",
+    "Pro Student pricing for eligible students"
+   ]
+  ],
+  "good": "Complete beginners and career switchers who want guided, hands-on practice.",
+  "bad": "Experienced developers wanting advanced, project-heavy material.",
+  "take": "Start on the free tier; upgrade to Pro only when you're ready for a full career path.",
+  "sources": [
+   [
+    "Codecademy pricing",
+    "https://www.codecademy.com/pricing"
+   ],
+   [
+    "Codecademy Help: Price",
+    "https://help.codecademy.com/hc/en-us/articles/360022052834-Price-of-Codecademy"
+   ]
+  ]
+ },
+ "datacamp": {
+  "name": "DataCamp",
+  "tagline": "data and AI skills, hands-on",
+  "url": "https://www.datacamp.com/",
+  "verdict": "DataCamp focuses on data science, analytics and AI with short interactive exercises. Watch for frequent promotions on the annual plan.",
+  "facts": [
+   [
+    "Pricing model",
+    "Free Basic tier (first chapter of every course) plus Premium subscription, billed monthly or yearly; Teams plans available"
+   ],
+   [
+    "Free option",
+    "First chapter of every course free"
+   ],
+   [
+    "Premium price",
+    "Pricing page on Oct 15, 2026 showed a special price of $14/month billed annually, against a regular $28"
+   ],
+   [
+    "Student plan",
+    "Premium Student plan for eligible college students, described as over 50% off"
+   ],
+   [
+    "Certificates",
+    "Certificates and certifications on Premium"
+   ],
+   [
+    "Pausing",
+    "Monthly subscribers can pause; yearly plans cannot be paused"
+   ]
+  ],
+  "good": "Analysts and aspiring data scientists learning Python, R, SQL and AI tools.",
+  "bad": "Learners outside data topics.",
+  "take": "Try the free first chapters, then buy annual Premium while a special price is running if you'll use it all year.",
+  "sources": [
+   [
+    "DataCamp pricing",
+    "https://www.datacamp.com/pricing"
+   ],
+   [
+    "DataCamp student plan",
+    "https://www.datacamp.com/pricing/student"
+   ],
+   [
+    "DataCamp Support: Promos FAQ",
+    "https://support.datacamp.com/hc/en-us/articles/360012481334-DataCamp-Promos-Frequently-Asked-Questions"
+   ]
+  ]
+ },
+ "brilliant": {
+  "name": "Brilliant",
+  "tagline": "interactive math, science and CS",
+  "url": "https://brilliant.org/",
+  "verdict": "Brilliant teaches math, science and computer science through interactive problem solving rather than video lectures.",
+  "facts": [
+   [
+    "Pricing model",
+    "Brilliant Premium: annual, monthly and family (up to 6 members) plans; limited free access"
+   ],
+   [
+    "Price",
+    "Not listed in the help centre; shown on brilliant.org/subscribe and varies by region"
+   ],
+   [
+    "Included",
+    "Unlimited lessons and practice, AI tutor (Koji), ad-free, web/iOS/Android"
+   ],
+   [
+    "Free option",
+    "K-12 teachers and their students may qualify for free Premium"
+   ],
+   [
+    "Certificates",
+    "Not credential-focused"
+   ]
+  ],
+  "good": "Learners who enjoy puzzles and want to build quantitative intuition in short daily sessions.",
+  "bad": "People who want certificates or long-form lectures.",
+  "take": "A good daily habit tool; pair it with a course platform if you need credentials.",
+  "sources": [
+   [
+    "Brilliant Help: How much does Premium cost?",
+    "https://brilliant.org/help/pricing-and-plans/how-much-does-brilliant-premium-cost/"
+   ]
+  ]
+ },
+ "domestika": {
+  "name": "Domestika",
+  "tagline": "creative courses, buy or subscribe",
+  "url": "https://www.domestika.org/",
+  "verdict": "Domestika offers creative courses you can buy individually or access through the Domestika Plus subscription.",
+  "facts": [
+   [
+    "Pricing model",
+    "Individual course purchases or Domestika Plus subscription"
+   ],
+   [
+    "Plus price",
+    "$33.90/month, or $164.50 for the first year; page states renewal after one year at the full $329"
+   ],
+   [
+    "Credits",
+    "Annual Plus: 12 credits a year to keep courses forever; monthly: 1 credit a month"
+   ],
+   [
+    "Certificates",
+    "Certificate for each purchased course you complete"
+   ],
+   [
+    "Catalog",
+    "1,000+ courses free to watch with Plus"
+   ]
+  ],
+  "good": "Creatives who want in-depth courses from working professionals, many originally produced in Spanish with subtitles.",
+  "bad": "Learners seeking business, tech or accredited content.",
+  "take": "Watch the renewal price: the annual Plus renewal shown on the page is about double the first-year price. Buy a single course if one topic interests you.",
+  "sources": [
+   [
+    "Domestika Plus",
+    "https://www.domestika.org/en/plus"
+   ],
+   [
+    "Domestika Support: Paying for Plus",
+    "https://support.domestika.org/hc/en-us/articles/4417429219345-How-do-I-pay-for-the-Domestika-Plus"
+   ]
+  ]
+ },
+ "pluralsight": {
+  "name": "Pluralsight",
+  "tagline": "tech skills with labs and skill assessments",
+  "url": "https://www.pluralsight.com/",
+  "verdict": "Pluralsight is a technology-focused library with skill assessments, learning paths, certification prep and hands-on labs, sold in tiered plans.",
+  "facts": [
+   [
+    "Pricing model",
+    "Individual plans: Core Tech, specialty plans (AI+, Cloud+, Data+, Security+) and Complete; monthly or yearly billing"
+   ],
+   [
+    "Free trial",
+    "Free trial available on individual plans"
+   ],
+   [
+    "Included",
+    "Video courses, learning paths, labs, Skill IQ assessments, AI assistant, certification prep"
+   ],
+   [
+    "Sandboxes",
+    "Cloud/AI sandbox environments on Cloud+, AI+ and Complete"
+   ],
+   [
+    "Price",
+    "See the official pricing page; promotions run periodically"
+   ]
+  ],
+  "good": "IT pros and developers preparing for certifications or building cloud, security and data skills.",
+  "bad": "Non-technical learners.",
+  "take": "Start with Core Tech; only pay for Complete if you'll use the sandboxes.",
+  "sources": [
+   [
+    "Pluralsight individual pricing",
+    "https://www.pluralsight.com/individuals/pricing"
+   ],
+   [
+    "Pluralsight Help: Skills plan comparison",
+    "https://help.pluralsight.com/hc/en-us/articles/31499201424020-Skills-plan-comparison"
+   ]
+  ]
+ },
+ "udacity": {
+  "name": "Udacity",
+  "tagline": "project-based tech Nanodegrees",
+  "url": "https://www.udacity.com/",
+  "verdict": "Udacity sells All Access to its whole catalog of Nanodegree programs and courses, aimed at job-ready tech skills. It is expensive at list price, so time your enrollment.",
+  "facts": [
+   [
+    "Pricing model",
+    "All Access subscription: $249/month, or $846 upfront for four months (15% saving), then month-to-month"
+   ],
+   [
+    "Discounts",
+    "Personalised offers and periodic sales"
+   ],
+   [
+    "Certificates",
+    "Nanodegree program certificates"
+   ],
+   [
+    "Catalog",
+    "All Nanodegrees and courses while subscribed"
+   ]
+  ],
+  "good": "Motivated learners who can finish a Nanodegree in a few focused months.",
+  "bad": "Casual or budget learners.",
+  "take": "Use the four-month bundle only if you can commit the hours.",
+  "sources": [
+   [
+    "Udacity Support: subscription FAQ",
+    "https://support.udacity.com/hc/en-us/articles/17527771361165-FAQs-about-Udacity-s-New-Subscription"
+   ],
+   [
+    "Udacity plans",
+    "https://www.udacity.com/plans"
+   ]
+  ]
+ },
+ "futurelearn": {
+  "name": "FutureLearn",
+  "tagline": "short university courses, UK roots",
+  "url": "https://www.futurelearn.com/",
+  "verdict": "FutureLearn offers short courses from universities and organisations; Unlimited gives a year of access to most of them.",
+  "facts": [
+   [
+    "Pricing model",
+    "Unlimited annual subscription; individual upgrades also sold"
+   ],
+   [
+    "Unlimited price",
+    "$349.99/year list; $244.99 first-year offer shown on Oct 15, 2026"
+   ],
+   [
+    "Renewal",
+    "Annual subscription auto-renews"
+   ],
+   [
+    "Catalog",
+    "1,400+ courses (per FutureLearn)"
+   ]
+  ],
+  "good": "Learners who like short, structured university courses in health, teaching, psychology and business.",
+  "bad": "Learners wanting deep technical tracks.",
+  "take": "Buy Unlimited during an offer and note the renewal date.",
+  "sources": [
+   [
+    "FutureLearn Unlimited",
+    "https://www.futurelearn.com/unlimited"
+   ],
+   [
+    "FutureLearn Help: Renewing Unlimited",
+    "https://futurelearn.zendesk.com/hc/en-us/articles/360020402379-Renewing-Unlimited"
+   ]
+  ]
+ },
+ "khan-academy": {
+  "name": "Khan Academy",
+  "tagline": "free nonprofit learning",
+  "url": "https://www.khanacademy.org/",
+  "verdict": "Khan Academy is a nonprofit offering its core library free, with no ads, from early maths to college-level subjects. Its AI tutor Khanmigo is a separate paid option for learners in some regions.",
+  "facts": [
+   [
+    "Pricing model",
+    "Core library free"
+   ],
+   [
+    "Free option",
+    "Everything core is free"
+   ],
+   [
+    "Khanmigo",
+    "AI tutor; free for teachers in many countries, paid for learners where offered"
+   ],
+   [
+    "Certificates",
+    "Not a certificate platform"
+   ]
+  ],
+  "good": "Students, parents and adults refreshing maths, science and test-prep fundamentals.",
+  "bad": "Anyone needing professional credentials.",
+  "take": "Start here before paying for any foundational course.",
+  "sources": [
+   [
+    "Khan Academy Help: Does it cost money?",
+    "https://support.khanacademy.org/hc/en-us/articles/202260114-Does-it-cost-money-to-use-Khan-Academy"
+   ],
+   [
+    "Khan Academy Blog: Khanmigo for teachers",
+    "https://blog.khanacademy.org/teachers-in-44-countries-now-get-free-access-to-khanmigo-in-english-thanks-to-microsoft-support/"
+   ]
+  ]
+ },
+ "great-courses-plus": {
+  "name": "The Great Courses Plus",
+  "tagline": "lecture-style courses (formerly Wondrium)",
+  "url": "https://www.thegreatcoursesplus.com/",
+  "verdict": "The Great Courses Plus (the service formerly called Wondrium) streams long-form lecture courses in history, science, philosophy and more.",
+  "facts": [
+   [
+    "Pricing model",
+    "Streaming subscription with several billing periods"
+   ],
+   [
+    "Price",
+    "Shown on the plans page; promotional offers are common"
+   ],
+   [
+    "Format",
+    "Long-form lectures by professors and experts"
+   ],
+   [
+    "Certificates",
+    "No"
+   ]
+  ],
+  "good": "Lifelong learners who enjoy in-depth lectures.",
+  "bad": "Career-focused learners.",
+  "take": "Check the plans page for current offers before subscribing.",
+  "sources": [
+   [
+    "The Great Courses Plus: plans",
+    "https://www.thegreatcoursesplus.com/customer/plans?plus=y"
+   ]
+  ]
+ },
+ "babbel": {
+  "name": "Babbel",
+  "tagline": "structured language lessons",
+  "url": "https://www.babbel.com/",
+  "verdict": "Babbel teaches languages through structured, conversation-focused lessons, sold as subscriptions with a lifetime option.",
+  "facts": [
+   [
+    "Pricing model",
+    "Subscriptions of several lengths, plus a lifetime option"
+   ],
+   [
+    "Price",
+    "Shown on Babbel's prices page; sales are frequent"
+   ],
+   [
+    "Format",
+    "Short lessons focused on practical conversation"
+   ],
+   [
+    "Certificates",
+    "No"
+   ]
+  ],
+  "good": "Beginners who want structured grammar and dialogue.",
+  "bad": "Learners wanting a free app.",
+  "take": "Longer plans cost less per month; compare with Duolingo's free tier first.",
+  "sources": [
+   [
+    "Babbel prices",
+    "https://my.babbel.com/en/prices"
+   ],
+   [
+    "Babbel review page",
+    "https://www.babbel.com/babbel-review"
+   ]
+  ]
+ },
+ "duolingo": {
+  "name": "Duolingo",
+  "tagline": "free, gamified language practice",
+  "url": "https://www.duolingo.com/",
+  "verdict": "Duolingo is free to use with ads and limits; Super Duolingo removes ads and adds unlimited hearts and extra practice.",
+  "facts": [
+   [
+    "Pricing model",
+    "Free with ads; Super Duolingo subscription"
+   ],
+   [
+    "Free option",
+    "Full course content free"
+   ],
+   [
+    "Super features",
+    "No ads, unlimited hearts, personalised practice, mistakes review"
+   ],
+   [
+    "Certificates",
+    "No (Duolingo English Test is a separate product)"
+   ]
+  ],
+  "good": "Anyone building a daily language habit on a budget.",
+  "bad": "Learners needing explicit grammar teaching.",
+  "take": "Use the free tier first; upgrade only if limits annoy you.",
+  "sources": [
+   [
+    "Duolingo Help: Super Duolingo",
+    "https://www.duolingo.com/help/super-duolingo"
+   ],
+   [
+    "PCMag: Duolingo review",
+    "https://www.pcmag.com/reviews/duolingo"
+   ]
+  ]
+ },
+ "alison": {
+  "name": "Alison",
+  "tagline": "free courses, optional paid certificates",
+  "url": "https://alison.com/",
+  "verdict": "Alison courses are free to study and finish. You can download a free learner record; formal digital or printed certificates are optional purchases.",
+  "facts": [
+   [
+    "Pricing model",
+    "Free courses; optional paid certificates"
+   ],
+   [
+    "Free option",
+    "Study and complete free"
+   ],
+   [
+    "Certificates",
+    "Free learner record; certificates sold in Alison's shop, some courses include free digital ones"
+   ]
+  ],
+  "good": "Budget learners who want proof of completion.",
+  "bad": "Anyone wanting recognised university credentials.",
+  "take": "Good free starting point; pay only if an employer values the certificate.",
+  "sources": [
+   [
+    "Alison Help: Is Alison really free?",
+    "https://helpcenter.alison.com/en/articles/8206417-is-alison-really-free"
+   ],
+   [
+    "Alison Help: How do I get my certificate?",
+    "https://helpcenter.alison.com/en/articles/8206422-how-do-i-get-my-certificate"
+   ]
+  ]
+ },
+ "teachable": {
+  "name": "Teachable",
+  "tagline": "platform for selling your own course",
+  "url": "https://www.teachable.com/",
+  "verdict": "Teachable is a platform for creators to sell courses. For learners, courses hosted on Teachable are run by independent creators, so quality and refund terms vary by school.",
+  "facts": [
+   [
+    "Pricing model",
+    "Creator plans: Starter, Builder, Growth, Custom; monthly or annual"
+   ],
+   [
+    "Fees",
+    "Teachable lists a platform transaction fee on Starter only; payment processing fees apply"
+   ],
+   [
+    "For learners",
+    "Each school sets its own prices and refund policy"
+   ]
+  ],
+  "good": "Creators who want to sell courses under their own brand.",
+  "bad": "Learners wanting a curated catalog.",
+  "take": "Learners: check each school's refund policy before buying.",
+  "sources": [
+   [
+    "Teachable pricing",
+    "https://www.teachable.com/pricing"
+   ],
+   [
+    "Teachable Help: Fees",
+    "https://support.teachable.com/en/articles/11682553-teachable-fees"
+   ]
+  ]
+ },
+ "rosetta-stone": {
+  "name": "Rosetta Stone",
+  "tagline": "immersion-style language learning",
+  "url": "https://www.rosettastone.com/",
+  "verdict": "Rosetta Stone teaches languages through immersion and offers subscriptions and a one-time lifetime option covering all its languages.",
+  "facts": [
+   [
+    "Pricing model",
+    "Subscriptions and a lifetime option"
+   ],
+   [
+    "Lifetime",
+    "Access while the product and services remain available and supported"
+   ],
+   [
+    "Price",
+    "Varies by region and promotion"
+   ],
+   [
+    "Certificates",
+    "No"
+   ]
+  ],
+  "good": "Learners who like immersion and want many languages.",
+  "bad": "Learners on a tight budget.",
+  "take": "Read the lifetime terms before buying.",
+  "sources": [
+   [
+    "Rosetta Stone Support: Lifetime subscription",
+    "https://support.rosettastone.com/about-our-lifetime-subscription/"
+   ]
+  ]
+ }
 }

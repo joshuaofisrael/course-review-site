@@ -10,7 +10,7 @@ header .wrap{display:flex;align-items:center;gap:10px;flex-wrap:wrap;padding:12p
 nav{margin-left:auto;display:flex;gap:14px;flex-wrap:wrap}main{padding:24px 0 40px}.disc{background:#fff6dc;border:1px solid #e6cf8a;padding:10px 14px;border-radius:6px;font-size:.92rem}
 table{border-collapse:collapse;width:100%;font-size:.95rem;background:#fff}th,td{border:1px solid #ccc;padding:8px;text-align:left;vertical-align:top}th{background:#eef3f1}
 .cards{display:grid;grid-template-columns:repeat(auto-fill,minmax(230px,1fr));gap:14px}.card{background:#fff;border:1px solid #ddd;border-radius:8px;padding:14px}
-footer{font-size:.9rem;padding:22px 0}footer p{margin:.4em 0}.src{font-size:.9rem}a:focus{outline:3px solid #f2c14e}"""
+footer{font-size:.9rem;padding:22px 0}footer p{margin:.4em 0}.src{font-size:.9rem}.tw{overflow-x:auto;-webkit-overflow-scrolling:touch}img,svg{max-width:100%}@media(max-width:600px){body{font-size:16px}nav{margin-left:0;width:100%}th,td{padding:6px}}a:focus{outline:3px solid #f2c14e}"""
 PAGES=[]
 def page(path,title,desc,body,schema=None):
     url=f"{BASE}/{path}".replace("index.html","")
@@ -37,12 +37,16 @@ def srcs(l):
     seen=[];[seen.append(x) for x in l if x not in seen]
     return '<h2>Sources</h2><ul class="src">'+"".join(f'<li><a href="{u}" rel="nofollow noopener">{t}</a></li>' for t,u in seen)+f'</ul><p class="src">Facts checked {CHECKED}. Prices are US list prices, change often and vary by region; confirm on the provider\'s site before buying.</p>'
 R=json.load(open("data/reviews.json"))
+C=json.load(open("data/compare.json"))
+def rel(k):
+    l=[(ck,c['title']) for ck,c in C.items() if k in c['p']]
+    return ('<h2>Related comparisons</h2><ul>'+''.join(f'<li><a href="../compare/{a}.html">{b}</a></li>' for a,b in l)+'</ul>') if l else ''
 for k,v in R.items():
     body=f"""<h1>{v['name']} review ({Y}): {v['tagline']}</h1>
 <p><strong>Short answer:</strong> {v['verdict']}</p>
-<h2>Key facts</h2><table>{''.join(f'<tr><th scope="row">{a}</th><td>{b}</td></tr>' for a,b in v['facts'])}</table>
+<h2>Key facts</h2><div class="tw"><table>{''.join(f'<tr><th scope="row">{a}</th><td>{b}</td></tr>' for a,b in v['facts'])}</table></div>
 <h2>Who it suits</h2><p>{v['good']}</p><h2>Who should look elsewhere</h2><p>{v['bad']}</p>
-<h2>Our take</h2><p>{v['take']}</p><p><a href="{v['url']}" rel="nofollow noopener">Visit {v['name']}</a></p>{srcs(v['sources'])}"""
+<h2>Our take</h2><p>{v['take']}</p><p><a href="{v['url']}" rel="nofollow noopener sponsored">Visit {v['name']}</a></p>{rel(k)}{srcs(v['sources'])}"""
     page(f"reviews/{k}.html",f"{v['name']} Review {Y}",f"{v['name']} review: pricing, trials, refunds and who it suits, with sources.",body,
       {"@context":"https://schema.org","@type":"Review","itemReviewed":{"@type":"Organization","name":v['name']},"author":{"@type":"Organization","name":BRAND},"reviewBody":v['verdict']})
 cards=''.join(f'<div class="card"><h3><a href="{k}.html">{v["name"]}</a></h3><p>{v["tagline"]}</p></div>' for k,v in R.items())
@@ -51,7 +55,7 @@ C=json.load(open("data/compare.json"))
 for k,c in C.items():
     rows=''.join("<tr><th scope='row'>"+f+"</th>"+''.join(f"<td>{dict(R[p]['facts']).get(f,'—')}</td>" for p in c['p'])+"</tr>" for f in c['fields'])
     hdr=''.join(f'<th scope="col"><a href="../reviews/{p}.html">{R[p]["name"]}</a></th>' for p in c['p'])
-    body=f"<h1>{c['title']}</h1><p><strong>Short answer:</strong> {c['answer']}</p><table><tr><th></th>{hdr}</tr>{rows}</table>"+''.join(f"<h2>{h}</h2><p>{t}</p>" for h,t in c['sections'])+srcs([s for p in c['p'] for s in R[p]['sources']])
+    body=f"<h1>{c['title']}</h1><p><strong>Short answer:</strong> {c['answer']}</p><div class='tw'><table><tr><th></th>{hdr}</tr>{rows}</table></div>"+''.join(f"<h2>{h}</h2><p>{t}</p>" for h,t in c['sections'])+srcs([s for p in c['p'] for s in R[p]['sources']])
     page(f"compare/{k}.html",c['title'],c['desc'],body)
 cc=''.join(f'<div class="card"><h3><a href="{k}.html">{c["title"]}</a></h3></div>' for k,c in C.items())
 page("compare/index.html","Course Platform Comparisons","Side-by-side comparisons of online course platforms.",f"<h1>Comparisons</h1><div class='cards'>{cc}</div>")

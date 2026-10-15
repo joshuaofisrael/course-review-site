@@ -1,4 +1,4 @@
 Contact
 <h1>Contact</h1>
-<p>Questions, corrections or partnership enquiries: write to Joshua Israel Ventures LLC, {ADDR}. A contact email will be added at launch.</p>
+<p>Questions, corrections or partnership enquiries: write to Joshua Israel Ventures LLC, {ADDR}. Fastest way: <a href="https://github.com/joshuaofisrael/course-review-site/issues/new" rel="nofollow">open a public note on GitHub</a> (a free GitHub account is needed; do not include personal information). An email address will be added later.</p>
 <p>Spotted an outdated price? Tell us and we'll re-check the source.</p>
