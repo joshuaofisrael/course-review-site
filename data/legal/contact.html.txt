@@ -1,0 +1,4 @@
+Contact
+<h1>Contact</h1>
+<p>Questions, corrections or partnership enquiries: write to Joshua Israel Ventures LLC, {ADDR}. A contact email will be added at launch.</p>
+<p>Spotted an outdated price? Tell us and we'll re-check the source.</p>

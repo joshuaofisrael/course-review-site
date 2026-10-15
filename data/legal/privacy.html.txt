@@ -1,0 +1,10 @@
+Privacy Policy
+<h1>Privacy Policy</h1><p>Last updated: October 15, 2026</p>
+<p>{BRAND} is operated by Joshua Israel Ventures LLC, a Florida limited liability company. This policy explains what we collect.</p>
+<h2>What we collect</h2><p>The Site has no accounts and sets no first-party tracking cookies. Our host may log standard technical data (such as IP address and browser type) for security and operations. If you email us, we receive your email address and message.</p>
+<h2>Affiliate links</h2><p>When you click an affiliate link, the merchant or affiliate network may set cookies to attribute a purchase. Their privacy policies apply.</p>
+<h2>Analytics</h2><p>If we add analytics in future, we will update this policy before doing so.</p>
+<h2>Your choices</h2><p>You can block cookies in your browser. To ask about any data we hold, contact us.</p>
+<h2>Children</h2><p>The Site is not directed to children under 13.</p>
+<h2>Governing law</h2><p>This policy is governed by the laws of the State of Florida.</p>
+<h2>Contact</h2><p>Joshua Israel Ventures LLC, {ADDR}.</p>

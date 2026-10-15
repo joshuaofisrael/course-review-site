@@ -1,0 +1,14 @@
+{
+"masterclass-vs-coursera-vs-skillshare-vs-udemy":{"title":"MasterClass vs Coursera vs Skillshare vs Udemy","desc":"Side-by-side comparison of MasterClass, Coursera, Skillshare and Udemy pricing, trials, refunds and certificates.",
+"p":["masterclass","coursera","skillshare","udemy"],"fields":["Pricing model","Monthly option","Free trial","Refunds","Certificates"],
+"answer":"Choose Coursera for certificates, Udemy for one specific skill at a one-off price, Skillshare for hands-on creative projects, and MasterClass for inspiration from famous practitioners.",
+"sections":[["Cheapest way to start","Udemy, because you can buy a single course rather than subscribe. Coursera's monthly Plus has a 7-day free trial, and Skillshare offers a trial too."],["Best for a career move","Coursera, thanks to university and industry certificates and graded work."],["Best for creatives","Skillshare for short project classes; MasterClass for craft insight rather than step-by-step practice."]]},
+"masterclass-vs-skillshare":{"title":"MasterClass vs Skillshare","desc":"MasterClass vs Skillshare compared: price, billing, trials and who each suits.","p":["masterclass","skillshare"],"fields":["Pricing model","Monthly option","Free trial","Certificates"],
+"answer":"Skillshare is the better hands-on learning tool for creatives; MasterClass is better for big-name inspiration. Both bill annually on the web.","sections":[["Teaching style","MasterClass lessons are cinematic talks from famous names; Skillshare classes are practical and project-led."]]},
+"coursera-vs-udemy":{"title":"Coursera vs Udemy","desc":"Coursera vs Udemy compared: certificates, pricing, refunds.","p":["coursera","udemy"],"fields":["Pricing model","Free trial","Refunds","Certificates"],
+"answer":"Coursera for recognised certificates and structured programs; Udemy for cheap, practical single courses with lifetime access.","sections":[["Refunds","Udemy individual courses have a 30-day refund policy, but Udemy.com subscriptions do not. Coursera annual Plus has a 14-day money-back guarantee."]]},
+"coursera-vs-edx":{"title":"Coursera vs edX","desc":"Coursera vs edX compared for university courses and certificates.","p":["coursera","edx"],"fields":["Pricing model","Free trial","Free option","Certificates"],
+"answer":"Both offer university content. edX's free audit track is good for sampling; Coursera Plus is better value if you'll take many courses.","sections":[]},
+"codecademy-vs-datacamp":{"title":"Codecademy vs DataCamp","desc":"Codecademy vs DataCamp compared for learning to code and data skills.","p":["codecademy","datacamp"],"fields":["Pricing model","Student discount","Student plan"],
+"answer":"Codecademy for general programming and web development; DataCamp for data science, analytics and AI.","sections":[]}
+}

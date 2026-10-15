@@ -1,0 +1,27 @@
+# Studyvane
+> Independent, sourced reviews and comparisons of online course platforms. Owned by Joshua Israel Ventures LLC.
+
+- https://joshuaofisrael.github.io/course-review-site/reviews/masterclass.html
+- https://joshuaofisrael.github.io/course-review-site/reviews/coursera.html
+- https://joshuaofisrael.github.io/course-review-site/reviews/skillshare.html
+- https://joshuaofisrael.github.io/course-review-site/reviews/udemy.html
+- https://joshuaofisrael.github.io/course-review-site/reviews/linkedin-learning.html
+- https://joshuaofisrael.github.io/course-review-site/reviews/edx.html
+- https://joshuaofisrael.github.io/course-review-site/reviews/codecademy.html
+- https://joshuaofisrael.github.io/course-review-site/reviews/datacamp.html
+- https://joshuaofisrael.github.io/course-review-site/reviews/brilliant.html
+- https://joshuaofisrael.github.io/course-review-site/reviews/domestika.html
+- https://joshuaofisrael.github.io/course-review-site/reviews/
+- https://joshuaofisrael.github.io/course-review-site/compare/masterclass-vs-coursera-vs-skillshare-vs-udemy.html
+- https://joshuaofisrael.github.io/course-review-site/compare/masterclass-vs-skillshare.html
+- https://joshuaofisrael.github.io/course-review-site/compare/coursera-vs-udemy.html
+- https://joshuaofisrael.github.io/course-review-site/compare/coursera-vs-edx.html
+- https://joshuaofisrael.github.io/course-review-site/compare/codecademy-vs-datacamp.html
+- https://joshuaofisrael.github.io/course-review-site/compare/
+- https://joshuaofisrael.github.io/course-review-site/
+- https://joshuaofisrael.github.io/course-review-site/about.html
+- https://joshuaofisrael.github.io/course-review-site/contact.html
+- https://joshuaofisrael.github.io/course-review-site/disclaimer.html
+- https://joshuaofisrael.github.io/course-review-site/disclosure.html
+- https://joshuaofisrael.github.io/course-review-site/privacy.html
+- https://joshuaofisrael.github.io/course-review-site/terms.html

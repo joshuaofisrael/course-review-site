@@ -1,0 +1,4 @@
+About
+<h1>About {BRAND}</h1>
+<p>{BRAND} helps you choose an online course platform with plain-English, sourced comparisons. {BRAND} is owned and operated by Joshua Israel Ventures LLC.</p>
+<h2>How we review</h2><p>We read each platform's own pricing pages, help centres and policies, cite them on every review, and date-stamp our checks. We don't copy other review sites; our writing and analysis are our own.</p>
