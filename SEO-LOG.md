@@ -13,4 +13,6 @@
 
 **Technical:** sitemap lastmod is now per page (LASTMOD in build.py) and only bumped for pages that really changed (home, Alison review, calculator, news). 49 URLs. All pages index,follow; LLC footer and West Bloomfield address present.
 
+**Deploy:** pushed 5e180c8; calculator and news pages live (200), live sitemap 49 URLs; IndexNow returned 200.
+
 **Next:** use the calculator as the lead asset in outreach (personal-finance and student-money targets); when GSC data appears, review queries and compound on any page with impressions.
