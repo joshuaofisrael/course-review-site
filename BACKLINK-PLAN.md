@@ -5,7 +5,7 @@ Under the SEO operator rules: at most 5 personalised emails a day, sent only aft
 ## Linkable assets to lead with
 1. **/compare/masterclass-vs-coursera-vs-skillshare-vs-udemy.html**: one table covering pricing model, trial, refunds and certificates, each fact linked to the platform's own page.
 2. **/compare/best-free-online-course-platforms.html**: useful for libraries, schools and career pages.
-3. **Next asset to build:** a "Course subscription cost calculator" (monthly vs annual break-even per platform). This is the strongest linkable asset candidate.
+3. **/subscription-calculator/** (built Oct 16, 2026): monthly vs annual break-even calculator for 11 plans, with CSV (CC BY 4.0). Strongest asset for personal-finance, frugality and student-money pitches.
 
 ## Target types (find and verify specific URLs before pitching; none contacted yet)
 | Type | How to find | Angle |

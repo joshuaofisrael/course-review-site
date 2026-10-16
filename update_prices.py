@@ -21,6 +21,8 @@ for row in P:
         new[k]={"url":url,"status":f"UNCHECKED ({getattr(e,'code',e)})"}
         changes.append(f"{k}: UNCHECKED {new[k]['status']} -> check {url} by hand"); continue
     o=old.get(k)
+    if o and o.get("status")=="ok" and any(p.startswith("$") for p in o["prices"]) and prices and not any(p.startswith("$") for p in prices):
+        changes.append(f"{k}: REGION non-US currency served ({prices[:3]}...), verify US price by hand ({url})"); new[k]=o; continue
     if o and o.get("status")=="ok" and (o["prices"]!=new[k]["prices"] or o["trials"]!=new[k]["trials"]):
         changes.append(f"{k}: CHANGED prices {o['prices']} -> {new[k]['prices']}; trials {o['trials']} -> {new[k]['trials']} ({url})")
 print(f"Price check {datetime.date.today()}: {len(P)} sources")

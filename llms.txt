@@ -47,3 +47,6 @@
 - https://coursegauge.com/terms.html
 - https://coursegauge.com/pricing-tracker/
 - https://coursegauge.com/quiz/
+- https://coursegauge.com/subscription-calculator/
+- https://coursegauge.com/news/alison-free-interactive-python-coding-labs.html
+- https://coursegauge.com/news/

@@ -64,7 +64,7 @@
   "facts": [
    [
     "Pricing model",
-    "Coursera Plus $59/month or $399/year; single courses and programs $49\u2013$79/month"
+    "Coursera Plus $59/month or $399/year; single courses and programs $49–$79/month"
    ],
    [
     "Monthly option",
@@ -814,6 +814,12 @@
    [
     "Alison Help: How do I get my certificate?",
     "https://helpcenter.alison.com/en/articles/8206422-how-do-i-get-my-certificate"
+   ]
+  ],
+  "news": [
+   [
+    "Oct 16, 2026: Alison adds free in-browser Python coding labs",
+    "news/alison-free-interactive-python-coding-labs.html"
    ]
   ]
  },
