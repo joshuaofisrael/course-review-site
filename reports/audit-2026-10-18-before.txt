@@ -1,0 +1,651 @@
+CourseGauge SEO audit, 2026-10-18 10:45 (box local time)
+Pages audited: 49 | sitemap URLs: 49 | checks failing: 16 | total issues: 946
+
+## link to non-canonical index.html URL (441)
+  - about.html: index.html
+  - about.html: reviews/index.html
+  - about.html: compare/index.html
+  - about.html: pricing-tracker/index.html
+  - about.html: subscription-calculator/index.html
+  - about.html: quiz/index.html
+  - about.html: news/index.html
+  - compare/babbel-vs-duolingo.html: ../index.html
+  - compare/babbel-vs-duolingo.html: ../reviews/index.html
+  - compare/babbel-vs-duolingo.html: ../compare/index.html
+  - compare/babbel-vs-duolingo.html: ../pricing-tracker/index.html
+  - compare/babbel-vs-duolingo.html: ../subscription-calculator/index.html
+  - compare/babbel-vs-duolingo.html: ../quiz/index.html
+  - compare/babbel-vs-duolingo.html: ../news/index.html
+  - compare/babbel-vs-duolingo.html: ../pricing-tracker/index.html
+  - compare/babbel-vs-duolingo.html: ../quiz/index.html
+  - compare/best-free-online-course-platforms.html: ../index.html
+  - compare/best-free-online-course-platforms.html: ../reviews/index.html
+  - compare/best-free-online-course-platforms.html: ../compare/index.html
+  - compare/best-free-online-course-platforms.html: ../pricing-tracker/index.html
+  - compare/best-free-online-course-platforms.html: ../subscription-calculator/index.html
+  - compare/best-free-online-course-platforms.html: ../quiz/index.html
+  - compare/best-free-online-course-platforms.html: ../news/index.html
+  - compare/best-free-online-course-platforms.html: ../pricing-tracker/index.html
+  - compare/best-free-online-course-platforms.html: ../quiz/index.html
+  - compare/best-language-learning-apps.html: ../index.html
+  - compare/best-language-learning-apps.html: ../reviews/index.html
+  - compare/best-language-learning-apps.html: ../compare/index.html
+  - compare/best-language-learning-apps.html: ../pricing-tracker/index.html
+  - compare/best-language-learning-apps.html: ../subscription-calculator/index.html
+  - compare/best-language-learning-apps.html: ../quiz/index.html
+  - compare/best-language-learning-apps.html: ../news/index.html
+  - compare/best-language-learning-apps.html: ../pricing-tracker/index.html
+  - compare/best-language-learning-apps.html: ../quiz/index.html
+  - compare/best-online-course-platforms-for-certificates.html: ../index.html
+  - compare/best-online-course-platforms-for-certificates.html: ../reviews/index.html
+  - compare/best-online-course-platforms-for-certificates.html: ../compare/index.html
+  - compare/best-online-course-platforms-for-certificates.html: ../pricing-tracker/index.html
+  - compare/best-online-course-platforms-for-certificates.html: ../subscription-calculator/index.html
+  - compare/best-online-course-platforms-for-certificates.html: ../quiz/index.html
+  - compare/best-online-course-platforms-for-certificates.html: ../news/index.html
+  - compare/best-online-course-platforms-for-certificates.html: ../pricing-tracker/index.html
+  - compare/best-online-course-platforms-for-certificates.html: ../quiz/index.html
+  - compare/best-platforms-to-learn-coding-and-tech.html: ../index.html
+  - compare/best-platforms-to-learn-coding-and-tech.html: ../reviews/index.html
+  - compare/best-platforms-to-learn-coding-and-tech.html: ../compare/index.html
+  - compare/best-platforms-to-learn-coding-and-tech.html: ../pricing-tracker/index.html
+  - compare/best-platforms-to-learn-coding-and-tech.html: ../subscription-calculator/index.html
+  - compare/best-platforms-to-learn-coding-and-tech.html: ../quiz/index.html
+  - compare/best-platforms-to-learn-coding-and-tech.html: ../news/index.html
+  - compare/best-platforms-to-learn-coding-and-tech.html: ../pricing-tracker/index.html
+  - compare/best-platforms-to-learn-coding-and-tech.html: ../quiz/index.html
+  - compare/codecademy-vs-datacamp.html: ../index.html
+  - compare/codecademy-vs-datacamp.html: ../reviews/index.html
+  - compare/codecademy-vs-datacamp.html: ../compare/index.html
+  - compare/codecademy-vs-datacamp.html: ../pricing-tracker/index.html
+  - compare/codecademy-vs-datacamp.html: ../subscription-calculator/index.html
+  - compare/codecademy-vs-datacamp.html: ../quiz/index.html
+  - compare/codecademy-vs-datacamp.html: ../news/index.html
+  - compare/codecademy-vs-datacamp.html: ../pricing-tracker/index.html
+  ... and 381 more
+
+## missing og:title (49)
+  - about.html
+  - compare/babbel-vs-duolingo.html
+  - compare/best-free-online-course-platforms.html
+  - compare/best-language-learning-apps.html
+  - compare/best-online-course-platforms-for-certificates.html
+  - compare/best-platforms-to-learn-coding-and-tech.html
+  - compare/codecademy-vs-datacamp.html
+  - compare/coursera-vs-edx.html
+  - compare/coursera-vs-udemy.html
+  - compare/futurelearn-vs-coursera.html
+  - compare/index.html
+  - compare/masterclass-alternatives.html
+  - compare/masterclass-vs-coursera-vs-skillshare-vs-udemy.html
+  - compare/masterclass-vs-skillshare.html
+  - compare/pluralsight-vs-linkedin-learning.html
+  - compare/skillshare-vs-domestika.html
+  - compare/udacity-vs-coursera.html
+  - contact.html
+  - disclaimer.html
+  - disclosure.html
+  - index.html
+  - news/alison-free-interactive-python-coding-labs.html
+  - news/index.html
+  - pricing-tracker/index.html
+  - privacy.html
+  - quiz/index.html
+  - reviews/alison.html
+  - reviews/babbel.html
+  - reviews/brilliant.html
+  - reviews/codecademy.html
+  - reviews/coursera.html
+  - reviews/datacamp.html
+  - reviews/domestika.html
+  - reviews/duolingo.html
+  - reviews/edx.html
+  - reviews/futurelearn.html
+  - reviews/great-courses-plus.html
+  - reviews/index.html
+  - reviews/khan-academy.html
+  - reviews/linkedin-learning.html
+  - reviews/masterclass.html
+  - reviews/pluralsight.html
+  - reviews/rosetta-stone.html
+  - reviews/skillshare.html
+  - reviews/teachable.html
+  - reviews/udacity.html
+  - reviews/udemy.html
+  - subscription-calculator/index.html
+  - terms.html
+
+## missing og:description (49)
+  - about.html
+  - compare/babbel-vs-duolingo.html
+  - compare/best-free-online-course-platforms.html
+  - compare/best-language-learning-apps.html
+  - compare/best-online-course-platforms-for-certificates.html
+  - compare/best-platforms-to-learn-coding-and-tech.html
+  - compare/codecademy-vs-datacamp.html
+  - compare/coursera-vs-edx.html
+  - compare/coursera-vs-udemy.html
+  - compare/futurelearn-vs-coursera.html
+  - compare/index.html
+  - compare/masterclass-alternatives.html
+  - compare/masterclass-vs-coursera-vs-skillshare-vs-udemy.html
+  - compare/masterclass-vs-skillshare.html
+  - compare/pluralsight-vs-linkedin-learning.html
+  - compare/skillshare-vs-domestika.html
+  - compare/udacity-vs-coursera.html
+  - contact.html
+  - disclaimer.html
+  - disclosure.html
+  - index.html
+  - news/alison-free-interactive-python-coding-labs.html
+  - news/index.html
+  - pricing-tracker/index.html
+  - privacy.html
+  - quiz/index.html
+  - reviews/alison.html
+  - reviews/babbel.html
+  - reviews/brilliant.html
+  - reviews/codecademy.html
+  - reviews/coursera.html
+  - reviews/datacamp.html
+  - reviews/domestika.html
+  - reviews/duolingo.html
+  - reviews/edx.html
+  - reviews/futurelearn.html
+  - reviews/great-courses-plus.html
+  - reviews/index.html
+  - reviews/khan-academy.html
+  - reviews/linkedin-learning.html
+  - reviews/masterclass.html
+  - reviews/pluralsight.html
+  - reviews/rosetta-stone.html
+  - reviews/skillshare.html
+  - reviews/teachable.html
+  - reviews/udacity.html
+  - reviews/udemy.html
+  - subscription-calculator/index.html
+  - terms.html
+
+## missing og:url (49)
+  - about.html
+  - compare/babbel-vs-duolingo.html
+  - compare/best-free-online-course-platforms.html
+  - compare/best-language-learning-apps.html
+  - compare/best-online-course-platforms-for-certificates.html
+  - compare/best-platforms-to-learn-coding-and-tech.html
+  - compare/codecademy-vs-datacamp.html
+  - compare/coursera-vs-edx.html
+  - compare/coursera-vs-udemy.html
+  - compare/futurelearn-vs-coursera.html
+  - compare/index.html
+  - compare/masterclass-alternatives.html
+  - compare/masterclass-vs-coursera-vs-skillshare-vs-udemy.html
+  - compare/masterclass-vs-skillshare.html
+  - compare/pluralsight-vs-linkedin-learning.html
+  - compare/skillshare-vs-domestika.html
+  - compare/udacity-vs-coursera.html
+  - contact.html
+  - disclaimer.html
+  - disclosure.html
+  - index.html
+  - news/alison-free-interactive-python-coding-labs.html
+  - news/index.html
+  - pricing-tracker/index.html
+  - privacy.html
+  - quiz/index.html
+  - reviews/alison.html
+  - reviews/babbel.html
+  - reviews/brilliant.html
+  - reviews/codecademy.html
+  - reviews/coursera.html
+  - reviews/datacamp.html
+  - reviews/domestika.html
+  - reviews/duolingo.html
+  - reviews/edx.html
+  - reviews/futurelearn.html
+  - reviews/great-courses-plus.html
+  - reviews/index.html
+  - reviews/khan-academy.html
+  - reviews/linkedin-learning.html
+  - reviews/masterclass.html
+  - reviews/pluralsight.html
+  - reviews/rosetta-stone.html
+  - reviews/skillshare.html
+  - reviews/teachable.html
+  - reviews/udacity.html
+  - reviews/udemy.html
+  - subscription-calculator/index.html
+  - terms.html
+
+## missing og:type (49)
+  - about.html
+  - compare/babbel-vs-duolingo.html
+  - compare/best-free-online-course-platforms.html
+  - compare/best-language-learning-apps.html
+  - compare/best-online-course-platforms-for-certificates.html
+  - compare/best-platforms-to-learn-coding-and-tech.html
+  - compare/codecademy-vs-datacamp.html
+  - compare/coursera-vs-edx.html
+  - compare/coursera-vs-udemy.html
+  - compare/futurelearn-vs-coursera.html
+  - compare/index.html
+  - compare/masterclass-alternatives.html
+  - compare/masterclass-vs-coursera-vs-skillshare-vs-udemy.html
+  - compare/masterclass-vs-skillshare.html
+  - compare/pluralsight-vs-linkedin-learning.html
+  - compare/skillshare-vs-domestika.html
+  - compare/udacity-vs-coursera.html
+  - contact.html
+  - disclaimer.html
+  - disclosure.html
+  - index.html
+  - news/alison-free-interactive-python-coding-labs.html
+  - news/index.html
+  - pricing-tracker/index.html
+  - privacy.html
+  - quiz/index.html
+  - reviews/alison.html
+  - reviews/babbel.html
+  - reviews/brilliant.html
+  - reviews/codecademy.html
+  - reviews/coursera.html
+  - reviews/datacamp.html
+  - reviews/domestika.html
+  - reviews/duolingo.html
+  - reviews/edx.html
+  - reviews/futurelearn.html
+  - reviews/great-courses-plus.html
+  - reviews/index.html
+  - reviews/khan-academy.html
+  - reviews/linkedin-learning.html
+  - reviews/masterclass.html
+  - reviews/pluralsight.html
+  - reviews/rosetta-stone.html
+  - reviews/skillshare.html
+  - reviews/teachable.html
+  - reviews/udacity.html
+  - reviews/udemy.html
+  - subscription-calculator/index.html
+  - terms.html
+
+## missing og:site_name (49)
+  - about.html
+  - compare/babbel-vs-duolingo.html
+  - compare/best-free-online-course-platforms.html
+  - compare/best-language-learning-apps.html
+  - compare/best-online-course-platforms-for-certificates.html
+  - compare/best-platforms-to-learn-coding-and-tech.html
+  - compare/codecademy-vs-datacamp.html
+  - compare/coursera-vs-edx.html
+  - compare/coursera-vs-udemy.html
+  - compare/futurelearn-vs-coursera.html
+  - compare/index.html
+  - compare/masterclass-alternatives.html
+  - compare/masterclass-vs-coursera-vs-skillshare-vs-udemy.html
+  - compare/masterclass-vs-skillshare.html
+  - compare/pluralsight-vs-linkedin-learning.html
+  - compare/skillshare-vs-domestika.html
+  - compare/udacity-vs-coursera.html
+  - contact.html
+  - disclaimer.html
+  - disclosure.html
+  - index.html
+  - news/alison-free-interactive-python-coding-labs.html
+  - news/index.html
+  - pricing-tracker/index.html
+  - privacy.html
+  - quiz/index.html
+  - reviews/alison.html
+  - reviews/babbel.html
+  - reviews/brilliant.html
+  - reviews/codecademy.html
+  - reviews/coursera.html
+  - reviews/datacamp.html
+  - reviews/domestika.html
+  - reviews/duolingo.html
+  - reviews/edx.html
+  - reviews/futurelearn.html
+  - reviews/great-courses-plus.html
+  - reviews/index.html
+  - reviews/khan-academy.html
+  - reviews/linkedin-learning.html
+  - reviews/masterclass.html
+  - reviews/pluralsight.html
+  - reviews/rosetta-stone.html
+  - reviews/skillshare.html
+  - reviews/teachable.html
+  - reviews/udacity.html
+  - reviews/udemy.html
+  - subscription-calculator/index.html
+  - terms.html
+
+## missing og:image (49)
+  - about.html
+  - compare/babbel-vs-duolingo.html
+  - compare/best-free-online-course-platforms.html
+  - compare/best-language-learning-apps.html
+  - compare/best-online-course-platforms-for-certificates.html
+  - compare/best-platforms-to-learn-coding-and-tech.html
+  - compare/codecademy-vs-datacamp.html
+  - compare/coursera-vs-edx.html
+  - compare/coursera-vs-udemy.html
+  - compare/futurelearn-vs-coursera.html
+  - compare/index.html
+  - compare/masterclass-alternatives.html
+  - compare/masterclass-vs-coursera-vs-skillshare-vs-udemy.html
+  - compare/masterclass-vs-skillshare.html
+  - compare/pluralsight-vs-linkedin-learning.html
+  - compare/skillshare-vs-domestika.html
+  - compare/udacity-vs-coursera.html
+  - contact.html
+  - disclaimer.html
+  - disclosure.html
+  - index.html
+  - news/alison-free-interactive-python-coding-labs.html
+  - news/index.html
+  - pricing-tracker/index.html
+  - privacy.html
+  - quiz/index.html
+  - reviews/alison.html
+  - reviews/babbel.html
+  - reviews/brilliant.html
+  - reviews/codecademy.html
+  - reviews/coursera.html
+  - reviews/datacamp.html
+  - reviews/domestika.html
+  - reviews/duolingo.html
+  - reviews/edx.html
+  - reviews/futurelearn.html
+  - reviews/great-courses-plus.html
+  - reviews/index.html
+  - reviews/khan-academy.html
+  - reviews/linkedin-learning.html
+  - reviews/masterclass.html
+  - reviews/pluralsight.html
+  - reviews/rosetta-stone.html
+  - reviews/skillshare.html
+  - reviews/teachable.html
+  - reviews/udacity.html
+  - reviews/udemy.html
+  - subscription-calculator/index.html
+  - terms.html
+
+## missing twitter:card (49)
+  - about.html
+  - compare/babbel-vs-duolingo.html
+  - compare/best-free-online-course-platforms.html
+  - compare/best-language-learning-apps.html
+  - compare/best-online-course-platforms-for-certificates.html
+  - compare/best-platforms-to-learn-coding-and-tech.html
+  - compare/codecademy-vs-datacamp.html
+  - compare/coursera-vs-edx.html
+  - compare/coursera-vs-udemy.html
+  - compare/futurelearn-vs-coursera.html
+  - compare/index.html
+  - compare/masterclass-alternatives.html
+  - compare/masterclass-vs-coursera-vs-skillshare-vs-udemy.html
+  - compare/masterclass-vs-skillshare.html
+  - compare/pluralsight-vs-linkedin-learning.html
+  - compare/skillshare-vs-domestika.html
+  - compare/udacity-vs-coursera.html
+  - contact.html
+  - disclaimer.html
+  - disclosure.html
+  - index.html
+  - news/alison-free-interactive-python-coding-labs.html
+  - news/index.html
+  - pricing-tracker/index.html
+  - privacy.html
+  - quiz/index.html
+  - reviews/alison.html
+  - reviews/babbel.html
+  - reviews/brilliant.html
+  - reviews/codecademy.html
+  - reviews/coursera.html
+  - reviews/datacamp.html
+  - reviews/domestika.html
+  - reviews/duolingo.html
+  - reviews/edx.html
+  - reviews/futurelearn.html
+  - reviews/great-courses-plus.html
+  - reviews/index.html
+  - reviews/khan-academy.html
+  - reviews/linkedin-learning.html
+  - reviews/masterclass.html
+  - reviews/pluralsight.html
+  - reviews/rosetta-stone.html
+  - reviews/skillshare.html
+  - reviews/teachable.html
+  - reviews/udacity.html
+  - reviews/udemy.html
+  - subscription-calculator/index.html
+  - terms.html
+
+## JSON-LD missing Organization (49)
+  - about.html
+  - compare/babbel-vs-duolingo.html
+  - compare/best-free-online-course-platforms.html
+  - compare/best-language-learning-apps.html
+  - compare/best-online-course-platforms-for-certificates.html
+  - compare/best-platforms-to-learn-coding-and-tech.html
+  - compare/codecademy-vs-datacamp.html
+  - compare/coursera-vs-edx.html
+  - compare/coursera-vs-udemy.html
+  - compare/futurelearn-vs-coursera.html
+  - compare/index.html
+  - compare/masterclass-alternatives.html
+  - compare/masterclass-vs-coursera-vs-skillshare-vs-udemy.html
+  - compare/masterclass-vs-skillshare.html
+  - compare/pluralsight-vs-linkedin-learning.html
+  - compare/skillshare-vs-domestika.html
+  - compare/udacity-vs-coursera.html
+  - contact.html
+  - disclaimer.html
+  - disclosure.html
+  - index.html
+  - news/alison-free-interactive-python-coding-labs.html
+  - news/index.html
+  - pricing-tracker/index.html
+  - privacy.html
+  - quiz/index.html
+  - reviews/alison.html
+  - reviews/babbel.html
+  - reviews/brilliant.html
+  - reviews/codecademy.html
+  - reviews/coursera.html
+  - reviews/datacamp.html
+  - reviews/domestika.html
+  - reviews/duolingo.html
+  - reviews/edx.html
+  - reviews/futurelearn.html
+  - reviews/great-courses-plus.html
+  - reviews/index.html
+  - reviews/khan-academy.html
+  - reviews/linkedin-learning.html
+  - reviews/masterclass.html
+  - reviews/pluralsight.html
+  - reviews/rosetta-stone.html
+  - reviews/skillshare.html
+  - reviews/teachable.html
+  - reviews/udacity.html
+  - reviews/udemy.html
+  - subscription-calculator/index.html
+  - terms.html
+
+## JSON-LD missing WebSite (49)
+  - about.html
+  - compare/babbel-vs-duolingo.html
+  - compare/best-free-online-course-platforms.html
+  - compare/best-language-learning-apps.html
+  - compare/best-online-course-platforms-for-certificates.html
+  - compare/best-platforms-to-learn-coding-and-tech.html
+  - compare/codecademy-vs-datacamp.html
+  - compare/coursera-vs-edx.html
+  - compare/coursera-vs-udemy.html
+  - compare/futurelearn-vs-coursera.html
+  - compare/index.html
+  - compare/masterclass-alternatives.html
+  - compare/masterclass-vs-coursera-vs-skillshare-vs-udemy.html
+  - compare/masterclass-vs-skillshare.html
+  - compare/pluralsight-vs-linkedin-learning.html
+  - compare/skillshare-vs-domestika.html
+  - compare/udacity-vs-coursera.html
+  - contact.html
+  - disclaimer.html
+  - disclosure.html
+  - index.html
+  - news/alison-free-interactive-python-coding-labs.html
+  - news/index.html
+  - pricing-tracker/index.html
+  - privacy.html
+  - quiz/index.html
+  - reviews/alison.html
+  - reviews/babbel.html
+  - reviews/brilliant.html
+  - reviews/codecademy.html
+  - reviews/coursera.html
+  - reviews/datacamp.html
+  - reviews/domestika.html
+  - reviews/duolingo.html
+  - reviews/edx.html
+  - reviews/futurelearn.html
+  - reviews/great-courses-plus.html
+  - reviews/index.html
+  - reviews/khan-academy.html
+  - reviews/linkedin-learning.html
+  - reviews/masterclass.html
+  - reviews/pluralsight.html
+  - reviews/rosetta-stone.html
+  - reviews/skillshare.html
+  - reviews/teachable.html
+  - reviews/udacity.html
+  - reviews/udemy.html
+  - subscription-calculator/index.html
+  - terms.html
+
+## JSON-LD missing BreadcrumbList (36)
+  - compare/babbel-vs-duolingo.html
+  - compare/best-free-online-course-platforms.html
+  - compare/best-language-learning-apps.html
+  - compare/best-online-course-platforms-for-certificates.html
+  - compare/best-platforms-to-learn-coding-and-tech.html
+  - compare/codecademy-vs-datacamp.html
+  - compare/coursera-vs-edx.html
+  - compare/coursera-vs-udemy.html
+  - compare/futurelearn-vs-coursera.html
+  - compare/masterclass-alternatives.html
+  - compare/masterclass-vs-coursera-vs-skillshare-vs-udemy.html
+  - compare/masterclass-vs-skillshare.html
+  - compare/pluralsight-vs-linkedin-learning.html
+  - compare/skillshare-vs-domestika.html
+  - compare/udacity-vs-coursera.html
+  - news/alison-free-interactive-python-coding-labs.html
+  - reviews/alison.html
+  - reviews/babbel.html
+  - reviews/brilliant.html
+  - reviews/codecademy.html
+  - reviews/coursera.html
+  - reviews/datacamp.html
+  - reviews/domestika.html
+  - reviews/duolingo.html
+  - reviews/edx.html
+  - reviews/futurelearn.html
+  - reviews/great-courses-plus.html
+  - reviews/khan-academy.html
+  - reviews/linkedin-learning.html
+  - reviews/masterclass.html
+  - reviews/pluralsight.html
+  - reviews/rosetta-stone.html
+  - reviews/skillshare.html
+  - reviews/teachable.html
+  - reviews/udacity.html
+  - reviews/udemy.html
+
+## meta description under 70 chars (10)
+  - about.html: 62 chars
+  - compare/codecademy-vs-datacamp.html: 69 chars
+  - compare/coursera-vs-edx.html: 65 chars
+  - compare/coursera-vs-udemy.html: 59 chars
+  - compare/index.html: 52 chars
+  - contact.html: 64 chars
+  - disclaimer.html: 67 chars
+  - reviews/edx.html: 68 chars
+  - reviews/index.html: 56 chars
+  - terms.html: 69 chars
+
+## fewer than 3 contextual inbound links (8)
+  - about.html: 0
+  - compare/index.html: 0
+  - disclaimer.html: 0
+  - news/alison-free-interactive-python-coding-labs.html: 2
+  - news/index.html: 1
+  - privacy.html: 0
+  - reviews/index.html: 0
+  - terms.html: 0
+
+## fewer than 3 contextual internal links out (7)
+  - about.html: 1
+  - contact.html: 1
+  - disclaimer.html: 1
+  - disclosure.html: 0
+  - news/index.html: 2
+  - privacy.html: 1
+  - terms.html: 2
+
+## meta description over 160 chars (2)
+  - news/alison-free-interactive-python-coding-labs.html: 162 chars
+  - subscription-calculator/index.html: 173 chars
+
+## title over 65 chars (1)
+  - subscription-calculator/index.html: 67 chars
+
+## Contextual internal links per page (out / in)
+  about.html: out 1 / in 0  [WebPage]
+  compare/babbel-vs-duolingo.html: out 5 / in 4  [WebPage]
+  compare/best-free-online-course-platforms.html: out 8 / in 9  [WebPage]
+  compare/best-language-learning-apps.html: out 6 / in 6  [WebPage]
+  compare/best-online-course-platforms-for-certificates.html: out 8 / in 8  [WebPage]
+  compare/best-platforms-to-learn-coding-and-tech.html: out 8 / in 8  [WebPage]
+  compare/codecademy-vs-datacamp.html: out 5 / in 6  [WebPage]
+  compare/coursera-vs-edx.html: out 5 / in 4  [WebPage]
+  compare/coursera-vs-udemy.html: out 5 / in 5  [WebPage]
+  compare/futurelearn-vs-coursera.html: out 5 / in 4  [WebPage]
+  compare/index.html: out 16 / in 0  [WebPage]
+  compare/masterclass-alternatives.html: out 7 / in 6  [WebPage]
+  compare/masterclass-vs-coursera-vs-skillshare-vs-udemy.html: out 7 / in 6  [WebPage]
+  compare/masterclass-vs-skillshare.html: out 5 / in 4  [WebPage]
+  compare/pluralsight-vs-linkedin-learning.html: out 5 / in 4  [WebPage]
+  compare/skillshare-vs-domestika.html: out 5 / in 4  [WebPage]
+  compare/udacity-vs-coursera.html: out 5 / in 4  [WebPage]
+  contact.html: out 1 / in 3  [WebPage]
+  disclaimer.html: out 1 / in 0  [WebPage]
+  disclosure.html: out 0 / in 48  [WebPage]
+  index.html: out 39 / in 0  [WebPage]
+  news/alison-free-interactive-python-coding-labs.html: out 9 / in 2  [WebPage, NewsArticle]
+  news/index.html: out 2 / in 1  [WebPage]
+  pricing-tracker/index.html: out 22 / in 37  [WebPage, Dataset]
+  privacy.html: out 1 / in 0  [WebPage]
+  quiz/index.html: out 12 / in 37  [WebPage]
+  reviews/alison.html: out 6 / in 6  [WebPage, Review]
+  reviews/babbel.html: out 6 / in 7  [WebPage, Review]
+  reviews/brilliant.html: out 4 / in 4  [WebPage, Review]
+  reviews/codecademy.html: out 6 / in 7  [WebPage, Review]
+  reviews/coursera.html: out 12 / in 13  [WebPage, Review]
+  reviews/datacamp.html: out 6 / in 7  [WebPage, Review]
+  reviews/domestika.html: out 6 / in 7  [WebPage, Review]
+  reviews/duolingo.html: out 7 / in 7  [WebPage, Review]
+  reviews/edx.html: out 7 / in 7  [WebPage, Review]
+  reviews/futurelearn.html: out 6 / in 5  [WebPage, Review]
+  reviews/great-courses-plus.html: out 5 / in 4  [WebPage, Review]
+  reviews/index.html: out 21 / in 0  [WebPage]
+  reviews/khan-academy.html: out 5 / in 5  [WebPage, Review]
+  reviews/linkedin-learning.html: out 6 / in 5  [WebPage, Review]
+  reviews/masterclass.html: out 6 / in 6  [WebPage, Review]
+  reviews/pluralsight.html: out 6 / in 6  [WebPage, Review]
+  reviews/rosetta-stone.html: out 5 / in 5  [WebPage, Review]
+  reviews/skillshare.html: out 8 / in 8  [WebPage, Review]
+  reviews/teachable.html: out 4 / in 3  [WebPage, Review]
+  reviews/udacity.html: out 7 / in 6  [WebPage, Review]
+  reviews/udemy.html: out 7 / in 6  [WebPage, Review]
+  subscription-calculator/index.html: out 15 / in 22  [WebPage, WebApplication]
+  terms.html: out 2 / in 0  [WebPage]

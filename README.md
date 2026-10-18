@@ -17,3 +17,10 @@ Key file: `2e39508c439447c8b3541321bc9f2792.txt` (key also in `.indexnow-key`). 
 - `/pricing-tracker/`: built from `data/pricing.json` (columns: monthly, annual, trial, free tier, refund, certificate, source). Use "SEE" for any figure not verified on an official page; it renders as "see official pricing" with a link. The CSV is generated alongside.
 - Daily: `python3 update_prices.py` flags changed prices or trial lengths against `data/price-snapshots.json`, plus any sources that block bots (403). Verify by hand, edit `data/pricing.json`, update the check date in `extras.py`, run `python3 build.py`, then `python3 update_prices.py --save` and `python3 indexnow.py`.
 - `/quiz/`: vanilla JS, no storage or trackers, with a noscript fallback. Logic is in `extras.py`.
+
+## SEO audit and structured data
+- `python3 audit.py [--out reports/audit-YYYY-MM-DD.txt]` checks every built page: unique title/description, one H1, canonical, index,follow, Open Graph/Twitter tags, JSON-LD (Organization, WebSite, BreadcrumbList on reviews/comparisons/news), alt text, LLC footer + West Bloomfield address, Cloudflare beacon, contextual links in/out, orphans, broken links, non-canonical `index.html` links and sitemap coverage. Run it after every build; target 0 issues.
+- `page()` in `build.py` emits one JSON-LD `@graph` per page (Organization, WebSite, WebPage, optional BreadcrumbList via `crumbs=`, FAQPage via `faq=` which also renders the visible FAQ, plus any page-specific schema). No SearchAction (the site has no search) and no ratings markup.
+- Internal links are rewritten to canonical directory URLs (`reviews/`, not `reviews/index.html`).
+- `og-image.png` (original artwork) is drawn by `make_og.py` (needs Pillow; one-off, not part of the build).
+- `llms.txt` is generated with sections and one-line summaries for every page.

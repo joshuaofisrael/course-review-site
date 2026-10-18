@@ -54,7 +54,7 @@
  },
  "coursera-vs-udemy": {
   "title": "Coursera vs Udemy",
-  "desc": "Coursera vs Udemy compared: certificates, pricing, refunds.",
+  "desc": "Coursera vs Udemy compared: certificates, subscription vs one-off course pricing, free trials, refunds and which to choose.",
   "p": [
    "coursera",
    "udemy"
@@ -75,7 +75,7 @@
  },
  "coursera-vs-edx": {
   "title": "Coursera vs edX",
-  "desc": "Coursera vs edX compared for university courses and certificates.",
+  "desc": "Coursera vs edX compared for university courses and certificates: free audit options, Coursera Plus pricing, trials and refunds.",
   "p": [
    "coursera",
    "edx"
@@ -91,7 +91,7 @@
  },
  "codecademy-vs-datacamp": {
   "title": "Codecademy vs DataCamp",
-  "desc": "Codecademy vs DataCamp compared for learning to code and data skills.",
+  "desc": "Codecademy vs DataCamp compared for learning to code and data skills: prices, free tiers, trials, refunds and which suits you.",
   "p": [
    "codecademy",
    "datacamp"

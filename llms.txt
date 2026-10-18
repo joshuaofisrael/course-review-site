@@ -1,52 +1,67 @@
 # CourseGauge
-> Independent, sourced reviews and comparisons of online course platforms. Owned by Joshua Israel Ventures LLC.
 
-- https://coursegauge.com/reviews/masterclass.html
-- https://coursegauge.com/reviews/coursera.html
-- https://coursegauge.com/reviews/skillshare.html
-- https://coursegauge.com/reviews/udemy.html
-- https://coursegauge.com/reviews/linkedin-learning.html
-- https://coursegauge.com/reviews/edx.html
-- https://coursegauge.com/reviews/codecademy.html
-- https://coursegauge.com/reviews/datacamp.html
-- https://coursegauge.com/reviews/brilliant.html
-- https://coursegauge.com/reviews/domestika.html
-- https://coursegauge.com/reviews/pluralsight.html
-- https://coursegauge.com/reviews/udacity.html
-- https://coursegauge.com/reviews/futurelearn.html
-- https://coursegauge.com/reviews/khan-academy.html
-- https://coursegauge.com/reviews/great-courses-plus.html
-- https://coursegauge.com/reviews/babbel.html
-- https://coursegauge.com/reviews/duolingo.html
-- https://coursegauge.com/reviews/alison.html
-- https://coursegauge.com/reviews/teachable.html
-- https://coursegauge.com/reviews/rosetta-stone.html
-- https://coursegauge.com/reviews/
-- https://coursegauge.com/compare/masterclass-vs-coursera-vs-skillshare-vs-udemy.html
-- https://coursegauge.com/compare/masterclass-vs-skillshare.html
-- https://coursegauge.com/compare/coursera-vs-udemy.html
-- https://coursegauge.com/compare/coursera-vs-edx.html
-- https://coursegauge.com/compare/codecademy-vs-datacamp.html
-- https://coursegauge.com/compare/babbel-vs-duolingo.html
-- https://coursegauge.com/compare/pluralsight-vs-linkedin-learning.html
-- https://coursegauge.com/compare/udacity-vs-coursera.html
-- https://coursegauge.com/compare/futurelearn-vs-coursera.html
-- https://coursegauge.com/compare/skillshare-vs-domestika.html
-- https://coursegauge.com/compare/best-free-online-course-platforms.html
-- https://coursegauge.com/compare/best-online-course-platforms-for-certificates.html
-- https://coursegauge.com/compare/best-language-learning-apps.html
-- https://coursegauge.com/compare/best-platforms-to-learn-coding-and-tech.html
-- https://coursegauge.com/compare/masterclass-alternatives.html
-- https://coursegauge.com/compare/
-- https://coursegauge.com/
-- https://coursegauge.com/about.html
-- https://coursegauge.com/contact.html
-- https://coursegauge.com/disclaimer.html
-- https://coursegauge.com/disclosure.html
-- https://coursegauge.com/privacy.html
-- https://coursegauge.com/terms.html
-- https://coursegauge.com/pricing-tracker/
-- https://coursegauge.com/quiz/
-- https://coursegauge.com/subscription-calculator/
-- https://coursegauge.com/news/alison-free-interactive-python-coding-labs.html
-- https://coursegauge.com/news/
+> CourseGauge publishes independent, sourced reviews, comparisons and free price tools for online course and learning platforms (Coursera, Udemy, MasterClass, Skillshare, edX, Codecademy, DataCamp, Duolingo and more). It is owned and operated by Joshua Israel Ventures LLC, 5640 W Maple Rd, Ste 101, West Bloomfield, MI 48322, USA.
+
+Every price, free-trial length and refund term links to the platform's own official page and carries a check date. Figures we could not confirm are shown as "see official pricing" rather than estimated. Prices are US list prices unless stated. Our data tables are free to reuse with a link (CC BY 4.0). We have no paid placements; some links may be affiliate links, disclosed on every page.
+
+## Tools and data
+- [Online Course Price and Free-Trial Tracker 2026](https://coursegauge.com/pricing-tracker/): Current prices, free trials, refund policies and certificates for 20 online course platforms, each with an official source and check date. CSV: https://coursegauge.com/pricing-tracker/coursegauge-pricing-tracker.csv
+- [Monthly vs Annual Course Subscription Calculator](https://coursegauge.com/subscription-calculator/): When does an annual course plan pay off? Break-even months (5 to 9) for Coursera Plus, Codecademy, DataCamp, Brilliant and more, with a free calculator. Key finding: annual billing pays off after 5 to 9 months of use (median 7) across 11 plans. CSV: https://coursegauge.com/subscription-calculator/coursegauge-annual-vs-monthly.csv
+- [Which Online Course Platform Fits You? Quiz](https://coursegauge.com/quiz/): Five quick questions to match you with the online course platform that suits your goal, budget, format and need for a certificate.
+
+## Comparisons and best-of guides
+- [All comparisons](https://coursegauge.com/compare/): Side-by-side comparisons of online course platforms: Coursera vs Udemy, MasterClass vs Skillshare, best free and certificate platforms and more.
+- [MasterClass vs Coursera vs Skillshare vs Udemy](https://coursegauge.com/compare/masterclass-vs-coursera-vs-skillshare-vs-udemy.html): Side-by-side comparison of MasterClass, Coursera, Skillshare and Udemy pricing, trials, refunds and certificates.
+- [MasterClass vs Skillshare](https://coursegauge.com/compare/masterclass-vs-skillshare.html): MasterClass vs Skillshare compared: price, billing, trials and who each suits.
+- [Coursera vs Udemy](https://coursegauge.com/compare/coursera-vs-udemy.html): Coursera vs Udemy compared: certificates, subscription vs one-off course pricing, free trials, refunds and which to choose.
+- [Coursera vs edX](https://coursegauge.com/compare/coursera-vs-edx.html): Coursera vs edX compared for university courses and certificates: free audit options, Coursera Plus pricing, trials and refunds.
+- [Codecademy vs DataCamp](https://coursegauge.com/compare/codecademy-vs-datacamp.html): Codecademy vs DataCamp compared for learning to code and data skills: prices, free tiers, trials, refunds and which suits you.
+- [Babbel vs Duolingo](https://coursegauge.com/compare/babbel-vs-duolingo.html): Duolingo for a free daily habit; Babbel for structured, conversation-focused lessons.
+- [Pluralsight vs LinkedIn Learning](https://coursegauge.com/compare/pluralsight-vs-linkedin-learning.html): Pluralsight for deep technical skills and labs; LinkedIn Learning for broad business skills bundled with Premium.
+- [Udacity vs Coursera](https://coursegauge.com/compare/udacity-vs-coursera.html): Coursera is far cheaper and offers university certificates; Udacity is a pricier, project-intensive sprint.
+- [FutureLearn vs Coursera](https://coursegauge.com/compare/futurelearn-vs-coursera.html): Coursera has the bigger catalog and certificate range; FutureLearn suits short courses in health, teaching and psychology.
+- [Skillshare vs Domestika](https://coursegauge.com/compare/skillshare-vs-domestika.html): Skillshare for unlimited short classes; Domestika for in-depth courses you can keep.
+- [Best Free Online Course Platforms](https://coursegauge.com/compare/best-free-online-course-platforms.html): Khan Academy is the best fully free option; Alison and edX let you finish courses free and pay only for certificates.
+- [Best Online Course Platforms for Certificates](https://coursegauge.com/compare/best-online-course-platforms-for-certificates.html): Coursera is our top pick for recognised certificates at a reasonable subscription price.
+- [Best Language Learning Apps](https://coursegauge.com/compare/best-language-learning-apps.html): Start with Duolingo free; move to Babbel for structure or Rosetta Stone for immersion.
+- [Best Platforms to Learn Coding and Tech Skills](https://coursegauge.com/compare/best-platforms-to-learn-coding-and-tech.html): Codecademy for beginners, DataCamp for data, Pluralsight for IT certifications, Udemy for one-off skills.
+- [Best MasterClass Alternatives](https://coursegauge.com/compare/masterclass-alternatives.html): Skillshare and Domestika for hands-on creative learning; The Great Courses Plus for long lectures; Coursera if you want certificates.
+
+## Platform reviews
+- [All reviews](https://coursegauge.com/reviews/): Independent reviews of 20 online course platforms, from MasterClass and Coursera to Duolingo, with prices, trials, refunds and sources.
+- [MasterClass Review 2026](https://coursegauge.com/reviews/masterclass.html): MasterClass review 2026: celebrity-led lessons, annual billing only. Pricing, free trial, refunds and who it suits, with official sources.
+- [Coursera Review 2026](https://coursegauge.com/reviews/coursera.html): Coursera review 2026: university and industry certificates. Pricing, free trial, refunds and who it suits, with official sources.
+- [Skillshare Review 2026](https://coursegauge.com/reviews/skillshare.html): Skillshare review 2026: project-based creative classes. Pricing, free trial, refunds and who it suits, with official sources.
+- [Udemy Review 2026](https://coursegauge.com/reviews/udemy.html): Udemy review 2026: buy one course or subscribe. Pricing, free trial, refunds and who it suits, with official sources.
+- [LinkedIn Learning Review 2026](https://coursegauge.com/reviews/linkedin-learning.html): LinkedIn Learning review 2026: business skills bundled with Premium. Pricing, free trial, refunds and who it suits, with official sources.
+- [edX Review 2026](https://coursegauge.com/reviews/edx.html): edX review 2026: university courses with a free audit track. Pricing, free trial, refunds and who it suits, with official sources.
+- [Codecademy Review 2026](https://coursegauge.com/reviews/codecademy.html): Codecademy review 2026: interactive coding in the browser. Pricing, free trial, refunds and who it suits, with official sources.
+- [DataCamp Review 2026](https://coursegauge.com/reviews/datacamp.html): DataCamp review 2026: data and AI skills, hands-on. Pricing, free trial, refunds and who it suits, with official sources.
+- [Brilliant Review 2026](https://coursegauge.com/reviews/brilliant.html): Brilliant review 2026: interactive math, science and CS. Pricing, free trial, refunds and who it suits, with official sources.
+- [Domestika Review 2026](https://coursegauge.com/reviews/domestika.html): Domestika review 2026: creative courses, buy or subscribe. Pricing, free trial, refunds and who it suits, with official sources.
+- [Pluralsight Review 2026](https://coursegauge.com/reviews/pluralsight.html): Pluralsight review 2026: tech skills with labs and skill assessments. Pricing, free trial, refunds and who it suits, with official sources.
+- [Udacity Review 2026](https://coursegauge.com/reviews/udacity.html): Udacity review 2026: project-based tech Nanodegrees. Pricing, free trial, refunds and who it suits, with official sources.
+- [FutureLearn Review 2026](https://coursegauge.com/reviews/futurelearn.html): FutureLearn review 2026: short university courses, UK roots. Pricing, free trial, refunds and who it suits, with official sources.
+- [Khan Academy Review 2026](https://coursegauge.com/reviews/khan-academy.html): Khan Academy review 2026: free nonprofit learning. Pricing, free trial, refunds and who it suits, with official sources.
+- [The Great Courses Plus Review 2026](https://coursegauge.com/reviews/great-courses-plus.html): The Great Courses Plus review 2026: lecture-style courses (formerly Wondrium). Pricing, free trial, refunds and who it suits, with official sources.
+- [Babbel Review 2026](https://coursegauge.com/reviews/babbel.html): Babbel review 2026: structured language lessons. Pricing, free trial, refunds and who it suits, with official sources.
+- [Duolingo Review 2026](https://coursegauge.com/reviews/duolingo.html): Duolingo review 2026: free, gamified language practice. Pricing, free trial, refunds and who it suits, with official sources.
+- [Alison Review 2026](https://coursegauge.com/reviews/alison.html): Alison review 2026: free courses, optional paid certificates. Pricing, free trial, refunds and who it suits, with official sources.
+- [Teachable Review 2026](https://coursegauge.com/reviews/teachable.html): Teachable review 2026: platform for selling your own course. Pricing, free trial, refunds and who it suits, with official sources.
+- [Rosetta Stone Review 2026](https://coursegauge.com/reviews/rosetta-stone.html): Rosetta Stone review 2026: immersion-style language learning. Pricing, free trial, refunds and who it suits, with official sources.
+
+## News
+- [News index](https://coursegauge.com/news/): Short, sourced news on online course platforms: launches, price changes and what they mean for learners.
+- [Alison adds free in-browser Python coding labs](https://coursegauge.com/news/alison-free-interactive-python-coding-labs.html): Alison launched Interactive Coding Labs on Oct 15, 2026: free Python courses where you write and run code in your browser. What's included and how it compares. (published October 16, 2026)
+
+## About and policies
+- [About CourseGauge and our method](https://coursegauge.com/about.html): About CourseGauge: who runs it (Joshua Israel Ventures LLC), how we research course platforms, cite official sources and date-check every price.
+- [Contact](https://coursegauge.com/contact.html): Contact CourseGauge and Joshua Israel Ventures LLC with questions, corrections or outdated prices on our online course reviews.
+- [Affiliate Disclosure](https://coursegauge.com/disclosure.html): Affiliate disclosure for CourseGauge: how affiliate links work on our course reviews and why they never change our verdicts.
+- [Privacy Policy](https://coursegauge.com/privacy.html): Privacy policy for CourseGauge: what data we collect (very little), our cookie-free analytics, and your choices.
+- [Terms of Use](https://coursegauge.com/terms.html): Terms of use for CourseGauge, the online course review site operated by Joshua Israel Ventures LLC.
+- [Disclaimer](https://coursegauge.com/disclaimer.html): Disclaimer for CourseGauge: our online course reviews are general information; prices and terms change, so confirm with each provider.
+
+## Optional
+- [Sitemap](https://coursegauge.com/sitemap.xml): every indexable URL with its last substantive change date
+- [Home](https://coursegauge.com/): overview, latest news and links to every review and comparison
