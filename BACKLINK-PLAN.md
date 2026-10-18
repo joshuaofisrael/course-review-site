@@ -1,4 +1,6 @@
-# CourseGauge backlink plan (drafts, NOT sent)
+# CourseGauge backlink plan
+
+Live since 15 Oct 2026: cap 3 emails/day for this site (routine runs 14:43 and 16:43 London), one inbox per email, 10/day per-inbox cap across all bots (check Sent folders first). Do-not-contact: none yet.
 
 Under the SEO operator rules: at most 5 personalised emails a day, sent only after Joshua approves and from his approved inboxes. Every pitch is logged. No paid links, PBNs or link exchanges, and no sends before a contact email/postal address is set for CAN-SPAM.
 
@@ -45,4 +47,6 @@ Joshua Israel, CourseGauge
 ## Log
 | Date | Inbox | Target | URL | Asset | Status |
 |---|---|---|---|---|---|
-| (none sent) | | | | | |
+| 2026-10-16 ~14:58 London | joshofisrael@yahoo.com | Collingswood Public Library (libraryadmin@collingswoodlib.org; address published on the page; MX ok, SMTP check blocked) | https://www.collingswoodlib.org/online-learning-videos/ | /compare/best-free-online-course-platforms.html | Sent (resource-page pitch); copy in outreach/2026-10-16-collingswood.txt. Gmail skipped: 12 sent today across bots (over 10 cap) |
+| 2026-10-16 ~16:50 London | joshofisrael@yahoo.com | Greenville Technical College Libraries (gtclibrary@gvltec.edu; published on the guide; MX ok via DoH, SMTP check not possible) | https://libguides.gvltec.edu/c.php?g=37447&p=10279794 | /compare/best-free-online-course-platforms.html | Sent (resource-page pitch); copy in outreach/2026-10-16-greenville-tech.txt. Gmail skipped: 13 sent today across bots. Yahoo 5/10 after send |
+| 2026-10-16 ~16:51 London | joshofisrael@yahoo.com | Lincoln University (CA) library guide owner (nmarsh@lincolnuca.edu; guide's "Report a problem" contact; MX ok via DoH, SMTP check not possible) | https://lincolnuca.libguides.com/freelearning | /compare/best-free-online-course-platforms.html | Sent (resource-page pitch); copy in outreach/2026-10-16-lincoln-university.txt. Yahoo 6/10 after send. Daily cap 3/3 reached. (Possible stray autosaved Yahoo draft from a lost first compose; harmless) |

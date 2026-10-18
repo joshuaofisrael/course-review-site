@@ -1,7 +1,7 @@
 import os, json
 BASE="https://coursegauge.com"
 BRAND="CourseGauge"
-CF_BEACON_TOKEN=""  # Cloudflare Web Analytics token; leave empty until issued
+CF_BEACON_TOKEN = "73c6bccca4c14c9e95d33f88b6da2b76"
 BEACON=(f'<script defer src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon=\'{{"token": "{CF_BEACON_TOKEN}"}}\'></script>' if CF_BEACON_TOKEN else "")
 Y=2026; CHECKED="October 15, 2026"
 ADDR="5640 W Maple Rd, Ste 101, West Bloomfield, MI 48322"
