@@ -1,4 +1,16 @@
 Contact
-<h1>Contact</h1>
-<p>Questions, corrections or partnership enquiries: write to Joshua Israel Ventures LLC, {ADDR}. Fastest way: <a href="https://github.com/joshuaofisrael/course-review-site/issues/new" rel="nofollow">open a public note on GitHub</a> (a free GitHub account is needed; do not include personal information). An email address will be added later.</p>
-<p>Spotted an outdated price? Tell us and we'll re-check the source.</p>
+<h1>Contact CourseGauge</h1>
+<p>Questions, corrections or partnership enquiries? Send us a message and we'll reply by email. Spotted an outdated price? Tell us which page and we'll re-check the source.</p>
+<form action="https://formsubmit.co/4497ee41a1200e746e967998473d21da" method="POST" class="cform">
+<input type="hidden" name="_subject" value="CourseGauge contact">
+<input type="hidden" name="_next" value="https://coursegauge.com/thanks.html">
+<input type="hidden" name="_captcha" value="true">
+<input type="hidden" name="_template" value="table">
+<input type="text" name="_honey" style="display:none" tabindex="-1" autocomplete="off" aria-hidden="true">
+<p><label for="c-name">Name</label><br><input id="c-name" name="name" type="text" autocomplete="name" required></p>
+<p><label for="c-email">Email</label><br><input id="c-email" name="email" type="email" autocomplete="email" required></p>
+<p><label for="c-msg">Message</label><br><textarea id="c-msg" name="message" rows="6" required></textarea></p>
+<p><small>Your message is sent through FormSubmit to Joshua Israel Ventures LLC. See our <a href="privacy.html">Privacy Policy</a>.</small></p>
+<p><button type="submit">Send message</button></p>
+</form>
+<p>Post: Joshua Israel Ventures LLC, {ADDR}.</p>

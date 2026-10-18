@@ -1,0 +1,3 @@
+Message sent
+<h1>Thanks, your message was sent</h1>
+<p>We usually reply by email within a few business days. Meanwhile, compare prices in our <a href="pricing-tracker/index.html">price tracker</a> or take the <a href="quiz/index.html">platform quiz</a>.</p>
