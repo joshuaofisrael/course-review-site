@@ -23,13 +23,14 @@ ORG={"@type":"Organization","@id":ORG_ID,"name":"Joshua Israel Ventures LLC","ur
 SITE={"@type":"WebSite","@id":SITE_ID,"name":BRAND,"url":f"{BASE}/","inLanguage":"en","publisher":{"@id":ORG_ID},"description":"Independent, sourced reviews, comparisons and price tools for online course platforms."}
 PAGEINFO=[]  # (url, title, desc) for llms.txt
 def _clean(h): return _re.sub(r"\s+"," ",_H.unescape(_re.sub(r"<[^>]+>","",h))).strip()
-def page(path,title,desc,body,schema=None,crumbs=None,ogtype="website",faq=None):
+def page(path,title,desc,body,schema=None,crumbs=None,ogtype="website",faq=None,modified=None):
     """crumbs: [(name, root-relative href or None for the current page), ...] after Home.
     faq: [(question, answer_html), ...] rendered visibly AND as FAQPage JSON-LD (only real, visible Q&A)."""
     url=f"{BASE}/{path}".replace("index.html","")
     r="../"*path.count("/")
     home=r or "./"
     wp={"@type":"WebPage","@id":url+"#webpage","url":url,"name":title,"description":desc,"isPartOf":{"@id":SITE_ID},"publisher":{"@id":ORG_ID},"inLanguage":"en","primaryImageOfPage":{"@type":"ImageObject","url":OG_IMG}}
+    if modified: wp["dateModified"]=modified  # only passed for a real, dated content change
     graph=[ORG,SITE,wp]
     crumb_html=""
     if crumbs:
@@ -39,7 +40,8 @@ def page(path,title,desc,body,schema=None,crumbs=None,ogtype="website",faq=None)
         parts=[f'<a href="{(r+h) or "./"}">{n}</a>' if h is not None else f'<span aria-current="page">{n}</span>' for n,h in items]
         crumb_html='<nav aria-label="Breadcrumb" class="crumbs">'+' <span aria-hidden="true">›</span> '.join(parts)+'</nav>'
     if faq:
-        body+='<h2>Frequently asked questions</h2>'+''.join(f'<h3>{q}</h3><p>{a}</p>' for q,a in faq)
+        fh='<h2>Frequently asked questions</h2>'+''.join(f'<h3>{q}</h3><p>{a}</p>' for q,a in faq)
+        body=body.replace("<!--FAQ-->",fh) if "<!--FAQ-->" in body else body+fh
         graph.append({"@type":"FAQPage","@id":url+"#faq","mainEntity":[{"@type":"Question","name":_clean(q),"acceptedAnswer":{"@type":"Answer","text":_clean(a)}} for q,a in faq]})
     if schema:
         sc=dict(schema); sc.pop("@context",None); graph.append(sc)
@@ -66,9 +68,13 @@ def page(path,title,desc,body,schema=None,crumbs=None,ogtype="website",faq=None)
     d=os.path.dirname(path)
     if d: os.makedirs(d,exist_ok=True)
     open(path,"w").write(html); PAGES.append(url); PAGEINFO.append((url,title,desc))
-def srcs(l):
+def upd(u):
+    """Visible, dated note for a real content change (u = {"date","nice","note"}); nothing if unchanged."""
+    return f'<p class="src"><strong>Updated {u["nice"]}:</strong> {u["note"]}</p>' if u else ''
+def topupd(u): return f'<p class="src">Last updated {u["nice"]}</p>' if u else ''
+def srcs(l,u=None):
     seen=[];[seen.append(x) for x in l if x not in seen]
-    return '<h2>Sources</h2><ul class="src">'+"".join(f'<li><a href="{u}" rel="nofollow noopener">{t}</a></li>' for t,u in seen)+f'</ul><p class="src">Facts checked {CHECKED}. Prices are US list prices, change often and vary by region; confirm on the provider\'s site before buying. <a href="../about.html">How we research and check facts</a>.</p>'
+    return '<h2>Sources</h2><ul class="src">'+"".join(f'<li><a href="{u}" rel="nofollow noopener">{t}</a></li>' for t,u in seen)+f'</ul><p class="src">Facts checked {CHECKED}. Prices are US list prices, change often and vary by region; confirm on the provider\'s site before buying. <a href="../about.html">How we research and check facts</a>.</p>'+upd(u)
 R=json.load(open("data/reviews.json"))
 C=json.load(open("data/compare.json"))
 def rel(k):
@@ -78,22 +84,24 @@ def news_block(k):
     n=R[k].get("news")
     return ('<h2>Latest news</h2><ul>'+''.join(f'<li><a href="../{u}">{t}</a></li>' for t,u in n)+'</ul>') if n else ''
 for k,v in R.items():
-    body=f"""<h1>{v['name']} review ({Y}): {v['tagline']}</h1>
+    body=f"""<h1>{v['name']} review ({Y}): {v['tagline']}</h1>{topupd(v.get('updated'))}
 <p><strong>Short answer:</strong> {v['verdict']}</p>
 <h2>Key facts</h2><div class="tw"><table>{''.join(f'<tr><th scope="row">{a}</th><td>{b}</td></tr>' for a,b in v['facts'])}</table></div>
 <h2>Who it suits</h2><p>{v['good']}</p><h2>Who should look elsewhere</h2><p>{v['bad']}</p>
-<p>Compare current prices for all platforms in our <a href="../pricing-tracker/index.html">price and free-trial tracker</a>, check whether an annual plan pays off with the <a href="../subscription-calculator/index.html">monthly vs annual calculator</a>, or take the <a href="../quiz/index.html">platform quiz</a>.</p>{news_block(k)}<h2>Our take</h2><p>{v['take']}</p><p><a href="{v['url']}" rel="nofollow noopener sponsored">Visit {v['name']}</a></p>{rel(k)}{srcs(v['sources'])}"""
+<p>Compare current prices for all platforms in our <a href="../pricing-tracker/index.html">price and free-trial tracker</a>, check whether an annual plan pays off with the <a href="../subscription-calculator/index.html">monthly vs annual calculator</a>, or take the <a href="../quiz/index.html">platform quiz</a>.</p>{news_block(k)}<h2>Our take</h2><p>{v['take']}</p><p><a href="{v['url']}" rel="nofollow noopener sponsored">Visit {v['name']}</a></p>{rel(k)}{srcs(v['sources'],v.get('updated'))}"""
+    if v.get('updated'): LASTMOD[f"{BASE}/reviews/{k}.html"]=v['updated']['date']
     page(f"reviews/{k}.html",f"{v['name']} Review {Y}",f"{v['name']} review {Y}: {v['tagline']}. Pricing, free trial, refunds and who it suits, with official sources.",body,
       {"@context":"https://schema.org","@type":"Review","itemReviewed":{"@type":"Organization","name":v['name'],"url":v['url']},"author":{"@type":"Organization","name":BRAND,"url":f"{BASE}/"},"publisher":{"@id":ORG_ID},"reviewBody":v['verdict']},
-      crumbs=[("Reviews","reviews/"),(f"{v['name']} review",None)],ogtype="article")
+      crumbs=[("Reviews","reviews/"),(f"{v['name']} review",None)],ogtype="article",modified=(v.get('updated') or {}).get('date'))
 cards=''.join(f'<div class="card"><h3><a href="{k}.html">{v["name"]}</a></h3><p>{v["tagline"]}</p></div>' for k,v in R.items())
 page("reviews/index.html","Online Course Platform Reviews","Independent reviews of 20 online course platforms, from MasterClass and Coursera to Duolingo, with prices, trials, refunds and sources.",f"<h1>Online course platform reviews</h1><p>Each review covers pricing, free trials, refund terms, certificates and who the platform suits, with every fact linked to the platform's own pages. Not sure where to start? Take the <a href='../quiz/'>platform quiz</a>, see <a href='../compare/'>side-by-side comparisons</a> or check today's figures in the <a href='../pricing-tracker/'>price tracker</a>.</p><div class='cards'>{cards}</div>",crumbs=[("Reviews",None)])
 C=json.load(open("data/compare.json"))
 for k,c in C.items():
     rows=''.join("<tr><th scope='row'>"+f+"</th>"+''.join(f"<td>{dict(R[p]['facts']).get(f,'—')}</td>" for p in c['p'])+"</tr>" for f in c['fields'])
     hdr=''.join(f'<th scope="col"><a href="../reviews/{p}.html">{R[p]["name"]}</a></th>' for p in c['p'])
-    body=f"<h1>{c['title']}</h1><p><strong>Short answer:</strong> {c['answer']}</p><p>See every plan side by side in the <a href='../pricing-tracker/index.html'>price tracker</a> or try the <a href='../quiz/index.html'>platform quiz</a>.</p><div class='tw'><table><tr><th></th>{hdr}</tr>{rows}</table></div>"+''.join(f"<h2>{h}</h2><p>{t}</p>" for h,t in c['sections'])+srcs([s for p in c['p'] for s in R[p]['sources']])
-    page(f"compare/{k}.html",c['title'],c['desc'],body,crumbs=[("Comparisons","compare/"),(c['title'],None)],ogtype="article")
+    body=f"<h1>{c['title']}</h1>{topupd(c.get('updated'))}<p><strong>Short answer:</strong> {c['answer']}</p><p>See every plan side by side in the <a href='../pricing-tracker/index.html'>price tracker</a> or try the <a href='../quiz/index.html'>platform quiz</a>.</p><div class='tw'><table><tr><th></th>{hdr}</tr>{rows}</table></div>"+''.join(f"<h2>{h}</h2><p>{t}</p>" for h,t in c['sections'])+("<!--FAQ-->" if c.get('faq') else "")+srcs(c.get('sources',[])+[s for p in c['p'] for s in R[p]['sources']],c.get('updated'))
+    if c.get('updated'): LASTMOD[f"{BASE}/compare/{k}.html"]=c['updated']['date']
+    page(f"compare/{k}.html",c['title'],c['desc'],body,crumbs=[("Comparisons","compare/"),(c['title'],None)],ogtype="article",faq=[tuple(x) for x in c.get('faq',[])] or None,modified=(c.get('updated') or {}).get('date'))
 cc=''.join(f'<div class="card"><h3><a href="{k}.html">{c["title"]}</a></h3></div>' for k,c in C.items())
 page("compare/index.html","Course Platform Comparisons","Side-by-side comparisons of online course platforms: Coursera vs Udemy, MasterClass vs Skillshare, best free and certificate platforms and more.",f"<h1>Comparisons</h1><p>Head-to-head tables and best-of guides built from the same sourced facts as our <a href='../reviews/'>platform reviews</a>. For the raw numbers, use the <a href='../pricing-tracker/'>price and free-trial tracker</a> or the <a href='../subscription-calculator/'>monthly vs annual calculator</a>.</p><div class='cards'>{cc}</div>",crumbs=[("Comparisons",None)])
 for f in sorted(os.listdir("data/legal")):
@@ -103,7 +111,8 @@ for f in sorted(os.listdir("data/legal")):
         "disclaimer":f"Disclaimer for {BRAND}: our online course reviews are general information; prices and terms change, so confirm with each provider.",
         "disclosure":f"Affiliate disclosure for {BRAND}: how affiliate links work on our course reviews and why they never change our verdicts.",
         "privacy":f"Privacy policy for {BRAND}: what data we collect (very little), our cookie-free analytics, and your choices.",
-        "terms":f"Terms of use for {BRAND}, the online course review site operated by Joshua Israel Ventures LLC."}
+        "terms":f"Terms of use for {BRAND}, the online course review site operated by Joshua Israel Ventures LLC.",
+        "thanks":f"Thanks for contacting {BRAND}. Your message reached Joshua Israel Ventures LLC; meanwhile, try our price tracker or platform quiz."}
     START='<p><strong>Start here:</strong> <a href="reviews/">platform reviews</a> · <a href="compare/">comparisons</a> · <a href="pricing-tracker/">price and free-trial tracker</a> · <a href="subscription-calculator/">monthly vs annual calculator</a> · <a href="quiz/">platform quiz</a> · <a href="news/">news</a></p>'
     slug=f.replace(".html.txt","")
     page(slug+".html",t,LD.get(slug,f"{t} for {BRAND}, operated by Joshua Israel Ventures LLC."),crumbs=[(t,None)],body=(body+START).replace("{ANALYTICS}",("We use Cloudflare Web Analytics, a cookie-free, privacy-first service that counts page views without tracking individuals." if CF_BEACON_TOKEN else "If we add analytics in future, we will update this policy before doing so.")).replace("{BRAND}",BRAND).replace("{ADDR}",ADDR))
@@ -124,6 +133,10 @@ def _llms():
     sec=lambda pre:[u for u,_,_ in PAGEINFO if u.startswith(f"{BASE}/{pre}") and not u.endswith("/")]
     L=[f"# {BRAND}","",f"> {BRAND} publishes independent, sourced reviews, comparisons and free price tools for online course and learning platforms (Coursera, Udemy, MasterClass, Skillshare, edX, Codecademy, DataCamp, Duolingo and more). It is owned and operated by Joshua Israel Ventures LLC, {ADDR}, USA.","",
        "Every price, free-trial length and refund term links to the platform's own official page and carries a check date. Figures we could not confirm are shown as \"see official pricing\" rather than estimated. Prices are US list prices unless stated. Our data tables are free to reuse with a link (CC BY 4.0). We have no paid placements; some links may be affiliate links, disclosed on every page.","",
+       "## Recent fact updates (checked against official sources)",
+       f"- October 19, 2026: Coursera completed its combination with Udemy on May 11, 2026; Udemy is a wholly owned Coursera subsidiary, but the platforms, accounts and subscriptions still run separately. See {BASE}/compare/coursera-vs-udemy.html",
+       f"- October 19, 2026: Coursera replaced free course auditing with a free preview of the first module of most courses in August 2025; edX still offers a free audit track. See {BASE}/compare/best-free-online-course-platforms.html",
+       f"- October 19, 2026: MasterClass sells MasterClass Certificates separately from its membership: 15 to 20-hour courses with a capstone project, from $299 per course or a Certificates Annual Pass. See {BASE}/reviews/masterclass.html","",
        "## Tools and data",
        item(f"{BASE}/pricing-tracker/",extra=f" CSV: {BASE}/pricing-tracker/coursegauge-pricing-tracker.csv"),
        item(f"{BASE}/subscription-calculator/",extra=f" Key finding: annual billing pays off after {lo} to {hi} months of use (median {med:g}) across {len(PLANS)} plans. CSV: {BASE}/subscription-calculator/coursegauge-annual-vs-monthly.csv"),

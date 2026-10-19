@@ -23,6 +23,8 @@ MIN_OUT = 3
 MIN_IN = 3
 # Legal pages are linked from the site-wide footer; contextual inbound links are not expected.
 LEGAL = {"terms.html", "privacy.html", "disclaimer.html", "disclosure.html", "contact.html"}
+# Form-confirmation page (shown after the contact form posts); it is not meant to be linked contextually.
+UTILITY = {"thanks.html"}
 
 class P(HTMLParser):
     def __init__(s):
@@ -142,8 +144,8 @@ def main():
         if me not in sm_urls: bad("not in sitemap.xml")
         stats[rel] = types
     for rel in pages:
-        if not inbound_any[rel] and rel != "index.html": issues["orphan (no inbound links at all)"].append(rel)
-        if len(inbound_ctx[rel]) < MIN_IN and rel != "index.html" and rel not in LEGAL:
+        if not inbound_any[rel] and rel != "index.html" and rel not in UTILITY: issues["orphan (no inbound links at all)"].append(rel)
+        if len(inbound_ctx[rel]) < MIN_IN and rel != "index.html" and rel not in LEGAL and rel not in UTILITY:
             issues[f"fewer than {MIN_IN} contextual inbound links"].append(f"{rel}: {len(inbound_ctx[rel])}")
     for t, l in titles.items():
         if len(l) > 1: issues["duplicate title"].append(f"{t!r}: {', '.join(l)}")

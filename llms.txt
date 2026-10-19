@@ -4,6 +4,11 @@
 
 Every price, free-trial length and refund term links to the platform's own official page and carries a check date. Figures we could not confirm are shown as "see official pricing" rather than estimated. Prices are US list prices unless stated. Our data tables are free to reuse with a link (CC BY 4.0). We have no paid placements; some links may be affiliate links, disclosed on every page.
 
+## Recent fact updates (checked against official sources)
+- October 19, 2026: Coursera completed its combination with Udemy on May 11, 2026; Udemy is a wholly owned Coursera subsidiary, but the platforms, accounts and subscriptions still run separately. See https://coursegauge.com/compare/coursera-vs-udemy.html
+- October 19, 2026: Coursera replaced free course auditing with a free preview of the first module of most courses in August 2025; edX still offers a free audit track. See https://coursegauge.com/compare/best-free-online-course-platforms.html
+- October 19, 2026: MasterClass sells MasterClass Certificates separately from its membership: 15 to 20-hour courses with a capstone project, from $299 per course or a Certificates Annual Pass. See https://coursegauge.com/reviews/masterclass.html
+
 ## Tools and data
 - [Online Course Price and Free-Trial Tracker 2026](https://coursegauge.com/pricing-tracker/): Current prices, free trials, refund policies and certificates for 20 online course platforms, each with an official source and check date. CSV: https://coursegauge.com/pricing-tracker/coursegauge-pricing-tracker.csv
 - [Monthly vs Annual Course Subscription Calculator](https://coursegauge.com/subscription-calculator/): When does an annual course plan pay off? Break-even months (5 to 9) for Coursera Plus, Codecademy, DataCamp, Brilliant and more, with a free calculator. Key finding: annual billing pays off after 5 to 9 months of use (median 7) across 11 plans. CSV: https://coursegauge.com/subscription-calculator/coursegauge-annual-vs-monthly.csv
@@ -21,7 +26,7 @@ Every price, free-trial length and refund term links to the platform's own offic
 - [Udacity vs Coursera](https://coursegauge.com/compare/udacity-vs-coursera.html): Coursera is far cheaper and offers university certificates; Udacity is a pricier, project-intensive sprint.
 - [FutureLearn vs Coursera](https://coursegauge.com/compare/futurelearn-vs-coursera.html): Coursera has the bigger catalog and certificate range; FutureLearn suits short courses in health, teaching and psychology.
 - [Skillshare vs Domestika](https://coursegauge.com/compare/skillshare-vs-domestika.html): Skillshare for unlimited short classes; Domestika for in-depth courses you can keep.
-- [Best Free Online Course Platforms](https://coursegauge.com/compare/best-free-online-course-platforms.html): Khan Academy is the best fully free option; Alison and edX let you finish courses free and pay only for certificates.
+- [Best Free Online Course Platforms](https://coursegauge.com/compare/best-free-online-course-platforms.html): Khan Academy is fully free; Alison and edX let you study free and pay only for certificates. What is free on Coursera and Duolingo, from official pages.
 - [Best Online Course Platforms for Certificates](https://coursegauge.com/compare/best-online-course-platforms-for-certificates.html): Coursera is our top pick for recognised certificates at a reasonable subscription price.
 - [Best Language Learning Apps](https://coursegauge.com/compare/best-language-learning-apps.html): Start with Duolingo free; move to Babbel for structure or Rosetta Stone for immersion.
 - [Best Platforms to Learn Coding and Tech Skills](https://coursegauge.com/compare/best-platforms-to-learn-coding-and-tech.html): Codecademy for beginners, DataCamp for data, Pluralsight for IT certifications, Udemy for one-off skills.

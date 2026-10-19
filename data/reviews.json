@@ -3,7 +3,7 @@
   "name": "MasterClass",
   "tagline": "celebrity-led lessons, annual billing only",
   "url": "https://www.masterclass.com/",
-  "verdict": "MasterClass is best treated as inspiration and craft insight from famous practitioners, not as a credential. Every plan unlocks the full library; you pay more only for extra simultaneous devices and offline viewing.",
+  "verdict": "MasterClass's main membership is best treated as inspiration and craft insight from famous practitioners, not as a credential. Every plan unlocks the full library; you pay more only for extra simultaneous devices and offline viewing. Career-focused certificate courses are sold separately.",
   "facts": [
    [
     "Pricing model",
@@ -23,7 +23,7 @@
    ],
    [
     "Certificates",
-    "Not a credential-focused platform"
+    "Main membership: not credential-focused. MasterClass Certificates are a separate paid product: 15–20-hour courses with a capstone project and shareable certificate, from $299 per course or a Certificates Annual Pass"
    ],
    [
     "Renewal",
@@ -35,7 +35,7 @@
    ]
   ],
   "good": "Curious learners who enjoy polished, documentary-style lessons and want breadth across cooking, writing, music, business and more. Plus or Premium suits households because of extra streams and profiles.",
-  "bad": "Anyone who needs certificates, graded work or step-by-step job skills. The upfront annual charge also makes it a poor fit for trying something for a month.",
+  "bad": "Anyone who needs graded work or step-by-step job skills from the main library. The upfront annual charge also makes it a poor fit for trying something for a month. MasterClass Certificates add credentials, but at extra cost (from $299 per course).",
   "take": "Pick Standard if you watch alone online; Plus if two people share or you want offline downloads. Set a reminder before the renewal date, since the plan auto-renews.",
   "sources": [
    [
@@ -53,8 +53,25 @@
    [
     "MasterClass plan chooser",
     "https://www.masterclass.com/checkout"
+   ],
+   [
+    "MasterClass Certificates Help: pricing",
+    "https://www.masterclass.com/help-center/certificates/answers/pricing-for-master-class-certificates--id--ZCf8XPJzQOyxgUkdrgV2YA"
+   ],
+   [
+    "MasterClass Certificates Help: what certificate courses include",
+    "https://www.masterclass.com/help-center/certificates/answers/what-will-master-class-certificate-courses-include--id---cx4IVBHTMW5z8xA-ub1PQ"
+   ],
+   [
+    "MasterClass press release: certificate course with Microsoft (Apr 7, 2026; from $299)",
+    "https://www.prnewswire.com/news-releases/masterclass-launches-certificate-course-with-microsoftlead-with-ai-adapt-implement-and-transform-your-organization-302735535.html"
    ]
-  ]
+  ],
+  "updated": {
+   "date": "2026-10-19",
+   "nice": "October 19, 2026",
+   "note": "added MasterClass Certificates (separate certificate courses from $299, per MasterClass's 2026 announcements and help centre)."
+  }
  },
  "coursera": {
   "name": "Coursera",
@@ -76,7 +93,7 @@
    ],
    [
     "Refunds",
-    "Annual Plus has a 14-day money-back guarantee"
+    "Annual Plus: refund request within 14 days of payment (certificates earned in that window are revoked)"
    ],
    [
     "Certificates",
@@ -87,8 +104,12 @@
     "10,000+ courses (per Coursera)"
    ],
    [
+    "Ownership",
+    "Coursera, Inc., which has owned Udemy since May 11, 2026; the two platforms and their accounts still run separately"
+   ],
+   [
     "Free option",
-    "Many courses can be audited free; certificates require payment"
+    "Free preview of the first module of most courses (this replaced free auditing in August 2025); some Community Impact courses are free in full; financial aid for eligible learners"
    ]
   ],
   "good": "Career changers and upskillers who want structured programs, graded assignments and recognisable certificates.",
@@ -102,8 +123,21 @@
    [
     "Coursera Help: Coursera Plus (trial and refund terms)",
     "https://www.coursera.support/s/article/learner-000001075?language=en_US"
+   ],
+   [
+    "Coursera Blog: new course preview experience replaces audit (Aug 8, 2025)",
+    "https://blog.coursera.org/introducing-courseras-new-course-preview-experience/"
+   ],
+   [
+    "Coursera Blog: what the Udemy combination means for Coursera learners",
+    "https://blog.coursera.org/how-the-coursera-and-udemy-combination-will-impact-coursera-learners/"
    ]
-  ]
+  ],
+  "updated": {
+   "date": "2026-10-19",
+   "nice": "October 19, 2026",
+   "note": "free audit replaced by a free first-module preview (per Coursera's Aug 2025 announcement); added the May 2026 Udemy combination; re-checked Plus price, trial and refund terms on the Coursera Plus page."
+  }
  },
  "skillshare": {
   "name": "Skillshare",
@@ -129,7 +163,7 @@
    ],
    [
     "Certificates",
-    "Not credential-focused"
+    "Certificates and badges to mark progress (per the pricing page); not presented as accredited credentials"
    ],
    [
     "Regional pricing",
@@ -156,7 +190,12 @@
     "Skillshare Help: subscriptions, pricing and refunds",
     "https://help.skillshare.com/hc/en-us/articles/4402806767117-How-do-Skillshare-subscriptions-pricing-and-refunds-work"
    ]
-  ]
+  ],
+  "updated": {
+   "date": "2026-10-19",
+   "nice": "October 19, 2026",
+   "note": "re-checked the web price ($13.99/month, $167.88 billed annually) and certificate wording on Skillshare's pricing page; after the trial, the annual membership is billed in full."
+  }
  },
  "udemy": {
   "name": "Udemy",
@@ -173,12 +212,16 @@
     "250,000+ courses overall (per Udemy); Personal Plan is a curated subset"
    ],
    [
+    "Ownership",
+    "Wholly owned by Coursera, Inc. since May 11, 2026; still a separate platform, catalog and account"
+   ],
+   [
     "Free trial",
     "May be offered to first-time Personal Plan subscribers"
    ],
    [
     "Refunds",
-    "Eligible individual courses: 30-day refund policy. Subscriptions bought on Udemy.com: no refunds unless required by law"
+    "Eligible individual courses: 30-day refund policy (heavy use or repeat requests can be refused; some refunds are paid as Udemy credits). Subscriptions bought on Udemy.com: no refunds unless required by law"
    ],
    [
     "Access",
@@ -212,8 +255,21 @@
    [
     "Udemy Personal Plan",
     "https://www.udemy.com/personal-plan/"
+   ],
+   [
+    "Coursera investor news: Coursera completes combination with Udemy (May 11, 2026)",
+    "https://investor.coursera.com/news/news-details/2026/Coursera-Completes-Combination-with-Udemy-to-Build-the-Worlds-Most-Comprehensive-Skills-Platform/default.aspx"
+   ],
+   [
+    "Coursera Blog: what the Udemy combination means for Coursera learners",
+    "https://blog.coursera.org/how-the-coursera-and-udemy-combination-will-impact-coursera-learners/"
    ]
-  ]
+  ],
+  "updated": {
+   "date": "2026-10-19",
+   "nice": "October 19, 2026",
+   "note": "added the May 2026 combination with Coursera and re-checked the refund policy on Udemy's help centre."
+  }
  },
  "linkedin-learning": {
   "name": "LinkedIn Learning",
