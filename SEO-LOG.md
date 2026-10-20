@@ -83,3 +83,5 @@
 **News post:** no relevant news. Searched Oct 19–20: Coursera Project Helix (enterprise-only, rollout H1 2027, announced Oct 16 at FWD 2026), Duolingo's Oct 19 feature post (minor, rejected yesterday) and a Duolingo Shanghainese course (one secondary source only) were rejected.
 
 **Next:** FAQs on the next comparison tier (MasterClass vs Skillshare, Coursera vs edX, best coding platforms, best language apps); re-check remaining "see official pricing" cells row by row when time allows; GSC/Bing/Cloudflare review and a PageSpeed spot check at the next free browser slot (after the 22 Oct reset).
+
+**Deploy:** pushed 071df02; live tracker shows the Recent updates section and per-row dates, CSV (new Notes column) returns 200. IndexNow returned **200**.
