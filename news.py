@@ -34,4 +34,4 @@ LASTMOD[f"{BASE}/news/"]=max(NEWS[0]["date"],"2026-10-18")  # Oct 18: evergreen 
 LASTMOD[f"{BASE}/reviews/alison.html"]="2026-10-16"
 LASTMOD[f"{BASE}/"]="2026-10-18"  # Oct 18: latest-news block added
 LASTMOD[f"{BASE}/about.html"]="2026-10-18"  # Oct 18: method section expanded
-LASTMOD[f"{BASE}/pricing-tracker/"]="2026-10-18"  # Oct 18: FAQ added (data unchanged since Oct 15)
+LASTMOD[f"{BASE}/pricing-tracker/"]=max(["2026-10-18"]+[r[8]["checked"] for r in json.load(open("data/pricing.json")) if len(r)>8])  # Oct 18 FAQ; later = dated row re-checks

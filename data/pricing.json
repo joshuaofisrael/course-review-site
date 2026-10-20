@@ -6,28 +6,52 @@
   "SEE",
   "SEE",
   "30-day money-back guarantee",
-  "SEE",
-  "https://www.masterclass.com/checkout"
+  "Main membership: no. MasterClass Certificates sold separately (15–20-hour courses with a capstone; from $299 per course or a Certificates Annual Pass)",
+  "https://www.masterclass.com/checkout",
+  {
+   "checked": "2026-10-20",
+   "note": "Oct 20, 2026: certificate details re-checked on the MasterClass Certificates help centre ($299 starting price per MasterClass's 2026 announcements); other cells from the Oct 15 check.",
+   "link": [
+    "MasterClass Certificates pricing (help centre)",
+    "https://www.masterclass.com/help-center/certificates/answers/pricing-for-master-class-certificates--id--ZCf8XPJzQOyxgUkdrgV2YA"
+   ]
+  }
  ],
  [
   "coursera",
-  "Coursera Plus $59/mo; single programs $49\u2013$79/mo",
+  "Coursera Plus $59/mo; single programs $49–$79/mo",
   "Coursera Plus $399/yr",
   "7 days",
-  "SEE",
+  "Free preview of the first module of most courses (replaced free auditing in Aug 2025); some Community Impact courses free in full; financial aid available",
   "Annual Plus: 14-day money-back guarantee",
-  "Yes, on completion",
-  "https://www.coursera.org/courseraplus"
+  "Yes, on completion (paid plan or financial aid)",
+  "https://www.coursera.org/courseraplus",
+  {
+   "checked": "2026-10-20",
+   "note": "Oct 20, 2026: monthly price, 7-day trial, 14-day annual refund and free preview re-checked; annual price from the Oct 15 check.",
+   "link": [
+    "Coursera Blog: course preview replaces audit",
+    "https://blog.coursera.org/introducing-courseras-new-course-preview-experience/"
+   ]
+  }
  ],
  [
   "skillshare",
-  "SEE",
-  "SEE",
+  "Web: annual only (monthly billing via the app stores)",
+  "$167.88/yr (shown as $13.99/mo), billed in full after the trial",
   "7 days",
   "SEE",
   "7-day trial: one-time refund if requested within 48 hours of the charge and unused; no refunds on renewals (EU/UK: 14-day cooling-off)",
-  "SEE",
-  "https://help.skillshare.com/hc/en-us/articles/4402806767117-How-do-Skillshare-subscriptions-pricing-and-refunds-work"
+  "Certificates and badges (not accredited credentials)",
+  "https://help.skillshare.com/hc/en-us/articles/4402806767117-How-do-Skillshare-subscriptions-pricing-and-refunds-work",
+  {
+   "checked": "2026-10-20",
+   "note": "Oct 20, 2026: web price, trial billing and certificates re-checked on Skillshare's pricing page; app-store monthly option and refund terms from earlier checks.",
+   "link": [
+    "Skillshare pricing",
+    "https://www.skillshare.com/en/pricing"
+   ]
+  }
  ],
  [
   "udemy",
@@ -141,8 +165,8 @@
  ],
  [
   "great-courses-plus",
-  "EUR only seen: \u20ac18/mo (US price: see official)",
-  "EUR only seen: \u20ac135/yr (US price: see official)",
+  "EUR only seen: €18/mo (US price: see official)",
+  "EUR only seen: €135/yr (US price: see official)",
   "7 days (new customers)",
   "SEE",
   "No refund for early termination",

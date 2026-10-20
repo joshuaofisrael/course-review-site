@@ -65,3 +65,21 @@
 **Deploy:** pushed 0d4361b. The GitHub Pages build finished, and all 13 changed pages plus llms.txt, sitemap.xml, thanks.html, contact.html (FormSubmit form intact) and robots.txt returned 200 live with the new content. IndexNow returned **200**.
 
 **Next:** update the pricing tracker's Coursera "free tier" cell and CSV to say "first-module preview" (this needs a dated data refresh of the tracker, not a one-cell edit). Add FAQs to the next comparison tier (MasterClass vs Skillshare, Coursera vs edX, best coding platforms, best language apps). Consider a short evergreen explainer on what the Coursera–Udemy combination means for buyers if search demand shows up. Review GSC/Bing/Cloudflare data at the next free browser slot, plus a PageSpeed/CWV spot check.
+
+## 2026-10-20 (daily SEO routine, lean run under the usage pacing until the 22 Oct reset)
+**Data reviewed:** no browser slot used (lean run), so no GSC/Bing/Cloudflare numbers today. Audit before: 0 issues on 50 pages. Found the pricing tracker (the lead linkable asset) out of step with the facts fixed on Oct 19: Coursera's free-tier cell still said "see official pricing" with no mention that free auditing ended, MasterClass's certificate cell said "see official pricing" although MasterClass now sells certificate courses, and Skillshare's price cells said "see official pricing" while the Skillshare review already carried the verified web price.
+
+**Re-checked today on official pages:** Coursera Blog (Aug 8, 2025: course preview replaces audit; first module of most courses free, Community Impact courses free, financial aid); Coursera Plus page ($59/mo, $49–$79/mo single programs, 7-day trial on monthly, 14-day refund on annual with certificates revoked, degrees excluded; the $399/yr annual figure was not shown on today's page view, so it stays dated Oct 15); MasterClass Certificates help centre (15–20-hour courses, capstone, shareable certificate, 30-day guarantee if no certificate issued, Certificates Annual Pass; the $299 starting price comes from MasterClass's 2026 press releases); Skillshare pricing page ($167.88/yr shown as $13.99/mo, billed in full after the trial, "Certificates and Badges").
+
+**Highest-value action: dated data refresh of the pricing tracker.** Why: it's the page outreach leads with, so a stale "free audit" era table would undercut it with exactly the librarians being pitched the free-platforms guide. Per-row check dates make freshness honest instead of bumping the whole table.
+
+**What changed:**
+- `data/pricing.json`: Coursera free tier (first-module preview, Community Impact, financial aid) and certificate cells; MasterClass certificate cell; Skillshare monthly/annual/certificate cells. Each changed row carries its own `checked` date (2026-10-20), a note saying which cells were re-checked and which come from earlier checks, and a source link.
+- `extras.py`: per-row "Checked" dates in the table and CSV; new CSV "Notes" column; new "Recent updates" section on the tracker; caption explains row-level dates; Dataset `dateModified` now the newest row check (2026-10-20); FAQ "completely free" answer now says Coursera ended free auditing in Aug 2025.
+- `news.py`: tracker sitemap lastmod follows the newest dated row check (now 2026-10-20). No other page's lastmod changed.
+
+**Audit after:** 0 issues across 50 pages. Tracker still index,follow with LLC footer, West Bloomfield address and the Cloudflare beacon.
+
+**News post:** no relevant news. Searched Oct 19–20: Coursera Project Helix (enterprise-only, rollout H1 2027, announced Oct 16 at FWD 2026), Duolingo's Oct 19 feature post (minor, rejected yesterday) and a Duolingo Shanghainese course (one secondary source only) were rejected.
+
+**Next:** FAQs on the next comparison tier (MasterClass vs Skillshare, Coursera vs edX, best coding platforms, best language apps); re-check remaining "see official pricing" cells row by row when time allows; GSC/Bing/Cloudflare review and a PageSpeed spot check at the next free browser slot (after the 22 Oct reset).
