@@ -90,3 +90,8 @@
 - Generated 12 hyper-realistic, object/scene-only photos (hero-home x2 takes, 6 hub images, 4 category images); no people, no readable text, no logos. Originals in assets/originals/, WebP (1280 hero, 1024 hub, 800 article, 480 card) plus 1200x630 JPG og images in images/.
 - build.py: home hero with overlay, hub banners (reviews, comparisons, tracker, quiz, calculator, news), mid-article photo on all 20 reviews, 15 comparisons and the news post, card thumbnails on home/reviews/comparisons, per-page og:image/twitter:image and primaryImageOfPage. Descriptive alt text, width/height set, hero eager with fetchpriority, all others lazy; no JS added. Light CSS polish (card shadows/hover, rounded images, heading accents, header gradient).
 - audit.py: 0 issues, footer Contact link present on all pages.
+
+## 2026-10-23 one-time audit (Joshua's order)
+- Checked all 50 pages locally and live (home, review, disclosure, contact, thanks, robots, sitemap 200): unique titles/descriptions, canonical/OG/Twitter, viewport, JSON-LD parses, no rating markup, sitemap = all 50 pages, footer contact link and Maple Rd address on every page, images 1.4 MB total (webp, lazy).
+- Fixed: disclosure wording said links "may be affiliate links / may earn commission" though no affiliate relationship exists; now states none currently (banner on every page, disclosure, about, terms, privacy, llms.txt); removed rel=sponsored from plain platform links; added missing images/hub-news-md.webp (news article image 404). Commit 860b306, Pages built.
+- Not changed: Review JSON-LD has no datePublished (only "last updated" known); thanks.html is in sitemap (left indexable per rule); contact form untouched, no test submitted.
