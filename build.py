@@ -164,7 +164,7 @@ for f in sorted(os.listdir("data/legal")):
         "disclaimer":f"Disclaimer for {BRAND}: our online course reviews are general information; prices and terms change, so confirm with each provider.",
         "disclosure":f"Disclosure for {BRAND}: we currently have no affiliate relationships or paid placements, and how we will label affiliate links if that changes.",
         "privacy":f"Privacy policy for {BRAND}: what data we collect (very little), our cookie-free analytics, and your choices.",
-        "terms":f"Terms of use for {BRAND}, the online course review site.",
+        "terms":f"Terms of use for {BRAND}, the independent online course review site, covering content, links, liability and governing law.",
         "thanks":f"Thanks for contacting {BRAND}. Your message reached our team; meanwhile, try our price tracker or platform quiz."}
     START='<p><strong>Start here:</strong> <a href="reviews/">platform reviews</a> · <a href="compare/">comparisons</a> · <a href="pricing-tracker/">price and free-trial tracker</a> · <a href="subscription-calculator/">monthly vs annual calculator</a> · <a href="quiz/">platform quiz</a> · <a href="news/">news</a></p>'
     slug=f.replace(".html.txt","")
