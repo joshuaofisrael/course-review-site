@@ -107,7 +107,7 @@ def page(path,title,desc,body,schema=None,crumbs=None,ogtype="website",faq=None,
 <script type="application/ld+json">{json.dumps(ld,ensure_ascii=False).replace("</","<\\/")}</script></head><body>
 <header><div class="wrap"><a class="brand" href="{home}">{LOGO}{BRAND}</a><nav aria-label="Main"><a href="{r}reviews/">Reviews</a><a href="{r}compare/">Comparisons</a><a href="{r}pricing-tracker/">Price tracker</a><a href="{r}subscription-calculator/">Calculator</a><a href="{r}quiz/">Quiz</a><a href="{r}news/">News</a><a href="{r}about.html">About</a><a href="{r}contact.html">Contact</a></nav></div></header>
 <main class="wrap">{crumb_html}
-<p class="disc"><strong>Affiliate disclosure:</strong> Some links on {BRAND} may be affiliate links. If you buy through them we may earn a commission at no extra cost to you. This never changes our verdicts. <a href="{r}disclosure.html">Full disclosure</a>.</p>
+<p class="disc"><strong>Disclosure:</strong> {BRAND} currently has no affiliate relationships with the platforms we review and earns no commission from links on this page. If that changes, affiliate links will be labelled next to the link and on our disclosure page. <a href="{r}disclosure.html">Full disclosure</a>.</p>
 {body}</main>
 <footer><div class="wrap"><p>© {Y} Joshua Israel Ventures LLC. All rights reserved. {BRAND} is owned and operated by Joshua Israel Ventures LLC.</p>
 <p>Joshua Israel Ventures LLC, {ADDR}</p>
@@ -138,7 +138,7 @@ for k,v in R.items():
 <p><strong>Short answer:</strong> {v['verdict']}</p>
 <h2>Key facts</h2><div class="tw"><table>{''.join(f'<tr><th scope="row">{a}</th><td>{b}</td></tr>' for a,b in v['facts'])}</table></div>
 <h2>Who it suits</h2><p>{v['good']}</p><h2>Who should look elsewhere</h2><p>{v['bad']}</p>
-<p>Compare current prices for all platforms in our <a href="../pricing-tracker/index.html">price and free-trial tracker</a>, check whether an annual plan pays off with the <a href="../subscription-calculator/index.html">monthly vs annual calculator</a>, or take the <a href="../quiz/index.html">platform quiz</a>.</p>{news_block(k)}<h2>Our take</h2><p>{v['take']}</p><p><a href="{v['url']}" rel="nofollow noopener sponsored">Visit {v['name']}</a></p>{rel(k)}{srcs(v['sources'],v.get('updated'))}"""
+<p>Compare current prices for all platforms in our <a href="../pricing-tracker/index.html">price and free-trial tracker</a>, check whether an annual plan pays off with the <a href="../subscription-calculator/index.html">monthly vs annual calculator</a>, or take the <a href="../quiz/index.html">platform quiz</a>.</p>{news_block(k)}<h2>Our take</h2><p>{v['take']}</p><p><a href="{v['url']}" rel="nofollow noopener">Visit {v['name']}</a></p>{rel(k)}{srcs(v['sources'],v.get('updated'))}"""
     if v.get('updated'): LASTMOD[f"{BASE}/reviews/{k}.html"]=v['updated']['date']
     page(f"reviews/{k}.html",f"{v['name']} Review {Y}",f"{v['name']} review {Y}: {v['tagline']}. Pricing, free trial, refunds and who it suits, with official sources.",body,
       {"@context":"https://schema.org","@type":"Review","itemReviewed":{"@type":"Organization","name":v['name'],"url":v['url']},"author":{"@type":"Organization","name":BRAND,"url":f"{BASE}/"},"publisher":{"@id":ORG_ID},"reviewBody":v['verdict']},
@@ -159,7 +159,7 @@ for f in sorted(os.listdir("data/legal")):
     LD={"about":f"About {BRAND}: who runs it (Joshua Israel Ventures LLC), how we research course platforms, cite official sources and date-check every price.",
         "contact":f"Contact {BRAND} and Joshua Israel Ventures LLC with questions, corrections or outdated prices on our online course reviews.",
         "disclaimer":f"Disclaimer for {BRAND}: our online course reviews are general information; prices and terms change, so confirm with each provider.",
-        "disclosure":f"Affiliate disclosure for {BRAND}: how affiliate links work on our course reviews and why they never change our verdicts.",
+        "disclosure":f"Disclosure for {BRAND}: we currently have no affiliate relationships or paid placements, and how we will label affiliate links if that changes.",
         "privacy":f"Privacy policy for {BRAND}: what data we collect (very little), our cookie-free analytics, and your choices.",
         "terms":f"Terms of use for {BRAND}, the online course review site operated by Joshua Israel Ventures LLC.",
         "thanks":f"Thanks for contacting {BRAND}. Your message reached Joshua Israel Ventures LLC; meanwhile, try our price tracker or platform quiz."}
@@ -182,7 +182,7 @@ def _llms():
         t,d=I[u]; return f"- [{label or t}]({u}): {d}{extra}"
     sec=lambda pre:[u for u,_,_ in PAGEINFO if u.startswith(f"{BASE}/{pre}") and not u.endswith("/")]
     L=[f"# {BRAND}","",f"> {BRAND} publishes independent, sourced reviews, comparisons and free price tools for online course and learning platforms (Coursera, Udemy, MasterClass, Skillshare, edX, Codecademy, DataCamp, Duolingo and more). It is owned and operated by Joshua Israel Ventures LLC, {ADDR}, USA.","",
-       "Every price, free-trial length and refund term links to the platform's own official page and carries a check date. Figures we could not confirm are shown as \"see official pricing\" rather than estimated. Prices are US list prices unless stated. Our data tables are free to reuse with a link (CC BY 4.0). We have no paid placements; some links may be affiliate links, disclosed on every page.","",
+       "Every price, free-trial length and refund term links to the platform's own official page and carries a check date. Figures we could not confirm are shown as \"see official pricing\" rather than estimated. Prices are US list prices unless stated. Our data tables are free to reuse with a link (CC BY 4.0). We have no paid placements and currently no affiliate relationships; if that changes, affiliate links will be labelled next to the link.","",
        "## Recent fact updates (checked against official sources)",
        f"- October 19, 2026: Coursera completed its combination with Udemy on May 11, 2026; Udemy is a wholly owned Coursera subsidiary, but the platforms, accounts and subscriptions still run separately. See {BASE}/compare/coursera-vs-udemy.html",
        f"- October 19, 2026: Coursera replaced free course auditing with a free preview of the first module of most courses in August 2025; edX still offers a free audit track. See {BASE}/compare/best-free-online-course-platforms.html",

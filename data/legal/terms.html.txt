@@ -2,7 +2,7 @@ Terms of Use
 <h1>Terms of Use</h1><p>Last updated: October 15, 2026</p>
 <p>These Terms govern your use of {BRAND} (the "Site"), owned and operated by Joshua Israel Ventures LLC, a Florida limited liability company ("we", "us"). By using the Site you agree to these Terms.</p>
 <h2>Information only</h2><p>Content is for general information. We try to keep it accurate and cite sources, but prices and terms change; always confirm with the provider.</p>
-<h2>Third-party links</h2><p>We link to third-party sites, some through affiliate links. We are not responsible for their content, products or policies.</p>
+<h2>Third-party links</h2><p>We link to third-party sites; we currently have no affiliate relationships, and will label any affiliate links if we add them. We are not responsible for their content, products or policies.</p>
 <h2>Intellectual property</h2><p>The Site's original text, design, brand name and logo are owned by Joshua Israel Ventures LLC. Third-party trademarks belong to their owners and are used only descriptively.</p>
 <h2>Disclaimer of warranties and limitation of liability</h2><p>The Site is provided "as is" without warranties of any kind. To the fullest extent permitted by law, we are not liable for any indirect, incidental or consequential damages arising from your use of the Site.</p>
 <h2>Governing law</h2><p>These Terms are governed by the laws of the State of Florida, without regard to conflict-of-law rules. Any dispute shall be brought in the state or federal courts located in Florida, and you consent to their jurisdiction.</p>

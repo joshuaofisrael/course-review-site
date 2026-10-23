@@ -1,4 +1,5 @@
 Affiliate Disclosure
 <h1>Affiliate Disclosure</h1>
-<p>In line with the U.S. Federal Trade Commission's Guides Concerning the Use of Endorsements and Testimonials (16 CFR Part 255), please know: some links on {BRAND} are or may become affiliate links. If you click one and make a purchase, Joshua Israel Ventures LLC may earn a commission at no additional cost to you.</p>
-<p>Commissions never determine our ratings or recommendations. We include platforms whether or not they pay us, and we cite public sources for every factual claim.</p>
+<p>Current status: {BRAND} has no affiliate relationships with any platform we review, has no paid placements, and earns no commission from the links on this site. Links to platforms are plain links to their official pages.</p>
+<p>If that changes, we will say so on this page, label each affiliate link next to the link itself, and mark it with rel="sponsored". If you click such a link and make a purchase, Joshua Israel Ventures LLC may earn a commission at no additional cost to you.</p>
+<p>We include platforms regardless of any commercial relationship, and we cite public sources for factual claims.</p>
