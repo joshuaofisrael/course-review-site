@@ -1,0 +1,20 @@
+From: joshofisrael@yahoo.com
+To: jscclibrary@jamessprunt.edu
+Subject: iTunes U link on your Open Courses page
+
+Hi,
+
+I was looking through the Open Courses page in your OER guide (jamessprunt.libguides.com/OER) and noticed the iTunes U entry now just redirects to Apple's general K-12 education page. Apple retired iTunes U a few years ago, so that link no longer leads to any lectures.
+
+While you're there, one other change: in August 2025 Coursera replaced free auditing with a free preview of the first module of most courses, so the "for free" description may surprise some students.
+
+If it's useful, I keep a plain English guide to what is actually free on Khan Academy, Alison, edX, Duolingo and Coursera, with every fact linked to the platform's own help pages and dated:
+https://coursegauge.com/compare/best-free-online-course-platforms.html
+
+You're welcome to add it if it helps your students. Either way, thanks for maintaining the guide.
+
+Best,
+Joshua Israel
+Joshua Israel Ventures LLC (CourseGauge)
+5640 W Maple Rd, Ste 101, West Bloomfield, MI 48322
+If you'd rather not hear from me, just reply "no thanks" and I won't follow up.

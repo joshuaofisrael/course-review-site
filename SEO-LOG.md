@@ -85,3 +85,8 @@
 **Next:** FAQs on the next comparison tier (MasterClass vs Skillshare, Coursera vs edX, best coding platforms, best language apps); re-check remaining "see official pricing" cells row by row when time allows; GSC/Bing/Cloudflare review and a PageSpeed spot check at the next free browser slot (after the 22 Oct reset).
 
 **Deploy:** pushed 071df02; live tracker shows the Recent updates section and per-row dates, CSV (new Notes column) returns 200. IndexNow returned **200**.
+
+## 2026-10-23: photos and design polish (Joshua's global image rules)
+- Generated 12 hyper-realistic, object/scene-only photos (hero-home x2 takes, 6 hub images, 4 category images); no people, no readable text, no logos. Originals in assets/originals/, WebP (1280 hero, 1024 hub, 800 article, 480 card) plus 1200x630 JPG og images in images/.
+- build.py: home hero with overlay, hub banners (reviews, comparisons, tracker, quiz, calculator, news), mid-article photo on all 20 reviews, 15 comparisons and the news post, card thumbnails on home/reviews/comparisons, per-page og:image/twitter:image and primaryImageOfPage. Descriptive alt text, width/height set, hero eager with fetchpriority, all others lazy; no JS added. Light CSS polish (card shadows/hover, rounded images, heading accents, header gradient).
+- audit.py: 0 issues, footer Contact link present on all pages.
