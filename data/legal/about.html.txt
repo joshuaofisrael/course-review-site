@@ -1,6 +1,6 @@
 About
 <h1>About {BRAND}</h1>
-<p>{BRAND} helps you choose an online course platform with plain-English, sourced comparisons. {BRAND} is owned and operated by Joshua Israel Ventures LLC.</p>
+<p>{BRAND} helps you choose an online course platform with plain-English, sourced comparisons.</p>
 <h2>How we review</h2><p>We read each platform's own pricing pages, help centres and policies, cite them on every review, and date-stamp our checks. We don't copy other review sites; our writing and analysis are our own.</p>
 <h2>Our method in practice</h2><ul><li><strong>Official sources first.</strong> Every price, trial length and refund term in our <a href="reviews/">platform reviews</a> and <a href="compare/">comparisons</a> links to the page it came from. If we cannot confirm a figure on an official page, we say "see official pricing" rather than guess.</li>
 <li><strong>Re-checked, not set and forgotten.</strong> A script re-fetches each source and flags changed prices or trial lengths, which we then verify by hand before updating the <a href="pricing-tracker/">price and free-trial tracker</a>.</li>

@@ -25,7 +25,7 @@ PAGES=[]
 LASTMOD={}  # url -> real last substantive change date (only set when a page truly changes)
 import re as _re, html as _H
 ORG_ID=f"{BASE}/#org"; SITE_ID=f"{BASE}/#website"; OG_IMG=f"{BASE}/og-image.png"
-ORG={"@type":"Organization","@id":ORG_ID,"name":"Joshua Israel Ventures LLC","url":f"{BASE}/","logo":{"@type":"ImageObject","url":f"{BASE}/logo.svg"},
+ORG={"@type":"Organization","@id":ORG_ID,"name":BRAND,"url":f"{BASE}/","logo":{"@type":"ImageObject","url":f"{BASE}/logo.svg"},
      "brand":{"@type":"Brand","name":BRAND},"address":{"@type":"PostalAddress","streetAddress":"5640 W Maple Rd, Ste 101","addressLocality":"West Bloomfield","addressRegion":"MI","postalCode":"48322","addressCountry":"US"}}
 # No on-site search exists, so WebSite carries no SearchAction (it would be false markup).
 SITE={"@type":"WebSite","@id":SITE_ID,"name":BRAND,"url":f"{BASE}/","inLanguage":"en","publisher":{"@id":ORG_ID},"description":"Independent, sourced reviews, comparisons and price tools for online course platforms."}
@@ -70,6 +70,10 @@ def inject_img(body,path,r):
     return body[:m.end()]+f+body[m.end():] if m else body
 PAGEINFO=[]  # (url, title, desc) for llms.txt
 def _clean(h): return _re.sub(r"\s+"," ",_H.unescape(_re.sub(r"<[^>]+>","",h))).strip()
+def _legal_foot(path):
+    if os.path.basename(path) in ("terms.html","privacy.html","disclaimer.html","disclosure.html","contact.html"):
+        return f"<p>© {Y} Joshua Israel Ventures LLC. All rights reserved. {BRAND} is owned and operated by Joshua Israel Ventures LLC, governed by the laws of the State of Florida.</p>\n<p>Joshua Israel Ventures LLC, {ADDR}</p>"
+    return f"<p>© {Y} {BRAND}. All rights reserved.</p>\n<p>{ADDR}</p>"
 def page(path,title,desc,body,schema=None,crumbs=None,ogtype="website",faq=None,modified=None):
     """crumbs: [(name, root-relative href or None for the current page), ...] after Home.
     faq: [(question, answer_html), ...] rendered visibly AND as FAQPage JSON-LD (only real, visible Q&A)."""
@@ -109,8 +113,7 @@ def page(path,title,desc,body,schema=None,crumbs=None,ogtype="website",faq=None,
 <main class="wrap">{crumb_html}
 <p class="disc"><strong>Disclosure:</strong> {BRAND} currently has no affiliate relationships with the platforms we review and earns no commission from links on this page. If that changes, affiliate links will be labelled next to the link and on our disclosure page. <a href="{r}disclosure.html">Full disclosure</a>.</p>
 {body}</main>
-<footer><div class="wrap"><p>© {Y} Joshua Israel Ventures LLC. All rights reserved. {BRAND} is owned and operated by Joshua Israel Ventures LLC.</p>
-<p>Joshua Israel Ventures LLC, {ADDR}</p>
+<footer><div class="wrap">{_legal_foot(path)}
 <p><a href="{r}terms.html">Terms</a> · <a href="{r}privacy.html">Privacy</a> · <a href="{r}disclaimer.html">Disclaimer</a> · <a href="{r}disclosure.html">Affiliate Disclosure</a> · <a href="{r}about.html">About</a> · <a href="{r}contact.html">Contact</a></p>
 <p>Platform names and trademarks belong to their respective owners and are used only to identify the services reviewed. {BRAND} is not affiliated with or endorsed by them.</p></div></footer>{BEACON}</body></html>"""
     # Internal links always point at the canonical directory URL, never .../index.html
@@ -156,16 +159,16 @@ cc=''.join(f'<div class="card t">{thumb(catof(c["p"]))}<div class="cb"><h3><a hr
 page("compare/index.html","Course Platform Comparisons","Side-by-side comparisons of online course platforms: Coursera vs Udemy, MasterClass vs Skillshare, best free and certificate platforms and more.",f"<h1>Comparisons</h1><p>Head-to-head tables and best-of guides built from the same sourced facts as our <a href='../reviews/'>platform reviews</a>. For the raw numbers, use the <a href='../pricing-tracker/'>price and free-trial tracker</a> or the <a href='../subscription-calculator/'>monthly vs annual calculator</a>.</p><div class='cards'>{cc.replace('@@/','../')}</div>",crumbs=[("Comparisons",None)])
 for f in sorted(os.listdir("data/legal")):
     t,body=open("data/legal/"+f).read().split("\n",1)
-    LD={"about":f"About {BRAND}: who runs it (Joshua Israel Ventures LLC), how we research course platforms, cite official sources and date-check every price.",
-        "contact":f"Contact {BRAND} and Joshua Israel Ventures LLC with questions, corrections or outdated prices on our online course reviews.",
+    LD={"about":f"About {BRAND}: how we research course platforms, cite official sources and date-check every price.",
+        "contact":f"Contact {BRAND} with questions, corrections or outdated prices on our online course reviews.",
         "disclaimer":f"Disclaimer for {BRAND}: our online course reviews are general information; prices and terms change, so confirm with each provider.",
         "disclosure":f"Disclosure for {BRAND}: we currently have no affiliate relationships or paid placements, and how we will label affiliate links if that changes.",
         "privacy":f"Privacy policy for {BRAND}: what data we collect (very little), our cookie-free analytics, and your choices.",
-        "terms":f"Terms of use for {BRAND}, the online course review site operated by Joshua Israel Ventures LLC.",
-        "thanks":f"Thanks for contacting {BRAND}. Your message reached Joshua Israel Ventures LLC; meanwhile, try our price tracker or platform quiz."}
+        "terms":f"Terms of use for {BRAND}, the online course review site.",
+        "thanks":f"Thanks for contacting {BRAND}. Your message reached our team; meanwhile, try our price tracker or platform quiz."}
     START='<p><strong>Start here:</strong> <a href="reviews/">platform reviews</a> · <a href="compare/">comparisons</a> · <a href="pricing-tracker/">price and free-trial tracker</a> · <a href="subscription-calculator/">monthly vs annual calculator</a> · <a href="quiz/">platform quiz</a> · <a href="news/">news</a></p>'
     slug=f.replace(".html.txt","")
-    page(slug+".html",t,LD.get(slug,f"{t} for {BRAND}, operated by Joshua Israel Ventures LLC."),crumbs=[(t,None)],body=(body+START).replace("{ANALYTICS}",("We use Cloudflare Web Analytics, a cookie-free, privacy-first service that counts page views without tracking individuals." if CF_BEACON_TOKEN else "If we add analytics in future, we will update this policy before doing so.")).replace("{BRAND}",BRAND).replace("{ADDR}",ADDR))
+    page(slug+".html",t,LD.get(slug,f"{t} for {BRAND}."),crumbs=[(t,None)],body=(body+START).replace("{ANALYTICS}",("We use Cloudflare Web Analytics, a cookie-free, privacy-first service that counts page views without tracking individuals." if CF_BEACON_TOKEN else "If we add analytics in future, we will update this policy before doing so.")).replace("{BRAND}",BRAND).replace("{ADDR}",ADDR))
 exec(open("extras.py").read())
 exec(open("calc.py").read())
 exec(open("news.py").read())
@@ -181,7 +184,7 @@ def _llms():
     def item(u,label=None,extra=""):
         t,d=I[u]; return f"- [{label or t}]({u}): {d}{extra}"
     sec=lambda pre:[u for u,_,_ in PAGEINFO if u.startswith(f"{BASE}/{pre}") and not u.endswith("/")]
-    L=[f"# {BRAND}","",f"> {BRAND} publishes independent, sourced reviews, comparisons and free price tools for online course and learning platforms (Coursera, Udemy, MasterClass, Skillshare, edX, Codecademy, DataCamp, Duolingo and more). It is owned and operated by Joshua Israel Ventures LLC, {ADDR}, USA.","",
+    L=[f"# {BRAND}","",f"> {BRAND} publishes independent, sourced reviews, comparisons and free price tools for online course and learning platforms (Coursera, Udemy, MasterClass, Skillshare, edX, Codecademy, DataCamp, Duolingo and more). Legal operator details are on its Terms and Privacy pages.","",
        "Every price, free-trial length and refund term links to the platform's own official page and carries a check date. Figures we could not confirm are shown as \"see official pricing\" rather than estimated. Prices are US list prices unless stated. Our data tables are free to reuse with a link (CC BY 4.0). We have no paid placements and currently no affiliate relationships; if that changes, affiliate links will be labelled next to the link.","",
        "## Recent fact updates (checked against official sources)",
        f"- October 19, 2026: Coursera completed its combination with Udemy on May 11, 2026; Udemy is a wholly owned Coursera subsidiary, but the platforms, accounts and subscriptions still run separately. See {BASE}/compare/coursera-vs-udemy.html",

@@ -120,7 +120,10 @@ def main():
         if rel.startswith(("reviews/", "compare/", "news/")) and not rel.endswith("index.html") and "BreadcrumbList" not in types:
             bad("JSON-LD missing BreadcrumbList")
         if p.imgs_noalt: bad("images without alt", str(p.imgs_noalt))
-        if ADDR not in raw or "Joshua Israel Ventures LLC" not in raw: bad("LLC footer/address missing")
+        LEGAL = ("terms.html","privacy.html","disclaimer.html","disclosure.html","contact.html")
+        if ADDR not in raw: bad("footer address missing")
+        if rel in LEGAL and "Joshua Israel Ventures LLC" not in raw: bad("LLC name missing on legal page")
+        if rel not in LEGAL and ("Joshua" in raw or "Israel Ventures" in raw): bad("owner name outside legal pages")
         if "Farmington" in raw or "Horton" in raw: bad("FORBIDDEN home address present")
         if "static.cloudflareinsights.com/beacon.min.js" not in raw: bad("Cloudflare beacon missing")
         ctx_targets = set(); any_targets = set()

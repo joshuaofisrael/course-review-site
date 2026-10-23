@@ -1,6 +1,6 @@
 # CourseGauge
 
-> CourseGauge publishes independent, sourced reviews, comparisons and free price tools for online course and learning platforms (Coursera, Udemy, MasterClass, Skillshare, edX, Codecademy, DataCamp, Duolingo and more). It is owned and operated by Joshua Israel Ventures LLC, 5640 W Maple Rd, Ste 101, West Bloomfield, MI 48322, USA.
+> CourseGauge publishes independent, sourced reviews, comparisons and free price tools for online course and learning platforms (Coursera, Udemy, MasterClass, Skillshare, edX, Codecademy, DataCamp, Duolingo and more). Legal operator details are on its Terms and Privacy pages.
 
 Every price, free-trial length and refund term links to the platform's own official page and carries a check date. Figures we could not confirm are shown as "see official pricing" rather than estimated. Prices are US list prices unless stated. Our data tables are free to reuse with a link (CC BY 4.0). We have no paid placements and currently no affiliate relationships; if that changes, affiliate links will be labelled next to the link.
 
@@ -60,11 +60,11 @@ Every price, free-trial length and refund term links to the platform's own offic
 - [Alison adds free in-browser Python coding labs](https://coursegauge.com/news/alison-free-interactive-python-coding-labs.html): Alison launched Interactive Coding Labs on Oct 15, 2026: free Python courses where you write and run code in your browser. What's included and how it compares. (published October 16, 2026)
 
 ## About and policies
-- [About CourseGauge and our method](https://coursegauge.com/about.html): About CourseGauge: who runs it (Joshua Israel Ventures LLC), how we research course platforms, cite official sources and date-check every price.
-- [Contact](https://coursegauge.com/contact.html): Contact CourseGauge and Joshua Israel Ventures LLC with questions, corrections or outdated prices on our online course reviews.
+- [About CourseGauge and our method](https://coursegauge.com/about.html): About CourseGauge: how we research course platforms, cite official sources and date-check every price.
+- [Contact](https://coursegauge.com/contact.html): Contact CourseGauge with questions, corrections or outdated prices on our online course reviews.
 - [Affiliate Disclosure](https://coursegauge.com/disclosure.html): Disclosure for CourseGauge: we currently have no affiliate relationships or paid placements, and how we will label affiliate links if that changes.
 - [Privacy Policy](https://coursegauge.com/privacy.html): Privacy policy for CourseGauge: what data we collect (very little), our cookie-free analytics, and your choices.
-- [Terms of Use](https://coursegauge.com/terms.html): Terms of use for CourseGauge, the online course review site operated by Joshua Israel Ventures LLC.
+- [Terms of Use](https://coursegauge.com/terms.html): Terms of use for CourseGauge, the online course review site.
 - [Disclaimer](https://coursegauge.com/disclaimer.html): Disclaimer for CourseGauge: our online course reviews are general information; prices and terms change, so confirm with each provider.
 
 ## Optional
