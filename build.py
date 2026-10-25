@@ -72,8 +72,8 @@ PAGEINFO=[]  # (url, title, desc) for llms.txt
 def _clean(h): return _re.sub(r"\s+"," ",_H.unescape(_re.sub(r"<[^>]+>","",h))).strip()
 def _legal_foot(path):
     if os.path.basename(path) in ("terms.html","privacy.html","disclaimer.html","disclosure.html","contact.html"):
-        return f"<p>© {Y} Joshua Israel Ventures LLC. All rights reserved. {BRAND} is owned and operated by Joshua Israel Ventures LLC, governed by the laws of the State of Florida.</p>\n<p>Joshua Israel Ventures LLC, {ADDR}</p>"
-    return f"<p>© {Y} {BRAND}. All rights reserved.</p>\n<p>{ADDR}</p>"
+        return f"<p>© {Y} Joshua Israel Ventures LLC. All rights reserved. {BRAND} is a trade name of Joshua Israel Ventures LLC, a Florida limited liability company.</p>\n<p>Joshua Israel Ventures LLC, {ADDR}</p>"
+    return f"<p>{ADDR}</p>"
 def page(path,title,desc,body,schema=None,crumbs=None,ogtype="website",faq=None,modified=None):
     """crumbs: [(name, root-relative href or None for the current page), ...] after Home.
     faq: [(question, answer_html), ...] rendered visibly AND as FAQPage JSON-LD (only real, visible Q&A)."""
