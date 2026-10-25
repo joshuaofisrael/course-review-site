@@ -96,3 +96,16 @@
 - Fixed: disclosure wording said links "may be affiliate links / may earn commission" though no affiliate relationship exists; now states none currently (banner on every page, disclosure, about, terms, privacy, llms.txt); removed rel=sponsored from plain platform links; added missing images/hub-news-md.webp (news article image 404). Commit 860b306, Pages built.
 - Not changed: Review JSON-LD has no datePublished (only "last updated" known); thanks.html is in sitemap (left indexable per rule); contact form untouched, no test submitted.
 - 2026-10-24: Owner/LLC name moved to legal pages only (terms, privacy, disclaimer, disclosure, contact); JSON-LD publisher/creator now CourseGauge; footer keeps address only; llms.txt cleaned.
+
+## 2026-10-25 (daily SEO routine)
+**Data reviewed:** no browser slot used, so no GSC/Bing/Cloudflare numbers today. Audit before: 0 issues on 50 pages. `update_prices.py`: no verified price changes (most sources 403 or served GBP; Babbel's "change" is a parsing blank, not a price change).
+
+**Highest-value action: FAQs on the next comparison tier.** Added visible 5-question FAQs with FAQPage JSON-LD to MasterClass vs Skillshare (price, monthly billing, trials, certificates, refunds) and Coursera vs edX (free options, price, certificates, trials, university courses). Every answer uses only facts already verified and cited on the review pages and pricing tracker (Oct 15–20 checks). Page "last updated" notes and sitemap lastmod moved to 2026-10-25. FAQPage now on 8 pages.
+
+**News post:** "edX takes 15% off certificates until November 4" (`news/edx-fall-2026-discount-verified-certificates.html`), from edX's official promo page (re-read today): code FALL2026, 15% off select verified courses, Professional Certificates, MicroBachelors and MicroMasters, ends Nov 4, 2026 11:59 p.m. ET, excludes degrees, not combinable. States we have no affiliate relationship with edX and haven't tested the code. Contextual links added from the Coursera vs edX FAQ and the edX review "take". Rejected: Coursera's Oct 6 Madrid forum programs (older than the window), Udemy India price rise (third-party read, regional), Udemy Help Center relaunch (minor).
+
+**TODO after Nov 4, 2026:** remove the dated FALL2026 sentence from `data/reviews.json` (edx take) and the Coursera vs edX price FAQ in `data/compare.json`.
+
+**Audit after:** 0 issues across 51 pages (`reports/audit-2026-10-25.txt`); all pages index,follow with the address and Cloudflare beacon.
+
+**Next:** FAQs for best coding platforms and best language apps; GSC/Bing/Cloudflare review and PageSpeed spot check at the next free browser slot.

@@ -57,6 +57,7 @@ Every price, free-trial length and refund term links to the platform's own offic
 
 ## News
 - [News index](https://coursegauge.com/news/): Short, sourced news on online course platforms: launches, price changes and what they mean for learners.
+- [edX takes 15% off certificates until November 4](https://coursegauge.com/news/edx-fall-2026-discount-verified-certificates.html): edX's FALL2026 code takes 15% off select verified courses and certificate programs until Nov 4, 2026. What's covered, the fine print, and how to use it. (published October 25, 2026)
 - [Alison adds free in-browser Python coding labs](https://coursegauge.com/news/alison-free-interactive-python-coding-labs.html): Alison launched Interactive Coding Labs on Oct 15, 2026: free Python courses where you write and run code in your browser. What's included and how it compares. (published October 16, 2026)
 
 ## About and policies

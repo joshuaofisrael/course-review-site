@@ -1,5 +1,21 @@
 # News posts: at most one a day, only real relevant news, own words, cited. Newest first.
 NEWS=[
+{"slug":"edx-fall-2026-discount-verified-certificates","date":"2026-10-25","nice":"October 25, 2026",
+ "title":"edX takes 15% off certificates until November 4",
+ "desc":"edX's FALL2026 code takes 15% off select verified courses and certificate programs until Nov 4, 2026. What's covered, the fine print, and how to use it.",
+ "body":"""<p>edX is running a fall promotion that takes 15% off select paid offerings until November 4, 2026. According to edX's promotion page, the discount covers select verified courses, Professional Certificates, MicroBachelors programs and MicroMasters programs, and you apply it by entering the code <strong>FALL2026</strong> at checkout on edX.org. The offer ends at 11:59 p.m. US Eastern Time on November 4.</p>
+<h2>The fine print</h2>
+<p>edX's terms say the discount does not apply to degree programs, cannot be combined with any other discount code or offer, and can be changed or cancelled by edX at any time. It applies to <em>select</em> courses and programs, so check that the price drops at checkout before you rely on it. We have not tested the code ourselves.</p>
+<h2>How to get the most from it</h2>
+<p>The discount only matters if you were going to pay. Most edX courses can still be audited for free, with temporary access to the course materials but no graded assignments or certificate. A sensible approach is to audit the first part of a course, decide whether you actually want the verified certificate, and only then upgrade with the code before November 4 (and before that course's own upgrade deadline). If you are weighing edX against a subscription, our <a href="../compare/coursera-vs-edx.html">Coursera vs edX comparison</a> covers how per-course pricing compares with Coursera Plus.</p>
+<p>This is a time-limited offer from edX itself; CourseGauge has no affiliate relationship with edX and earns nothing if you use the code.</p>
+<h2>Where to go next</h2>
+<ul><li><a href="../reviews/edx.html">edX review</a>: how the free audit track and verified certificates work</li>
+<li><a href="../compare/coursera-vs-edx.html">Coursera vs edX</a></li>
+<li><a href="../compare/best-online-course-platforms-for-certificates.html">Best online course platforms for certificates</a></li>
+<li><a href="../compare/best-free-online-course-platforms.html">Best free online course platforms</a></li></ul>""",
+ "sources":[("edX: Your Fall reset has arrived (FALL2026 promotion and terms)","https://www.edx.org/courses-and-programs-promo"),
+  ("edX Help: Audit vs verified courses","https://support.edx.org/hc/en-us/articles/360013426573-What-are-the-differences-between-audit-free-and-verified-paid-courses")]},
 {"slug":"alison-free-interactive-python-coding-labs","date":"2026-10-16","nice":"October 16, 2026",
  "title":"Alison adds free in-browser Python coding labs",
  "desc":"Alison launched Interactive Coding Labs on Oct 15, 2026: free Python courses where you write and run code in your browser. What's included and how it compares.",
