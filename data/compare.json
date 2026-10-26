@@ -437,7 +437,7 @@
  },
  "best-language-learning-apps": {
   "title": "Best Language Learning Apps",
-  "desc": "Start with Duolingo free; move to Babbel for structure or Rosetta Stone for immersion.",
+  "desc": "Duolingo, Babbel and Rosetta Stone compared: what is free, subscription and lifetime prices, trials, certificates and which app suits each kind of learner.",
   "p": [
    "duolingo",
    "babbel",
@@ -449,11 +449,38 @@
    "Format"
   ],
   "answer": "Start with Duolingo free; move to Babbel for structure or Rosetta Stone for immersion.",
-  "sections": []
+  "sections": [],
+  "updated": {
+   "date": "2026-10-26",
+   "nice": "October 26, 2026",
+   "note": "added a 5-question FAQ on free use, prices, lifetime plans, certificates and which app to start with."
+  },
+  "faq": [
+   [
+    "Is Duolingo really free?",
+    "Yes. Duolingo says it offers the same lesson content to every learner, so you can work through full courses free, with ads and some limits. Super Duolingo removes ads and adds unlimited hearts, personalised practice and unlimited attempts at Legendary challenges, with a 1-week free trial. See our <a href=\"../reviews/duolingo.html\">Duolingo review</a>."
+   ],
+   [
+    "How much do Babbel and Rosetta Stone cost?",
+    "At our last check, Babbel charged $17.95 for 1 month, $45.75 for 3 months, $80.70 for 6 months or $107.40 for 12 months, with a $299.99 lifetime option. Rosetta Stone charged $19.99 a month billed monthly or $159 a year. Prices change often, so the <a href=\"../pricing-tracker/index.html\">price and free-trial tracker</a> lists the date each figure was checked."
+   ],
+   [
+    "Is a lifetime language app plan worth it?",
+    "Only if you are sure you will keep using the same app for years. Babbel's lifetime plan costs about the same as 2.8 years of its 12-month plan at the prices above. Rosetta Stone's lifetime access lasts while the product and services remain available and supported, so read its terms first. Our <a href=\"../subscription-calculator/index.html\">monthly vs annual calculator</a> helps with the shorter plans."
+   ],
+   [
+    "Do language learning apps give certificates?",
+    "Duolingo, Babbel and Rosetta Stone do not give accredited certificates for their courses. The Duolingo English Test is a separate, paid product. If you need a certificate, see our <a href=\"best-online-course-platforms-for-certificates.html\">best platforms for certificates</a>."
+   ],
+   [
+    "Which language app should a beginner start with?",
+    "Start with Duolingo's free tier to build a daily habit. Move to Babbel if you want structured lessons built around practical conversation and grammar, or Rosetta Stone if you prefer immersion and want access to many languages. Our <a href=\"babbel-vs-duolingo.html\">Babbel vs Duolingo comparison</a> goes into more detail."
+   ]
+  ]
  },
  "best-platforms-to-learn-coding-and-tech": {
   "title": "Best Platforms to Learn Coding and Tech Skills",
-  "desc": "Codecademy for beginners, DataCamp for data, Pluralsight for IT certifications, Udemy for one-off skills.",
+  "desc": "Codecademy, DataCamp, Pluralsight, Udacity and Udemy compared for learning to code and tech skills: free tiers, trials, prices, certificates and refunds.",
   "p": [
    "codecademy",
    "datacamp",
@@ -467,7 +494,34 @@
    "Certificates"
   ],
   "answer": "Codecademy for beginners, DataCamp for data, Pluralsight for IT certifications, Udemy for one-off skills.",
-  "sections": []
+  "sections": [],
+  "updated": {
+   "date": "2026-10-26",
+   "nice": "October 26, 2026",
+   "note": "added a 5-question FAQ on free options, trials, prices, certificates and refunds."
+  },
+  "faq": [
+   [
+    "Can I learn to code for free?",
+    "You can start free. Codecademy has a free basic tier, and DataCamp's free Basic tier includes the first chapter of every course. Udemy sells single courses with lifetime access, which can be cheaper than a subscription if you only need one skill. For more free options, see our <a href=\"best-free-online-course-platforms.html\">best free online course platforms</a>."
+   ],
+   [
+    "Which coding platforms have a free trial?",
+    "Codecademy gives new accounts a 7-day free trial of Plus or Pro; a card is required and you are charged after day 7. Pluralsight offers a 10-day trial that excludes labs and sandboxes. Udemy's Personal Plan may offer a trial to first-time subscribers. Udacity relies on personalised offers and sales rather than a standard trial."
+   ],
+   [
+    "How much do coding platforms cost?",
+    "At our last checks, Codecademy Pro cost $19.99 a month billed annually or $39.99 billed monthly, DataCamp Premium $35 a month billed monthly, and Pluralsight Core Tech $21 a month billed yearly or $30 billed monthly. Udacity All Access cost $249 a month or $846 for four months upfront, and Udemy's Personal Plan started at $13.00 a month. The <a href=\"../pricing-tracker/index.html\">price tracker</a> shows the check date for each figure."
+   ],
+   [
+    "Do coding platform certificates help you get a job?",
+    "They show you finished a course or path but are not degrees. Codecademy Pro includes certifications and interview prep, DataCamp Premium includes certificates and certifications, Pluralsight includes certification prep, and Udacity gives Nanodegree program certificates. Udemy's certificate of completion is not accredited. Employers usually care more about projects you can show, so build a portfolio alongside any certificate."
+   ],
+   [
+    "Can I get a refund on a coding subscription?",
+    "Usually not. Codecademy and Pluralsight do not refund individual subscriptions, and DataCamp's terms say fees are non-refundable except as stated. Udemy is the exception for single courses: eligible purchases have a 30-day refund policy. Check each <a href=\"../reviews/index.html\">platform review</a> for the details and sources, and compare <a href=\"codecademy-vs-datacamp.html\">Codecademy vs DataCamp</a> if you are choosing between the two."
+   ]
+  ]
  },
  "masterclass-alternatives": {
   "title": "Best MasterClass Alternatives",

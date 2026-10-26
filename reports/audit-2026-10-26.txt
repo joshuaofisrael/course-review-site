@@ -1,0 +1,2 @@
+CourseGauge SEO audit, 2026-10-26 10:53 (box local time)
+Pages audited: 51 | sitemap URLs: 51 | checks failing: 0 | total issues: 0

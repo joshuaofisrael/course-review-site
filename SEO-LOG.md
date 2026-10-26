@@ -109,3 +109,26 @@
 **Audit after:** 0 issues across 51 pages (`reports/audit-2026-10-25.txt`); all pages index,follow with the address and Cloudflare beacon.
 
 **Next:** FAQs for best coding platforms and best language apps; GSC/Bing/Cloudflare review and PageSpeed spot check at the next free browser slot.
+
+## 2026-10-25 addendum (previously unlogged commit)
+- b8a1b3e "Homepage: 154-char meta description, 5-question FAQ with FAQPage schema": homepage meta description rewritten (20 platforms, price/free-trial tracking, comparisons, quiz) and a visible 5-question FAQ with FAQPage JSON-LD (choosing a platform, subscription vs one-off, free trials, certificates, how CourseGauge researches). The homepage sitemap lastmod had stayed at 2026-10-18; corrected to 2026-10-25 on Oct 26 (news.py).
+
+## 2026-10-26 (daily SEO routine)
+**Data reviewed:** no browser slot used (this run has no browser), so no GSC/Bing/Cloudflare numbers and no PageSpeed spot check today. Audit before: 0 issues on 51 pages. Found the two remaining "best of" cluster pages (best language learning apps, best coding/tech platforms) were the thinnest comparisons: a one-line answer reused as the meta description, a table and nothing else, no FAQ.
+
+**Re-checked today on official pages:** Duolingo Help "What is Super Duolingo?" (same lesson content for all users; Super = no ads, unlimited hearts, personalised practice, unlimited Legendary attempts); Codecademy Help "Codecademy Free Trial" (new accounts, 7 days, card required, charged after day 7). All other figures come from the Oct 15–20 checks already cited on the review pages and the pricing tracker, and are labelled "at our last check".
+
+**Highest-value action: FAQs + richer meta on the two remaining "best of" pages.** Why: these are the broadest-intent pages in the language and coding clusters ("best language learning apps", "best way to learn to code") and the only cluster hubs left without People-Also-Ask coverage; the FAQs also add contextual links into the reviews, Babbel vs Duolingo, Codecademy vs DataCamp, best-free and certificates pages, tracker and calculator.
+
+**What changed:**
+- `data/compare.json`: best-language-learning-apps gets a 5-question FAQ (is Duolingo free, Babbel and Rosetta Stone prices, are lifetime plans worth it, certificates, which app for beginners) and a 155-char meta description; best-platforms-to-learn-coding-and-tech gets a 5-question FAQ (learn to code free, trials, prices, do certificates help get a job, refunds) and a 153-char meta description. Both show "Last updated October 26, 2026" with a dated update note; sitemap lastmod 2026-10-26. FAQPage now on 10 comparison/tool pages plus the homepage.
+- `news.py`: homepage sitemap lastmod 2026-10-18 → 2026-10-25 (real change in b8a1b3e).
+- `llms.txt`: regenerated with the two new descriptions.
+
+**News post:** none. Searched Oct 24–26 for Coursera, Udemy, MasterClass, Skillshare, edX, Duolingo. Rejected: Duolingo securities class-action notices from law firms (Oct 25, investor news, not useful to course shoppers), Duolingo Q3 results date (Nov 3, investor), MasterClass "Perform Under Pressure" class (Oct 22, outside window, a single class launch), Coursera/Udemy 30+ programs (Oct 6) and Project Helix (Oct 16–17, enterprise), Duolingo Oct 19 feature post (already rejected).
+
+**Audit after:** 0 issues across 51 pages (`reports/audit-2026-10-26.txt`); both changed pages index,follow with the Maple Rd address and the Cloudflare beacon, no LLC/owner name, JSON-LD parses.
+
+**Reminder:** after Nov 4, 2026 remove the dated FALL2026 sentences (edX review take in `data/reviews.json`, Coursera vs edX price FAQ in `data/compare.json`). Not yet due.
+
+**Next:** FAQs on Babbel vs Duolingo and Codecademy vs DataCamp (the cluster children); GSC/Bing/Cloudflare review and a PageSpeed/CWV spot check at the next free browser slot.

@@ -48,6 +48,6 @@ li="".join(f'<li><a href="{n["slug"]}.html">{n["title"]}</a> <small>({n["nice"]}
 page("news/index.html","Online Learning News","Short, sourced news on online course platforms: launches, price changes and what they mean for learners.",f"<h1>Online learning news</h1><p>Short, sourced updates on course platforms, written in our own words with links to the original announcements. We only post when something genuinely matters to learners.</p><ul>{li}</ul><h2>Evergreen guides</h2><p>News moves fast; these pages are kept up to date: <a href='../pricing-tracker/'>price and free-trial tracker</a> · <a href='../subscription-calculator/'>monthly vs annual calculator</a> · <a href='../reviews/'>platform reviews</a> · <a href='../compare/'>comparisons</a>.</p>",crumbs=[("News",None)])
 LASTMOD[f"{BASE}/news/"]=max(NEWS[0]["date"],"2026-10-18")  # Oct 18: evergreen links added
 LASTMOD[f"{BASE}/reviews/alison.html"]="2026-10-16"
-LASTMOD[f"{BASE}/"]="2026-10-18"  # Oct 18: latest-news block added
+LASTMOD[f"{BASE}/"]="2026-10-25"  # Oct 25: homepage FAQ + meta (b8a1b3e) and latest-news block
 LASTMOD[f"{BASE}/about.html"]="2026-10-18"  # Oct 18: method section expanded
 LASTMOD[f"{BASE}/pricing-tracker/"]=max(["2026-10-18"]+[r[8]["checked"] for r in json.load(open("data/pricing.json")) if len(r)>8])  # Oct 18 FAQ; later = dated row re-checks
