@@ -132,3 +132,5 @@
 **Reminder:** after Nov 4, 2026 remove the dated FALL2026 sentences (edX review take in `data/reviews.json`, Coursera vs edX price FAQ in `data/compare.json`). Not yet due.
 
 **Next:** FAQs on Babbel vs Duolingo and Codecademy vs DataCamp (the cluster children); GSC/Bing/Cloudflare review and a PageSpeed/CWV spot check at the next free browser slot.
+
+**Deploy:** pushed 06be886; GitHub Pages built, both changed pages, the homepage, sitemap.xml and llms.txt return 200 live with the new FAQs/descriptions. IndexNow (5 URLs) returned **200**.
