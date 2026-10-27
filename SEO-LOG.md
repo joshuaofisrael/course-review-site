@@ -134,3 +134,23 @@
 **Next:** FAQs on Babbel vs Duolingo and Codecademy vs DataCamp (the cluster children); GSC/Bing/Cloudflare review and a PageSpeed/CWV spot check at the next free browser slot.
 
 **Deploy:** pushed 06be886; GitHub Pages built, both changed pages, the homepage, sitemap.xml and llms.txt return 200 live with the new FAQs/descriptions. IndexNow (5 URLs) returned **200**.
+
+## 2026-10-27 (daily SEO routine)
+**Data reviewed:** no browser slot (this run has no browser), so no GSC/Bing/Cloudflare numbers and no PageSpeed spot check. Audit before: 0 issues on 51 pages. Babbel vs Duolingo and Codecademy vs DataCamp were the thinnest pages in the language and coding clusters: the meta description just repeated the one-line answer, there was a table and nothing else, no FAQ and no "last updated" note. `update_prices.py` was not re-run. Re-check attempts today: DataCamp pricing returned 403 and Babbel's prices page is JS-rendered (no prices in the HTML), so every figure comes from the Oct 15–26 checks already cited on the reviews and tracker and is labelled "at our last check(s)".
+
+**Highest-value action: FAQs + richer meta on the two cluster child comparisons.** Why: these are the head-to-head queries under the two "best of" hubs upgraded yesterday ("babbel vs duolingo", "codecademy vs datacamp"). They answer People-Also-Ask questions (free use, price, refunds, trials, certificates) and add contextual links back to the hubs, reviews, tracker, calculator, best-free and certificates pages, which completes the cluster.
+
+**What changed (`data/compare.json`, rebuilt):**
+- babbel-vs-duolingo: 160-char meta description; visible 5-question FAQ with FAQPage JSON-LD (is either free, Babbel price, grammar vs habit-building, refunds, certificates). The refund answer says plainly that we haven't yet verified Babbel's refund terms on an official page. "Last updated October 27, 2026" note; sitemap lastmod 2026-10-27.
+- codecademy-vs-datacamp: 155-char meta description; 5-question FAQ with FAQPage JSON-LD (which to choose, free tiers, Plus/Pro/Premium prices, trials and student plans, refunds and pausing). The DataCamp annual special price is dated to the Oct 15 check. Last-updated note and sitemap lastmod 2026-10-27.
+- `llms.txt` regenerated with the two new descriptions. No other page's lastmod changed. FAQPage now on 12 comparison/tool pages plus the homepage.
+
+**News post:** no relevant news. Searched Oct 25–27. Rejected: Coursera's new CMO, Amy Weisenbach (announced Oct 26, starts Nov 30; a corporate hire with no change for learners), Duolingo's Apple-store mascot stunt and Mixue Vietnam promo (marketing), Codecademy AI Builder (a re-post seen Oct 26, but Codecademy's blog dates the launch to Feb 3, 2026), Anthropic's 10 new free Coursera courses (added Oct 13, outside the window), MasterClass "Perform Under Pressure" (Oct 22, already rejected), DataCamp/GEMS partnership (Oct 6, school-only).
+
+**Audit after:** 0 issues across 51 pages (`reports/audit-2026-10-27.txt`). Both changed pages are index,follow, carry the Maple Rd address and the Cloudflare beacon, show no LLC or owner name, and their JSON-LD parses (Organization, WebSite, WebPage, BreadcrumbList, FAQPage with 5 questions).
+
+**Deploy:** pushed 22541bd. Both pages, sitemap.xml and llms.txt return 200 live with the new content. IndexNow (4 URLs: the 2 pages, sitemap, llms.txt) returned **200**.
+
+**Reminder:** after Nov 4, 2026, remove the dated FALL2026 sentences (edX review take in `data/reviews.json`, Coursera vs edX price FAQ in `data/compare.json`). Not yet due.
+
+**Next:** FAQs + meta on the remaining FAQ-less comparisons (Pluralsight vs LinkedIn Learning, FutureLearn vs Coursera, then Udacity vs Coursera, Skillshare vs Domestika, MasterClass alternatives); verify Babbel's refund/withdrawal terms on an official page when one is reachable; GSC/Bing/Cloudflare review and a PageSpeed/CWV spot check at the next free browser slot.
