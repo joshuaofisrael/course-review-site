@@ -20,8 +20,8 @@ Every price, free-trial length and refund term links to the platform's own offic
 - [MasterClass vs Skillshare](https://coursegauge.com/compare/masterclass-vs-skillshare.html): MasterClass vs Skillshare compared: price, billing, trials and who each suits.
 - [Coursera vs Udemy](https://coursegauge.com/compare/coursera-vs-udemy.html): Coursera vs Udemy compared: certificates, subscription vs one-off course pricing, free trials, refunds and which to choose.
 - [Coursera vs edX](https://coursegauge.com/compare/coursera-vs-edx.html): Coursera vs edX compared for university courses and certificates: free audit options, Coursera Plus pricing, trials and refunds.
-- [Codecademy vs DataCamp](https://coursegauge.com/compare/codecademy-vs-datacamp.html): Codecademy vs DataCamp compared for learning to code and data skills: prices, free tiers, trials, refunds and which suits you.
-- [Babbel vs Duolingo](https://coursegauge.com/compare/babbel-vs-duolingo.html): Duolingo for a free daily habit; Babbel for structured, conversation-focused lessons.
+- [Codecademy vs DataCamp](https://coursegauge.com/compare/codecademy-vs-datacamp.html): Codecademy vs DataCamp: free tiers, Plus, Pro and Premium prices, trials, student plans, certificates and refunds, plus which suits coding vs data careers.
+- [Babbel vs Duolingo](https://coursegauge.com/compare/babbel-vs-duolingo.html): Babbel vs Duolingo: what Duolingo gives you free, Babbel's subscription and lifetime prices, grammar vs habit-building, refunds, certificates and which to pick.
 - [Pluralsight vs LinkedIn Learning](https://coursegauge.com/compare/pluralsight-vs-linkedin-learning.html): Pluralsight for deep technical skills and labs; LinkedIn Learning for broad business skills bundled with Premium.
 - [Udacity vs Coursera](https://coursegauge.com/compare/udacity-vs-coursera.html): Coursera is far cheaper and offers university certificates; Udacity is a pricier, project-intensive sprint.
 - [FutureLearn vs Coursera](https://coursegauge.com/compare/futurelearn-vs-coursera.html): Coursera has the bigger catalog and certificate range; FutureLearn suits short courses in health, teaching and psychology.

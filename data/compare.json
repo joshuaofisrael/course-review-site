@@ -231,7 +231,7 @@
  },
  "codecademy-vs-datacamp": {
   "title": "Codecademy vs DataCamp",
-  "desc": "Codecademy vs DataCamp compared for learning to code and data skills: prices, free tiers, trials, refunds and which suits you.",
+  "desc": "Codecademy vs DataCamp: free tiers, Plus, Pro and Premium prices, trials, student plans, certificates and refunds, plus which suits coding vs data careers.",
   "p": [
    "codecademy",
    "datacamp"
@@ -242,11 +242,38 @@
    "Student plan"
   ],
   "answer": "Codecademy for general programming and web development; DataCamp for data science, analytics and AI.",
-  "sections": []
+  "sections": [],
+  "updated": {
+   "date": "2026-10-27",
+   "nice": "October 27, 2026",
+   "note": "added a 5-question FAQ on which to choose, free tiers, prices, trials and student plans, and refunds."
+  },
+  "faq": [
+   [
+    "Should I choose Codecademy or DataCamp?",
+    "Choose Codecademy for general programming and web development: it suits complete beginners and career switchers who want guided, hands-on practice in the browser. Choose DataCamp if you want data science, analytics or AI skills such as Python, R and SQL. Both include certificates on paid plans. Our <a href=\"best-platforms-to-learn-coding-and-tech.html\">best platforms to learn coding</a> guide adds Pluralsight, Udacity and Udemy."
+   ],
+   [
+    "Can I use Codecademy or DataCamp for free?",
+    "Yes, to a point. Codecademy has a free basic tier, and DataCamp's free Basic tier includes the first chapter of every course. That is enough to test the teaching style before paying. For more free options, see our <a href=\"best-free-online-course-platforms.html\">best free online course platforms</a>."
+   ],
+   [
+    "How much do Codecademy and DataCamp cost?",
+    "At our last checks, Codecademy Plus cost $14.99 a month billed annually or $29.99 billed monthly, and Pro $19.99 a month billed annually or $39.99 billed monthly. DataCamp Premium cost $35 a month billed monthly, or $14 a month billed annually on a special price (regular $28) when we checked on October 15, 2026. DataCamp runs frequent promotions, so check the <a href=\"../pricing-tracker/index.html\">price tracker</a> and the <a href=\"../subscription-calculator/index.html\">monthly vs annual calculator</a> before you commit."
+   ],
+   [
+    "Do they offer free trials or student discounts?",
+    "Codecademy gives new accounts a 7-day free trial of a paid plan; a card is required and you are charged after day 7. It also has Pro Student pricing for eligible students. DataCamp has a Premium Student plan for eligible college students, which it describes as over 50% off; we have not confirmed a standard DataCamp free trial, so its free Basic tier is the way to try it. Details and sources are in our <a href=\"../reviews/codecademy.html\">Codecademy review</a> and <a href=\"../reviews/datacamp.html\">DataCamp review</a>."
+   ],
+   [
+    "Can I get a refund or pause my subscription?",
+    "Codecademy does not refund subscriptions, though you can ask support about exceptions. DataCamp's terms say fees are non-refundable except as stated, with no prorated refund when you cancel. DataCamp lets monthly subscribers pause, but yearly plans cannot be paused. If you are unsure you will keep going, a monthly plan costs more but limits what you can lose."
+   ]
+  ]
  },
  "babbel-vs-duolingo": {
   "title": "Babbel vs Duolingo",
-  "desc": "Duolingo for a free daily habit; Babbel for structured, conversation-focused lessons.",
+  "desc": "Babbel vs Duolingo: what Duolingo gives you free, Babbel's subscription and lifetime prices, grammar vs habit-building, refunds, certificates and which to pick.",
   "p": [
    "babbel",
    "duolingo"
@@ -258,7 +285,34 @@
    "Certificates"
   ],
   "answer": "Duolingo for a free daily habit; Babbel for structured, conversation-focused lessons.",
-  "sections": []
+  "sections": [],
+  "updated": {
+   "date": "2026-10-27",
+   "nice": "October 27, 2026",
+   "note": "added a 5-question FAQ on free use, prices, grammar vs habit-building, refunds and certificates."
+  },
+  "faq": [
+   [
+    "Is Duolingo free, and is Babbel?",
+    "Duolingo is free: it says every learner gets the same lesson content, with ads and some limits on the free plan. Super Duolingo removes ads and adds unlimited hearts and personalised practice, with a 1-week free trial. Babbel has no free plan; it is sold as subscriptions of several lengths plus a lifetime option. See our <a href=\"../reviews/duolingo.html\">Duolingo review</a> and <a href=\"../reviews/babbel.html\">Babbel review</a>."
+   ],
+   [
+    "How much does Babbel cost?",
+    "At our last check, Babbel charged $17.95 for 1 month, $45.75 for 3 months, $80.70 for 6 months or $107.40 for 12 months (about $8.95 a month), and $299.99 for lifetime access. Super Duolingo prices vary by plan and app store, so check Duolingo's own Super page. The <a href=\"../pricing-tracker/index.html\">price and free-trial tracker</a> shows when each figure was checked, and the <a href=\"../subscription-calculator/index.html\">monthly vs annual calculator</a> shows what a longer plan saves."
+   ],
+   [
+    "Which is better for grammar and real conversation?",
+    "Babbel. Its short lessons are built around practical dialogue and cover grammar alongside it, which suits beginners who want structure. Duolingo is better at building a daily habit through game-style practice, but it is weaker if you need grammar taught explicitly. Many learners start on Duolingo free and move to Babbel when they want more structure; our <a href=\"best-language-learning-apps.html\">best language learning apps</a> guide adds Rosetta Stone to the comparison."
+   ],
+   [
+    "Can I get a refund on Babbel or Duolingo?",
+    "Duolingo's terms say payments are nonrefundable unless the law requires otherwise, and subscriptions bought through the App Store or Google Play are refunded through Apple or Google. We have not yet verified Babbel's refund terms on an official page, so read its terms before buying a long plan or lifetime access. Using Duolingo's free plan or the 1-week Super trial first is the lowest-risk way to test either approach."
+   ],
+   [
+    "Do Babbel or Duolingo give certificates?",
+    "Neither gives an accredited certificate for its language courses. The Duolingo English Test is a separate, paid product, not a certificate for finishing a course. If you need a credential, see our <a href=\"best-online-course-platforms-for-certificates.html\">best platforms for certificates</a>."
+   ]
+  ]
  },
  "pluralsight-vs-linkedin-learning": {
   "title": "Pluralsight vs LinkedIn Learning",
