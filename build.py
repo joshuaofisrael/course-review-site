@@ -2,6 +2,16 @@ import os, json
 BASE="https://coursegauge.com"
 BRAND="CourseGauge"
 CF_BEACON_TOKEN = "73c6bccca4c14c9e95d33f88b6da2b76"
+GA_ID="G-H2V3Q60MXM"
+GA_TEXT=('</p><h3>Google Analytics 4</h3><p>With your consent, we also use Google Analytics 4, a service provided by Google LLC (1600 Amphitheatre Parkway, Mountain View, CA 94043, USA), to understand how visitors use the Site. It collects information such as pages viewed, time on page, referring site, approximate location (derived from IP address; Google Analytics 4 does not log or store full IP addresses), device, browser and operating system, and interactions such as clicks and scrolls. It sets first-party cookies named <code>_ga</code> and <code>_ga_&lt;ID&gt;</code> (expiring after up to 2 years) to distinguish visitors and sessions. Google may process this data in the United States. We do not use it for advertising or to identify you personally.</p>'
+ '<h3>Consent and withdrawal</h3><p>Google Analytics does not load until you click “Accept” in our cookie banner; by default all Google consent signals are set to denied (Google Consent Mode v2). Your choice is stored in your browser\'s local storage. You can change or withdraw consent at any time with the “Cookie settings” link in the footer of every page, and you can delete cookies in your browser settings. You can also opt out of Google Analytics on all sites with Google\'s browser add-on: <a href="https://tools.google.com/dlpage/gaoptout" rel="noopener">tools.google.com/dlpage/gaoptout</a>. See how Google uses data at <a href="https://policies.google.com/technologies/partner-sites" rel="noopener">policies.google.com/technologies/partner-sites</a>.')
+CONSENT=('<div id="cc" role="region" aria-label="Cookie consent" hidden style="position:fixed;left:0;right:0;bottom:0;z-index:99;background:#fff;border-top:2px solid #1b4d3e;padding:12px 18px;box-shadow:0 -2px 8px rgba(0,0,0,.15)"><p style="margin:0 0 8px">We use Google Analytics cookies to understand how the site is used, only if you accept. <a href="/privacy.html">Privacy policy</a>.</p><button type="button" id="cc-a">Accept</button> <button type="button" id="cc-r" style="background:#555">Reject</button></div>'
+ '<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag("consent","default",{ad_storage:"denied",ad_user_data:"denied",ad_personalization:"denied",analytics_storage:"denied"});'
+ '(function(){var K="cg_consent",d=document,b=d.getElementById("cc"),L=0;function load(){if(L)return;L=1;gtag("consent","update",{analytics_storage:"granted"});gtag("js",new Date());gtag("config","'+GA_ID+'");var s=d.createElement("script");s.async=1;s.src="https://www.googletagmanager.com/gtag/js?id='+GA_ID+'";d.head.appendChild(s)}'
+ 'function set(v){try{localStorage.setItem(K,v)}catch(e){}b.hidden=true;if(v=="granted")load();else if(L){gtag("consent","update",{analytics_storage:"denied"});location.reload()}}'
+ 'var v=null;try{v=localStorage.getItem(K)}catch(e){}if(v=="granted")load();else if(v!="denied")b.hidden=false;'
+ 'd.getElementById("cc-a").onclick=function(){set("granted")};d.getElementById("cc-r").onclick=function(){set("denied")};'
+ 'var c=d.getElementById("cc-open");if(c)c.onclick=function(e){e.preventDefault();b.hidden=false;d.getElementById("cc-a").focus()}})();</script>')
 BEACON=(f'<script defer src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon=\'{{"token": "{CF_BEACON_TOKEN}"}}\'></script>' if CF_BEACON_TOKEN else "")
 Y=2026; CHECKED="October 15, 2026"
 ADDR="5640 W Maple Rd, Ste 101, West Bloomfield, MI 48322"
@@ -114,8 +124,8 @@ def page(path,title,desc,body,schema=None,crumbs=None,ogtype="website",faq=None,
 <p class="disc"><strong>Disclosure:</strong> {BRAND} currently has no affiliate relationships with the platforms we review and earns no commission from links on this page. If that changes, affiliate links will be labelled next to the link and on our disclosure page. <a href="{r}disclosure.html">Full disclosure</a>.</p>
 {body}</main>
 <footer><div class="wrap">{_legal_foot(path)}
-<p><a href="{r}terms.html">Terms</a> · <a href="{r}privacy.html">Privacy</a> · <a href="{r}disclaimer.html">Disclaimer</a> · <a href="{r}disclosure.html">Affiliate Disclosure</a> · <a href="{r}about.html">About</a> · <a href="{r}contact.html">Contact</a></p>
-<p>Platform names and trademarks belong to their respective owners and are used only to identify the services reviewed. {BRAND} is not affiliated with or endorsed by them.</p></div></footer>{BEACON}</body></html>"""
+<p><a href="{r}terms.html">Terms</a> · <a href="{r}privacy.html">Privacy</a> · <a href="{r}disclaimer.html">Disclaimer</a> · <a href="{r}disclosure.html">Affiliate Disclosure</a> · <a href="{r}about.html">About</a> · <a href="{r}contact.html">Contact</a> · <a href="#" id="cc-open">Cookie settings</a></p>
+<p>Platform names and trademarks belong to their respective owners and are used only to identify the services reviewed. {BRAND} is not affiliated with or endorsed by them.</p></div></footer>{CONSENT}{BEACON}</body></html>"""
     # Internal links always point at the canonical directory URL, never .../index.html
     html=_re.sub(r"""href=(["'])((?:\.\./)*)((?:[\w-]+/)*)index\.html\1""",lambda m:f'href={m.group(1)}{(m.group(2)+m.group(3)) or "./"}{m.group(1)}',html)
     d=os.path.dirname(path)
@@ -163,12 +173,12 @@ for f in sorted(os.listdir("data/legal")):
         "contact":f"Contact {BRAND} with questions, corrections or outdated prices on our online course reviews.",
         "disclaimer":f"Disclaimer for {BRAND}: our online course reviews are general information; prices and terms change, so confirm with each provider.",
         "disclosure":f"Disclosure for {BRAND}: we currently have no affiliate relationships or paid placements, and how we will label affiliate links if that changes.",
-        "privacy":f"Privacy policy for {BRAND}: what data we collect (very little), our cookie-free analytics, and your choices.",
+        "privacy":f"Privacy policy for {BRAND}: what data we collect (very little), Google Analytics with consent, cookies, and your choices.",
         "terms":f"Terms of use for {BRAND}, the independent online course review site, covering content, links, liability and governing law.",
         "thanks":f"Thanks for contacting {BRAND}. Your message reached our team; meanwhile, try our price tracker or platform quiz."}
     START='<p><strong>Start here:</strong> <a href="reviews/">platform reviews</a> · <a href="compare/">comparisons</a> · <a href="pricing-tracker/">price and free-trial tracker</a> · <a href="subscription-calculator/">monthly vs annual calculator</a> · <a href="quiz/">platform quiz</a> · <a href="news/">news</a></p>'
     slug=f.replace(".html.txt","")
-    page(slug+".html",t,LD.get(slug,f"{t} for {BRAND}."),crumbs=[(t,None)],body=(body+START).replace("{ANALYTICS}",("We use Cloudflare Web Analytics, a cookie-free, privacy-first service that counts page views without tracking individuals." if CF_BEACON_TOKEN else "If we add analytics in future, we will update this policy before doing so.")).replace("{BRAND}",BRAND).replace("{ADDR}",ADDR))
+    page(slug+".html",t,LD.get(slug,f"{t} for {BRAND}."),crumbs=[(t,None)],body=(body+START).replace("{ANALYTICS}",(("We use Cloudflare Web Analytics, a cookie-free, privacy-first service that counts page views without tracking individuals. " if CF_BEACON_TOKEN else "")+GA_TEXT)).replace("{BRAND}",BRAND).replace("{ADDR}",ADDR))
 exec(open("extras.py").read())
 exec(open("calc.py").read())
 exec(open("news.py").read())
