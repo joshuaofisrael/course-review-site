@@ -154,3 +154,25 @@
 **Reminder:** after Nov 4, 2026, remove the dated FALL2026 sentences (edX review take in `data/reviews.json`, Coursera vs edX price FAQ in `data/compare.json`). Not yet due.
 
 **Next:** FAQs + meta on the remaining FAQ-less comparisons (Pluralsight vs LinkedIn Learning, FutureLearn vs Coursera, then Udacity vs Coursera, Skillshare vs Domestika, MasterClass alternatives); verify Babbel's refund/withdrawal terms on an official page when one is reachable; GSC/Bing/Cloudflare review and a PageSpeed/CWV spot check at the next free browser slot.
+
+## 2026-10-28 (daily SEO routine)
+
+**Highest-value action: FAQs + richer meta on the next two FAQ-less comparisons (Pluralsight vs LinkedIn Learning, FutureLearn vs Coursera).** Why: both match head-to-head queries with clear People-Also-Ask demand (can I buy LinkedIn Learning alone, free trials, certificates, refunds). Their meta descriptions just repeated the short answer.
+
+**What changed (rebuilt):**
+- pluralsight-vs-linkedin-learning (`data/compare.json`): 160-char meta; visible 5-question FAQ with FAQPage JSON-LD (which to choose, buying LinkedIn Learning alone, prices, free trials, refunds and certificates). The Pluralsight prices are dated to the Oct 15 check, because the pricing page renders prices with JavaScript and we couldn't reconfirm them on Oct 28. No LinkedIn Premium price is quoted (none on a public official page). Page sources: Pluralsight Help free-trial, renewal/refund and cancellation articles. Last updated Oct 28.
+- futurelearn-vs-coursera: 155-char meta; 5-question FAQ (which is better, studying free, Unlimited vs Plus prices, certificate rules, renewal and refunds). FutureLearn Unlimited $349.99 list / $244.99 at 30% off and Coursera Plus $59/mo re-checked Oct 28; Coursera $399/yr is dated to Oct 15. Page sources: FutureLearn Help Limited Access, Certificates of Achievement and course-types articles. Last updated Oct 28.
+- Pluralsight review and tracker row (`data/reviews.json`, `data/pricing.json`): the free trial now includes a selection of labs, with full labs, sandboxes and offline downloads needing a paid plan, and it converts on day 11. The refund cell says no refunds on individual subscriptions. The 404 Help Center renewal link was replaced with the current article (24357221837588), and the free-trial help source was added. The tracker row has an Oct 28 check note. The coding/tech hub picks up the new trial cell.
+- Sitemap lastmod moved to 2026-10-28 for the 2 comparisons, reviews/pluralsight.html and pricing-tracker/. llms.txt regenerated.
+
+**Legal hold gate (new, same commit):** `scripts/legal_gate.py` (RULE.md rules 1–8), `scripts/pre-push` installed as `.git/hooks/pre-push`, `legal/assets.json` image licence record (33 own assets), and `scripts/legal-gate.workflow.yml` (an Actions template, not active). Tests passed: the hold page exits 3, writes a draft and a test_only queue line, and the pre-push refuses it; the pass page exits 0. Evidence is in `/workspace/content-review/tests/coursegauge-gate-test-2026-10-28.txt`. Live tree: 51 pages, 0 HOLD_REVIEW. No HIGH or moderate items in today's content, and no legal notices or complaints found.
+
+**News post:** none. Nothing relevant to course shoppers in Oct 26–28: Cengage, Intellum, OneOcean, D2L/DeVry and Pocket Prep items are institutional or B2B, and Coursera's Q3 earnings date is investor news.
+
+**Audit after:** 0 issues across 51 pages (`reports/audit-2026-10-28.txt`).
+
+**Deploy:** pushed c7e3885 through the pre-push gate. Both comparisons, the Pluralsight review, the tracker, sitemap.xml and llms.txt return 200 live with the new content. IndexNow (7 URLs) returned **200**.
+
+**Reminder:** after Nov 4, 2026, remove the dated FALL2026 sentences (edX review, Coursera vs edX FAQ).
+
+**Next:** FAQs + meta on Udacity vs Coursera and Skillshare vs Domestika, then MasterClass alternatives; reconfirm Pluralsight prices when the pricing page shows them in a browser; verify Babbel refund terms; GSC/Bing/Cloudflare and PageSpeed review at the next browser slot.
