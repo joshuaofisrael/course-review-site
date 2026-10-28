@@ -561,7 +561,7 @@
    ],
    [
     "Free trial",
-    "10 days (excludes labs and sandboxes)"
+    "10 days on any individual plan; includes a selection of hands-on labs, while offline downloads and full labs and sandboxes need a paid plan; converts to paid on day 11"
    ],
    [
     "Included",
@@ -594,9 +594,18 @@
    ],
    [
     "Pluralsight Help: Individual subscription renewal",
-    "https://help.pluralsight.com/hc/en-us/articles/24357218375588-Individual-subscription-renewal"
+    "https://help.pluralsight.com/hc/en-us/articles/24357221837588-Individual-subscription-renewal"
+   ],
+   [
+    "Pluralsight Help: Free trial for individuals",
+    "https://help.pluralsight.com/hc/en-us/articles/24425968776724-Free-trial-for-individuals"
    ]
-  ]
+  ],
+  "updated": {
+   "date": "2026-10-28",
+   "nice": "October 28, 2026",
+   "note": "free-trial details re-checked (a selection of labs is now included; converts to paid on day 11); refund policy re-checked and its help-center link updated after the old article moved."
+  }
  },
  "udacity": {
   "name": "Udacity",

@@ -316,7 +316,7 @@
  },
  "pluralsight-vs-linkedin-learning": {
   "title": "Pluralsight vs LinkedIn Learning",
-  "desc": "Pluralsight for deep technical skills and labs; LinkedIn Learning for broad business skills bundled with Premium.",
+  "desc": "Pluralsight vs LinkedIn Learning: who each suits, whether you can buy LinkedIn Learning alone, plan prices, free trials, refunds and certificates, with sources.",
   "p": [
    "pluralsight",
    "linkedin-learning"
@@ -327,7 +327,48 @@
    "Certificates"
   ],
   "answer": "Pluralsight for deep technical skills and labs; LinkedIn Learning for broad business skills bundled with Premium.",
-  "sections": []
+  "sections": [],
+  "updated": {
+   "date": "2026-10-28",
+   "nice": "October 28, 2026",
+   "note": "added a 5-question FAQ on which to choose, buying LinkedIn Learning on its own, prices, free trials and refunds; trial and refund terms re-checked on official pages today."
+  },
+  "faq": [
+   [
+    "Should I choose Pluralsight or LinkedIn Learning?",
+    "Choose Pluralsight if you work in tech or want to: it focuses on software development, IT operations, cloud, data, AI and security, with Skill IQ assessments, learning paths, certification prep and hands-on labs, plus cloud and AI sandboxes on the Cloud+, AI+ and Complete plans. Choose LinkedIn Learning for broader business and software skills, especially if you would also use LinkedIn Premium or can get access through your employer or school. Our <a href=\"best-platforms-to-learn-coding-and-tech.html\">best platforms to learn coding and tech</a> guide compares more options."
+   ],
+   [
+    "Can I buy LinkedIn Learning on its own?",
+    "No. LinkedIn's help center says it does not sell individual LinkedIn Learning subscriptions or single courses. Individuals get it through LinkedIn Premium, and organisations such as businesses, universities and government agencies can buy it for their people. If your employer or school already has a licence, you may not need to pay at all, so check that first. Pluralsight, by contrast, sells individual plans directly."
+   ],
+   [
+    "How much do Pluralsight and LinkedIn Learning cost?",
+    "At our October 15, 2026 check, Pluralsight cost $21 a month for Core Tech, $24.50 a month for AI+, Cloud+, Data+ or Security+, and $39 a month for Complete, all billed yearly, or $30 (Core Tech) and $55 (Complete) billed monthly. Pluralsight's pricing page loads its prices with JavaScript and we could not reconfirm them on October 28, so check before you buy. For LinkedIn Learning you pay for a LinkedIn Premium plan; we haven't confirmed current Premium prices on a public official LinkedIn page, so check LinkedIn's Premium page before you subscribe. See the <a href=\"../pricing-tracker/index.html\">price tracker</a> and the <a href=\"../subscription-calculator/index.html\">monthly vs annual calculator</a>."
+   ],
+   [
+    "Do Pluralsight and LinkedIn Learning have free trials?",
+    "Yes. Pluralsight offers a 10-day free trial on any individual plan. It includes your plan's full course library, Skill IQ, certification prep, learning paths and a selection of hands-on labs; offline downloads and the full labs and sandboxes need a paid plan. If you don't cancel, the trial turns into a paid subscription on day 11. LinkedIn Premium's free trial lasts one month for eligible users, and billing starts automatically when it ends. Set a reminder either way."
+   ],
+   [
+    "Can I get a refund, and do they give certificates?",
+    "Pluralsight says it doesn't refund individual subscriptions because you can cancel at any time; you keep access until the end of the period you've paid for, and it doesn't send renewal reminder emails. We haven't verified LinkedIn Premium's refund terms on an official page, so cancel before your trial ends if you're unsure. Both give certificates of completion, and LinkedIn Learning lets you add completed courses to your LinkedIn profile. More detail is in our <a href=\"../reviews/pluralsight.html\">Pluralsight review</a> and <a href=\"../reviews/linkedin-learning.html\">LinkedIn Learning review</a>."
+   ]
+  ],
+  "sources": [
+   [
+    "Pluralsight Help: Free trial for individuals (10 days, converts on day 11)",
+    "https://help.pluralsight.com/hc/en-us/articles/24425968776724-Free-trial-for-individuals"
+   ],
+   [
+    "Pluralsight Help: Individual subscription renewal (refund policy)",
+    "https://help.pluralsight.com/hc/en-us/articles/24357221837588-Individual-subscription-renewal"
+   ],
+   [
+    "Pluralsight Help: Canceling an individual subscription (certificates of completion kept)",
+    "https://help.pluralsight.com/hc/en-us/articles/24357203231508-Canceling-an-individual-subscription"
+   ]
+  ]
  },
  "udacity-vs-coursera": {
   "title": "Udacity vs Coursera",
@@ -351,7 +392,7 @@
  },
  "futurelearn-vs-coursera": {
   "title": "FutureLearn vs Coursera",
-  "desc": "Coursera has the bigger catalog and certificate range; FutureLearn suits short courses in health, teaching and psychology.",
+  "desc": "FutureLearn vs Coursera: catalog size, free options, Unlimited vs Coursera Plus prices, certificate rules, renewals and refunds, checked on official pages.",
   "p": [
    "futurelearn",
    "coursera"
@@ -362,7 +403,48 @@
    "Certificates"
   ],
   "answer": "Coursera has the bigger catalog and certificate range; FutureLearn suits short courses in health, teaching and psychology.",
-  "sections": []
+  "sections": [],
+  "updated": {
+   "date": "2026-10-28",
+   "nice": "October 28, 2026",
+   "note": "added a 5-question FAQ on which to choose, free options, prices, certificates and renewals; FutureLearn Unlimited price and Coursera Plus monthly price re-checked today."
+  },
+  "faq": [
+   [
+    "Is FutureLearn or Coursera better?",
+    "Coursera is the bigger platform: it lists 10,000+ courses, against 1,400+ on FutureLearn Unlimited, and has a wider range of university and company certificates. FutureLearn suits learners who like short, structured university courses, typically 2 to 8 weeks long, in areas such as healthcare, teaching, psychology and business. If you want a career certificate, start with Coursera; if you want a short course on a specific topic, FutureLearn is worth a look. See also <a href=\"coursera-vs-edx.html\">Coursera vs edX</a>."
+   ],
+   [
+    "Can I study on FutureLearn or Coursera for free?",
+    "Yes, with limits. FutureLearn lets you join most short courses free with Limited Access: you get access for the length of the course, content may unlock week by week, and you don't get a certificate. Coursera gives a free preview of the first module of most courses (this replaced free auditing in August 2025), some Community Impact courses are free in full, and financial aid is available. Our <a href=\"best-free-online-course-platforms.html\">best free online course platforms</a> guide covers more free options."
+   ],
+   [
+    "How much do FutureLearn Unlimited and Coursera Plus cost?",
+    "On October 28, 2026, FutureLearn's Unlimited page listed $349.99 a year, shown at $244.99 with a 30% offer. Coursera Plus was $59 a month on October 28, or $399 a year at our October 15 check. FutureLearn also sells one-off upgrades for individual short courses, priced on each course page. FutureLearn's Premium courses are not included in Unlimited. Use the <a href=\"../subscription-calculator/index.html\">monthly vs annual calculator</a> to see when an annual plan pays off."
+   ],
+   [
+    "How do I get a certificate on FutureLearn or Coursera?",
+    "On FutureLearn you need Unlimited, a paid upgrade, or a Premium, ExpertTrack, Professional Certificate or sponsored course; then you must complete 90% of the steps, attempt every test question and score at least 70% where there are tests. Unlimited certificates are digital only; printed certificates come with upgrades and Premium courses. FutureLearn notes its certificates don't award credit points or a university qualification. Coursera awards certificates when you complete a course on a paid plan or with financial aid. See our <a href=\"best-online-course-platforms-for-certificates.html\">best platforms for certificates</a> guide."
+   ],
+   [
+    "Do they auto-renew, and can I get a refund?",
+    "FutureLearn's annual and monthly Unlimited plans renew automatically unless you cancel before the renewal date; after cancelling you keep access until the period ends, and you keep any certificates you've earned. Coursera's monthly Plus plan starts with a 7-day free trial, and annual Plus has a 14-day money-back guarantee, though certificates earned in that window are revoked if you take the refund. We haven't found a general refund policy for FutureLearn Unlimited on its help pages, so check before you buy. Full details are in our <a href=\"../reviews/futurelearn.html\">FutureLearn review</a> and <a href=\"../reviews/coursera.html\">Coursera review</a>."
+   ]
+  ],
+  "sources": [
+   [
+    "FutureLearn Help: Limited Access and purchasing short courses",
+    "https://futurelearn.zendesk.com/hc/en-us/articles/115008307107-Limited-Access-purchasing-short-courses-and-joining-Premium-courses"
+   ],
+   [
+    "FutureLearn Help: Certificates of Achievement",
+    "https://futurelearn.zendesk.com/hc/en-us/articles/115008376948-Certificates-of-Achievement"
+   ],
+   [
+    "FutureLearn Help: What types of courses do you offer?",
+    "https://futurelearn.zendesk.com/hc/en-us/articles/360019407500-What-types-of-courses-do-you-offer"
+   ]
+  ]
  },
  "skillshare-vs-domestika": {
   "title": "Skillshare vs Domestika",

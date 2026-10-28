@@ -127,11 +127,19 @@
   "pluralsight",
   "Core Tech $30/mo; Complete $55/mo",
   "Core Tech $21/mo; AI+/Cloud+/Data+/Security+ $24.50/mo; Complete $39/mo (billed yearly)",
-  "10 days (excludes labs and sandboxes)",
+  "10 days (selection of labs; full labs and sandboxes need a paid plan)",
   "SEE",
   "No refunds on individual subscriptions",
   "SEE",
-  "https://www.pluralsight.com/individuals/pricing"
+  "https://www.pluralsight.com/individuals/pricing",
+  {
+   "checked": "2026-10-28",
+   "note": "Oct 28, 2026: free trial and refund policy re-checked on Pluralsight Help; prices from the Oct 15 check (pricing page renders prices with JavaScript).",
+   "link": [
+    "Pluralsight Help: Free trial for individuals",
+    "https://help.pluralsight.com/hc/en-us/articles/24425968776724-Free-trial-for-individuals"
+   ]
+  }
  ],
  [
   "udacity",
