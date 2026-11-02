@@ -115,8 +115,9 @@ def page(path,title,desc,body,schema=None,crumbs=None,ogtype="website",faq=None,
         f'<meta property="og:title" content="{_H.escape(title)}"><meta property="og:description" content="{ed}"><meta property="og:url" content="{url}">'
         f'<meta property="og:image" content="{OG_IMG}"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630"><meta property="og:image:alt" content="{_H.escape(_oa)}">'
         f'<meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="{_H.escape(title)}"><meta name="twitter:description" content="{ed}"><meta name="twitter:image" content="{OG_IMG}">')
+    rb="noindex,follow" if url.endswith("/thanks.html") else "index,follow,max-snippet:-1,max-image-preview:large"
     html=f"""<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="google-site-verification" content="DCgsX3z63BjvDcQOFDkDgY4Mh44YQBuzn1vVoMX8nYs"><meta name="msvalidate.01" content="942EB99DB458637348E2ADBDEBDAA7AE"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>{et}</title><meta name="description" content="{ed}"><meta name="robots" content="index,follow,max-snippet:-1,max-image-preview:large">
+<title>{et}</title><meta name="description" content="{ed}"><meta name="robots" content="{rb}">
 <link rel="canonical" href="{url}"><link rel="icon" href="{r}logo.svg">{og}<style>{CSS}</style>
 <script type="application/ld+json">{json.dumps(ld,ensure_ascii=False).replace("</","<\\/")}</script></head><body>
 <header><div class="wrap"><a class="brand" href="{home}">{LOGO}{BRAND}</a><nav aria-label="Main"><a href="{r}reviews/">Reviews</a><a href="{r}compare/">Comparisons</a><a href="{r}pricing-tracker/">Price tracker</a><a href="{r}subscription-calculator/">Calculator</a><a href="{r}quiz/">Quiz</a><a href="{r}news/">News</a><a href="{r}about.html">About</a><a href="{r}contact.html">Contact</a></nav></div></header>
@@ -190,7 +191,7 @@ page("index.html","Online Course Platform Reviews and Comparisons","Independent,
 ("Which platforms offer a free trial?","Trial terms vary by platform and change often. Our <a href='pricing-tracker/'>price and free-trial tracker</a> lists current trials and prices for 20 platforms, each linked to the platform's own pages."),
 ("Do online course certificates count for anything?","Certificates of completion show you finished a course but are not accredited degrees. Some university-backed certificates on platforms such as Coursera and edX carry more weight with employers. Each <a href='reviews/'>review</a> notes what certificate a platform offers."),
 ("How does CourseGauge research its reviews?","Every price, trial and refund fact is linked to the platform's own pages or a named source, and pages show when they were last checked. CourseGauge has no affiliate relationships and earns no commission. See <a href='about.html'>how we research</a>.")])
-open("sitemap.xml","w").write('<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'+''.join(f"<url><loc>{u}</loc><lastmod>{LASTMOD.get(u,'2026-10-15')}</lastmod></url>\n" for u in PAGES)+"</urlset>\n")
+open("sitemap.xml","w").write('<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'+''.join(f"<url><loc>{u}</loc><lastmod>{LASTMOD.get(u,'2026-10-15')}</lastmod></url>\n" for u in PAGES if not u.endswith("/thanks.html"))+"</urlset>\n")
 bots=["Googlebot","Bingbot","GPTBot","OAI-SearchBot","ChatGPT-User","ClaudeBot","Claude-Web","anthropic-ai","CCBot","Google-Extended","Applebot","Applebot-Extended","PerplexityBot","Bytespider","Amazonbot","meta-externalagent","cohere-ai","DuckDuckBot","YandexBot"]
 open("robots.txt","w").write("".join(f"User-agent: {b}\nAllow: /\n\n" for b in bots)+f"User-agent: *\nAllow: /\n\nSitemap: {BASE}/sitemap.xml\n")
 def _llms():
