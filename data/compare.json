@@ -821,5 +821,175 @@
       "nice": "November 5, 2026",
       "note": "new evergreen comparison of interactive STEM puzzles vs browser-based coding practice."
     }
+  },
+  "linkedin-learning-vs-coursera": {
+    "title": "LinkedIn Learning vs Coursera",
+    "desc": "LinkedIn Learning vs Coursera compared: Premium bundling, Coursera Plus pricing, certificates, free trials and who each platform suits.",
+    "p": [
+      "linkedin-learning",
+      "coursera"
+    ],
+    "fields": [
+      "Pricing model",
+      "Free trial",
+      "Certificates"
+    ],
+    "answer": "Choose Coursera when you want university or company partner certificates and a standalone learning subscription (Coursera Plus). Choose LinkedIn Learning when you already pay for LinkedIn Premium (or your employer provides it) and want short business and software courses tied to your LinkedIn profile.",
+    "sections": [
+      [
+        "Who each suits",
+        "Coursera is built around courses and programs from universities and companies, with Career Certificates and degrees on higher tiers. LinkedIn Learning is a large library of short professional courses that sits inside LinkedIn Premium for individuals in many markets, or as an enterprise product for employers."
+      ],
+      [
+        "Pricing snapshot",
+        "Coursera Plus lists about $59/month or $399/year in our October 2026 US checks, with a 7-day trial on monthly Plus and a 14-day money-back window on annual Plus. LinkedIn Learning for individuals is commonly sold as part of LinkedIn Premium rather than a cheap standalone consumer plan; confirm current Premium tiers on LinkedIn's pricing page before you buy."
+      ],
+      [
+        "Certificates",
+        "Coursera certificates come from partner courses and are the stronger option when an employer cares about a named credential. LinkedIn Learning issues course completion certificates you can add to your LinkedIn profile; they are not university credentials."
+      ],
+      [
+        "Free previews and audits",
+        "Since August 2025 Coursera replaced free auditing with a free first-module preview on most courses. LinkedIn Learning access depends on your Premium or enterprise entitlement; there is no broad free full-library plan for individuals."
+      ],
+      [
+        "Related guides",
+        "Also see <a href='coursera-vs-udemy.html'>Coursera vs Udemy</a>, <a href='pluralsight-vs-linkedin-learning.html'>Pluralsight vs LinkedIn Learning</a>, and <a href='best-online-course-platforms-for-certificates.html'>best platforms for certificates</a>."
+      ]
+    ],
+    "faq": [
+      [
+        "Can I buy LinkedIn Learning without LinkedIn Premium?",
+        "In many consumer markets LinkedIn Learning is bundled with Premium. Employers may provide LinkedIn Learning seats separately. Check LinkedIn's current help and pricing for your country."
+      ],
+      [
+        "Is Coursera Plus cheaper than LinkedIn Premium?",
+        "It depends which Premium tier you need and whether you use Coursera for many courses. Compare the current LinkedIn Premium price to Coursera Plus $59/mo or $399/yr and count how many partner certificates you will actually finish."
+      ],
+      [
+        "Which is better for career certificates?",
+        "Coursera, when you want partner Career Certificates. LinkedIn Learning is stronger for short skills videos and profile showcase certificates."
+      ],
+      [
+        "Does Coursera include LinkedIn Learning?",
+        "No. They are separate products with separate subscriptions."
+      ],
+      [
+        "Do both have free trials?",
+        "Coursera monthly Plus advertises a 7-day trial (payment details required). LinkedIn Premium often advertises a trial for new customers; terms change, so confirm on LinkedIn before starting."
+      ]
+    ],
+    "sources": [
+      [
+        "Coursera Plus",
+        "https://www.coursera.org/courseraplus/"
+      ],
+      [
+        "Coursera Help: Coursera Plus",
+        "https://www.coursera.support/s/article/learner-000001075?language=en_US"
+      ],
+      [
+        "Coursera Blog: course preview replaces audit",
+        "https://blog.coursera.org/introducing-courseras-new-course-preview-experience/"
+      ],
+      [
+        "LinkedIn Help: Learning",
+        "https://www.linkedin.com/help/learning"
+      ],
+      [
+        "LinkedIn Premium",
+        "https://premium.linkedin.com/"
+      ]
+    ],
+    "updated": {
+      "date": "2026-11-05",
+      "nice": "November 5, 2026",
+      "note": "new evergreen comparison of LinkedIn Learning vs Coursera for the Nov 5 batch."
+    }
+  },
+  "skillshare-vs-udemy": {
+    "title": "Skillshare vs Udemy",
+    "desc": "Skillshare vs Udemy: subscription creative classes versus pay-per-course marketplace pricing, trials, refunds and certificates.",
+    "p": [
+      "skillshare",
+      "udemy"
+    ],
+    "fields": [
+      "Pricing model",
+      "Free trial",
+      "Refunds"
+    ],
+    "answer": "Pick Skillshare if you want unlimited short creative classes under one annual subscription. Pick Udemy if you prefer buying individual courses (often on sale) with lifetime access to those titles, or Udemy's Personal Plan for a curated subscription catalog.",
+    "sections": [
+      [
+        "Learning style",
+        "Skillshare focuses on project-based creative classes (illustration, design, photography, freelancing). Udemy is a broad marketplace spanning tech, business, creative and more, with individual instructors setting course content."
+      ],
+      [
+        "Pricing snapshot",
+        "Skillshare's web plan in our October 2026 check was about $167.88/year (shown as $13.99/mo), billed after a 7-day trial, with monthly billing mainly via app stores. Udemy sells individual courses at varying prices plus a Personal Plan from about $13.00/month. CourseGauge does not list a single 'regular' Udemy course price because marketplace prices move constantly."
+      ],
+      [
+        "Refunds",
+        "Skillshare's help pages describe a limited trial-period refund path and generally no refunds on renewals (with EU/UK cooling-off rules where they apply). Udemy offers a 30-day refund window on many individual courses, but subscriptions bought on Udemy.com are typically non-refundable unless local law requires otherwise."
+      ],
+      [
+        "Certificates",
+        "Both offer completion certificates or badges that are not accredited university credentials. If you need a partner Career Certificate, look at Coursera instead."
+      ],
+      [
+        "Related guides",
+        "See also <a href='skillshare-vs-domestika.html'>Skillshare vs Domestika</a>, <a href='coursera-vs-udemy.html'>Coursera vs Udemy</a>, and <a href='masterclass-vs-skillshare.html'>MasterClass vs Skillshare</a>."
+      ]
+    ],
+    "faq": [
+      [
+        "Is Skillshare or Udemy better for creatives?",
+        "Skillshare is built around creative class culture and unlimited watching under one subscription. Udemy can still work for creatives when a specific bestselling course is on sale."
+      ],
+      [
+        "Does Udemy have a subscription?",
+        "Yes. Udemy Personal Plan is a subscription to a curated catalog. You can also keep buying individual courses with lifetime access to those purchases."
+      ],
+      [
+        "Can I get a refund on Skillshare?",
+        "During the trial window Skillshare documents a limited refund path if unused; renewals are generally not refunded except where law requires. Read Skillshare's current help article before you subscribe."
+      ],
+      [
+        "Which is cheaper for one course?",
+        "Usually Udemy during a sale, because you pay once for that title. Skillshare is cheaper only if you will take many classes in a year under the annual plan."
+      ],
+      [
+        "Are the certificates accredited?",
+        "No. Treat them as proof of completion unless a specific employer says otherwise."
+      ]
+    ],
+    "sources": [
+      [
+        "Skillshare pricing",
+        "https://www.skillshare.com/en/pricing"
+      ],
+      [
+        "Skillshare Help: subscriptions, pricing and refunds",
+        "https://help.skillshare.com/hc/en-us/articles/4402806767117-How-do-Skillshare-subscriptions-pricing-and-refunds-work"
+      ],
+      [
+        "Udemy Personal Plan",
+        "https://www.udemy.com/personal-plan/"
+      ],
+      [
+        "Udemy refund policy",
+        "https://support.udemy.com/hc/en-us/articles/360050856093-Udemy-s-refund-policy"
+      ],
+      [
+        "Udemy plans and pricing",
+        "https://www.udemy.com/pricing/"
+      ]
+    ],
+    "updated": {
+      "date": "2026-11-05",
+      "nice": "November 5, 2026",
+      "note": "new evergreen comparison of Skillshare vs Udemy for the Nov 5 batch."
+    }
   }
 }
