@@ -1,683 +1,825 @@
 {
- "masterclass-vs-coursera-vs-skillshare-vs-udemy": {
-  "title": "MasterClass vs Coursera vs Skillshare vs Udemy",
-  "desc": "Side-by-side comparison of MasterClass, Coursera, Skillshare and Udemy pricing, trials, refunds and certificates.",
-  "p": [
-   "masterclass",
-   "coursera",
-   "skillshare",
-   "udemy"
-  ],
-  "fields": [
-   "Pricing model",
-   "Monthly option",
-   "Free trial",
-   "Refunds",
-   "Certificates"
-  ],
-  "answer": "Choose Coursera for certificates, Udemy for one specific skill at a one-off price, Skillshare for hands-on creative projects, and MasterClass for inspiration from famous practitioners.",
-  "sections": [
-   [
-    "Cheapest way to start",
-    "Udemy, because you can buy a single course rather than subscribe. Coursera's monthly Plus has a 7-day free trial, and Skillshare offers a trial too."
-   ],
-   [
-    "Best for a career move",
-    "Coursera, thanks to university and industry certificates and graded work."
-   ],
-   [
-    "Best for creatives",
-    "Skillshare for short project classes; MasterClass for craft insight rather than step-by-step practice."
-   ]
-  ],
-  "faq": [
-   [
-    "Which of MasterClass, Coursera, Skillshare and Udemy has a free trial?",
-    "Coursera's monthly Plus plan has a 7-day free trial. Skillshare offers a 7-day trial, after which the annual membership is billed in full. Udemy offers Personal Plan trials through promotions for some new subscribers. We did not see a free trial on MasterClass's plan pages, but it advertises a 30-day money-back guarantee."
-   ],
-   [
-    "Which has the best refund policy?",
-    "On paper, MasterClass: a 30-day money-back guarantee on membership. Udemy also gives 30 days on eligible individual courses, but not on subscriptions bought on Udemy.com. Coursera refunds annual Plus if you ask within 14 days of paying. Skillshare is strictest: after a 7-day trial, a one-time refund only if you ask within 48 hours of the charge and haven't used it since, and no refunds on renewals (EU and UK users get a 14-day cooling-off period)."
-   ],
-   [
-    "How much does each one cost per year?",
-    "MasterClass: $120, $180 or $240 a year (Standard, Plus, Premium). Coursera Plus: $399 a year, or $59 a month. Skillshare: $167.88 a year on the web (shown as $13.99 a month). Udemy: buy single courses, or the Personal Plan from $13.00 a month billed monthly or annually. See all of them in the <a href=\"../pricing-tracker/\">price and free-trial tracker</a>."
-   ],
-   [
-    "Do MasterClass and Skillshare give certificates?",
-    "Not as part of their main memberships in a career sense. MasterClass now sells separate certificate courses (from $299 per course) with a capstone project. Skillshare's pricing page mentions certificates and badges to mark progress but doesn't present them as accredited credentials. For career certificates, see <a href=\"../compare/best-online-course-platforms-for-certificates.html\">best platforms for certificates</a>."
-   ],
-   [
-    "Are Coursera and Udemy owned by the same company?",
-    "Yes. Coursera completed its combination with Udemy on May 11, 2026, but the two still run as separate platforms with separate accounts and subscriptions. More in <a href=\"../compare/coursera-vs-udemy.html\">Coursera vs Udemy</a>."
-   ]
-  ],
-  "sources": [
-   [
-    "Coursera investor news: Coursera completes combination with Udemy (May 11, 2026)",
-    "https://investor.coursera.com/news/news-details/2026/Coursera-Completes-Combination-with-Udemy-to-Build-the-Worlds-Most-Comprehensive-Skills-Platform/default.aspx"
-   ],
-   [
-    "Coursera Blog: what the Udemy combination means for Coursera learners",
-    "https://blog.coursera.org/how-the-coursera-and-udemy-combination-will-impact-coursera-learners/"
-   ]
-  ],
-  "updated": {
-   "date": "2026-10-19",
-   "nice": "October 19, 2026",
-   "note": "added a 5-question FAQ, MasterClass Certificates in the certificates row, and the Coursera–Udemy combination."
+  "masterclass-vs-coursera-vs-skillshare-vs-udemy": {
+    "title": "MasterClass vs Coursera vs Skillshare vs Udemy",
+    "desc": "Side-by-side comparison of MasterClass, Coursera, Skillshare and Udemy pricing, trials, refunds and certificates.",
+    "p": [
+      "masterclass",
+      "coursera",
+      "skillshare",
+      "udemy"
+    ],
+    "fields": [
+      "Pricing model",
+      "Monthly option",
+      "Free trial",
+      "Refunds",
+      "Certificates"
+    ],
+    "answer": "Choose Coursera for certificates, Udemy for one specific skill at a one-off price, Skillshare for hands-on creative projects, and MasterClass for inspiration from famous practitioners.",
+    "sections": [
+      [
+        "Cheapest way to start",
+        "Udemy, because you can buy a single course rather than subscribe. Coursera's monthly Plus has a 7-day free trial, and Skillshare offers a trial too."
+      ],
+      [
+        "Best for a career move",
+        "Coursera, thanks to university and industry certificates and graded work."
+      ],
+      [
+        "Best for creatives",
+        "Skillshare for short project classes; MasterClass for craft insight rather than step-by-step practice."
+      ]
+    ],
+    "faq": [
+      [
+        "Which of MasterClass, Coursera, Skillshare and Udemy has a free trial?",
+        "Coursera's monthly Plus plan has a 7-day free trial. Skillshare offers a 7-day trial, after which the annual membership is billed in full. Udemy offers Personal Plan trials through promotions for some new subscribers. We did not see a free trial on MasterClass's plan pages, but it advertises a 30-day money-back guarantee."
+      ],
+      [
+        "Which has the best refund policy?",
+        "On paper, MasterClass: a 30-day money-back guarantee on membership. Udemy also gives 30 days on eligible individual courses, but not on subscriptions bought on Udemy.com. Coursera refunds annual Plus if you ask within 14 days of paying. Skillshare is strictest: after a 7-day trial, a one-time refund only if you ask within 48 hours of the charge and haven't used it since, and no refunds on renewals (EU and UK users get a 14-day cooling-off period)."
+      ],
+      [
+        "How much does each one cost per year?",
+        "MasterClass: $120, $180 or $240 a year (Standard, Plus, Premium). Coursera Plus: $399 a year, or $59 a month. Skillshare: $167.88 a year on the web (shown as $13.99 a month). Udemy: buy single courses, or the Personal Plan from $13.00 a month billed monthly or annually. See all of them in the <a href=\"../pricing-tracker/\">price and free-trial tracker</a>."
+      ],
+      [
+        "Do MasterClass and Skillshare give certificates?",
+        "Not as part of their main memberships in a career sense. MasterClass now sells separate certificate courses (from $299 per course) with a capstone project. Skillshare's pricing page mentions certificates and badges to mark progress but doesn't present them as accredited credentials. For career certificates, see <a href=\"../compare/best-online-course-platforms-for-certificates.html\">best platforms for certificates</a>."
+      ],
+      [
+        "Are Coursera and Udemy owned by the same company?",
+        "Yes. Coursera completed its combination with Udemy on May 11, 2026, but the two still run as separate platforms with separate accounts and subscriptions. More in <a href=\"../compare/coursera-vs-udemy.html\">Coursera vs Udemy</a>."
+      ]
+    ],
+    "sources": [
+      [
+        "Coursera investor news: Coursera completes combination with Udemy (May 11, 2026)",
+        "https://investor.coursera.com/news/news-details/2026/Coursera-Completes-Combination-with-Udemy-to-Build-the-Worlds-Most-Comprehensive-Skills-Platform/default.aspx"
+      ],
+      [
+        "Coursera Blog: what the Udemy combination means for Coursera learners",
+        "https://blog.coursera.org/how-the-coursera-and-udemy-combination-will-impact-coursera-learners/"
+      ]
+    ],
+    "updated": {
+      "date": "2026-10-19",
+      "nice": "October 19, 2026",
+      "note": "added a 5-question FAQ, MasterClass Certificates in the certificates row, and the Coursera\u2013Udemy combination."
+    }
+  },
+  "masterclass-vs-skillshare": {
+    "title": "MasterClass vs Skillshare",
+    "desc": "MasterClass vs Skillshare compared: price, billing, trials and who each suits.",
+    "p": [
+      "masterclass",
+      "skillshare"
+    ],
+    "fields": [
+      "Pricing model",
+      "Monthly option",
+      "Free trial",
+      "Certificates"
+    ],
+    "answer": "Skillshare is the better hands-on learning tool for creatives; MasterClass is better for big-name inspiration. Both bill annually on the web.",
+    "sections": [
+      [
+        "Teaching style",
+        "MasterClass lessons are cinematic talks from famous names; Skillshare classes are practical and project-led."
+      ]
+    ],
+    "updated": {
+      "date": "2026-10-25",
+      "nice": "October 25, 2026",
+      "note": "added a 5-question FAQ on price, monthly billing, trials, certificates and refunds."
+    },
+    "faq": [
+      [
+        "Is MasterClass or Skillshare cheaper?",
+        "Skillshare, in most cases. On the web, Skillshare's annual membership is $167.88 a year (shown as $13.99 a month). MasterClass's cheapest plan, Standard, is $10 a month billed annually, which is $120 a year, but you only get one stream; Plus is $180 a year and Premium $240 a year. Both charge the whole year upfront, so compare yearly totals, not the monthly figures. Our <a href=\"../subscription-calculator/\">monthly vs annual calculator</a> helps with that."
+      ],
+      [
+        "Can I pay monthly for MasterClass or Skillshare?",
+        "Not on either website. MasterClass plans are advertised as billed annually. Skillshare's web plan is annual too, though monthly billing is available through the Skillshare app via your phone's app store."
+      ],
+      [
+        "Do MasterClass and Skillshare have free trials?",
+        "Skillshare offers a 7-day free trial, after which the annual membership is billed in full unless you cancel. We did not find a free trial on the MasterClass plan pages we checked; instead, MasterClass advertises a 30-day money-back guarantee."
+      ],
+      [
+        "Which gives certificates, MasterClass or Skillshare?",
+        "Neither main membership is built around credentials. Skillshare has certificates and badges to mark progress, but they are not accredited. MasterClass sells separate MasterClass Certificates: 15\u201320-hour courses with a capstone project and a shareable certificate, from $299 per course. If a recognised certificate matters, see our <a href=\"../compare/best-online-course-platforms-for-certificates.html\">best platforms for certificates</a>."
+      ],
+      [
+        "Can I get a refund from MasterClass or Skillshare?",
+        "MasterClass advertises a 30-day money-back guarantee. Skillshare gives a one-time refund of the first charge after the trial if you ask within 48 hours and have not used the membership, does not refund renewals, and allows a 14-day cooling-off period in the EU and UK."
+      ]
+    ]
+  },
+  "coursera-vs-udemy": {
+    "title": "Coursera vs Udemy",
+    "desc": "Coursera vs Udemy compared: certificates, subscription vs one-off course pricing, free trials, refunds and which to choose.",
+    "p": [
+      "coursera",
+      "udemy"
+    ],
+    "fields": [
+      "Pricing model",
+      "Free trial",
+      "Refunds",
+      "Certificates"
+    ],
+    "answer": "Coursera for recognised certificates and structured programs; Udemy for cheap, practical single courses with lifetime access.",
+    "sections": [
+      [
+        "Same owner, separate platforms",
+        "Coursera completed its combination with Udemy on May 11, 2026, so Udemy is now a wholly owned subsidiary of Coursera, Inc. For learners nothing has merged yet: Coursera says the platforms, accounts and subscriptions stay separate for now, and a Coursera Plus subscription does not include Udemy courses. We compare them as two different products, because that is how you buy them today."
+      ],
+      [
+        "Refunds",
+        "Udemy individual courses have a 30-day refund policy, but Udemy.com subscriptions do not. Coursera annual Plus has a 14-day money-back guarantee."
+      ]
+    ],
+    "sources": [
+      [
+        "Coursera investor news: Coursera completes combination with Udemy (May 11, 2026)",
+        "https://investor.coursera.com/news/news-details/2026/Coursera-Completes-Combination-with-Udemy-to-Build-the-Worlds-Most-Comprehensive-Skills-Platform/default.aspx"
+      ],
+      [
+        "Coursera Blog: what the Udemy combination means for Coursera learners",
+        "https://blog.coursera.org/how-the-coursera-and-udemy-combination-will-impact-coursera-learners/"
+      ],
+      [
+        "Coursera Blog: new course preview experience replaces audit (Aug 8, 2025)",
+        "https://blog.coursera.org/introducing-courseras-new-course-preview-experience/"
+      ]
+    ],
+    "faq": [
+      [
+        "Are Coursera and Udemy the same company now?",
+        "Yes, but they are still separate platforms. Coursera completed its combination with Udemy on May 11, 2026, and Udemy is now owned by Coursera, Inc. Coursera says accounts, subscriptions and catalogs remain separate for now: Coursera Plus does not include Udemy courses, and you cannot merge a Coursera and a Udemy account."
+      ],
+      [
+        "Is Coursera or Udemy better for certificates?",
+        "Coursera. Its certificates come from courses built with university and company partners, and Coursera Plus includes unlimited certificates once the trial ends. Udemy gives a certificate of completion that is not accredited. If a certificate matters for a job, check how that employer views it before you pay. See our <a href=\"../compare/best-online-course-platforms-for-certificates.html\">best platforms for certificates</a>."
+      ],
+      [
+        "Which is cheaper, Coursera or Udemy?",
+        "It depends on how many courses you take. For one specific skill, Udemy is usually the lower commitment: you pay once per course, keep lifetime access, and eligible courses have a 30-day refund window. Udemy's Personal Plan starts at $13.00 a month. Coursera charges $49\u2013$79 a month for single courses and programs, or $59 a month or $399 a year for Coursera Plus. If you will study on Coursera for 7 or more months in a year, annual Plus is cheaper than monthly; check with our <a href=\"../subscription-calculator/\">monthly vs annual calculator</a>."
+      ],
+      [
+        "Do Coursera and Udemy offer free trials?",
+        "Coursera's monthly Plus plan starts with a 7-day free trial; Coursera takes your payment details but charges nothing if you cancel during the trial. Udemy offers Personal Plan free trials through promotions for some new subscribers, and you can cancel during the trial without being charged."
+      ],
+      [
+        "Can I get a refund from Coursera or Udemy?",
+        "Udemy refunds eligible individual courses within 30 days, but it can refuse refunds after heavy use or repeated requests, and some refunds are paid as Udemy credits. Udemy subscriptions bought on Udemy.com are not refundable unless local law requires it. Coursera's annual Plus plan can be refunded if you ask within 14 days of paying, though any certificates earned in that window are revoked."
+      ],
+      [
+        "Can I still audit Coursera courses for free?",
+        "Not in the old way. In August 2025 Coursera replaced free auditing with a free preview of the first module of most courses, including graded assignments where the course has them. Some Community Impact courses are free in full, and eligible learners can apply for financial aid. For fully free options, see our <a href=\"../compare/best-free-online-course-platforms.html\">best free online course platforms</a>."
+      ]
+    ],
+    "updated": {
+      "date": "2026-10-19",
+      "nice": "October 19, 2026",
+      "note": "added the May 2026 Coursera\u2013Udemy combination, a 6-question FAQ, and Coursera's switch from free auditing to a free first-module preview."
+    }
+  },
+  "coursera-vs-edx": {
+    "title": "Coursera vs edX",
+    "desc": "Coursera vs edX compared for university courses and certificates: free audit options, Coursera Plus pricing, trials and refunds.",
+    "p": [
+      "coursera",
+      "edx"
+    ],
+    "fields": [
+      "Pricing model",
+      "Free trial",
+      "Free option",
+      "Certificates"
+    ],
+    "answer": "Both offer university content. edX's free audit track is good for sampling; Coursera Plus is better value if you'll take many courses.",
+    "sections": [],
+    "updated": {
+      "date": "2026-10-25",
+      "nice": "October 25, 2026",
+      "note": "added a 5-question FAQ on free options, price, certificates, trials and university courses."
+    },
+    "faq": [
+      [
+        "Can I take Coursera or edX courses for free?",
+        "edX still lets you audit many courses free, with temporary access to the course materials but no graded assignments or certificate. Coursera ended free auditing in August 2025; it now offers a free preview of the first module of most courses, some Community Impact courses free in full, and financial aid for eligible learners. For fully free options, see our <a href=\"../compare/best-free-online-course-platforms.html\">best free online course platforms</a>."
+      ],
+      [
+        "Is Coursera or edX cheaper?",
+        "It depends on how much you study. edX prices each course separately, so one certificate can cost less than months of a subscription; check the course's enrollment options for its price. Coursera charges $49\u2013$79 a month for single courses and programs, or $59 a month or $399 a year for Coursera Plus, which covers most of its catalog. If you plan several courses in a year, Coursera Plus often works out cheaper. Until November 4, 2026, edX is also taking 15% off select verified courses and programs (<a href=\"../news/edx-fall-2026-discount-verified-certificates.html\">details of the edX fall offer</a>)."
+      ],
+      [
+        "Do Coursera and edX give certificates?",
+        "Yes. Coursera gives a certificate when you complete a course on a paid plan or with financial aid. On edX you get a verified certificate only on the paid verified track, and you need to upgrade before the course's upgrade deadline. Neither is a degree, so check how an employer views a certificate before you pay for it."
+      ],
+      [
+        "Does Coursera or edX have a free trial?",
+        "Coursera's monthly Plus plan starts with a 7-day free trial. edX has no trial, because the free audit track already lets you try most courses before you upgrade."
+      ],
+      [
+        "Which is better for university courses, Coursera or edX?",
+        "Both carry courses from universities and companies. edX suits learners who want to audit academic material free and pay only if they want the certificate. Coursera suits learners who expect to take several courses and want one subscription; its first-module preview lets you sample before paying. Our <a href=\"../quiz/index.html\">platform quiz</a> can help you choose."
+      ]
+    ]
+  },
+  "codecademy-vs-datacamp": {
+    "title": "Codecademy vs DataCamp",
+    "desc": "Codecademy vs DataCamp: free tiers, Plus, Pro and Premium prices, trials, student plans, certificates and refunds, plus which suits coding vs data careers.",
+    "p": [
+      "codecademy",
+      "datacamp"
+    ],
+    "fields": [
+      "Pricing model",
+      "Student discount",
+      "Student plan"
+    ],
+    "answer": "Codecademy for general programming and web development; DataCamp for data science, analytics and AI.",
+    "sections": [],
+    "updated": {
+      "date": "2026-10-27",
+      "nice": "October 27, 2026",
+      "note": "added a 5-question FAQ on which to choose, free tiers, prices, trials and student plans, and refunds."
+    },
+    "faq": [
+      [
+        "Should I choose Codecademy or DataCamp?",
+        "Choose Codecademy for general programming and web development: it suits complete beginners and career switchers who want guided, hands-on practice in the browser. Choose DataCamp if you want data science, analytics or AI skills such as Python, R and SQL. Both include certificates on paid plans. Our <a href=\"best-platforms-to-learn-coding-and-tech.html\">best platforms to learn coding</a> guide adds Pluralsight, Udacity and Udemy."
+      ],
+      [
+        "Can I use Codecademy or DataCamp for free?",
+        "Yes, to a point. Codecademy has a free basic tier, and DataCamp's free Basic tier includes the first chapter of every course. That is enough to test the teaching style before paying. For more free options, see our <a href=\"best-free-online-course-platforms.html\">best free online course platforms</a>."
+      ],
+      [
+        "How much do Codecademy and DataCamp cost?",
+        "At our last checks, Codecademy Plus cost $14.99 a month billed annually or $29.99 billed monthly, and Pro $19.99 a month billed annually or $39.99 billed monthly. DataCamp Premium cost $35 a month billed monthly, or $14 a month billed annually on a special price (regular $28) when we checked on October 15, 2026. DataCamp runs frequent promotions, so check the <a href=\"../pricing-tracker/index.html\">price tracker</a> and the <a href=\"../subscription-calculator/index.html\">monthly vs annual calculator</a> before you commit."
+      ],
+      [
+        "Do they offer free trials or student discounts?",
+        "Codecademy gives new accounts a 7-day free trial of a paid plan; a card is required and you are charged after day 7. It also has Pro Student pricing for eligible students. DataCamp has a Premium Student plan for eligible college students, which it describes as over 50% off; we have not confirmed a standard DataCamp free trial, so its free Basic tier is the way to try it. Details and sources are in our <a href=\"../reviews/codecademy.html\">Codecademy review</a> and <a href=\"../reviews/datacamp.html\">DataCamp review</a>."
+      ],
+      [
+        "Can I get a refund or pause my subscription?",
+        "Codecademy does not refund subscriptions, though you can ask support about exceptions. DataCamp's terms say fees are non-refundable except as stated, with no prorated refund when you cancel. DataCamp lets monthly subscribers pause, but yearly plans cannot be paused. If you are unsure you will keep going, a monthly plan costs more but limits what you can lose."
+      ]
+    ]
+  },
+  "babbel-vs-duolingo": {
+    "title": "Babbel vs Duolingo",
+    "desc": "Babbel vs Duolingo: what Duolingo gives you free, Babbel's subscription and lifetime prices, grammar vs habit-building, refunds, certificates and which to pick.",
+    "p": [
+      "babbel",
+      "duolingo"
+    ],
+    "fields": [
+      "Pricing model",
+      "Free option",
+      "Format",
+      "Certificates"
+    ],
+    "answer": "Duolingo for a free daily habit; Babbel for structured, conversation-focused lessons.",
+    "sections": [],
+    "updated": {
+      "date": "2026-10-27",
+      "nice": "October 27, 2026",
+      "note": "added a 5-question FAQ on free use, prices, grammar vs habit-building, refunds and certificates."
+    },
+    "faq": [
+      [
+        "Is Duolingo free, and is Babbel?",
+        "Duolingo is free: it says every learner gets the same lesson content, with ads and some limits on the free plan. Super Duolingo removes ads and adds unlimited hearts and personalised practice, with a 1-week free trial. Babbel has no free plan; it is sold as subscriptions of several lengths plus a lifetime option. See our <a href=\"../reviews/duolingo.html\">Duolingo review</a> and <a href=\"../reviews/babbel.html\">Babbel review</a>."
+      ],
+      [
+        "How much does Babbel cost?",
+        "At our last check, Babbel charged $17.95 for 1 month, $45.75 for 3 months, $80.70 for 6 months or $107.40 for 12 months (about $8.95 a month), and $299.99 for lifetime access. Super Duolingo prices vary by plan and app store, so check Duolingo's own Super page. The <a href=\"../pricing-tracker/index.html\">price and free-trial tracker</a> shows when each figure was checked, and the <a href=\"../subscription-calculator/index.html\">monthly vs annual calculator</a> shows what a longer plan saves."
+      ],
+      [
+        "Which is better for grammar and real conversation?",
+        "Babbel. Its short lessons are built around practical dialogue and cover grammar alongside it, which suits beginners who want structure. Duolingo is better at building a daily habit through game-style practice, but it is weaker if you need grammar taught explicitly. Many learners start on Duolingo free and move to Babbel when they want more structure; our <a href=\"best-language-learning-apps.html\">best language learning apps</a> guide adds Rosetta Stone to the comparison."
+      ],
+      [
+        "Can I get a refund on Babbel or Duolingo?",
+        "Duolingo's terms say payments are nonrefundable unless the law requires otherwise, and subscriptions bought through the App Store or Google Play are refunded through Apple or Google. We have not yet verified Babbel's refund terms on an official page, so read its terms before buying a long plan or lifetime access. Using Duolingo's free plan or the 1-week Super trial first is the lowest-risk way to test either approach."
+      ],
+      [
+        "Do Babbel or Duolingo give certificates?",
+        "Neither gives an accredited certificate for its language courses. The Duolingo English Test is a separate, paid product, not a certificate for finishing a course. If you need a credential, see our <a href=\"best-online-course-platforms-for-certificates.html\">best platforms for certificates</a>."
+      ]
+    ]
+  },
+  "pluralsight-vs-linkedin-learning": {
+    "title": "Pluralsight vs LinkedIn Learning",
+    "desc": "Pluralsight vs LinkedIn Learning: who each suits, whether you can buy LinkedIn Learning alone, plan prices, free trials, refunds and certificates, with sources.",
+    "p": [
+      "pluralsight",
+      "linkedin-learning"
+    ],
+    "fields": [
+      "Pricing model",
+      "Free trial",
+      "Certificates"
+    ],
+    "answer": "Pluralsight for deep technical skills and labs; LinkedIn Learning for broad business skills bundled with Premium.",
+    "sections": [],
+    "updated": {
+      "date": "2026-10-28",
+      "nice": "October 28, 2026",
+      "note": "added a 5-question FAQ on which to choose, buying LinkedIn Learning on its own, prices, free trials and refunds; trial and refund terms re-checked on official pages today."
+    },
+    "faq": [
+      [
+        "Should I choose Pluralsight or LinkedIn Learning?",
+        "Choose Pluralsight if you work in tech or want to: it focuses on software development, IT operations, cloud, data, AI and security, with Skill IQ assessments, learning paths, certification prep and hands-on labs, plus cloud and AI sandboxes on the Cloud+, AI+ and Complete plans. Choose LinkedIn Learning for broader business and software skills, especially if you would also use LinkedIn Premium or can get access through your employer or school. Our <a href=\"best-platforms-to-learn-coding-and-tech.html\">best platforms to learn coding and tech</a> guide compares more options."
+      ],
+      [
+        "Can I buy LinkedIn Learning on its own?",
+        "No. LinkedIn's help center says it does not sell individual LinkedIn Learning subscriptions or single courses. Individuals get it through LinkedIn Premium, and organisations such as businesses, universities and government agencies can buy it for their people. If your employer or school already has a licence, you may not need to pay at all, so check that first. Pluralsight, by contrast, sells individual plans directly."
+      ],
+      [
+        "How much do Pluralsight and LinkedIn Learning cost?",
+        "At our October 15, 2026 check, Pluralsight cost $21 a month for Core Tech, $24.50 a month for AI+, Cloud+, Data+ or Security+, and $39 a month for Complete, all billed yearly, or $30 (Core Tech) and $55 (Complete) billed monthly. Pluralsight's pricing page loads its prices with JavaScript and we could not reconfirm them on October 28, so check before you buy. For LinkedIn Learning you pay for a LinkedIn Premium plan; we haven't confirmed current Premium prices on a public official LinkedIn page, so check LinkedIn's Premium page before you subscribe. See the <a href=\"../pricing-tracker/index.html\">price tracker</a> and the <a href=\"../subscription-calculator/index.html\">monthly vs annual calculator</a>."
+      ],
+      [
+        "Do Pluralsight and LinkedIn Learning have free trials?",
+        "Yes. Pluralsight offers a 10-day free trial on any individual plan. It includes your plan's full course library, Skill IQ, certification prep, learning paths and a selection of hands-on labs; offline downloads and the full labs and sandboxes need a paid plan. If you don't cancel, the trial turns into a paid subscription on day 11. LinkedIn Premium's free trial lasts one month for eligible users, and billing starts automatically when it ends. Set a reminder either way."
+      ],
+      [
+        "Can I get a refund, and do they give certificates?",
+        "Pluralsight says it doesn't refund individual subscriptions because you can cancel at any time; you keep access until the end of the period you've paid for, and it doesn't send renewal reminder emails. We haven't verified LinkedIn Premium's refund terms on an official page, so cancel before your trial ends if you're unsure. Both give certificates of completion, and LinkedIn Learning lets you add completed courses to your LinkedIn profile. More detail is in our <a href=\"../reviews/pluralsight.html\">Pluralsight review</a> and <a href=\"../reviews/linkedin-learning.html\">LinkedIn Learning review</a>."
+      ]
+    ],
+    "sources": [
+      [
+        "Pluralsight Help: Free trial for individuals (10 days, converts on day 11)",
+        "https://help.pluralsight.com/hc/en-us/articles/24425968776724-Free-trial-for-individuals"
+      ],
+      [
+        "Pluralsight Help: Individual subscription renewal (refund policy)",
+        "https://help.pluralsight.com/hc/en-us/articles/24357221837588-Individual-subscription-renewal"
+      ],
+      [
+        "Pluralsight Help: Canceling an individual subscription (certificates of completion kept)",
+        "https://help.pluralsight.com/hc/en-us/articles/24357203231508-Canceling-an-individual-subscription"
+      ]
+    ]
+  },
+  "udacity-vs-coursera": {
+    "title": "Udacity vs Coursera",
+    "desc": "Coursera is far cheaper and offers university certificates; Udacity is a pricier, project-intensive sprint.",
+    "p": [
+      "udacity",
+      "coursera"
+    ],
+    "fields": [
+      "Pricing model",
+      "Free option",
+      "Certificates"
+    ],
+    "answer": "Coursera is far cheaper and offers university certificates; Udacity is a pricier, project-intensive sprint.",
+    "sections": [],
+    "updated": {
+      "date": "2026-10-19",
+      "nice": "October 19, 2026",
+      "note": "Coursera's free option now reflects its August 2025 switch from free auditing to a free first-module preview."
+    }
+  },
+  "futurelearn-vs-coursera": {
+    "title": "FutureLearn vs Coursera",
+    "desc": "FutureLearn vs Coursera: catalog size, free options, Unlimited vs Coursera Plus prices, certificate rules, renewals and refunds, checked on official pages.",
+    "p": [
+      "futurelearn",
+      "coursera"
+    ],
+    "fields": [
+      "Pricing model",
+      "Renewal",
+      "Certificates"
+    ],
+    "answer": "Coursera has the bigger catalog and certificate range; FutureLearn suits short courses in health, teaching and psychology.",
+    "sections": [],
+    "updated": {
+      "date": "2026-10-28",
+      "nice": "October 28, 2026",
+      "note": "added a 5-question FAQ on which to choose, free options, prices, certificates and renewals; FutureLearn Unlimited price and Coursera Plus monthly price re-checked today."
+    },
+    "faq": [
+      [
+        "Is FutureLearn or Coursera better?",
+        "Coursera is the bigger platform: it lists 10,000+ courses, against 1,400+ on FutureLearn Unlimited, and has a wider range of university and company certificates. FutureLearn suits learners who like short, structured university courses, typically 2 to 8 weeks long, in areas such as healthcare, teaching, psychology and business. If you want a career certificate, start with Coursera; if you want a short course on a specific topic, FutureLearn is worth a look. See also <a href=\"coursera-vs-edx.html\">Coursera vs edX</a>."
+      ],
+      [
+        "Can I study on FutureLearn or Coursera for free?",
+        "Yes, with limits. FutureLearn lets you join most short courses free with Limited Access: you get access for the length of the course, content may unlock week by week, and you don't get a certificate. Coursera gives a free preview of the first module of most courses (this replaced free auditing in August 2025), some Community Impact courses are free in full, and financial aid is available. Our <a href=\"best-free-online-course-platforms.html\">best free online course platforms</a> guide covers more free options."
+      ],
+      [
+        "How much do FutureLearn Unlimited and Coursera Plus cost?",
+        "On October 28, 2026, FutureLearn's Unlimited page listed $349.99 a year, shown at $244.99 with a 30% offer. Coursera Plus was $59 a month on October 28, or $399 a year at our October 15 check. FutureLearn also sells one-off upgrades for individual short courses, priced on each course page. FutureLearn's Premium courses are not included in Unlimited. Use the <a href=\"../subscription-calculator/index.html\">monthly vs annual calculator</a> to see when an annual plan pays off."
+      ],
+      [
+        "How do I get a certificate on FutureLearn or Coursera?",
+        "On FutureLearn you need Unlimited, a paid upgrade, or a Premium, ExpertTrack, Professional Certificate or sponsored course; then you must complete 90% of the steps, attempt every test question and score at least 70% where there are tests. Unlimited certificates are digital only; printed certificates come with upgrades and Premium courses. FutureLearn notes its certificates don't award credit points or a university qualification. Coursera awards certificates when you complete a course on a paid plan or with financial aid. See our <a href=\"best-online-course-platforms-for-certificates.html\">best platforms for certificates</a> guide."
+      ],
+      [
+        "Do they auto-renew, and can I get a refund?",
+        "FutureLearn's annual and monthly Unlimited plans renew automatically unless you cancel before the renewal date; after cancelling you keep access until the period ends, and you keep any certificates you've earned. Coursera's monthly Plus plan starts with a 7-day free trial, and annual Plus has a 14-day money-back guarantee, though certificates earned in that window are revoked if you take the refund. We haven't found a general refund policy for FutureLearn Unlimited on its help pages, so check before you buy. Full details are in our <a href=\"../reviews/futurelearn.html\">FutureLearn review</a> and <a href=\"../reviews/coursera.html\">Coursera review</a>."
+      ]
+    ],
+    "sources": [
+      [
+        "FutureLearn Help: Limited Access and purchasing short courses",
+        "https://futurelearn.zendesk.com/hc/en-us/articles/115008307107-Limited-Access-purchasing-short-courses-and-joining-Premium-courses"
+      ],
+      [
+        "FutureLearn Help: Certificates of Achievement",
+        "https://futurelearn.zendesk.com/hc/en-us/articles/115008376948-Certificates-of-Achievement"
+      ],
+      [
+        "FutureLearn Help: What types of courses do you offer?",
+        "https://futurelearn.zendesk.com/hc/en-us/articles/360019407500-What-types-of-courses-do-you-offer"
+      ]
+    ]
+  },
+  "skillshare-vs-domestika": {
+    "title": "Skillshare vs Domestika",
+    "desc": "Skillshare for unlimited short classes; Domestika for in-depth courses you can keep.",
+    "p": [
+      "skillshare",
+      "domestika"
+    ],
+    "fields": [
+      "Pricing model",
+      "Certificates"
+    ],
+    "answer": "Skillshare for unlimited short classes; Domestika for in-depth courses you can keep.",
+    "sections": [],
+    "updated": {
+      "date": "2026-10-19",
+      "nice": "October 19, 2026",
+      "note": "updated Skillshare's certificate wording from its current pricing page."
+    }
+  },
+  "best-free-online-course-platforms": {
+    "title": "Best Free Online Course Platforms",
+    "desc": "Khan Academy is fully free; Alison and edX let you study free and pay only for certificates. What is free on Coursera and Duolingo, from official pages.",
+    "p": [
+      "khan-academy",
+      "alison",
+      "edx",
+      "duolingo",
+      "coursera"
+    ],
+    "fields": [
+      "Pricing model",
+      "Free option",
+      "Certificates"
+    ],
+    "answer": "Khan Academy is the best fully free option. Alison lets you study and complete courses free, and edX's audit track lets you study course materials free for a limited time; certificates cost extra on both.",
+    "sections": [
+      [
+        "How we chose",
+        "Platforms where meaningful learning is free, per each platform's own help pages."
+      ]
+    ],
+    "faq": [
+      [
+        "What is the best completely free online learning platform?",
+        "<a href=\"../reviews/khan-academy.html\">Khan Academy</a>. It is a 501(c)(3) nonprofit, and its whole library of videos, articles, practice questions and lessons is free, with no ads. It is strongest for school and early-college subjects. Its AI tutor, Khanmigo, is a separate product that is paid for learners where offered."
+      ],
+      [
+        "Can I get a free certificate from an online course?",
+        "Sometimes, but usually not. <a href=\"../reviews/alison.html\">Alison</a> lets you study and complete courses free and download a free Learner Record; printed or digital certificates are optional purchases, though some courses include a free digital one. edX's free audit track gives no certificate, and Coursera certificates need a paid plan or financial aid."
+      ],
+      [
+        "Is edX free?",
+        "The audit track is free. It gives you videos, readings, ungraded practice and discussion forums for a limited time, counted from when you enrol. Graded assignments and exams, the verified certificate, and access after the course ends all need the paid verified track, which is priced per course. See our <a href=\"../reviews/edx.html\">edX review</a>."
+      ],
+      [
+        "Is Coursera free?",
+        "Partly. Since August 2025 Coursera has offered a free preview of the first module of most courses instead of free auditing. Some Community Impact courses are free in full, and financial aid can cover full access for eligible learners. Otherwise you pay per course or program ($49\u2013$79 a month) or subscribe to Coursera Plus; compare it in <a href=\"../compare/coursera-vs-udemy.html\">Coursera vs Udemy</a>."
+      ],
+      [
+        "Is Duolingo really free?",
+        "Yes. All Duolingo course content is free, with ads and some limits. Super Duolingo removes ads and adds unlimited hearts and extra practice, with a 1-week free trial. Duolingo's terms say payments are nonrefundable unless the law requires otherwise. See <a href=\"../compare/best-language-learning-apps.html\">best language learning apps</a>."
+      ]
+    ],
+    "sources": [
+      [
+        "Coursera Blog: new course preview experience replaces audit (Aug 8, 2025)",
+        "https://blog.coursera.org/introducing-courseras-new-course-preview-experience/"
+      ]
+    ],
+    "updated": {
+      "date": "2026-10-19",
+      "nice": "October 19, 2026",
+      "note": "added a 5-question FAQ, clarified what edX's free audit track includes, and noted that Coursera replaced free auditing with a first-module preview in August 2025."
+    }
+  },
+  "best-online-course-platforms-for-certificates": {
+    "title": "Best Online Course Platforms for Certificates",
+    "desc": "Coursera is our top pick for recognised certificates at a reasonable subscription price.",
+    "p": [
+      "coursera",
+      "edx",
+      "udacity",
+      "linkedin-learning",
+      "futurelearn"
+    ],
+    "fields": [
+      "Pricing model",
+      "Certificates"
+    ],
+    "answer": "Coursera is our top pick for recognised certificates at a reasonable subscription price.",
+    "sections": [],
+    "faq": [
+      [
+        "Which online course platform has the best certificates?",
+        "For most career goals, <a href=\"../reviews/coursera.html\">Coursera</a>. Its certificates come from courses built with university and company partners, and Coursera Plus ($59 a month or $399 a year) includes unlimited certificates. <a href=\"../reviews/edx.html\">edX</a> verified certificates are a good pay-per-course alternative. <a href=\"../reviews/udacity.html\">Udacity</a> Nanodegree certificates suit intensive tech programs but cost far more ($249 a month)."
+      ],
+      [
+        "Are online course certificates accredited?",
+        "Usually not. Most are certificates of completion, not academic credit or a professional licence; Udemy, for example, describes its certificates as not accredited. Degree programs are different, and Coursera Plus does not include degrees. Before paying, ask the employer or school you have in mind how they treat the certificate."
+      ],
+      [
+        "How much does a Coursera certificate cost?",
+        "Single courses and programs cost $49\u2013$79 a month. Coursera Plus costs $59 a month (after a 7-day free trial) or $399 a year, and covers most of the catalog with unlimited certificates; some programs and all degrees are excluded. Eligible learners can apply for financial aid. Our <a href=\"../subscription-calculator/\">monthly vs annual calculator</a> shows annual Plus pays off from month 7."
+      ],
+      [
+        "Does LinkedIn Learning give certificates?",
+        "Yes, it gives a certificate of completion. Individuals cannot subscribe to LinkedIn Learning on its own; it comes with LinkedIn Premium (PCMag reports Premium Career at $39.99 a month or $239.88 a year) or through an employer, school or library. See <a href=\"../compare/pluralsight-vs-linkedin-learning.html\">Pluralsight vs LinkedIn Learning</a>."
+      ],
+      [
+        "Does MasterClass offer certificates?",
+        "Yes, as a separate product. MasterClass Certificates are 15\u201320-hour courses with a capstone project and a shareable certificate, starting at $299 per course (per MasterClass's 2026 announcements) or available through a Certificates Annual Pass. The regular <a href=\"../reviews/masterclass.html\">MasterClass</a> membership ($120 to $240 a year) is built for inspiration rather than credentials."
+      ]
+    ],
+    "sources": [
+      [
+        "MasterClass Certificates Help: pricing",
+        "https://www.masterclass.com/help-center/certificates/answers/pricing-for-master-class-certificates--id--ZCf8XPJzQOyxgUkdrgV2YA"
+      ]
+    ],
+    "updated": {
+      "date": "2026-10-19",
+      "nice": "October 19, 2026",
+      "note": "added a 5-question FAQ, including MasterClass's separate certificate courses."
+    }
+  },
+  "best-language-learning-apps": {
+    "title": "Best Language Learning Apps",
+    "desc": "Duolingo, Babbel and Rosetta Stone compared: what is free, subscription and lifetime prices, trials, certificates and which app suits each kind of learner.",
+    "p": [
+      "duolingo",
+      "babbel",
+      "rosetta-stone"
+    ],
+    "fields": [
+      "Pricing model",
+      "Free option",
+      "Format"
+    ],
+    "answer": "Start with Duolingo free; move to Babbel for structure or Rosetta Stone for immersion.",
+    "sections": [],
+    "updated": {
+      "date": "2026-10-26",
+      "nice": "October 26, 2026",
+      "note": "added a 5-question FAQ on free use, prices, lifetime plans, certificates and which app to start with."
+    },
+    "faq": [
+      [
+        "Is Duolingo really free?",
+        "Yes. Duolingo says it offers the same lesson content to every learner, so you can work through full courses free, with ads and some limits. Super Duolingo removes ads and adds unlimited hearts, personalised practice and unlimited attempts at Legendary challenges, with a 1-week free trial. See our <a href=\"../reviews/duolingo.html\">Duolingo review</a>."
+      ],
+      [
+        "How much do Babbel and Rosetta Stone cost?",
+        "At our last check, Babbel charged $17.95 for 1 month, $45.75 for 3 months, $80.70 for 6 months or $107.40 for 12 months, with a $299.99 lifetime option. Rosetta Stone charged $19.99 a month billed monthly or $159 a year. Prices change often, so the <a href=\"../pricing-tracker/index.html\">price and free-trial tracker</a> lists the date each figure was checked."
+      ],
+      [
+        "Is a lifetime language app plan worth it?",
+        "Only if you are sure you will keep using the same app for years. Babbel's lifetime plan costs about the same as 2.8 years of its 12-month plan at the prices above. Rosetta Stone's lifetime access lasts while the product and services remain available and supported, so read its terms first. Our <a href=\"../subscription-calculator/index.html\">monthly vs annual calculator</a> helps with the shorter plans."
+      ],
+      [
+        "Do language learning apps give certificates?",
+        "Duolingo, Babbel and Rosetta Stone do not give accredited certificates for their courses. The Duolingo English Test is a separate, paid product. If you need a certificate, see our <a href=\"best-online-course-platforms-for-certificates.html\">best platforms for certificates</a>."
+      ],
+      [
+        "Which language app should a beginner start with?",
+        "Start with Duolingo's free tier to build a daily habit. Move to Babbel if you want structured lessons built around practical conversation and grammar, or Rosetta Stone if you prefer immersion and want access to many languages. Our <a href=\"babbel-vs-duolingo.html\">Babbel vs Duolingo comparison</a> goes into more detail."
+      ]
+    ]
+  },
+  "best-platforms-to-learn-coding-and-tech": {
+    "title": "Best Platforms to Learn Coding and Tech Skills",
+    "desc": "Codecademy, DataCamp, Pluralsight, Udacity and Udemy compared for learning to code and tech skills: free tiers, trials, prices, certificates and refunds.",
+    "p": [
+      "codecademy",
+      "datacamp",
+      "pluralsight",
+      "udacity",
+      "udemy"
+    ],
+    "fields": [
+      "Pricing model",
+      "Free option",
+      "Certificates"
+    ],
+    "answer": "Codecademy for beginners, DataCamp for data, Pluralsight for IT certifications, Udemy for one-off skills.",
+    "sections": [],
+    "updated": {
+      "date": "2026-10-26",
+      "nice": "October 26, 2026",
+      "note": "added a 5-question FAQ on free options, trials, prices, certificates and refunds."
+    },
+    "faq": [
+      [
+        "Can I learn to code for free?",
+        "You can start free. Codecademy has a free basic tier, and DataCamp's free Basic tier includes the first chapter of every course. Udemy sells single courses with lifetime access, which can be cheaper than a subscription if you only need one skill. For more free options, see our <a href=\"best-free-online-course-platforms.html\">best free online course platforms</a>."
+      ],
+      [
+        "Which coding platforms have a free trial?",
+        "Codecademy gives new accounts a 7-day free trial of Plus or Pro; a card is required and you are charged after day 7. Pluralsight offers a 10-day trial that excludes labs and sandboxes. Udemy's Personal Plan may offer a trial to first-time subscribers. Udacity relies on personalised offers and sales rather than a standard trial."
+      ],
+      [
+        "How much do coding platforms cost?",
+        "At our last checks, Codecademy Pro cost $19.99 a month billed annually or $39.99 billed monthly, DataCamp Premium $35 a month billed monthly, and Pluralsight Core Tech $21 a month billed yearly or $30 billed monthly. Udacity All Access cost $249 a month or $846 for four months upfront, and Udemy's Personal Plan started at $13.00 a month. The <a href=\"../pricing-tracker/index.html\">price tracker</a> shows the check date for each figure."
+      ],
+      [
+        "Do coding platform certificates help you get a job?",
+        "They show you finished a course or path but are not degrees. Codecademy Pro includes certifications and interview prep, DataCamp Premium includes certificates and certifications, Pluralsight includes certification prep, and Udacity gives Nanodegree program certificates. Udemy's certificate of completion is not accredited. Employers usually care more about projects you can show, so build a portfolio alongside any certificate."
+      ],
+      [
+        "Can I get a refund on a coding subscription?",
+        "Usually not. Codecademy and Pluralsight do not refund individual subscriptions, and DataCamp's terms say fees are non-refundable except as stated. Udemy is the exception for single courses: eligible purchases have a 30-day refund policy. Check each <a href=\"../reviews/index.html\">platform review</a> for the details and sources, and compare <a href=\"codecademy-vs-datacamp.html\">Codecademy vs DataCamp</a> if you are choosing between the two."
+      ]
+    ]
+  },
+  "masterclass-alternatives": {
+    "title": "Best MasterClass Alternatives",
+    "desc": "Skillshare and Domestika for hands-on creative learning; The Great Courses Plus for long lectures; Coursera if you want certificates.",
+    "p": [
+      "skillshare",
+      "domestika",
+      "great-courses-plus",
+      "coursera"
+    ],
+    "fields": [
+      "Pricing model",
+      "Certificates"
+    ],
+    "answer": "Skillshare and Domestika for hands-on creative learning; The Great Courses Plus for long lectures; Coursera if you want certificates.",
+    "sections": [],
+    "updated": {
+      "date": "2026-10-19",
+      "nice": "October 19, 2026",
+      "note": "updated Skillshare's certificate wording from its current pricing page."
+    }
+  },
+  "khan-academy-vs-coursera": {
+    "title": "Khan Academy vs Coursera",
+    "desc": "Khan Academy is free nonprofit learning without career certificates; Coursera sells university and industry certificates with Plus and paid programs.",
+    "p": [
+      "khan-academy",
+      "coursera"
+    ],
+    "fields": [
+      "Pricing model",
+      "Free option",
+      "Certificates"
+    ],
+    "answer": "Use Khan Academy when you want free foundational learning with no certificate goal. Choose Coursera when you need graded work and recognisable certificates from universities or companies.",
+    "sections": [
+      [
+        "Who each platform suits",
+        "Khan Academy suits students, parents and adults refreshing maths, science and test-prep fundamentals at no cost. Coursera suits career changers and upskillers who want structured programs, graded assignments and certificates."
+      ],
+      [
+        "Cost to start",
+        "Khan Academy's core library is free. Coursera Plus lists $59/month or $399/year, with a 7-day free trial on monthly Plus; single courses and programs are also sold separately."
+      ],
+      [
+        "Certificates and credentials",
+        "Khan Academy is not a certificate platform. Coursera issues certificates for completed courses and longer programs from partner universities and companies."
+      ],
+      [
+        "How this compares to other free options",
+        "If you want free study with optional paid certificates, also see our <a href='best-free-online-course-platforms.html'>best free online course platforms</a> guide. For career certificates more broadly, see <a href='best-online-course-platforms-for-certificates.html'>best platforms for certificates</a>."
+      ]
+    ],
+    "faq": [
+      [
+        "Is Khan Academy completely free?",
+        "Khan Academy's core library is free. Khanmigo, its AI tutor, is free for teachers in many countries and paid for learners where offered, per Khan Academy's own pages."
+      ],
+      [
+        "Does Coursera still offer free full-course auditing?",
+        "No. Coursera replaced free auditing with a free preview of the first module of most courses in August 2025. Some Community Impact courses remain free in full, and financial aid exists for eligible learners."
+      ],
+      [
+        "Which is better for a career certificate?",
+        "Coursera. Khan Academy is not built as a professional certificate platform."
+      ],
+      [
+        "Can I use both?",
+        "Yes. Many learners use Khan Academy to fill gaps, then take a Coursera course or Plus subscription when they need a credential."
+      ]
+    ],
+    "sources": [
+      [
+        "Khan Academy Help: Does it cost money?",
+        "https://support.khanacademy.org/hc/en-us/articles/202260114-Does-it-cost-money-to-use-Khan-Academy"
+      ],
+      [
+        "Coursera Plus page",
+        "https://www.coursera.org/courseraplus/"
+      ],
+      [
+        "Coursera Blog: new course preview experience replaces audit (Aug 8, 2025)",
+        "https://blog.coursera.org/introducing-courseras-new-course-preview-experience/"
+      ]
+    ],
+    "updated": {
+      "date": "2026-11-05",
+      "nice": "November 5, 2026",
+      "note": "new evergreen comparison of free nonprofit learning vs certificate-focused Coursera."
+    }
+  },
+  "brilliant-vs-codecademy": {
+    "title": "Brilliant vs Codecademy",
+    "desc": "Brilliant focuses on interactive math, science and CS puzzles; Codecademy focuses on writing code in the browser with free and paid coding plans.",
+    "p": [
+      "brilliant",
+      "codecademy"
+    ],
+    "fields": [
+      "Pricing model",
+      "Free option",
+      "Free trial"
+    ],
+    "answer": "Pick Brilliant for short daily quantitative problem-solving across math, science and CS concepts. Pick Codecademy when your goal is learning to write code in a guided browser IDE, especially with career paths on paid plans.",
+    "sections": [
+      [
+        "Learning style",
+        "Brilliant emphasises interactive problem solving rather than long video lectures. Codecademy has you write code in the browser from early lessons, with paid tiers for career paths and certifications."
+      ],
+      [
+        "Pricing snapshot",
+        "Brilliant Premium lists individual plans at $30/month or $20/month billed annually, plus family plans, with a free plan that includes a daily lesson. Codecademy offers a free basic tier; Plus and Pro are paid (Plus from about $14.99/month billed annually; Pro from about $19.99/month billed annually at last check), with a 7-day trial that requires a card."
+      ],
+      [
+        "Certificates",
+        "Brilliant is not credential-focused. Codecademy's Pro tier adds career paths, interview prep and certifications per its pricing page."
+      ],
+      [
+        "Related guides",
+        "For a wider coding roundup see <a href='best-platforms-to-learn-coding-and-tech.html'>best platforms to learn coding and tech</a>. For data-focused coding, see <a href='codecademy-vs-datacamp.html'>Codecademy vs DataCamp</a>."
+      ]
+    ],
+    "faq": [
+      [
+        "Is Brilliant free?",
+        "Brilliant offers a free plan with a daily lesson. Full unlimited access requires Premium. K-12 teachers and students may qualify for free Premium per Brilliant's help pages."
+      ],
+      [
+        "Does Codecademy have a free tier?",
+        "Yes. Codecademy's basic tier is free; Plus and Pro are paid upgrades."
+      ],
+      [
+        "Which is better for learning Python?",
+        "Codecademy, if you want a guided coding path in the browser. Brilliant can build CS and math intuition but is not a full professional coding curriculum."
+      ],
+      [
+        "Which has a free trial?",
+        "Codecademy advertises a 7-day trial (card required). Brilliant's free plan is the main no-cost entry; check Brilliant's subscribe pages for any current Premium trial offers."
+      ]
+    ],
+    "sources": [
+      [
+        "Brilliant Help: How much does Premium cost?",
+        "https://brilliant.org/help/pricing-and-plans/how-much-does-brilliant-premium-cost/"
+      ],
+      [
+        "Brilliant subscribe page",
+        "https://brilliant.org/subscribe/"
+      ],
+      [
+        "Codecademy pricing",
+        "https://www.codecademy.com/pricing"
+      ],
+      [
+        "Codecademy Help: Price",
+        "https://help.codecademy.com/hc/en-us/articles/360022052834-Price-of-Codecademy"
+      ]
+    ],
+    "updated": {
+      "date": "2026-11-05",
+      "nice": "November 5, 2026",
+      "note": "new evergreen comparison of interactive STEM puzzles vs browser-based coding practice."
+    }
   }
- },
- "masterclass-vs-skillshare": {
-  "title": "MasterClass vs Skillshare",
-  "desc": "MasterClass vs Skillshare compared: price, billing, trials and who each suits.",
-  "p": [
-   "masterclass",
-   "skillshare"
-  ],
-  "fields": [
-   "Pricing model",
-   "Monthly option",
-   "Free trial",
-   "Certificates"
-  ],
-  "answer": "Skillshare is the better hands-on learning tool for creatives; MasterClass is better for big-name inspiration. Both bill annually on the web.",
-  "sections": [
-   [
-    "Teaching style",
-    "MasterClass lessons are cinematic talks from famous names; Skillshare classes are practical and project-led."
-   ]
-  ],
-  "updated": {
-   "date": "2026-10-25",
-   "nice": "October 25, 2026",
-   "note": "added a 5-question FAQ on price, monthly billing, trials, certificates and refunds."
-  },
-  "faq": [
-   [
-    "Is MasterClass or Skillshare cheaper?",
-    "Skillshare, in most cases. On the web, Skillshare's annual membership is $167.88 a year (shown as $13.99 a month). MasterClass's cheapest plan, Standard, is $10 a month billed annually, which is $120 a year, but you only get one stream; Plus is $180 a year and Premium $240 a year. Both charge the whole year upfront, so compare yearly totals, not the monthly figures. Our <a href=\"../subscription-calculator/\">monthly vs annual calculator</a> helps with that."
-   ],
-   [
-    "Can I pay monthly for MasterClass or Skillshare?",
-    "Not on either website. MasterClass plans are advertised as billed annually. Skillshare's web plan is annual too, though monthly billing is available through the Skillshare app via your phone's app store."
-   ],
-   [
-    "Do MasterClass and Skillshare have free trials?",
-    "Skillshare offers a 7-day free trial, after which the annual membership is billed in full unless you cancel. We did not find a free trial on the MasterClass plan pages we checked; instead, MasterClass advertises a 30-day money-back guarantee."
-   ],
-   [
-    "Which gives certificates, MasterClass or Skillshare?",
-    "Neither main membership is built around credentials. Skillshare has certificates and badges to mark progress, but they are not accredited. MasterClass sells separate MasterClass Certificates: 15–20-hour courses with a capstone project and a shareable certificate, from $299 per course. If a recognised certificate matters, see our <a href=\"../compare/best-online-course-platforms-for-certificates.html\">best platforms for certificates</a>."
-   ],
-   [
-    "Can I get a refund from MasterClass or Skillshare?",
-    "MasterClass advertises a 30-day money-back guarantee. Skillshare gives a one-time refund of the first charge after the trial if you ask within 48 hours and have not used the membership, does not refund renewals, and allows a 14-day cooling-off period in the EU and UK."
-   ]
-  ]
- },
- "coursera-vs-udemy": {
-  "title": "Coursera vs Udemy",
-  "desc": "Coursera vs Udemy compared: certificates, subscription vs one-off course pricing, free trials, refunds and which to choose.",
-  "p": [
-   "coursera",
-   "udemy"
-  ],
-  "fields": [
-   "Pricing model",
-   "Free trial",
-   "Refunds",
-   "Certificates"
-  ],
-  "answer": "Coursera for recognised certificates and structured programs; Udemy for cheap, practical single courses with lifetime access.",
-  "sections": [
-   [
-    "Same owner, separate platforms",
-    "Coursera completed its combination with Udemy on May 11, 2026, so Udemy is now a wholly owned subsidiary of Coursera, Inc. For learners nothing has merged yet: Coursera says the platforms, accounts and subscriptions stay separate for now, and a Coursera Plus subscription does not include Udemy courses. We compare them as two different products, because that is how you buy them today."
-   ],
-   [
-    "Refunds",
-    "Udemy individual courses have a 30-day refund policy, but Udemy.com subscriptions do not. Coursera annual Plus has a 14-day money-back guarantee."
-   ]
-  ],
-  "sources": [
-   [
-    "Coursera investor news: Coursera completes combination with Udemy (May 11, 2026)",
-    "https://investor.coursera.com/news/news-details/2026/Coursera-Completes-Combination-with-Udemy-to-Build-the-Worlds-Most-Comprehensive-Skills-Platform/default.aspx"
-   ],
-   [
-    "Coursera Blog: what the Udemy combination means for Coursera learners",
-    "https://blog.coursera.org/how-the-coursera-and-udemy-combination-will-impact-coursera-learners/"
-   ],
-   [
-    "Coursera Blog: new course preview experience replaces audit (Aug 8, 2025)",
-    "https://blog.coursera.org/introducing-courseras-new-course-preview-experience/"
-   ]
-  ],
-  "faq": [
-   [
-    "Are Coursera and Udemy the same company now?",
-    "Yes, but they are still separate platforms. Coursera completed its combination with Udemy on May 11, 2026, and Udemy is now owned by Coursera, Inc. Coursera says accounts, subscriptions and catalogs remain separate for now: Coursera Plus does not include Udemy courses, and you cannot merge a Coursera and a Udemy account."
-   ],
-   [
-    "Is Coursera or Udemy better for certificates?",
-    "Coursera. Its certificates come from courses built with university and company partners, and Coursera Plus includes unlimited certificates once the trial ends. Udemy gives a certificate of completion that is not accredited. If a certificate matters for a job, check how that employer views it before you pay. See our <a href=\"../compare/best-online-course-platforms-for-certificates.html\">best platforms for certificates</a>."
-   ],
-   [
-    "Which is cheaper, Coursera or Udemy?",
-    "It depends on how many courses you take. For one specific skill, Udemy is usually the lower commitment: you pay once per course, keep lifetime access, and eligible courses have a 30-day refund window. Udemy's Personal Plan starts at $13.00 a month. Coursera charges $49–$79 a month for single courses and programs, or $59 a month or $399 a year for Coursera Plus. If you will study on Coursera for 7 or more months in a year, annual Plus is cheaper than monthly; check with our <a href=\"../subscription-calculator/\">monthly vs annual calculator</a>."
-   ],
-   [
-    "Do Coursera and Udemy offer free trials?",
-    "Coursera's monthly Plus plan starts with a 7-day free trial; Coursera takes your payment details but charges nothing if you cancel during the trial. Udemy offers Personal Plan free trials through promotions for some new subscribers, and you can cancel during the trial without being charged."
-   ],
-   [
-    "Can I get a refund from Coursera or Udemy?",
-    "Udemy refunds eligible individual courses within 30 days, but it can refuse refunds after heavy use or repeated requests, and some refunds are paid as Udemy credits. Udemy subscriptions bought on Udemy.com are not refundable unless local law requires it. Coursera's annual Plus plan can be refunded if you ask within 14 days of paying, though any certificates earned in that window are revoked."
-   ],
-   [
-    "Can I still audit Coursera courses for free?",
-    "Not in the old way. In August 2025 Coursera replaced free auditing with a free preview of the first module of most courses, including graded assignments where the course has them. Some Community Impact courses are free in full, and eligible learners can apply for financial aid. For fully free options, see our <a href=\"../compare/best-free-online-course-platforms.html\">best free online course platforms</a>."
-   ]
-  ],
-  "updated": {
-   "date": "2026-10-19",
-   "nice": "October 19, 2026",
-   "note": "added the May 2026 Coursera–Udemy combination, a 6-question FAQ, and Coursera's switch from free auditing to a free first-module preview."
-  }
- },
- "coursera-vs-edx": {
-  "title": "Coursera vs edX",
-  "desc": "Coursera vs edX compared for university courses and certificates: free audit options, Coursera Plus pricing, trials and refunds.",
-  "p": [
-   "coursera",
-   "edx"
-  ],
-  "fields": [
-   "Pricing model",
-   "Free trial",
-   "Free option",
-   "Certificates"
-  ],
-  "answer": "Both offer university content. edX's free audit track is good for sampling; Coursera Plus is better value if you'll take many courses.",
-  "sections": [],
-  "updated": {
-   "date": "2026-10-25",
-   "nice": "October 25, 2026",
-   "note": "added a 5-question FAQ on free options, price, certificates, trials and university courses."
-  },
-  "faq": [
-   [
-    "Can I take Coursera or edX courses for free?",
-    "edX still lets you audit many courses free, with temporary access to the course materials but no graded assignments or certificate. Coursera ended free auditing in August 2025; it now offers a free preview of the first module of most courses, some Community Impact courses free in full, and financial aid for eligible learners. For fully free options, see our <a href=\"../compare/best-free-online-course-platforms.html\">best free online course platforms</a>."
-   ],
-   [
-    "Is Coursera or edX cheaper?",
-    "It depends on how much you study. edX prices each course separately, so one certificate can cost less than months of a subscription; check the course's enrollment options for its price. Coursera charges $49–$79 a month for single courses and programs, or $59 a month or $399 a year for Coursera Plus, which covers most of its catalog. If you plan several courses in a year, Coursera Plus often works out cheaper. Until November 4, 2026, edX is also taking 15% off select verified courses and programs (<a href=\"../news/edx-fall-2026-discount-verified-certificates.html\">details of the edX fall offer</a>)."
-   ],
-   [
-    "Do Coursera and edX give certificates?",
-    "Yes. Coursera gives a certificate when you complete a course on a paid plan or with financial aid. On edX you get a verified certificate only on the paid verified track, and you need to upgrade before the course's upgrade deadline. Neither is a degree, so check how an employer views a certificate before you pay for it."
-   ],
-   [
-    "Does Coursera or edX have a free trial?",
-    "Coursera's monthly Plus plan starts with a 7-day free trial. edX has no trial, because the free audit track already lets you try most courses before you upgrade."
-   ],
-   [
-    "Which is better for university courses, Coursera or edX?",
-    "Both carry courses from universities and companies. edX suits learners who want to audit academic material free and pay only if they want the certificate. Coursera suits learners who expect to take several courses and want one subscription; its first-module preview lets you sample before paying. Our <a href=\"../quiz/index.html\">platform quiz</a> can help you choose."
-   ]
-  ]
- },
- "codecademy-vs-datacamp": {
-  "title": "Codecademy vs DataCamp",
-  "desc": "Codecademy vs DataCamp: free tiers, Plus, Pro and Premium prices, trials, student plans, certificates and refunds, plus which suits coding vs data careers.",
-  "p": [
-   "codecademy",
-   "datacamp"
-  ],
-  "fields": [
-   "Pricing model",
-   "Student discount",
-   "Student plan"
-  ],
-  "answer": "Codecademy for general programming and web development; DataCamp for data science, analytics and AI.",
-  "sections": [],
-  "updated": {
-   "date": "2026-10-27",
-   "nice": "October 27, 2026",
-   "note": "added a 5-question FAQ on which to choose, free tiers, prices, trials and student plans, and refunds."
-  },
-  "faq": [
-   [
-    "Should I choose Codecademy or DataCamp?",
-    "Choose Codecademy for general programming and web development: it suits complete beginners and career switchers who want guided, hands-on practice in the browser. Choose DataCamp if you want data science, analytics or AI skills such as Python, R and SQL. Both include certificates on paid plans. Our <a href=\"best-platforms-to-learn-coding-and-tech.html\">best platforms to learn coding</a> guide adds Pluralsight, Udacity and Udemy."
-   ],
-   [
-    "Can I use Codecademy or DataCamp for free?",
-    "Yes, to a point. Codecademy has a free basic tier, and DataCamp's free Basic tier includes the first chapter of every course. That is enough to test the teaching style before paying. For more free options, see our <a href=\"best-free-online-course-platforms.html\">best free online course platforms</a>."
-   ],
-   [
-    "How much do Codecademy and DataCamp cost?",
-    "At our last checks, Codecademy Plus cost $14.99 a month billed annually or $29.99 billed monthly, and Pro $19.99 a month billed annually or $39.99 billed monthly. DataCamp Premium cost $35 a month billed monthly, or $14 a month billed annually on a special price (regular $28) when we checked on October 15, 2026. DataCamp runs frequent promotions, so check the <a href=\"../pricing-tracker/index.html\">price tracker</a> and the <a href=\"../subscription-calculator/index.html\">monthly vs annual calculator</a> before you commit."
-   ],
-   [
-    "Do they offer free trials or student discounts?",
-    "Codecademy gives new accounts a 7-day free trial of a paid plan; a card is required and you are charged after day 7. It also has Pro Student pricing for eligible students. DataCamp has a Premium Student plan for eligible college students, which it describes as over 50% off; we have not confirmed a standard DataCamp free trial, so its free Basic tier is the way to try it. Details and sources are in our <a href=\"../reviews/codecademy.html\">Codecademy review</a> and <a href=\"../reviews/datacamp.html\">DataCamp review</a>."
-   ],
-   [
-    "Can I get a refund or pause my subscription?",
-    "Codecademy does not refund subscriptions, though you can ask support about exceptions. DataCamp's terms say fees are non-refundable except as stated, with no prorated refund when you cancel. DataCamp lets monthly subscribers pause, but yearly plans cannot be paused. If you are unsure you will keep going, a monthly plan costs more but limits what you can lose."
-   ]
-  ]
- },
- "babbel-vs-duolingo": {
-  "title": "Babbel vs Duolingo",
-  "desc": "Babbel vs Duolingo: what Duolingo gives you free, Babbel's subscription and lifetime prices, grammar vs habit-building, refunds, certificates and which to pick.",
-  "p": [
-   "babbel",
-   "duolingo"
-  ],
-  "fields": [
-   "Pricing model",
-   "Free option",
-   "Format",
-   "Certificates"
-  ],
-  "answer": "Duolingo for a free daily habit; Babbel for structured, conversation-focused lessons.",
-  "sections": [],
-  "updated": {
-   "date": "2026-10-27",
-   "nice": "October 27, 2026",
-   "note": "added a 5-question FAQ on free use, prices, grammar vs habit-building, refunds and certificates."
-  },
-  "faq": [
-   [
-    "Is Duolingo free, and is Babbel?",
-    "Duolingo is free: it says every learner gets the same lesson content, with ads and some limits on the free plan. Super Duolingo removes ads and adds unlimited hearts and personalised practice, with a 1-week free trial. Babbel has no free plan; it is sold as subscriptions of several lengths plus a lifetime option. See our <a href=\"../reviews/duolingo.html\">Duolingo review</a> and <a href=\"../reviews/babbel.html\">Babbel review</a>."
-   ],
-   [
-    "How much does Babbel cost?",
-    "At our last check, Babbel charged $17.95 for 1 month, $45.75 for 3 months, $80.70 for 6 months or $107.40 for 12 months (about $8.95 a month), and $299.99 for lifetime access. Super Duolingo prices vary by plan and app store, so check Duolingo's own Super page. The <a href=\"../pricing-tracker/index.html\">price and free-trial tracker</a> shows when each figure was checked, and the <a href=\"../subscription-calculator/index.html\">monthly vs annual calculator</a> shows what a longer plan saves."
-   ],
-   [
-    "Which is better for grammar and real conversation?",
-    "Babbel. Its short lessons are built around practical dialogue and cover grammar alongside it, which suits beginners who want structure. Duolingo is better at building a daily habit through game-style practice, but it is weaker if you need grammar taught explicitly. Many learners start on Duolingo free and move to Babbel when they want more structure; our <a href=\"best-language-learning-apps.html\">best language learning apps</a> guide adds Rosetta Stone to the comparison."
-   ],
-   [
-    "Can I get a refund on Babbel or Duolingo?",
-    "Duolingo's terms say payments are nonrefundable unless the law requires otherwise, and subscriptions bought through the App Store or Google Play are refunded through Apple or Google. We have not yet verified Babbel's refund terms on an official page, so read its terms before buying a long plan or lifetime access. Using Duolingo's free plan or the 1-week Super trial first is the lowest-risk way to test either approach."
-   ],
-   [
-    "Do Babbel or Duolingo give certificates?",
-    "Neither gives an accredited certificate for its language courses. The Duolingo English Test is a separate, paid product, not a certificate for finishing a course. If you need a credential, see our <a href=\"best-online-course-platforms-for-certificates.html\">best platforms for certificates</a>."
-   ]
-  ]
- },
- "pluralsight-vs-linkedin-learning": {
-  "title": "Pluralsight vs LinkedIn Learning",
-  "desc": "Pluralsight vs LinkedIn Learning: who each suits, whether you can buy LinkedIn Learning alone, plan prices, free trials, refunds and certificates, with sources.",
-  "p": [
-   "pluralsight",
-   "linkedin-learning"
-  ],
-  "fields": [
-   "Pricing model",
-   "Free trial",
-   "Certificates"
-  ],
-  "answer": "Pluralsight for deep technical skills and labs; LinkedIn Learning for broad business skills bundled with Premium.",
-  "sections": [],
-  "updated": {
-   "date": "2026-10-28",
-   "nice": "October 28, 2026",
-   "note": "added a 5-question FAQ on which to choose, buying LinkedIn Learning on its own, prices, free trials and refunds; trial and refund terms re-checked on official pages today."
-  },
-  "faq": [
-   [
-    "Should I choose Pluralsight or LinkedIn Learning?",
-    "Choose Pluralsight if you work in tech or want to: it focuses on software development, IT operations, cloud, data, AI and security, with Skill IQ assessments, learning paths, certification prep and hands-on labs, plus cloud and AI sandboxes on the Cloud+, AI+ and Complete plans. Choose LinkedIn Learning for broader business and software skills, especially if you would also use LinkedIn Premium or can get access through your employer or school. Our <a href=\"best-platforms-to-learn-coding-and-tech.html\">best platforms to learn coding and tech</a> guide compares more options."
-   ],
-   [
-    "Can I buy LinkedIn Learning on its own?",
-    "No. LinkedIn's help center says it does not sell individual LinkedIn Learning subscriptions or single courses. Individuals get it through LinkedIn Premium, and organisations such as businesses, universities and government agencies can buy it for their people. If your employer or school already has a licence, you may not need to pay at all, so check that first. Pluralsight, by contrast, sells individual plans directly."
-   ],
-   [
-    "How much do Pluralsight and LinkedIn Learning cost?",
-    "At our October 15, 2026 check, Pluralsight cost $21 a month for Core Tech, $24.50 a month for AI+, Cloud+, Data+ or Security+, and $39 a month for Complete, all billed yearly, or $30 (Core Tech) and $55 (Complete) billed monthly. Pluralsight's pricing page loads its prices with JavaScript and we could not reconfirm them on October 28, so check before you buy. For LinkedIn Learning you pay for a LinkedIn Premium plan; we haven't confirmed current Premium prices on a public official LinkedIn page, so check LinkedIn's Premium page before you subscribe. See the <a href=\"../pricing-tracker/index.html\">price tracker</a> and the <a href=\"../subscription-calculator/index.html\">monthly vs annual calculator</a>."
-   ],
-   [
-    "Do Pluralsight and LinkedIn Learning have free trials?",
-    "Yes. Pluralsight offers a 10-day free trial on any individual plan. It includes your plan's full course library, Skill IQ, certification prep, learning paths and a selection of hands-on labs; offline downloads and the full labs and sandboxes need a paid plan. If you don't cancel, the trial turns into a paid subscription on day 11. LinkedIn Premium's free trial lasts one month for eligible users, and billing starts automatically when it ends. Set a reminder either way."
-   ],
-   [
-    "Can I get a refund, and do they give certificates?",
-    "Pluralsight says it doesn't refund individual subscriptions because you can cancel at any time; you keep access until the end of the period you've paid for, and it doesn't send renewal reminder emails. We haven't verified LinkedIn Premium's refund terms on an official page, so cancel before your trial ends if you're unsure. Both give certificates of completion, and LinkedIn Learning lets you add completed courses to your LinkedIn profile. More detail is in our <a href=\"../reviews/pluralsight.html\">Pluralsight review</a> and <a href=\"../reviews/linkedin-learning.html\">LinkedIn Learning review</a>."
-   ]
-  ],
-  "sources": [
-   [
-    "Pluralsight Help: Free trial for individuals (10 days, converts on day 11)",
-    "https://help.pluralsight.com/hc/en-us/articles/24425968776724-Free-trial-for-individuals"
-   ],
-   [
-    "Pluralsight Help: Individual subscription renewal (refund policy)",
-    "https://help.pluralsight.com/hc/en-us/articles/24357221837588-Individual-subscription-renewal"
-   ],
-   [
-    "Pluralsight Help: Canceling an individual subscription (certificates of completion kept)",
-    "https://help.pluralsight.com/hc/en-us/articles/24357203231508-Canceling-an-individual-subscription"
-   ]
-  ]
- },
- "udacity-vs-coursera": {
-  "title": "Udacity vs Coursera",
-  "desc": "Coursera is far cheaper and offers university certificates; Udacity is a pricier, project-intensive sprint.",
-  "p": [
-   "udacity",
-   "coursera"
-  ],
-  "fields": [
-   "Pricing model",
-   "Free option",
-   "Certificates"
-  ],
-  "answer": "Coursera is far cheaper and offers university certificates; Udacity is a pricier, project-intensive sprint.",
-  "sections": [],
-  "updated": {
-   "date": "2026-10-19",
-   "nice": "October 19, 2026",
-   "note": "Coursera's free option now reflects its August 2025 switch from free auditing to a free first-module preview."
-  }
- },
- "futurelearn-vs-coursera": {
-  "title": "FutureLearn vs Coursera",
-  "desc": "FutureLearn vs Coursera: catalog size, free options, Unlimited vs Coursera Plus prices, certificate rules, renewals and refunds, checked on official pages.",
-  "p": [
-   "futurelearn",
-   "coursera"
-  ],
-  "fields": [
-   "Pricing model",
-   "Renewal",
-   "Certificates"
-  ],
-  "answer": "Coursera has the bigger catalog and certificate range; FutureLearn suits short courses in health, teaching and psychology.",
-  "sections": [],
-  "updated": {
-   "date": "2026-10-28",
-   "nice": "October 28, 2026",
-   "note": "added a 5-question FAQ on which to choose, free options, prices, certificates and renewals; FutureLearn Unlimited price and Coursera Plus monthly price re-checked today."
-  },
-  "faq": [
-   [
-    "Is FutureLearn or Coursera better?",
-    "Coursera is the bigger platform: it lists 10,000+ courses, against 1,400+ on FutureLearn Unlimited, and has a wider range of university and company certificates. FutureLearn suits learners who like short, structured university courses, typically 2 to 8 weeks long, in areas such as healthcare, teaching, psychology and business. If you want a career certificate, start with Coursera; if you want a short course on a specific topic, FutureLearn is worth a look. See also <a href=\"coursera-vs-edx.html\">Coursera vs edX</a>."
-   ],
-   [
-    "Can I study on FutureLearn or Coursera for free?",
-    "Yes, with limits. FutureLearn lets you join most short courses free with Limited Access: you get access for the length of the course, content may unlock week by week, and you don't get a certificate. Coursera gives a free preview of the first module of most courses (this replaced free auditing in August 2025), some Community Impact courses are free in full, and financial aid is available. Our <a href=\"best-free-online-course-platforms.html\">best free online course platforms</a> guide covers more free options."
-   ],
-   [
-    "How much do FutureLearn Unlimited and Coursera Plus cost?",
-    "On October 28, 2026, FutureLearn's Unlimited page listed $349.99 a year, shown at $244.99 with a 30% offer. Coursera Plus was $59 a month on October 28, or $399 a year at our October 15 check. FutureLearn also sells one-off upgrades for individual short courses, priced on each course page. FutureLearn's Premium courses are not included in Unlimited. Use the <a href=\"../subscription-calculator/index.html\">monthly vs annual calculator</a> to see when an annual plan pays off."
-   ],
-   [
-    "How do I get a certificate on FutureLearn or Coursera?",
-    "On FutureLearn you need Unlimited, a paid upgrade, or a Premium, ExpertTrack, Professional Certificate or sponsored course; then you must complete 90% of the steps, attempt every test question and score at least 70% where there are tests. Unlimited certificates are digital only; printed certificates come with upgrades and Premium courses. FutureLearn notes its certificates don't award credit points or a university qualification. Coursera awards certificates when you complete a course on a paid plan or with financial aid. See our <a href=\"best-online-course-platforms-for-certificates.html\">best platforms for certificates</a> guide."
-   ],
-   [
-    "Do they auto-renew, and can I get a refund?",
-    "FutureLearn's annual and monthly Unlimited plans renew automatically unless you cancel before the renewal date; after cancelling you keep access until the period ends, and you keep any certificates you've earned. Coursera's monthly Plus plan starts with a 7-day free trial, and annual Plus has a 14-day money-back guarantee, though certificates earned in that window are revoked if you take the refund. We haven't found a general refund policy for FutureLearn Unlimited on its help pages, so check before you buy. Full details are in our <a href=\"../reviews/futurelearn.html\">FutureLearn review</a> and <a href=\"../reviews/coursera.html\">Coursera review</a>."
-   ]
-  ],
-  "sources": [
-   [
-    "FutureLearn Help: Limited Access and purchasing short courses",
-    "https://futurelearn.zendesk.com/hc/en-us/articles/115008307107-Limited-Access-purchasing-short-courses-and-joining-Premium-courses"
-   ],
-   [
-    "FutureLearn Help: Certificates of Achievement",
-    "https://futurelearn.zendesk.com/hc/en-us/articles/115008376948-Certificates-of-Achievement"
-   ],
-   [
-    "FutureLearn Help: What types of courses do you offer?",
-    "https://futurelearn.zendesk.com/hc/en-us/articles/360019407500-What-types-of-courses-do-you-offer"
-   ]
-  ]
- },
- "skillshare-vs-domestika": {
-  "title": "Skillshare vs Domestika",
-  "desc": "Skillshare for unlimited short classes; Domestika for in-depth courses you can keep.",
-  "p": [
-   "skillshare",
-   "domestika"
-  ],
-  "fields": [
-   "Pricing model",
-   "Certificates"
-  ],
-  "answer": "Skillshare for unlimited short classes; Domestika for in-depth courses you can keep.",
-  "sections": [],
-  "updated": {
-   "date": "2026-10-19",
-   "nice": "October 19, 2026",
-   "note": "updated Skillshare's certificate wording from its current pricing page."
-  }
- },
- "best-free-online-course-platforms": {
-  "title": "Best Free Online Course Platforms",
-  "desc": "Khan Academy is fully free; Alison and edX let you study free and pay only for certificates. What is free on Coursera and Duolingo, from official pages.",
-  "p": [
-   "khan-academy",
-   "alison",
-   "edx",
-   "duolingo",
-   "coursera"
-  ],
-  "fields": [
-   "Pricing model",
-   "Free option",
-   "Certificates"
-  ],
-  "answer": "Khan Academy is the best fully free option. Alison lets you study and complete courses free, and edX's audit track lets you study course materials free for a limited time; certificates cost extra on both.",
-  "sections": [
-   [
-    "How we chose",
-    "Platforms where meaningful learning is free, per each platform's own help pages."
-   ]
-  ],
-  "faq": [
-   [
-    "What is the best completely free online learning platform?",
-    "<a href=\"../reviews/khan-academy.html\">Khan Academy</a>. It is a 501(c)(3) nonprofit, and its whole library of videos, articles, practice questions and lessons is free, with no ads. It is strongest for school and early-college subjects. Its AI tutor, Khanmigo, is a separate product that is paid for learners where offered."
-   ],
-   [
-    "Can I get a free certificate from an online course?",
-    "Sometimes, but usually not. <a href=\"../reviews/alison.html\">Alison</a> lets you study and complete courses free and download a free Learner Record; printed or digital certificates are optional purchases, though some courses include a free digital one. edX's free audit track gives no certificate, and Coursera certificates need a paid plan or financial aid."
-   ],
-   [
-    "Is edX free?",
-    "The audit track is free. It gives you videos, readings, ungraded practice and discussion forums for a limited time, counted from when you enrol. Graded assignments and exams, the verified certificate, and access after the course ends all need the paid verified track, which is priced per course. See our <a href=\"../reviews/edx.html\">edX review</a>."
-   ],
-   [
-    "Is Coursera free?",
-    "Partly. Since August 2025 Coursera has offered a free preview of the first module of most courses instead of free auditing. Some Community Impact courses are free in full, and financial aid can cover full access for eligible learners. Otherwise you pay per course or program ($49–$79 a month) or subscribe to Coursera Plus; compare it in <a href=\"../compare/coursera-vs-udemy.html\">Coursera vs Udemy</a>."
-   ],
-   [
-    "Is Duolingo really free?",
-    "Yes. All Duolingo course content is free, with ads and some limits. Super Duolingo removes ads and adds unlimited hearts and extra practice, with a 1-week free trial. Duolingo's terms say payments are nonrefundable unless the law requires otherwise. See <a href=\"../compare/best-language-learning-apps.html\">best language learning apps</a>."
-   ]
-  ],
-  "sources": [
-   [
-    "Coursera Blog: new course preview experience replaces audit (Aug 8, 2025)",
-    "https://blog.coursera.org/introducing-courseras-new-course-preview-experience/"
-   ]
-  ],
-  "updated": {
-   "date": "2026-10-19",
-   "nice": "October 19, 2026",
-   "note": "added a 5-question FAQ, clarified what edX's free audit track includes, and noted that Coursera replaced free auditing with a first-module preview in August 2025."
-  }
- },
- "best-online-course-platforms-for-certificates": {
-  "title": "Best Online Course Platforms for Certificates",
-  "desc": "Coursera is our top pick for recognised certificates at a reasonable subscription price.",
-  "p": [
-   "coursera",
-   "edx",
-   "udacity",
-   "linkedin-learning",
-   "futurelearn"
-  ],
-  "fields": [
-   "Pricing model",
-   "Certificates"
-  ],
-  "answer": "Coursera is our top pick for recognised certificates at a reasonable subscription price.",
-  "sections": [],
-  "faq": [
-   [
-    "Which online course platform has the best certificates?",
-    "For most career goals, <a href=\"../reviews/coursera.html\">Coursera</a>. Its certificates come from courses built with university and company partners, and Coursera Plus ($59 a month or $399 a year) includes unlimited certificates. <a href=\"../reviews/edx.html\">edX</a> verified certificates are a good pay-per-course alternative. <a href=\"../reviews/udacity.html\">Udacity</a> Nanodegree certificates suit intensive tech programs but cost far more ($249 a month)."
-   ],
-   [
-    "Are online course certificates accredited?",
-    "Usually not. Most are certificates of completion, not academic credit or a professional licence; Udemy, for example, describes its certificates as not accredited. Degree programs are different, and Coursera Plus does not include degrees. Before paying, ask the employer or school you have in mind how they treat the certificate."
-   ],
-   [
-    "How much does a Coursera certificate cost?",
-    "Single courses and programs cost $49–$79 a month. Coursera Plus costs $59 a month (after a 7-day free trial) or $399 a year, and covers most of the catalog with unlimited certificates; some programs and all degrees are excluded. Eligible learners can apply for financial aid. Our <a href=\"../subscription-calculator/\">monthly vs annual calculator</a> shows annual Plus pays off from month 7."
-   ],
-   [
-    "Does LinkedIn Learning give certificates?",
-    "Yes, it gives a certificate of completion. Individuals cannot subscribe to LinkedIn Learning on its own; it comes with LinkedIn Premium (PCMag reports Premium Career at $39.99 a month or $239.88 a year) or through an employer, school or library. See <a href=\"../compare/pluralsight-vs-linkedin-learning.html\">Pluralsight vs LinkedIn Learning</a>."
-   ],
-   [
-    "Does MasterClass offer certificates?",
-    "Yes, as a separate product. MasterClass Certificates are 15–20-hour courses with a capstone project and a shareable certificate, starting at $299 per course (per MasterClass's 2026 announcements) or available through a Certificates Annual Pass. The regular <a href=\"../reviews/masterclass.html\">MasterClass</a> membership ($120 to $240 a year) is built for inspiration rather than credentials."
-   ]
-  ],
-  "sources": [
-   [
-    "MasterClass Certificates Help: pricing",
-    "https://www.masterclass.com/help-center/certificates/answers/pricing-for-master-class-certificates--id--ZCf8XPJzQOyxgUkdrgV2YA"
-   ]
-  ],
-  "updated": {
-   "date": "2026-10-19",
-   "nice": "October 19, 2026",
-   "note": "added a 5-question FAQ, including MasterClass's separate certificate courses."
-  }
- },
- "best-language-learning-apps": {
-  "title": "Best Language Learning Apps",
-  "desc": "Duolingo, Babbel and Rosetta Stone compared: what is free, subscription and lifetime prices, trials, certificates and which app suits each kind of learner.",
-  "p": [
-   "duolingo",
-   "babbel",
-   "rosetta-stone"
-  ],
-  "fields": [
-   "Pricing model",
-   "Free option",
-   "Format"
-  ],
-  "answer": "Start with Duolingo free; move to Babbel for structure or Rosetta Stone for immersion.",
-  "sections": [],
-  "updated": {
-   "date": "2026-10-26",
-   "nice": "October 26, 2026",
-   "note": "added a 5-question FAQ on free use, prices, lifetime plans, certificates and which app to start with."
-  },
-  "faq": [
-   [
-    "Is Duolingo really free?",
-    "Yes. Duolingo says it offers the same lesson content to every learner, so you can work through full courses free, with ads and some limits. Super Duolingo removes ads and adds unlimited hearts, personalised practice and unlimited attempts at Legendary challenges, with a 1-week free trial. See our <a href=\"../reviews/duolingo.html\">Duolingo review</a>."
-   ],
-   [
-    "How much do Babbel and Rosetta Stone cost?",
-    "At our last check, Babbel charged $17.95 for 1 month, $45.75 for 3 months, $80.70 for 6 months or $107.40 for 12 months, with a $299.99 lifetime option. Rosetta Stone charged $19.99 a month billed monthly or $159 a year. Prices change often, so the <a href=\"../pricing-tracker/index.html\">price and free-trial tracker</a> lists the date each figure was checked."
-   ],
-   [
-    "Is a lifetime language app plan worth it?",
-    "Only if you are sure you will keep using the same app for years. Babbel's lifetime plan costs about the same as 2.8 years of its 12-month plan at the prices above. Rosetta Stone's lifetime access lasts while the product and services remain available and supported, so read its terms first. Our <a href=\"../subscription-calculator/index.html\">monthly vs annual calculator</a> helps with the shorter plans."
-   ],
-   [
-    "Do language learning apps give certificates?",
-    "Duolingo, Babbel and Rosetta Stone do not give accredited certificates for their courses. The Duolingo English Test is a separate, paid product. If you need a certificate, see our <a href=\"best-online-course-platforms-for-certificates.html\">best platforms for certificates</a>."
-   ],
-   [
-    "Which language app should a beginner start with?",
-    "Start with Duolingo's free tier to build a daily habit. Move to Babbel if you want structured lessons built around practical conversation and grammar, or Rosetta Stone if you prefer immersion and want access to many languages. Our <a href=\"babbel-vs-duolingo.html\">Babbel vs Duolingo comparison</a> goes into more detail."
-   ]
-  ]
- },
- "best-platforms-to-learn-coding-and-tech": {
-  "title": "Best Platforms to Learn Coding and Tech Skills",
-  "desc": "Codecademy, DataCamp, Pluralsight, Udacity and Udemy compared for learning to code and tech skills: free tiers, trials, prices, certificates and refunds.",
-  "p": [
-   "codecademy",
-   "datacamp",
-   "pluralsight",
-   "udacity",
-   "udemy"
-  ],
-  "fields": [
-   "Pricing model",
-   "Free option",
-   "Certificates"
-  ],
-  "answer": "Codecademy for beginners, DataCamp for data, Pluralsight for IT certifications, Udemy for one-off skills.",
-  "sections": [],
-  "updated": {
-   "date": "2026-10-26",
-   "nice": "October 26, 2026",
-   "note": "added a 5-question FAQ on free options, trials, prices, certificates and refunds."
-  },
-  "faq": [
-   [
-    "Can I learn to code for free?",
-    "You can start free. Codecademy has a free basic tier, and DataCamp's free Basic tier includes the first chapter of every course. Udemy sells single courses with lifetime access, which can be cheaper than a subscription if you only need one skill. For more free options, see our <a href=\"best-free-online-course-platforms.html\">best free online course platforms</a>."
-   ],
-   [
-    "Which coding platforms have a free trial?",
-    "Codecademy gives new accounts a 7-day free trial of Plus or Pro; a card is required and you are charged after day 7. Pluralsight offers a 10-day trial that excludes labs and sandboxes. Udemy's Personal Plan may offer a trial to first-time subscribers. Udacity relies on personalised offers and sales rather than a standard trial."
-   ],
-   [
-    "How much do coding platforms cost?",
-    "At our last checks, Codecademy Pro cost $19.99 a month billed annually or $39.99 billed monthly, DataCamp Premium $35 a month billed monthly, and Pluralsight Core Tech $21 a month billed yearly or $30 billed monthly. Udacity All Access cost $249 a month or $846 for four months upfront, and Udemy's Personal Plan started at $13.00 a month. The <a href=\"../pricing-tracker/index.html\">price tracker</a> shows the check date for each figure."
-   ],
-   [
-    "Do coding platform certificates help you get a job?",
-    "They show you finished a course or path but are not degrees. Codecademy Pro includes certifications and interview prep, DataCamp Premium includes certificates and certifications, Pluralsight includes certification prep, and Udacity gives Nanodegree program certificates. Udemy's certificate of completion is not accredited. Employers usually care more about projects you can show, so build a portfolio alongside any certificate."
-   ],
-   [
-    "Can I get a refund on a coding subscription?",
-    "Usually not. Codecademy and Pluralsight do not refund individual subscriptions, and DataCamp's terms say fees are non-refundable except as stated. Udemy is the exception for single courses: eligible purchases have a 30-day refund policy. Check each <a href=\"../reviews/index.html\">platform review</a> for the details and sources, and compare <a href=\"codecademy-vs-datacamp.html\">Codecademy vs DataCamp</a> if you are choosing between the two."
-   ]
-  ]
- },
- "masterclass-alternatives": {
-  "title": "Best MasterClass Alternatives",
-  "desc": "Skillshare and Domestika for hands-on creative learning; The Great Courses Plus for long lectures; Coursera if you want certificates.",
-  "p": [
-   "skillshare",
-   "domestika",
-   "great-courses-plus",
-   "coursera"
-  ],
-  "fields": [
-   "Pricing model",
-   "Certificates"
-  ],
-  "answer": "Skillshare and Domestika for hands-on creative learning; The Great Courses Plus for long lectures; Coursera if you want certificates.",
-  "sections": [],
-  "updated": {
-   "date": "2026-10-19",
-   "nice": "October 19, 2026",
-   "note": "updated Skillshare's certificate wording from its current pricing page."
-  }
- }
 }

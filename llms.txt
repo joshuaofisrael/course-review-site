@@ -31,6 +31,8 @@ Every price, free-trial length and refund term links to the platform's own offic
 - [Best Language Learning Apps](https://coursegauge.com/compare/best-language-learning-apps.html): Duolingo, Babbel and Rosetta Stone compared: what is free, subscription and lifetime prices, trials, certificates and which app suits each kind of learner.
 - [Best Platforms to Learn Coding and Tech Skills](https://coursegauge.com/compare/best-platforms-to-learn-coding-and-tech.html): Codecademy, DataCamp, Pluralsight, Udacity and Udemy compared for learning to code and tech skills: free tiers, trials, prices, certificates and refunds.
 - [Best MasterClass Alternatives](https://coursegauge.com/compare/masterclass-alternatives.html): Skillshare and Domestika for hands-on creative learning; The Great Courses Plus for long lectures; Coursera if you want certificates.
+- [Khan Academy vs Coursera](https://coursegauge.com/compare/khan-academy-vs-coursera.html): Khan Academy is free nonprofit learning without career certificates; Coursera sells university and industry certificates with Plus and paid programs.
+- [Brilliant vs Codecademy](https://coursegauge.com/compare/brilliant-vs-codecademy.html): Brilliant focuses on interactive math, science and CS puzzles; Codecademy focuses on writing code in the browser with free and paid coding plans.
 
 ## Platform reviews
 - [All reviews](https://coursegauge.com/reviews/): Independent reviews of 20 online course platforms, from MasterClass and Coursera to Duolingo, with prices, trials, refunds and sources.

@@ -161,5 +161,45 @@
  {
   "path": "logo.svg",
   "licence": "Owned: original CourseGauge logo drawn in SVG in this repo."
+ },
+ {
+  "path": "images/cmp-khan-coursera.webp",
+  "licence": "Owned: original AI-generated photo created for CourseGauge by the site bot on 5 Nov 2026. Objects/scenes only, no people, logos, readable brand marks or third-party material.",
+  "source": "AI generated for CourseGauge evergreen batch 2026-11-05"
+ },
+ {
+  "path": "images/cmp-khan-coursera-md.webp",
+  "licence": "Owned: original AI-generated photo created for CourseGauge by the site bot on 5 Nov 2026. Objects/scenes only, no people, logos, readable brand marks or third-party material.",
+  "source": "AI generated for CourseGauge evergreen batch 2026-11-05"
+ },
+ {
+  "path": "images/cmp-khan-coursera-sm.webp",
+  "licence": "Owned: original AI-generated photo created for CourseGauge by the site bot on 5 Nov 2026. Objects/scenes only, no people, logos, readable brand marks or third-party material.",
+  "source": "AI generated for CourseGauge evergreen batch 2026-11-05"
+ },
+ {
+  "path": "images/cmp-khan-coursera-og.jpg",
+  "licence": "Owned: original AI-generated photo created for CourseGauge by the site bot on 5 Nov 2026. Objects/scenes only, no people, logos, readable brand marks or third-party material.",
+  "source": "AI generated for CourseGauge evergreen batch 2026-11-05"
+ },
+ {
+  "path": "images/cmp-brilliant-codecademy.webp",
+  "licence": "Owned: original AI-generated photo created for CourseGauge by the site bot on 5 Nov 2026. Objects/scenes only, no people, logos, readable brand marks or third-party material.",
+  "source": "AI generated for CourseGauge evergreen batch 2026-11-05"
+ },
+ {
+  "path": "images/cmp-brilliant-codecademy-md.webp",
+  "licence": "Owned: original AI-generated photo created for CourseGauge by the site bot on 5 Nov 2026. Objects/scenes only, no people, logos, readable brand marks or third-party material.",
+  "source": "AI generated for CourseGauge evergreen batch 2026-11-05"
+ },
+ {
+  "path": "images/cmp-brilliant-codecademy-sm.webp",
+  "licence": "Owned: original AI-generated photo created for CourseGauge by the site bot on 5 Nov 2026. Objects/scenes only, no people, logos, readable brand marks or third-party material.",
+  "source": "AI generated for CourseGauge evergreen batch 2026-11-05"
+ },
+ {
+  "path": "images/cmp-brilliant-codecademy-og.jpg",
+  "licence": "Owned: original AI-generated photo created for CourseGauge by the site bot on 5 Nov 2026. Objects/scenes only, no people, logos, readable brand marks or third-party material.",
+  "source": "AI generated for CourseGauge evergreen batch 2026-11-05"
  }
 ]
