@@ -3,3 +3,7 @@ Affiliate Disclosure
 <p>Current status: {BRAND} has no affiliate relationships with any platform we review, has no paid placements, and earns no commission from the links on this site. Links to platforms are plain links to their official pages.</p>
 <p>If that changes, we will say so on this page, label each affiliate link next to the link itself, and mark it with rel="sponsored". If you click such a link and make a purchase, Joshua Israel Ventures LLC may earn a commission at no additional cost to you.</p>
 <p>We include platforms regardless of any commercial relationship, and we cite public sources for factual claims.</p>
+<h2 id="editorial">Editorial standards</h2>
+<p>Reviews, comparisons and news on {BRAND} are independent editorial content. We read each platform's own public pages, cite them, and date-stamp our checks. A platform is included whether or not we ever have a commercial relationship with it. No company pays for a ranking, a verdict or a placement.</p>
+<h2 id="images">AI-generated images</h2>
+<p>Decorative photographs on this site are original AI-generated images created for {BRAND}. They show objects and scenes only: no real people, and no third-party logos or product screenshots. They illustrate a page. They are not evidence for a factual claim.</p>

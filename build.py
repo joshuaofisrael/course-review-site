@@ -130,7 +130,8 @@ def page(path,title,desc,body,schema=None,crumbs=None,ogtype="website",faq=None,
 <p class="disc"><strong>Disclosure:</strong> {BRAND} currently has no affiliate relationships with the platforms we review and earns no commission from links on this page. If that changes, affiliate links will be labelled next to the link and on our disclosure page. <a href="{r}disclosure.html">Full disclosure</a>.</p>
 {body}</main>
 <footer><div class="wrap">{_legal_foot(path)}
-<p><a href="{r}terms.html">Terms</a> · <a href="{r}privacy.html">Privacy</a> · <a href="{r}disclaimer.html">Disclaimer</a> · <a href="{r}disclosure.html">Affiliate Disclosure</a> · <a href="{r}about.html">About</a> · <a href="{r}contact.html">Contact</a> · <a href="#" id="cc-open">Cookie settings</a></p>
+<p><a href="{r}terms.html">Terms</a> · <a href="{r}privacy.html">Privacy</a> · <a href="{r}disclaimer.html">Disclaimer</a> · <a href="{r}disclosure.html">Affiliate Disclosure</a> · <a href="{r}disclosure.html#editorial">Editorial &amp; AI disclosure</a> · <a href="{r}about.html">About</a> · <a href="{r}contact.html">Contact</a> · <a href="#" id="cc-open">Cookie settings</a></p>
+<p>Decorative photos are original AI-generated images.</p>
 <p>Platform names and trademarks belong to their respective owners and are used only to identify the services reviewed. {BRAND} is not affiliated with or endorsed by them.</p></div></footer>{CONSENT}{BEACON}</body></html>"""
     # Internal links always point at the canonical directory URL, never .../index.html
     html=_re.sub(r"""href=(["'])((?:\.\./)*)((?:[\w-]+/)*)index\.html\1""",lambda m:f'href={m.group(1)}{(m.group(2)+m.group(3)) or "./"}{m.group(1)}',html)
@@ -178,8 +179,8 @@ for f in sorted(os.listdir("data/legal")):
     LD={"about":f"About {BRAND}: how we research course platforms, cite official sources and date-check every price.",
         "contact":f"Contact {BRAND} with questions, corrections or outdated prices on our online course reviews.",
         "disclaimer":f"Disclaimer for {BRAND}: our online course reviews are general information; prices and terms change, so confirm with each provider.",
-        "disclosure":f"Disclosure for {BRAND}: we currently have no affiliate relationships or paid placements, and how we will label affiliate links if that changes.",
-        "privacy":f"Privacy policy for {BRAND}: what data we collect (very little), Google Analytics with consent, cookies, and your choices.",
+        "disclosure":f"Disclosure for {BRAND}: no current affiliate deals, how links will be labelled, editorial standards, and AI-generated image credit.",
+        "privacy":f"Privacy policy for {BRAND}: data we collect, analytics cookies, Google AdSense, third-party ad vendors, and how to opt out.",
         "terms":f"Terms of use for {BRAND}, the independent online course review site, covering content, links, liability and governing law.",
         "thanks":f"Thanks for contacting {BRAND}. Your message reached our team; meanwhile, try our price tracker or platform quiz."}
     START='<p><strong>Start here:</strong> <a href="reviews/">platform reviews</a> · <a href="compare/">comparisons</a> · <a href="pricing-tracker/">price and free-trial tracker</a> · <a href="subscription-calculator/">monthly vs annual calculator</a> · <a href="quiz/">platform quiz</a> · <a href="news/">news</a></p>'
@@ -196,9 +197,12 @@ page("index.html","Online Course Platform Reviews and Comparisons","Independent,
 ("Which platforms offer a free trial?","Trial terms vary by platform and change often. Our <a href='pricing-tracker/'>price and free-trial tracker</a> lists current trials and prices for 20 platforms, each linked to the platform's own pages."),
 ("Do online course certificates count for anything?","Certificates of completion show you finished a course but are not accredited degrees. Some university-backed certificates on platforms such as Coursera and edX carry more weight with employers. Each <a href='reviews/'>review</a> notes what certificate a platform offers."),
 ("How does CourseGauge research its reviews?","Every price, trial and refund fact is linked to the platform's own pages or a named source, and pages show when they were last checked. CourseGauge has no affiliate relationships and earns no commission. See <a href='about.html'>how we research</a>.")])
+LASTMOD[f"{BASE}/privacy.html"]="2026-11-05"
+LASTMOD[f"{BASE}/disclosure.html"]="2026-11-05"
 open("sitemap.xml","w").write('<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'+''.join(f"<url><loc>{u}</loc><lastmod>{LASTMOD.get(u,'2026-10-15')}</lastmod></url>\n" for u in PAGES if not u.endswith("/thanks.html"))+"</urlset>\n")
-bots=["Googlebot","Bingbot","GPTBot","OAI-SearchBot","ChatGPT-User","ClaudeBot","Claude-Web","anthropic-ai","CCBot","Google-Extended","Applebot","Applebot-Extended","PerplexityBot","Bytespider","Amazonbot","meta-externalagent","cohere-ai","DuckDuckBot","YandexBot"]
+bots=["Googlebot","Mediapartners-Google","Bingbot","GPTBot","OAI-SearchBot","ChatGPT-User","ClaudeBot","Claude-Web","anthropic-ai","CCBot","Google-Extended","Applebot","Applebot-Extended","PerplexityBot","Bytespider","Amazonbot","meta-externalagent","cohere-ai","DuckDuckBot","YandexBot"]
 open("robots.txt","w").write("".join(f"User-agent: {b}\nAllow: /\n\n" for b in bots)+f"User-agent: *\nAllow: /\n\nSitemap: {BASE}/sitemap.xml\n")
+open("ads.txt","w").write("google.com, pub-5681559774142917, DIRECT, f08c47fec0942fa0\n")
 def _llms():
     I={u:(t,d) for u,t,d in PAGEINFO}
     def item(u,label=None,extra=""):

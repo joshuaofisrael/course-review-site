@@ -67,8 +67,8 @@ Every price, free-trial length and refund term links to the platform's own offic
 ## About and policies
 - [About CourseGauge and our method](https://coursegauge.com/about.html): About CourseGauge: how we research course platforms, cite official sources and date-check every price.
 - [Contact](https://coursegauge.com/contact.html): Contact CourseGauge with questions, corrections or outdated prices on our online course reviews.
-- [Affiliate Disclosure](https://coursegauge.com/disclosure.html): Disclosure for CourseGauge: we currently have no affiliate relationships or paid placements, and how we will label affiliate links if that changes.
-- [Privacy Policy](https://coursegauge.com/privacy.html): Privacy policy for CourseGauge: what data we collect (very little), Google Analytics with consent, cookies, and your choices.
+- [Affiliate Disclosure](https://coursegauge.com/disclosure.html): Disclosure for CourseGauge: no current affiliate deals, how links will be labelled, editorial standards, and AI-generated image credit.
+- [Privacy Policy](https://coursegauge.com/privacy.html): Privacy policy for CourseGauge: data we collect, analytics cookies, Google AdSense, third-party ad vendors, and how to opt out.
 - [Terms of Use](https://coursegauge.com/terms.html): Terms of use for CourseGauge, the independent online course review site, covering content, links, liability and governing law.
 - [Disclaimer](https://coursegauge.com/disclaimer.html): Disclaimer for CourseGauge: our online course reviews are general information; prices and terms change, so confirm with each provider.
 
