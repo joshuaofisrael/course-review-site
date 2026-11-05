@@ -4,7 +4,7 @@ Static online course review site for Joshua Israel Ventures LLC. Plain HTML/CSS,
 
 - Edit content in `data/reviews.json`, `data/compare.json`, `data/legal/*.html.txt`
 - Regenerate: `python3 build.py` (stdlib only, runs in under a second)
-- Output: `index.html`, `reviews/`, `compare/`, legal pages, `sitemap.xml`, `robots.txt`, `llms.txt`
+- Output: `index.html`, `reviews/`, `compare/`, legal pages, `sitemap.xml`, `robots.txt`, `ads.txt`, `llms.txt`
 - `BASE` in `build.py` must be updated when a custom domain is attached.
 
 ## Intellectual property
