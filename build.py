@@ -51,7 +51,9 @@ IMGS={ # name -> (alt text describing the photo)
  "cat-creative":"Home creative studio with a camera on a tripod, softbox light, sketchbook, brushes and a guitar",
  "cat-tech":"Dark developer desk with a laptop and monitor showing code, a mechanical keyboard and headphones",
  "cat-business":"Office desk with a laptop, leather notebook, fountain pen, coffee cup and plant in front of a city window",
- "cat-general":"Reading nook with a stack of books, open notebook, tablet, tea and headphones by a sunlit window"}
+ "cat-general":"Reading nook with a stack of books, open notebook, tablet, tea and headphones by a sunlit window",
+ "cmp-khan-coursera":"Sunlit desk with notebook, coffee and laptop showing colorful abstract lesson cards",
+ "cmp-brilliant-codecademy":"Dual monitors with abstract code and puzzle grid above a mechanical keyboard"}
 IMGDIM={"hero-home":(1280,720)}
 CAT={"creative":["masterclass","skillshare","domestika"],"tech":["codecademy","datacamp","pluralsight","udacity"],"business":["linkedin-learning","teachable"]}
 def catof(keys):
@@ -62,7 +64,10 @@ def imgfor(path):
     if path in HUBIMG: return HUBIMG[path]
     d,_,f=path.partition("/")
     if d=="reviews" and f: return catof([f[:-5]])
-    if d=="compare" and f: return catof(C[f[:-5]]["p"]) if f[:-5] in C else None
+    if d=="compare" and f:
+        special={"khan-academy-vs-coursera.html":"cmp-khan-coursera","brilliant-vs-codecademy.html":"cmp-brilliant-codecademy"}
+        if f in special: return special[f]
+        return catof(C[f[:-5]]["p"]) if f[:-5] in C else None
     if d=="news" and f: return "hub-news"
     return None
 def pic(name,suf,r,cls="",eager=False,w=None,h=None):
