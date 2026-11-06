@@ -201,5 +201,77 @@
   "path": "images/cmp-brilliant-codecademy-og.jpg",
   "licence": "Owned: original AI-generated photo created for CourseGauge by the site bot on 5 Nov 2026. Objects/scenes only, no people, logos, readable brand marks or third-party material.",
   "source": "AI generated for CourseGauge evergreen batch 2026-11-05"
+ },
+ {
+  "path": "images/cmp-khan-coursera-v2-og.jpg",
+  "licence": "Owned: original AI-generated photo from the JI Ventures image bank (generated 5 Nov 2026 for our own use). Objects/scenes only, no identifiable people, logos, readable text or third-party material. Credit: AI-generated image.",
+  "source": "/workspace/image-bank/ai-news/student-generated-art.png",
+  "source_sha256": "d09c7c8f2da50670d648d3edc40b76924ab8c28e9afdb037e0417aabceb96fa3",
+  "sha256": "18ac3f2942da420f11f164fb41296dcbe0ad6213c96da2b24971dabc27ca79d8",
+  "prompt_record": "/workspace/image-bank/map.tsv (student-generated-art)",
+  "credit": "AI-generated image"
+ },
+ {
+  "path": "images/cmp-khan-coursera-v2.webp",
+  "licence": "Owned: original AI-generated photo from the JI Ventures image bank (generated 5 Nov 2026 for our own use). Objects/scenes only, no identifiable people, logos, readable text or third-party material. Credit: AI-generated image.",
+  "source": "/workspace/image-bank/ai-news/student-generated-art.png",
+  "source_sha256": "d09c7c8f2da50670d648d3edc40b76924ab8c28e9afdb037e0417aabceb96fa3",
+  "sha256": "622851f142c9ace482e2b55cfa896279481498bc8e7491ce1a8c69f216a25549",
+  "prompt_record": "/workspace/image-bank/map.tsv (student-generated-art)",
+  "credit": "AI-generated image"
+ },
+ {
+  "path": "images/cmp-khan-coursera-v2-md.webp",
+  "licence": "Owned: original AI-generated photo from the JI Ventures image bank (generated 5 Nov 2026 for our own use). Objects/scenes only, no identifiable people, logos, readable text or third-party material. Credit: AI-generated image.",
+  "source": "/workspace/image-bank/ai-news/student-generated-art.png",
+  "source_sha256": "d09c7c8f2da50670d648d3edc40b76924ab8c28e9afdb037e0417aabceb96fa3",
+  "sha256": "7c9e08dd4f3dd088f850d82b85202cf93ca59ed1675f3b59fbee9dee037db7b0",
+  "prompt_record": "/workspace/image-bank/map.tsv (student-generated-art)",
+  "credit": "AI-generated image"
+ },
+ {
+  "path": "images/cmp-khan-coursera-v2-sm.webp",
+  "licence": "Owned: original AI-generated photo from the JI Ventures image bank (generated 5 Nov 2026 for our own use). Objects/scenes only, no identifiable people, logos, readable text or third-party material. Credit: AI-generated image.",
+  "source": "/workspace/image-bank/ai-news/student-generated-art.png",
+  "source_sha256": "d09c7c8f2da50670d648d3edc40b76924ab8c28e9afdb037e0417aabceb96fa3",
+  "sha256": "4b56dc7dfb2afed59a75f964e58e00735ed2f7632db33640209923e485182f57",
+  "prompt_record": "/workspace/image-bank/map.tsv (student-generated-art)",
+  "credit": "AI-generated image"
+ },
+ {
+  "path": "images/cmp-brilliant-codecademy-v2-og.jpg",
+  "licence": "Owned: original AI-generated photo from the JI Ventures image bank (generated 5 Nov 2026 for our own use). Objects/scenes only, no identifiable people, logos, readable text or third-party material. Credit: AI-generated image.",
+  "source": "/workspace/image-bank/ai-news/glowing-key.png",
+  "source_sha256": "d490ac44fee2f8e459d10e89f322783a9a1a5f2f3e83019ea41118a02eb55f1e",
+  "sha256": "8c0314c7a48623ba44da5e62a78ada250d9848de72939dd679f98600b727c7f5",
+  "prompt_record": "/workspace/image-bank/map.tsv (glowing-key)",
+  "credit": "AI-generated image"
+ },
+ {
+  "path": "images/cmp-brilliant-codecademy-v2.webp",
+  "licence": "Owned: original AI-generated photo from the JI Ventures image bank (generated 5 Nov 2026 for our own use). Objects/scenes only, no identifiable people, logos, readable text or third-party material. Credit: AI-generated image.",
+  "source": "/workspace/image-bank/ai-news/glowing-key.png",
+  "source_sha256": "d490ac44fee2f8e459d10e89f322783a9a1a5f2f3e83019ea41118a02eb55f1e",
+  "sha256": "17a3a3f8b74d83a31a92b7623c93058035ff3e027082c97ecae837ecee27538c",
+  "prompt_record": "/workspace/image-bank/map.tsv (glowing-key)",
+  "credit": "AI-generated image"
+ },
+ {
+  "path": "images/cmp-brilliant-codecademy-v2-md.webp",
+  "licence": "Owned: original AI-generated photo from the JI Ventures image bank (generated 5 Nov 2026 for our own use). Objects/scenes only, no identifiable people, logos, readable text or third-party material. Credit: AI-generated image.",
+  "source": "/workspace/image-bank/ai-news/glowing-key.png",
+  "source_sha256": "d490ac44fee2f8e459d10e89f322783a9a1a5f2f3e83019ea41118a02eb55f1e",
+  "sha256": "0423d440d8913a6154c5729e66ea0bc52e5b09f44bfcea46f01a1aec91caa550",
+  "prompt_record": "/workspace/image-bank/map.tsv (glowing-key)",
+  "credit": "AI-generated image"
+ },
+ {
+  "path": "images/cmp-brilliant-codecademy-v2-sm.webp",
+  "licence": "Owned: original AI-generated photo from the JI Ventures image bank (generated 5 Nov 2026 for our own use). Objects/scenes only, no identifiable people, logos, readable text or third-party material. Credit: AI-generated image.",
+  "source": "/workspace/image-bank/ai-news/glowing-key.png",
+  "source_sha256": "d490ac44fee2f8e459d10e89f322783a9a1a5f2f3e83019ea41118a02eb55f1e",
+  "sha256": "4284954f817f35c32c1d31eea598b506e4f0386ff8b7f76407b91ead04ef7220",
+  "prompt_record": "/workspace/image-bank/map.tsv (glowing-key)",
+  "credit": "AI-generated image"
  }
 ]
