@@ -124,7 +124,7 @@ def page(path,title,desc,body,schema=None,crumbs=None,ogtype="website",faq=None,
     html=f"""<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="google-site-verification" content="DCgsX3z63BjvDcQOFDkDgY4Mh44YQBuzn1vVoMX8nYs"><meta name="msvalidate.01" content="942EB99DB458637348E2ADBDEBDAA7AE"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>{et}</title><meta name="description" content="{ed}"><meta name="robots" content="{rb}">
 <link rel="canonical" href="{url}"><link rel="icon" href="{r}logo.svg">{og}<style>{CSS}</style>
-<script type="application/ld+json">{json.dumps(ld,ensure_ascii=False).replace("</","<\\/")}</script></head><body>
+<script type="application/ld+json">{json.dumps(ld,ensure_ascii=False).replace("</","<\\/")}</script><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5681559774142917" crossorigin="anonymous"></script></head><body>
 <header><div class="wrap"><a class="brand" href="{home}">{LOGO}{BRAND}</a><nav aria-label="Main"><a href="{r}reviews/">Reviews</a><a href="{r}compare/">Comparisons</a><a href="{r}pricing-tracker/">Price tracker</a><a href="{r}subscription-calculator/">Calculator</a><a href="{r}quiz/">Quiz</a><a href="{r}news/">News</a><a href="{r}about.html">About</a><a href="{r}contact.html">Contact</a></nav></div></header>
 <main class="wrap">{crumb_html}
 <p class="disc"><strong>Disclosure:</strong> {BRAND} currently has no affiliate relationships with the platforms we review and earns no commission from links on this page. If that changes, affiliate links will be labelled next to the link and on our disclosure page. <a href="{r}disclosure.html">Full disclosure</a>.</p>
