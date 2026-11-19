@@ -1,0 +1,12 @@
+Image policy
+<h1>Image policy</h1>
+<p class="src">Last updated November 19, 2026</p>
+<p>This page explains how {BRAND} uses pictures. Joshua Israel Ventures LLC publishes the site. Questions about an image can be sent through the <a href="../contact.html">contact page</a>.</p>
+<h2>AI-generated photographs</h2>
+<p>The photographs on this site are AI-generated images created for {BRAND}. They are not photographs of real classrooms, offices or public events, and they are not pictures of real people as they appeared. They show objects and scenes only: desks, notebooks, devices and similar study settings. They illustrate a page. They are not evidence for a factual claim about any course platform.</p>
+<p>A caption under each of these images says that it is an AI-generated image and includes a link back to this page.</p>
+<h2>What we do not use</h2>
+<p>We do not use third-party product screenshots, platform logos as decorative art, or stock photos of recognisable people. Course platform names appear in text only, as nominative references to the services we review.</p>
+<h2>Credits and questions</h2>
+<p>If a licensed or Creative Commons photograph is added later, its caption will name the source. Until then, treat every photo-style image on this site as an AI-generated illustration and use this page as the source credit. If you have a question about an image, use the <a href="../contact.html">contact page</a>.</p>
+<p>See also our <a href="../disclosure.html#editorial">editorial and sourcing policy</a>, <a href="../disclosure.html#images">AI image note on the disclosure page</a>, <a href="../terms.html">Terms of Use</a> and <a href="../privacy.html">Privacy Policy</a>.</p>

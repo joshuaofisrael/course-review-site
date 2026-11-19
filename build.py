@@ -28,6 +28,7 @@ header{background:linear-gradient(135deg,#1b4d3e,#256a55);box-shadow:0 2px 8px r
 .card{box-shadow:0 1px 4px rgba(0,0,0,.08);transition:box-shadow .2s,transform .2s}.card:hover{box-shadow:0 6px 16px rgba(0,0,0,.14);transform:translateY(-2px)}
 .card.t{padding:0;overflow:hidden}.card.t img{display:block;width:100%;height:auto;aspect-ratio:16/9;object-fit:cover}.card .cb{padding:12px 14px}.card h3{margin:.2em 0}
 figure.ban{margin:0 0 18px}figure.ban img{display:block;width:100%;height:auto;border-radius:12px;box-shadow:0 4px 18px rgba(0,0,0,.18);background:#e9e5da}figure.ban.art{margin:18px 0}figure.ban figcaption{font-size:.82rem;color:#555;margin-top:6px}
+.byline{font-size:.92rem;color:#444;margin:.2em 0 1em}.check{background:#fff;border:1px solid #c5d5cf;border-radius:8px;padding:14px 16px;margin:18px 0}.check h2{margin-top:0;border:0;padding:0;display:block;font-size:1.05rem}.check ul{margin:.4em 0 0;padding-left:1.2em}.next h2{margin-top:1.2em}
 .hero{position:relative;margin:0 0 22px;border-radius:14px;overflow:hidden;box-shadow:0 6px 24px rgba(0,0,0,.22);background:#1b4d3e}.hero img{display:block;width:100%;height:auto;aspect-ratio:2/1;object-fit:cover}
 .hero .ht{position:absolute;inset:auto 0 0 0;padding:70px 22px 20px;background:linear-gradient(to top,rgba(10,35,28,.92),rgba(10,35,28,0))}.hero h1{color:#fff;margin:0 0 .25em;font-size:clamp(1.5rem,4.5vw,2.3rem);text-shadow:0 1px 6px rgba(0,0,0,.5)}.hero p{color:#f3f3ea;margin:0;font-size:1rem}
 table{box-shadow:0 1px 4px rgba(0,0,0,.06)}@media(max-width:600px){.hero img{aspect-ratio:4/3}.hero .ht{padding:40px 14px 12px}.hero p{font-size:.9rem}}"""
@@ -78,17 +79,22 @@ def inject_img(body,path,r):
     n=imgfor(path)
     if not n or path=="index.html": return body
     if path in HUBIMG:
-        f=f'<figure class="ban">{pic(n,"",r,eager=True)}</figure>'
+        f=f'<figure class="ban">{pic(n,"",r,eager=True)}{imgcap(r)}</figure>'
         return body.replace("</h1>","</h1>"+f,1) if "</h1>" in body else body
-    f=f'<figure class="ban art">{pic(n,"-md",r)}</figure>'
-    m=_re.search(r"</h1>(?:\s*<p class=\"src\">.*?</p>|\s*<p><small>.*?</small></p>)?\s*<p>.*?</p>",body,_re.S)
+    f=f'<figure class="ban art">{pic(n,"-md",r)}{imgcap(r)}</figure>'
+    m=_re.search(r"</h1>(?:\s*<p class=\"byline\">.*?</p>|\s*<p class=\"src\">.*?</p>|\s*<p><small>.*?</small></p>)?\s*<p>.*?</p>",body,_re.S)
     return body[:m.end()]+f+body[m.end():] if m else body
 PAGEINFO=[]  # (url, title, desc) for llms.txt
 def _clean(h): return _re.sub(r"\s+"," ",_H.unescape(_re.sub(r"<[^>]+>","",h))).strip()
 def _legal_foot(path):
-    if os.path.basename(path) in ("terms.html","privacy.html","disclaimer.html","disclosure.html","contact.html"):
+    legal_names=("terms.html","privacy.html","disclaimer.html","disclosure.html","contact.html","image-policy.html")
+    if os.path.basename(path) in legal_names or path.startswith("image-policy/"):
         return f"<p>© {Y} Joshua Israel Ventures LLC. All rights reserved. {BRAND} is a trade name of Joshua Israel Ventures LLC, a Florida limited liability company.</p>\n<p>Joshua Israel Ventures LLC, {ADDR}</p>"
     return f"<p>{ADDR}</p>"
+def imgcap(r):
+    return f'<figcaption>AI-generated image. <a href="{r}image-policy/">Image policy</a></figcaption>'
+def byline():
+    return f'<p class="byline"><small>By the {BRAND} editorial team</small></p>'
 def page(path,title,desc,body,schema=None,crumbs=None,ogtype="website",faq=None,modified=None):
     """crumbs: [(name, root-relative href or None for the current page), ...] after Home.
     faq: [(question, answer_html), ...] rendered visibly AND as FAQPage JSON-LD (only real, visible Q&A)."""
@@ -130,8 +136,8 @@ def page(path,title,desc,body,schema=None,crumbs=None,ogtype="website",faq=None,
 <p class="disc"><strong>Disclosure:</strong> {BRAND} currently has no affiliate relationships with the platforms we review and earns no commission from links on this page. If that changes, affiliate links will be labelled next to the link and on our disclosure page. <a href="{r}disclosure.html">Full disclosure</a>.</p>
 {body}</main>
 <footer><div class="wrap">{_legal_foot(path)}
-<p><a href="{r}terms.html">Terms</a> · <a href="{r}privacy.html">Privacy</a> · <a href="{r}disclaimer.html">Disclaimer</a> · <a href="{r}disclosure.html">Affiliate Disclosure</a> · <a href="{r}disclosure.html#editorial">Editorial &amp; AI disclosure</a> · <a href="{r}about.html">About</a> · <a href="{r}contact.html">Contact</a> · <a href="#" id="cc-open">Cookie settings</a></p>
-<p>Decorative photos are original AI-generated images.</p>
+<p><a href="{r}about.html">About</a> · <a href="{r}contact.html">Contact</a> · <a href="{r}privacy.html">Privacy</a> · <a href="{r}terms.html">Terms</a> · <a href="{r}disclosure.html#editorial">Editorial &amp; sourcing policy</a> · <a href="{r}image-policy/">Image policy</a> · <a href="{r}disclaimer.html">Disclaimer</a> · <a href="{r}disclosure.html">Affiliate Disclosure</a> · <a href="#" id="cc-open">Cookie settings</a></p>
+<p>Decorative photos are original AI-generated images. See our <a href="{r}image-policy/">image policy</a>.</p>
 <p>Platform names and trademarks belong to their respective owners and are used only to identify the services reviewed. {BRAND} is not affiliated with or endorsed by them.</p></div></footer>{CONSENT}{BEACON}</body></html>"""
     # Internal links always point at the canonical directory URL, never .../index.html
     html=_re.sub(r"""href=(["'])((?:\.\./)*)((?:[\w-]+/)*)index\.html\1""",lambda m:f'href={m.group(1)}{(m.group(2)+m.group(3)) or "./"}{m.group(1)}',html)
@@ -147,18 +153,57 @@ def srcs(l,u=None):
     return '<h2>Sources</h2><ul class="src">'+"".join(f'<li><a href="{u}" rel="nofollow noopener">{t}</a></li>' for t,u in seen)+f'</ul><p class="src">Facts checked {CHECKED}. Prices are US list prices, change often and vary by region; confirm on the provider\'s site before buying. <a href="../about.html">How we research and check facts</a>.</p>'+upd(u)
 R=json.load(open("data/reviews.json"))
 C=json.load(open("data/compare.json"))
-def rel(k):
-    l=[(ck,c['title']) for ck,c in C.items() if k in c['p']]
-    return ('<h2>Related comparisons</h2><ul>'+''.join(f'<li><a href="../compare/{a}.html">{b}</a></li>' for a,b in l)+'</ul>') if l else ''
+def rel_items(k):
+    """Up to 4 next-read cards: related comparisons, then sibling reviews, then tools."""
+    items=[]
+    for ck,c in C.items():
+        if k in c['p']:
+            items.append((f"../compare/{ck}.html",c['title'],catof(c['p'])))
+    for ok in R:
+        if ok==k: continue
+        if catof([ok])==catof([k]) or ok in ("udemy","coursera","linkedin-learning","skillshare"):
+            items.append((f"{ok}.html",f"{R[ok]['name']} review",catof([ok])))
+        if len(items)>=4: break
+    for href,title,img in (("../pricing-tracker/","Price and free-trial tracker","cat-general"),
+                           ("../quiz/","Which platform fits you?","cat-general"),
+                           ("../compare/","All comparisons","cat-general")):
+        if len(items)>=4: break
+        if all(href!=i[0] for i in items): items.append((href,title,img))
+    return items[:4]
+def next_reads(items,r="../",heading="Keep reading"):
+    if not items: return ""
+    cards=''.join(f'<div class="card t">{thumb(img)}<div class="cb"><h3><a href="{href}">{title}</a></h3></div></div>' for href,title,img in items)
+    return f'<div class="next"><h2>{heading}</h2><div class="cards">{cards.replace("@@/",r)}</div></div>'
+def check_another_review(k):
+    sib=[ok for ok in R if ok!=k and catof([ok])==catof([k])]
+    more=[ok for ok in ("udemy","coursera","skillshare","linkedin-learning","masterclass") if ok!=k and ok not in sib]
+    picks=(sib+more)[:4]
+    comps=[(ck,c['title']) for ck,c in C.items() if k in c['p']][:2]
+    lis=''.join(f'<li><a href="{ok}.html">{R[ok]["name"]} review</a></li>' for ok in picks)
+    lis+=''.join(f'<li><a href="../compare/{ck}.html">{title}</a></li>' for ck,title in comps)
+    lis+='<li><a href="../pricing-tracker/">Price and free-trial tracker</a></li><li><a href="../quiz/">Platform quiz</a></li>'
+    return f'<aside class="check"><h2>Check another platform</h2><p>Open a different review, a head-to-head comparison, or the price tracker.</p><ul>{lis}</ul></aside>'
+def check_another_compare(k,c):
+    others=[(ck,cc['title']) for ck,cc in C.items() if ck!=k][:3]
+    revs=[(p,R[p]['name']) for p in c['p']]
+    lis=''.join(f'<li><a href="../reviews/{p}.html">{name} review</a></li>' for p,name in revs)
+    lis+=''.join(f'<li><a href="{ck}.html">{title}</a></li>' for ck,title in others)
+    lis+='<li><a href="../pricing-tracker/">Price and free-trial tracker</a></li><li><a href="./">All comparisons</a></li>'
+    return f'<aside class="check"><h2>Compare something else</h2><p>Read a full review of either side, or jump to another comparison.</p><ul>{lis}</ul></aside>'
 def news_block(k):
     n=R[k].get("news")
     return ('<h2>Latest news</h2><ul>'+''.join(f'<li><a href="../{u}">{t}</a></li>' for t,u in n)+'</ul>') if n else ''
 for k,v in R.items():
-    body=f"""<h1>{v['name']} review ({Y}): {v['tagline']}</h1>{topupd(v.get('updated'))}
+    nr=rel_items(k)
+    mid=next_reads(nr[:2],heading="Related reading")
+    end=next_reads(nr,heading="Keep reading")
+    body=f"""<h1>{v['name']} review ({Y}): {v['tagline']}</h1>{byline()}{topupd(v.get('updated'))}
 <p><strong>Short answer:</strong> {v['verdict']}</p>
 <h2>Key facts</h2><div class="tw"><table>{''.join(f'<tr><th scope="row">{a}</th><td>{b}</td></tr>' for a,b in v['facts'])}</table></div>
 <h2>Who it suits</h2><p>{v['good']}</p><h2>Who should look elsewhere</h2><p>{v['bad']}</p>
-<p>Compare current prices for all platforms in our <a href="../pricing-tracker/index.html">price and free-trial tracker</a>, check whether an annual plan pays off with the <a href="../subscription-calculator/index.html">monthly vs annual calculator</a>, or take the <a href="../quiz/index.html">platform quiz</a>.</p>{news_block(k)}<h2>Our take</h2><p>{v['take']}</p><p><a href="{v['url']}" rel="nofollow noopener">Visit {v['name']}</a></p>{rel(k)}{srcs(v['sources'],v.get('updated'))}"""
+{mid}
+<p>Compare current prices for all platforms in our <a href="../pricing-tracker/index.html">price and free-trial tracker</a>, check whether an annual plan pays off with the <a href="../subscription-calculator/index.html">monthly vs annual calculator</a>, or take the <a href="../quiz/index.html">platform quiz</a>.</p>{news_block(k)}<h2>Our take</h2><p>{v['take']}</p><p><a href="{v['url']}" rel="nofollow noopener">Visit {v['name']}</a></p>
+{check_another_review(k)}{end}{srcs(v['sources'],v.get('updated'))}"""
     if v.get('updated'): LASTMOD[f"{BASE}/reviews/{k}.html"]=v['updated']['date']
     page(f"reviews/{k}.html",f"{v['name']} Review {Y}",f"{v['name']} review {Y}: {v['tagline']}. Pricing, free trial, refunds and who it suits, with official sources.",body,
       {"@context":"https://schema.org","@type":"Review","itemReviewed":{"@type":"Organization","name":v['name'],"url":v['url']},"author":{"@type":"Organization","name":BRAND,"url":f"{BASE}/"},"publisher":{"@id":ORG_ID},"reviewBody":v['verdict']},
@@ -169,7 +214,17 @@ C=json.load(open("data/compare.json"))
 for k,c in C.items():
     rows=''.join("<tr><th scope='row'>"+f+"</th>"+''.join(f"<td>{dict(R[p]['facts']).get(f,'—')}</td>" for p in c['p'])+"</tr>" for f in c['fields'])
     hdr=''.join(f'<th scope="col"><a href="../reviews/{p}.html">{R[p]["name"]}</a></th>' for p in c['p'])
-    body=f"<h1>{c['title']}</h1>{topupd(c.get('updated'))}<p><strong>Short answer:</strong> {c['answer']}</p><p>See every plan side by side in the <a href='../pricing-tracker/index.html'>price tracker</a> or try the <a href='../quiz/index.html'>platform quiz</a>.</p><div class='tw'><table><tr><th></th>{hdr}</tr>{rows}</table></div>"+''.join(f"<h2>{h}</h2><p>{t}</p>" for h,t in c['sections'])+("<!--FAQ-->" if c.get('faq') else "")+srcs(c.get('sources',[])+[s for p in c['p'] for s in R[p]['sources']],c.get('updated'))
+    nr=[(f"../reviews/{p}.html",f"{R[p]['name']} review",catof([p])) for p in c['p'][:2]]
+    for ck,cc in C.items():
+        if ck==k: continue
+        nr.append((f"{ck}.html",cc['title'],catof(cc['p'])))
+        if len(nr)>=4: break
+    for href,title,img in (("../pricing-tracker/","Price and free-trial tracker","cat-general"),("../quiz/","Platform quiz","cat-general")):
+        if len(nr)>=4: break
+        if all(href!=i[0] for i in nr): nr.append((href,title,img))
+    mid=next_reads(nr[:2],heading="Related reading")
+    end=next_reads(nr[:4],heading="Keep reading")
+    body=f"<h1>{c['title']}</h1>{byline()}{topupd(c.get('updated'))}<p><strong>Short answer:</strong> {c['answer']}</p><p>See every plan side by side in the <a href='../pricing-tracker/index.html'>price tracker</a> or try the <a href='../quiz/index.html'>platform quiz</a>.</p><div class='tw'><table><tr><th></th>{hdr}</tr>{rows}</table></div>{mid}"+''.join(f"<h2>{h}</h2><p>{t}</p>" for h,t in c['sections'])+("<!--FAQ-->" if c.get('faq') else "")+check_another_compare(k,c)+end+srcs(c.get('sources',[])+[s for p in c['p'] for s in R[p]['sources']],c.get('updated'))
     if c.get('updated'): LASTMOD[f"{BASE}/compare/{k}.html"]=c['updated']['date']
     page(f"compare/{k}.html",c['title'],c['desc'],body,crumbs=[("Comparisons","compare/"),(c['title'],None)],ogtype="article",faq=[tuple(x) for x in c.get('faq',[])] or None,modified=(c.get('updated') or {}).get('date'))
 cc=''.join(f'<div class="card t">{thumb(catof(c["p"]))}<div class="cb"><h3><a href="{k}.html">{c["title"]}</a></h3></div></div>' for k,c in C.items())
@@ -182,14 +237,22 @@ for f in sorted(os.listdir("data/legal")):
         "disclosure":f"Disclosure for {BRAND}: no current affiliate deals, how links will be labelled, editorial standards, and AI-generated image credit.",
         "privacy":f"Privacy policy for {BRAND}: data we collect, analytics cookies, Google AdSense, third-party ad vendors, and how to opt out.",
         "terms":f"Terms of use for {BRAND}, the independent online course review site, covering content, links, liability and governing law.",
-        "thanks":f"Thanks for contacting {BRAND}. Your message reached our team; meanwhile, try our price tracker or platform quiz."}
+        "thanks":f"Thanks for contacting {BRAND}. Your message reached our team; meanwhile, try our price tracker or platform quiz.",
+        "image-policy":f"Image policy for {BRAND}: how we use AI-generated photographs, what captions mean, and how to ask about an image."}
     START='<p><strong>Start here:</strong> <a href="reviews/">platform reviews</a> · <a href="compare/">comparisons</a> · <a href="pricing-tracker/">price and free-trial tracker</a> · <a href="subscription-calculator/">monthly vs annual calculator</a> · <a href="quiz/">platform quiz</a> · <a href="news/">news</a></p>'
     slug=f.replace(".html.txt","")
-    page(slug+".html",t,LD.get(slug,f"{t} for {BRAND}."),crumbs=[(t,None)],body=(body+START).replace("{ANALYTICS}",(("We use Cloudflare Web Analytics, a cookie-free, privacy-first service that counts page views without tracking individuals. " if CF_BEACON_TOKEN else "")+GA_TEXT)).replace("{BRAND}",BRAND).replace("{ADDR}",ADDR))
+    filled=(body+START).replace("{ANALYTICS}",(("We use Cloudflare Web Analytics, a cookie-free, privacy-first service that counts page views without tracking individuals. " if CF_BEACON_TOKEN else "")+GA_TEXT)).replace("{BRAND}",BRAND).replace("{ADDR}",ADDR)
+    if slug=="image-policy":
+        # Directory URL /image-policy/ matches sitewide caption and footer links.
+        filled=(body+START.replace('href="','href="../')).replace("{ANALYTICS}",(("We use Cloudflare Web Analytics, a cookie-free, privacy-first service that counts page views without tracking individuals. " if CF_BEACON_TOKEN else "")+GA_TEXT)).replace("{BRAND}",BRAND).replace("{ADDR}",ADDR)
+        page("image-policy/index.html",t,LD[slug],crumbs=[(t,None)],body=filled,modified="2026-11-19")
+        LASTMOD[f"{BASE}/image-policy/"]="2026-11-19"
+    else:
+        page(slug+".html",t,LD.get(slug,f"{t} for {BRAND}."),crumbs=[(t,None)],body=filled)
 exec(open("extras.py").read())
 exec(open("calc.py").read())
 exec(open("news.py").read())
-home=f"""<div class="hero">{pic("hero-home","","",eager=True)}<div class="ht"><h1>Find the online course platform that fits how you learn</h1><p>Independent, sourced reviews, comparisons and price tools.</p></div></div><p>{BRAND} compares subscription and pay-per-course learning platforms on what actually matters: price, trial and refund terms, certificates and the kind of teaching you get. Every fact links to a public source.</p>
+home=f"""<div class="hero">{pic("hero-home","","",eager=True)}<div class="ht"><h1>Find the online course platform that fits how you learn</h1><p>Independent, sourced reviews, comparisons and price tools.</p></div></div><p class="src"><small>AI-generated image. <a href="image-policy/">Image policy</a></small></p><p>{BRAND} compares subscription and pay-per-course learning platforms on what actually matters: price, trial and refund terms, certificates and the kind of teaching you get. Every fact links to a public source.</p>
 <p><a href="pricing-tracker/index.html"><strong>Price and free-trial tracker</strong></a>: 20 platforms, every figure sourced. <a href="quiz/index.html"><strong>Which platform fits you?</strong></a> Take the 5-question quiz.</p>
 <p><a href="subscription-calculator/index.html"><strong>Monthly or annual?</strong></a> Our break-even calculator shows how many months of use make an annual plan cheaper on 12 popular plans.</p><h2>Latest news</h2><ul>{''.join(f'<li><a href="news/{n["slug"]}.html">{n["title"]}</a> <small>({n["nice"]})</small></li>' for n in NEWS[:3])}</ul><p><a href="news/">All online learning news</a> · <a href="about.html">How we research</a></p><h2>Popular comparisons</h2><div class="cards">{cc.replace('href="','href="compare/').replace('@@/','')}</div><h2>Reviews</h2><div class="cards">{cards.replace('href="','href="reviews/').replace('@@/','')}</div>"""
 page("index.html","Online Course Platform Reviews and Comparisons","Independent, sourced reviews of 20 online course platforms, with price and free-trial tracking, side-by-side comparisons and a quiz to find the right fit.",home,faq=[("How do I choose an online course platform?","Start with your goal: certificates for a career (Coursera, edX), practical skills from individual courses (Udemy), creative classes (Skillshare, MasterClass) or languages (Duolingo). Then compare price, free trial and refund terms. Our <a href='quiz/'>5-question quiz</a> narrows it down."),
@@ -198,7 +261,7 @@ page("index.html","Online Course Platform Reviews and Comparisons","Independent,
 ("Do online course certificates count for anything?","Certificates of completion show you finished a course but are not accredited degrees. Some university-backed certificates on platforms such as Coursera and edX carry more weight with employers. Each <a href='reviews/'>review</a> notes what certificate a platform offers."),
 ("How does CourseGauge research its reviews?","Every price, trial and refund fact is linked to the platform's own pages or a named source, and pages show when they were last checked. CourseGauge has no affiliate relationships and earns no commission. See <a href='about.html'>how we research</a>.")])
 LASTMOD[f"{BASE}/privacy.html"]="2026-11-05"
-LASTMOD[f"{BASE}/disclosure.html"]="2026-11-05"
+LASTMOD[f"{BASE}/disclosure.html"]="2026-11-19"  # Nov 19: editorial label + image-policy link
 open("sitemap.xml","w").write('<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'+''.join(f"<url><loc>{u}</loc><lastmod>{LASTMOD.get(u,'2026-10-15')}</lastmod></url>\n" for u in PAGES if not u.endswith("/thanks.html"))+"</urlset>\n")
 bots=["Googlebot","Mediapartners-Google","Bingbot","GPTBot","OAI-SearchBot","ChatGPT-User","ClaudeBot","Claude-Web","anthropic-ai","CCBot","Google-Extended","Applebot","Applebot-Extended","PerplexityBot","Bytespider","Amazonbot","meta-externalagent","cohere-ai","DuckDuckBot","YandexBot"]
 open("robots.txt","w").write("".join(f"User-agent: {b}\nAllow: /\n\n" for b in bots)+f"User-agent: *\nAllow: /\n\nSitemap: {BASE}/sitemap.xml\n")
@@ -221,7 +284,7 @@ def _llms():
        "## Comparisons and best-of guides",item(f"{BASE}/compare/","All comparisons")]+[item(u) for u in sec("compare/")]+["",
        "## Platform reviews",item(f"{BASE}/reviews/","All reviews")]+[item(u) for u in sec("reviews/")]+["",
        "## News",item(f"{BASE}/news/","News index")]+[item(u,extra=f" (published {n['nice']})") for n in NEWS for u in [f"{BASE}/news/{n['slug']}.html"]]+["",
-       "## About and policies",item(f"{BASE}/about.html","About CourseGauge and our method")]+[item(f"{BASE}/{p}.html") for p in ("contact","disclosure","privacy","terms","disclaimer")]+["",
+       "## About and policies",item(f"{BASE}/about.html","About CourseGauge and our method"),item(f"{BASE}/image-policy/","Image policy")]+[item(f"{BASE}/{p}.html") for p in ("contact","disclosure","privacy","terms","disclaimer")]+["",
        "## Optional",f"- [Sitemap]({BASE}/sitemap.xml): every indexable URL with its last substantive change date",f"- [Home]({BASE}/): overview, latest news and links to every review and comparison",""]
     open("llms.txt","w").write("\n".join(L))
 _llms()
