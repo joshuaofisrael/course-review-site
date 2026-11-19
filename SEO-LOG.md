@@ -1,3 +1,18 @@
+## 2026-11-19 (compliance + Teachable refresh)
+
+**Priority:** compliance only (no new article topic).
+
+**Shipped:**
+- New `/image-policy/` page; footer links (About, Contact, Privacy, Terms, Editorial & sourcing policy, Image policy); every photo caption links to the image policy.
+- Brand byline ("By the CourseGauge editorial team") on every review and comparison.
+- Engagement on reviews/comparisons: mid- and end-of-article next-reads with thumbnails, plus a check-another / compare-something-else box.
+- Disclosure: editorial label clarified; AI images section links to the image policy.
+- Refresh: `reviews/teachable.html` expanded from ~90 content words with re-checked Teachable pricing facts (list prices, 7-day trial, 30-day money-back, Starter 7.5% fee, product limits; checked 19 Nov 2026 on teachable.com/pricing).
+
+**Checks:** `python3 build.py`; `python3 audit.py` → 2 expected issues (thanks.html noindex + out of sitemap); `python3 scripts/legal_gate.py check` → 0 HOLD_REVIEW.
+
+**Not today:** link asset (Course comparison dataset); no new comparison article.
+
 # CourseGauge SEO log
 
 ## 2026-10-16 (daily SEO routine)

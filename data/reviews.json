@@ -890,36 +890,61 @@
  },
  "teachable": {
   "name": "Teachable",
-  "tagline": "platform for selling your own course",
+  "tagline": "creator school platform, not a curated catalog",
   "url": "https://www.teachable.com/",
-  "verdict": "Teachable is a platform for creators to sell courses. For learners, courses hosted on Teachable are run by independent creators, so quality and refund terms vary by school.",
+  "verdict": "Teachable is built for creators who sell courses, coaching and downloads under their own brand. It is not a single curated catalog like Coursera or Udemy: each Teachable school sets its own prices, content quality and learner refund rules.",
   "facts": [
    [
-    "Pricing model",
-    "Creator plans: Starter, Builder, Growth, Custom; monthly or annual"
+    "Who it is for",
+    "Creators and education businesses running their own school; learners buy from individual schools, not from a Teachable-wide storefront"
    ],
    [
-    "Fees",
-    "Teachable lists a platform transaction fee on Starter only; payment processing fees apply"
+    "Creator pricing (US list)",
+    "Starter $39/mo, Builder $89/mo, Growth $189/mo billed monthly; or Starter $29/mo, Builder $69/mo, Growth $139/mo billed annually (22% less than month to month). Custom plans are quote based"
+   ],
+   [
+    "Free trial",
+    "7-day free trial on the plans Teachable lists; Teachable says it is a paid service with no free plan"
+   ],
+   [
+    "Creator refunds",
+    "30-day money-back guarantee on Teachable plans (per pricing page FAQ)"
+   ],
+   [
+    "Transaction fees",
+    "Starter lists a 7.5% sales transaction fee; Builder, Growth and Custom list 0% Teachable transaction fees when using Teachable Payments (payment processor fees still apply)"
+   ],
+   [
+    "Product limits",
+    "A published course, coaching offering or digital download counts as one product. Starter lists 5 products; Growth lists 50 products on the pricing page"
+   ],
+   [
+    "Certificates for learners",
+    "Course certificates appear among Growth plan features on Teachable's pricing comparison; availability still depends on how each school configures its courses"
    ],
    [
     "For learners",
-    "Each school sets its own prices and refund policy"
+    "Price, access length and refund terms are set by each school, not by a single Teachable learner policy"
    ]
   ],
-  "good": "Creators who want to sell courses under their own brand.",
-  "bad": "Learners wanting a curated catalog.",
-  "take": "Learners: check each school's refund policy before buying.",
+  "good": "Instructors who want to sell under their own brand, keep student relationships, and pick a plan that matches how many products they publish. Annual billing is the clearer value if the school will stay on Teachable for most of a year.",
+  "bad": "Learners hoping for one vetted catalog with uniform quality and refunds. Teachable schools vary widely; a course page on Teachable is only as strong as the creator behind it. Also a poor fit if you only need a single consumer subscription for browsing many topics.",
+  "take": "If you are a creator, start from Teachable's pricing page, count how many live products you need, and weigh Starter's 7.5% fee against Builder or Growth. If you are a learner who landed on a Teachable checkout, read that school's refund policy before you pay, and compare curated alternatives such as Udemy or LinkedIn Learning when you want platform-level standards.",
   "sources": [
    [
-    "Teachable pricing",
+    "Teachable pricing (plans, trial, money-back guarantee, transaction fees FAQ)",
     "https://www.teachable.com/pricing"
    ],
    [
     "Teachable Help: Fees",
     "https://support.teachable.com/en/articles/11682553-teachable-fees"
    ]
-  ]
+  ],
+  "updated": {
+   "date": "2026-11-19",
+   "nice": "November 19, 2026",
+   "note": "re-checked creator list prices, 7-day trial, 30-day money-back terms, Starter 7.5% fee and product limits on Teachable's pricing page, and expanded the learner vs creator distinction."
+  }
  },
  "rosetta-stone": {
   "name": "Rosetta Stone",

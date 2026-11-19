@@ -22,7 +22,7 @@ SKIP_DIRS = {".git", "data", "outreach", "reports", "node_modules"}
 MIN_OUT = 3
 MIN_IN = 3
 # Legal pages are linked from the site-wide footer; contextual inbound links are not expected.
-LEGAL = {"terms.html", "privacy.html", "disclaimer.html", "disclosure.html", "contact.html"}
+LEGAL = {"terms.html", "privacy.html", "disclaimer.html", "disclosure.html", "contact.html", "image-policy/index.html"}
 # Form-confirmation page (shown after the contact form posts); it is not meant to be linked contextually.
 UTILITY = {"thanks.html"}
 
@@ -120,7 +120,6 @@ def main():
         if rel.startswith(("reviews/", "compare/", "news/")) and not rel.endswith("index.html") and "BreadcrumbList" not in types:
             bad("JSON-LD missing BreadcrumbList")
         if p.imgs_noalt: bad("images without alt", str(p.imgs_noalt))
-        LEGAL = ("terms.html","privacy.html","disclaimer.html","disclosure.html","contact.html")
         if ADDR not in raw: bad("footer address missing")
         if rel in LEGAL and "Joshua Israel Ventures LLC" not in raw: bad("LLC name missing on legal page")
         CR = "© 2026 Joshua Israel Ventures LLC. All rights reserved. CourseGauge is a trade name of Joshua Israel Ventures LLC, a Florida limited liability company."
