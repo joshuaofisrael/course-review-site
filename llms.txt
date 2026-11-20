@@ -10,7 +10,7 @@ Every price, free-trial length and refund term links to the platform's own offic
 - October 19, 2026: MasterClass sells MasterClass Certificates separately from its membership: 15 to 20-hour courses with a capstone project, from $299 per course or a Certificates Annual Pass. See https://coursegauge.com/reviews/masterclass.html
 
 ## Tools and data
-- [Online Course Price and Free-Trial Tracker 2026](https://coursegauge.com/pricing-tracker/): Current prices, free trials, refund policies and certificates for 20 online course platforms, each with an official source and check date. CSV: https://coursegauge.com/pricing-tracker/coursegauge-pricing-tracker.csv
+- [Online Course Price and Free-Trial Tracker 2026](https://coursegauge.com/pricing-tracker/): Current prices, free trials, refund policies and certificates for 21 online course platforms, each with an official source and check date. CSV: https://coursegauge.com/pricing-tracker/coursegauge-pricing-tracker.csv
 - [Monthly vs Annual Course Subscription Calculator](https://coursegauge.com/subscription-calculator/): When does an annual course plan pay off? Break-even months (5 to 9) for Coursera Plus, Codecademy, DataCamp, Brilliant and more, with a free calculator. Key finding: annual billing pays off after 5 to 9 months of use (median 7) across 11 plans. CSV: https://coursegauge.com/subscription-calculator/coursegauge-annual-vs-monthly.csv
 - [Which Online Course Platform Fits You? Quiz](https://coursegauge.com/quiz/): Five quick questions to match you with the online course platform that suits your goal, budget, format and need for a certificate.
 
@@ -35,9 +35,10 @@ Every price, free-trial length and refund term links to the platform's own offic
 - [Brilliant vs Codecademy](https://coursegauge.com/compare/brilliant-vs-codecademy.html): Brilliant focuses on interactive math, science and CS puzzles; Codecademy focuses on writing code in the browser with free and paid coding plans.
 - [LinkedIn Learning vs Coursera](https://coursegauge.com/compare/linkedin-learning-vs-coursera.html): LinkedIn Learning vs Coursera compared: Premium bundling, Coursera Plus pricing, certificates, free trials and who each platform suits.
 - [Skillshare vs Udemy](https://coursegauge.com/compare/skillshare-vs-udemy.html): Skillshare vs Udemy: subscription creative classes versus pay-per-course marketplace pricing, trials, refunds and certificates.
+- [Teachable vs Thinkific: the $1,000 fee test](https://coursegauge.com/compare/teachable-vs-thinkific.html): Teachable Starter is $39 plus 7.5%. Thinkific Start is $109 plus 2.9% on Thinkific Payments. A $1,000 example.
 
 ## Platform reviews
-- [All reviews](https://coursegauge.com/reviews/): Independent reviews of 20 online course platforms, from MasterClass and Coursera to Duolingo, with prices, trials, refunds and sources.
+- [All reviews](https://coursegauge.com/reviews/): Independent reviews of 21 online course platforms, from MasterClass and Coursera to Duolingo, with prices, trials, refunds and sources.
 - [MasterClass Review 2026](https://coursegauge.com/reviews/masterclass.html): MasterClass review 2026: celebrity-led lessons, annual billing only. Pricing, free trial, refunds and who it suits, with official sources.
 - [Coursera Review 2026](https://coursegauge.com/reviews/coursera.html): Coursera review 2026: university and industry certificates. Pricing, free trial, refunds and who it suits, with official sources.
 - [Skillshare Review 2026](https://coursegauge.com/reviews/skillshare.html): Skillshare review 2026: project-based creative classes. Pricing, free trial, refunds and who it suits, with official sources.
@@ -58,6 +59,7 @@ Every price, free-trial length and refund term links to the platform's own offic
 - [Alison Review 2026](https://coursegauge.com/reviews/alison.html): Alison review 2026: free to finish, pay only for the certificate. Pricing, free trial, refunds and who it suits, with official sources.
 - [Teachable Review 2026](https://coursegauge.com/reviews/teachable.html): Teachable review 2026: creator school platform, not a curated catalog. Pricing, free trial, refunds and who it suits, with official sources.
 - [Rosetta Stone Review 2026](https://coursegauge.com/reviews/rosetta-stone.html): Rosetta Stone review 2026: 25 languages, $159 a year. Pricing, free trial, refunds and who it suits, with official sources.
+- [Thinkific Review 2026](https://coursegauge.com/reviews/thinkific.html): Thinkific review 2026: Start is $109 a month, no free plan. Pricing, free trial, refunds and who it suits, with official sources.
 
 ## News
 - [News index](https://coursegauge.com/news/): Short, sourced news on online course platforms: launches, price changes and what they mean for learners.

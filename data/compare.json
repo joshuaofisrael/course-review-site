@@ -991,5 +991,89 @@
       "nice": "November 5, 2026",
       "note": "new evergreen comparison of Skillshare vs Udemy for the Nov 5 batch."
     }
+  },
+  "teachable-vs-thinkific": {
+    "title": "Teachable vs Thinkific: the $1,000 fee test",
+    "desc": "Teachable Starter is $39 plus 7.5%. Thinkific Start is $109 plus 2.9% on Thinkific Payments. A $1,000 example.",
+    "p": [
+      "teachable",
+      "thinkific"
+    ],
+    "fields": [
+      "Who it is for",
+      "Creator pricing (US list)",
+      "Free trial",
+      "Creator refunds",
+      "Transaction fees",
+      "Certificates for learners"
+    ],
+    "answer": "On a $1,000 sales month, Teachable Starter costs the creator $114 before the card processor, and Thinkific Start on Thinkific Payments costs $138. Teachable Builder at $89 with a 0% Teachable fee is cheaper than both once sales pass about $667. The plans are not the same product: Thinkific Start includes unlimited courses and certificates, and Teachable lists course certificates on Growth.",
+    "sections": [
+      [
+        "What each company is selling",
+        "Both tools are for the person who runs the school, not for a learner shopping one big catalog. A student who lands on a Teachable or Thinkific checkout is buying that creator's course, at that creator's price, on that creator's refund rules. If you want a vetted library instead, use the <a href=\"../reviews/\">platform reviews</a> for Coursera, Udemy and the rest. This page is about which bill the creator pays."
+      ],
+      [
+        "List prices on 20 Nov 2026",
+        "Teachable's <a href=\"https://www.teachable.com/pricing\" rel=\"nofollow noopener\">pricing page</a> still showed Starter at $39 a month or $29 a month billed annually, Builder at $89 or $69, and Growth at $189 or $139. Annual billing is labelled 22% less than month to month. The same page was running a Black Friday promotion, so a checkout that day could be lower than these list prices. Thinkific's <a href=\"https://www.thinkific.com/pricing/\" rel=\"nofollow noopener\">pricing page</a> showed Start at $109 or $82, Grow at $219 or $164, and Expand at $499 or $374. There is no Thinkific free plan. The trial is 30 days. Teachable's trial is 7 days, with a 30-day money-back guarantee after you pay. Thinkific's pricing FAQ lets you cancel during the trial and does not state a refund once that month is over."
+      ],
+      [
+        "A $1,000 month, in our arithmetic",
+        "These figures multiply the rates each company prints. They skip the card network's own cut, tax and refunds. Teachable Starter is $39 plus 7.5% of $1,000, which is $75, for $114, and then the processor still takes a fee the pricing page does not number. Teachable Builder is $89 and the page says 0% Teachable transaction fee when you use Teachable Payments. Thinkific Start on Thinkific Payments is $109 plus 2.9%, which is $29, for $138. Thinkific Start on Stripe is $109 plus the 2% gateway fee in the <a href=\"https://support.thinkific.com/hc/en-us/articles/360030723513-Accept-Payments-with-Stripe\" rel=\"nofollow noopener\">Stripe help article</a> ($20), and Stripe's processing is on top. The $50 gap between Teachable Starter and Builder equals a 7.5% fee at $666.67 of sales. Above that, Builder costs less in Teachable's own charges than Starter does."
+      ],
+      [
+        "What the entry plan includes",
+        "Thinkific Start does not cap the number of courses. It includes quizzes, assignments, branded certificates, a custom domain, one community and 200 GB of video a month, for up to 10,000 current students. Teachable Starter lists 5 products. A product is one published course, coaching offer or download. Builder lists 10. Growth lists 50. Teachable puts course certificates on the Growth column of its pricing comparison. Starter does include iOS and Android student apps. Thinkific's own branded app is a $199 a month add-on, included only on select Plus plans. If the limit you will hit is the number of courses, Thinkific Start is the wider door. If the limit you will hit is the monthly bill, Teachable Builder is the smaller platform fee once sales are past that $667 line."
+      ],
+      [
+        "Payouts",
+        "Thinkific's pricing FAQ says that with its built-in processing you receive instant access to funds in your account. We are quoting that line, not a deposit time we measured. The same company's Stripe article says Stripe sales sit in Stripe, and Stripe's payout schedule sends them to the bank. Teachable's pricing page says standard payment processing fees may still apply on the 0% plans and does not print the processor percentage or a payout calendar. Read the payout screen in the dashboard you actually connect."
+      ]
+    ],
+    "faq": [
+      [
+        "Is Teachable or Thinkific cheaper?",
+        "At the list prices on 20 Nov 2026, Teachable Starter is $39 a month and Thinkific Start is $109. Starter adds 7.5% of each sale. Start on Thinkific Payments adds about 2.9%. On $1,000 of sales the Teachable total is $114 before the card processor, and the Thinkific Payments total is $138. Teachable Builder at $89 with a 0% Teachable fee is the lowest of the three on that example."
+      ],
+      [
+        "Does either have a free plan?",
+        "No. Teachable's pricing FAQ says it is a paid service with a 7-day trial and a 30-day money-back guarantee. Thinkific's pricing FAQ says there is no free plan, and the trial is 30 days. You can cancel Thinkific during the trial. The FAQ does not promise a refund after the trial."
+      ],
+      [
+        "Which plan includes certificates for learners?",
+        "Thinkific lists quizzes, assignments and branded certificates on Start. Teachable lists course certificates on Growth, which is $189 a month or $139 billed annually. A learner only receives whatever that school turns on."
+      ],
+      [
+        "What if I use Stripe on Thinkific?",
+        "Thinkific's Stripe help article adds a gateway fee on top of Stripe's processing: 2% on Start, 1% on Grow, 0.5% on Expand, and none on Plus, for the first $1 million of sales in a calendar year. Thinkific Payments does not add that gateway fee. The article's table still names Free and Basic plans, which the current pricing page does not sell."
+      ],
+      [
+        "Can a learner subscribe to Teachable or Thinkific directly?",
+        "No. Both companies sell the software to the creator. The learner pays the school. Compare curated catalogs in our <a href=\"../reviews/coursera.html\">Coursera</a> and <a href=\"../reviews/udemy.html\">Udemy</a> reviews if that is what you wanted."
+      ]
+    ],
+    "sources": [
+      [
+        "Teachable pricing",
+        "https://www.teachable.com/pricing"
+      ],
+      [
+        "Teachable Help: fees",
+        "https://support.teachable.com/en/articles/11682553-teachable-fees"
+      ],
+      [
+        "Thinkific pricing",
+        "https://www.thinkific.com/pricing/"
+      ],
+      [
+        "Thinkific Help: Accept payments with Stripe",
+        "https://support.thinkific.com/hc/en-us/articles/360030723513-Accept-Payments-with-Stripe"
+      ]
+    ],
+    "updated": {
+      "date": "2026-11-20",
+      "nice": "November 20, 2026",
+      "note": "new comparison from Teachable's pricing page and Thinkific's pricing page plus Stripe fee article, all read on 20 Nov 2026."
+    }
   }
 }

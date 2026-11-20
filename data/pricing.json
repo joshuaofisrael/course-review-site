@@ -278,5 +278,23 @@
     "https://www.rosettastone.com/buy"
    ]
   }
+ ],
+ [
+  "thinkific",
+  "Start $109, Grow $219, Expand $499",
+  "Start $82/mo, Grow $164/mo, Expand $374/mo billed annually",
+  "30 days",
+  "No free plan",
+  "Cancel during the 30-day trial. No post-trial money-back guarantee stated on the pricing FAQ.",
+  "Start plan includes quizzes, assignments and branded certificates",
+  "https://www.thinkific.com/pricing/",
+  {
+   "checked": "2026-11-20",
+   "note": "20 Nov 2026: pricing page read. No free plan. Start $109 a month or $82 a month billed annually. Thinkific Payments listed at 2.9%.",
+   "link": [
+    "Thinkific pricing",
+    "https://www.thinkific.com/pricing/"
+   ]
+  }
  ]
 ]
