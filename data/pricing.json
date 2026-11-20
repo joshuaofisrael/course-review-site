@@ -105,13 +105,21 @@
  ],
  [
   "brilliant",
-  "Individual $30/mo; Family (6) $60/mo",
-  "Individual $20/mo; Family $40/mo (billed annually)",
+  "Individual $30 was in the 20 Nov page data with a Black Friday discount attached. Family monthly not reprinted.",
+  "List: individual $20/mo and family $40/mo (6 seats), billed yearly. Black Friday display the same day: $14 and $28 per month.",
+  "Not shown on the subscribe page; help index says trials are sometimes offered",
+  "Free account: 2 keys a day (one concept or practice set each)",
   "SEE",
-  "Yes (Free plan with daily lesson)",
-  "SEE",
-  "SEE",
-  "https://brilliant.org/subscribe/"
+  "Not advertised",
+  "https://brilliant.org/subscribe/",
+  {
+   "checked": "2026-11-20",
+   "note": "20 Nov 2026: annual list prices and the Black Friday display re-read on the subscribe page. Free tier updated to the 2-key daily cap.",
+   "link": [
+    "Brilliant subscribe",
+    "https://brilliant.org/subscribe/"
+   ]
+  }
  ],
  [
   "domestika",
@@ -143,23 +151,39 @@
  ],
  [
   "udacity",
-  "$249/mo",
-  "$846 for 4 months upfront, then monthly",
+  "$249/mo on the support FAQ, re-read 20 Nov 2026. The plans page did not print a dollar amount.",
+  "$846 for 4 months up front on the same FAQ (described as 15% off). Plans page: discount covers the first 4 months, then month-to-month.",
   "SEE",
+  "No free catalog on the FAQ or plans page",
   "SEE",
-  "SEE",
-  "SEE",
-  "https://support.udacity.com/hc/en-us/articles/17527771361165-FAQs-about-Udacity-s-New-Subscription"
+  "Nanodegree certificate after the projects are passed",
+  "https://support.udacity.com/hc/en-us/articles/17527771361165-FAQs-about-Udacity-s-New-Subscription",
+  {
+   "checked": "2026-11-20",
+   "note": "20 Nov 2026: FAQ prices re-read. Plans page described the 4-month bundle but did not show a dollar figure in the HTML.",
+   "link": [
+    "Udacity subscription FAQ",
+    "https://support.udacity.com/hc/en-us/articles/17527771361165-FAQs-about-Udacity-s-New-Subscription"
+   ]
+  }
  ],
  [
   "futurelearn",
   "SEE",
-  "Unlimited $349.99/yr ($244.99 offer shown Oct 15, 2026)",
+  "Unlimited $349.99/yr, shown as $29.17/mo, on 20 Nov 2026. The $244.99 offer was not on the page.",
   "SEE",
+  "Limited access to many short courses; Unlimited is the paid year",
   "SEE",
-  "SEE",
-  "SEE",
-  "https://www.futurelearn.com/unlimited"
+  "Digital Certificate of Achievement on included short courses, once eligible",
+  "https://www.futurelearn.com/unlimited",
+  {
+   "checked": "2026-11-20",
+   "note": "20 Nov 2026: Unlimited page showed $349.99 a year and no $244.99 offer.",
+   "link": [
+    "FutureLearn Unlimited",
+    "https://www.futurelearn.com/unlimited"
+   ]
+  }
  ],
  [
   "khan-academy",
@@ -183,13 +207,21 @@
  ],
  [
   "babbel",
-  "$17.95/mo (1 month); $15.25/mo (3 months); $13.45/mo (6 months)",
-  "$107.40/yr ($8.95/mo); Lifetime $299.99 one-time",
+  "1-month and 3-month totals not reconfirmed 20 Nov (prices page needs JavaScript). 6 months: $13.45/mo ($80.70)",
+  "$107.40/yr ($8.95/mo); Lifetime $299.99 once, on Babbel's review page",
   "SEE",
-  "SEE",
-  "SEE",
-  "SEE",
-  "https://my.babbel.com/en/prices"
+  "Registration free; first lesson of every course free",
+  "Cancel before renewal and keep the time already paid for. Help pages we read state no money-back window.",
+  "No",
+  "https://www.babbel.com/babbel-review",
+  {
+   "checked": "2026-11-20",
+   "note": "20 Nov 2026: 6-month, 12-month and lifetime prices re-read on Babbel's review page. Shorter-plan totals from 15 Oct were not repeated.",
+   "link": [
+    "Babbel review page",
+    "https://www.babbel.com/babbel-review"
+   ]
+  }
  ],
  [
   "duolingo",
@@ -206,10 +238,18 @@
   "Free courses",
   "Free courses",
   "Not applicable",
-  "Study and complete free",
+  "Study and complete free, including assessments",
   "SEE",
-  "Free learner record; certificates optional paid (some free)",
-  "https://helpcenter.alison.com/en/articles/8206417-is-alison-really-free"
+  "Free Learner Record. Digital and parchment certificates are optional Shop purchases; the help article does not list the prices. Pass mark is 70% on each assessment.",
+  "https://helpcenter.alison.com/en/articles/8206417-is-alison-really-free",
+  {
+   "checked": "2026-11-20",
+   "note": "20 Nov 2026: certificate article re-read. Courses stay free to finish. Shop prices are still not printed in the help centre. Pass mark is 70%.",
+   "link": [
+    "Alison Help: how do I get my certificate?",
+    "https://helpcenter.alison.com/en/articles/8206422-how-do-i-get-my-certificate"
+   ]
+  }
  ],
  [
   "teachable",
@@ -224,11 +264,19 @@
  [
   "rosetta-stone",
   "$19.99/mo",
-  "$159/yr ($13.25/mo)",
+  "$159/yr ($13.25/mo), all 25 languages",
   "SEE",
-  "Free sample lessons only",
+  "Not listed on the plans page checked 20 Nov 2026",
   "SEE",
-  "SEE",
-  "https://www.rosettastone.com/buy"
+  "Not advertised on the plans page",
+  "https://www.rosettastone.com/buy",
+  {
+   "checked": "2026-11-20",
+   "note": "20 Nov 2026: plans page re-read at $19.99 a month or $159 a year for all 25 languages. No lifetime price was printed.",
+   "link": [
+    "Rosetta Stone plans",
+    "https://www.rosettastone.com/buy"
+   ]
+  }
  ]
 ]

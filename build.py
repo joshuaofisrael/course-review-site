@@ -150,7 +150,9 @@ def upd(u):
 def topupd(u): return f'<p class="src">Last updated {u["nice"]}</p>' if u else ''
 def srcs(l,u=None):
     seen=[];[seen.append(x) for x in l if x not in seen]
-    return '<h2>Sources</h2><ul class="src">'+"".join(f'<li><a href="{u}" rel="nofollow noopener">{t}</a></li>' for t,u in seen)+f'</ul><p class="src">Facts checked {CHECKED}. Prices are US list prices, change often and vary by region; confirm on the provider\'s site before buying. <a href="../about.html">How we research and check facts</a>.</p>'+upd(u)
+    # Pages re-checked on this run say so. Older pages keep the standing check date plus their own update note.
+    checked = u["nice"] if u and str(u.get("date",""))=="2026-11-20" else CHECKED
+    return '<h2>Sources</h2><ul class="src">'+"".join(f'<li><a href="{u}" rel="nofollow noopener">{t}</a></li>' for t,u in seen)+f'</ul><p class="src">Facts checked {checked}. Prices are US list prices, change often and vary by region; confirm on the provider\'s site before buying. <a href="../about.html">How we research and check facts</a>.</p>'+upd(u)
 R=json.load(open("data/reviews.json"))
 C=json.load(open("data/compare.json"))
 def rel_items(k):
@@ -197,11 +199,12 @@ for k,v in R.items():
     nr=rel_items(k)
     mid=next_reads(nr[:2],heading="Related reading")
     end=next_reads(nr,heading="Keep reading")
+    extra=v.get("extra") or ""
     body=f"""<h1>{v['name']} review ({Y}): {v['tagline']}</h1>{byline()}{topupd(v.get('updated'))}
 <p><strong>Short answer:</strong> {v['verdict']}</p>
 <h2>Key facts</h2><div class="tw"><table>{''.join(f'<tr><th scope="row">{a}</th><td>{b}</td></tr>' for a,b in v['facts'])}</table></div>
 <h2>Who it suits</h2><p>{v['good']}</p><h2>Who should look elsewhere</h2><p>{v['bad']}</p>
-{mid}
+{mid}{extra}
 <p>Compare current prices for all platforms in our <a href="../pricing-tracker/index.html">price and free-trial tracker</a>, check whether an annual plan pays off with the <a href="../subscription-calculator/index.html">monthly vs annual calculator</a>, or take the <a href="../quiz/index.html">platform quiz</a>.</p>{news_block(k)}<h2>Our take</h2><p>{v['take']}</p><p><a href="{v['url']}" rel="nofollow noopener">Visit {v['name']}</a></p>
 {check_another_review(k)}{end}{srcs(v['sources'],v.get('updated'))}"""
     if v.get('updated'): LASTMOD[f"{BASE}/reviews/{k}.html"]=v['updated']['date']
