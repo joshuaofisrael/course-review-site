@@ -469,44 +469,62 @@
  },
  "brilliant": {
   "name": "Brilliant",
-  "tagline": "interactive math, science and CS",
+  "tagline": "2 free lessons a day, then Premium",
   "url": "https://brilliant.org/",
-  "verdict": "Brilliant teaches math, science and computer science through interactive problem solving rather than video lectures.",
+  "verdict": "Brilliant Free gives you 2 keys a day. Each key opens one concept or one practice set, then you wait until midnight. Premium removes that cap. On 20 Nov 2026 the subscribe page showed annual list prices of $20 a month for one person and $40 a month for a family of 6, with a Black Friday price of $14 and $28.",
   "facts": [
    [
     "Pricing model",
-    "Brilliant Premium: annual, monthly and family (up to 6 members) plans; limited free access"
+    "Premium is sold monthly, yearly and as a family plan for up to 6 people. A free account remains."
    ],
    [
     "Price",
-    "Individual $30/month or $20/month billed annually; Family (6 seats) $60/month or $40/month billed annually"
+    "Annual list price on the subscribe page, 20 Nov 2026: individual $20 a month and family $40 a month for 6 seats, each billed as one yearly payment. The same page showed a Black Friday 30% discount at $14 and $28 a month. The page data also included a $30 monthly individual amount with that seasonal discount attached. A monthly family dollar amount was not printed in the view we checked, so we are not repeating the $60 figure from 15 Oct as current."
    ],
    [
     "Included",
-    "Unlimited lessons and practice, AI tutor (Koji), ad-free, web/iOS/Android"
+    "Premium: unlimited lessons and practice, full access to the Koji tutor, no ads, the ability to jump to any lesson, on web, iOS and Android."
    ],
    [
     "Free option",
-    "Free plan with a daily lesson; K-12 teachers and students may qualify for free Premium"
+    "2 keys a day. Each key unlocks one concept or one practice set and the keys reset at midnight in your time zone. You have to take topics in order, ads can appear between concepts, and Koji is only a limited preview."
+   ],
+   [
+    "Free trial",
+    "No trial length was shown on the 20 Nov subscribe page. Brilliant's help index says trials are sometimes offered."
    ],
    [
     "Certificates",
-    "Not credential-focused"
+    "Not advertised on the subscribe page or the pricing help articles we checked."
    ]
   ],
-  "good": "Learners who enjoy puzzles and want to build quantitative intuition in short daily sessions.",
-  "bad": "People who want certificates or long-form lectures.",
-  "take": "A good daily habit tool; pair it with a course platform if you need credentials.",
+  "good": "People who like short problem-solving sessions in math, science, computer science or data, and who will bump into the 2-key wall. Two concepts a day is a real habit. It is a slow way to finish a course. The family plan at the $40 a month annual list price is $480 a year for 6 seats, or $80 a seat, which is the number to compare with buying separate individual plans.",
+  "bad": "Anyone who needs a certificate, a coding career path, or several hours of new material in one evening. Free Brilliant will stop you after two concepts. If you want to write code in a browser, <a href=\"codecademy.html\">Codecademy</a> is the closer match. See <a href=\"../compare/brilliant-vs-codecademy.html\">Brilliant vs Codecademy</a>.",
+  "take": "Stay on the free plan until the 2-key limit annoys you. If you then want a year, the list price we could read was $240 ($20 times 12). During the Black Friday display on 20 Nov that annual charge was shown as $14 a month, which is $168 for the year. Treat $168 as a sale price, not as the renewal price. Brilliant's help centre says it rarely discounts Premium, and names the annual Black Friday and Cyber Monday sale as the main exception.",
   "sources": [
-   [
-    "Brilliant Help: How much does Premium cost?",
-    "https://brilliant.org/help/pricing-and-plans/how-much-does-brilliant-premium-cost/"
-   ],
    [
     "Brilliant subscribe page",
     "https://brilliant.org/subscribe/"
+   ],
+   [
+    "Brilliant Help: free vs Premium (updated Oct 30, 2026)",
+    "https://brilliant.org/help/pricing-and-plans/what-s-the-difference-between-free-and-premium/"
+   ],
+   [
+    "Brilliant Help: how much Premium costs (updated Oct 30, 2026)",
+    "https://brilliant.org/help/pricing-and-plans/how-much-does-brilliant-premium-cost/"
+   ],
+   [
+    "Brilliant Help: pricing and plans index",
+    "https://brilliant.org/help/pricing-and-plans/"
    ]
-  ]
+  ],
+  "extra": "\n<h2>What two keys a day allows</h2>\n<p>Brilliant's <a href=\"https://brilliant.org/help/pricing-and-plans/what-s-the-difference-between-free-and-premium/\" rel=\"nofollow noopener\">free-versus-Premium article</a>, last updated 30 Oct 2026 and re-read on 20 Nov, is specific. A free account gets 2 keys each day. One key opens one concept or one practice set. When both keys are used, you stop until midnight in your time zone. You also cannot skip ahead, and ads can sit between concepts. Koji, the tutor inside the lessons, is a preview that runs out.</p>\n<p>Premium, on the same article and on the <a href=\"https://brilliant.org/help/pricing-and-plans/how-much-does-brilliant-premium-cost/\" rel=\"nofollow noopener\">pricing article</a> (also updated 30 Oct 2026), drops the keys, drops the ads, lets you open any lesson, and includes Koji for the session. Both free and Premium can use the lessons on the web, iOS and Android. The pricing article no longer prints dollar amounts. It tells you to open the subscribe page, which is where the figures below come from.</p>\n<h2>List price and the 20 Nov sale</h2>\n<div class=\"tw\"><table>\n<caption>Brilliant subscribe page, United States, 20 Nov 2026</caption>\n<thead><tr><th scope=\"col\">Plan</th><th scope=\"col\">Annual list shown</th><th scope=\"col\">Black Friday display the same day</th></tr></thead>\n<tbody>\n<tr><th scope=\"row\">Individual</th><td>$20 a month, billed as one yearly payment ($240)</td><td>$14 a month ($168 for the year). The page said save 30%.</td></tr>\n<tr><th scope=\"row\">Family, 6 seats</th><td>$40 a month, billed yearly ($480)</td><td>$28 a month ($336 for the year)</td></tr>\n</tbody></table></div>\n<p>The visible page was on the annual toggle, so we did not see a monthly price painted on the screen. The page data included a $30 monthly individual amount with the same Black Friday discount attached. That matches the monthly list price we recorded on 15 Oct. We are not going to state a current monthly family price, because it was not in that view. Confirm the monthly checkout if you do not want a year.</p>\n<p>A seat on the family annual list is $480 divided by 6, or $80 a year. That is a third of the individual annual list ($240). It only helps if several people in the house will use it. One person should ignore the family row.</p>\n<p>For a credential or a programming path, this is the wrong tool. <a href=\"khan-academy.html\">Khan Academy</a> is free for school math. <a href=\"../compare/brilliant-vs-codecademy.html\">Brilliant vs Codecademy</a> is the comparison if the goal is writing code. Prices for the wider set sit in the <a href=\"../pricing-tracker/\">price tracker</a>.</p>\n",
+  "updated": {
+   "date": "2026-11-20",
+   "nice": "November 20, 2026",
+   "note": "re-read the subscribe page and the free-versus-Premium article. Recorded the 2-key daily cap, the annual list prices, and the Black Friday display. Stopped citing a monthly family price and a K-12 free Premium offer, because neither was on the pages checked today."
+  }
  },
  "domestika": {
   "name": "Domestika",
@@ -609,67 +627,85 @@
  },
  "udacity": {
   "name": "Udacity",
-  "tagline": "project-based tech Nanodegrees",
+  "tagline": "$249 a month on the support FAQ",
   "url": "https://www.udacity.com/",
-  "verdict": "Udacity sells All Access to its whole catalog of Nanodegree programs and courses, aimed at job-ready tech skills. It is expensive at list price, so time your enrollment.",
+  "verdict": "Udacity's support FAQ, re-read on 20 Nov 2026, still says the subscription is $249 a month, or $846 if you pay for four months up front. You cannot buy a single Nanodegree on its own. The public plans page did not print a dollar amount in the page we fetched. It described a monthly plan and a 4-month bundle that converts to month-to-month.",
   "facts": [
    [
     "Pricing model",
-    "All Access subscription: $249/month, or $846 upfront for four months (15% saving), then month-to-month"
+    "One subscription for the catalog. The support FAQ prices it at $249 a month, or $846 paid up front for four months (it calls that a 15% saving). The plans page, the same day, left the dollar figures as \"Loading\" and said a discount applies to the first 4 months, after which the plan converts to month-to-month."
    ],
    [
-    "Discounts",
-    "Personalised offers and periodic sales"
+    "Free option",
+    "No free catalog on the FAQ or the plans page. The FAQ says personalised offers and periodic sales exist for some learners."
+   ],
+   [
+    "What you cannot buy",
+    "The FAQ says Udacity does not support enrollment in an individual Nanodegree or course. The subscription is the product."
+   ],
+   [
+    "Catalog",
+    "The FAQ describes over 80 Nanodegree programs, about 2 to 6 months each depending on weekly hours, and over 300 courses that can often be finished in under a month. The catalog changes: content is added and removed during an active subscription."
    ],
    [
     "Certificates",
-    "Nanodegree program certificates"
+    "A Nanodegree certificate comes after you pass the program's projects. The plans page calls the credential a Udacity-verified certification and says it is included on individual, team and enterprise plans."
    ],
    [
-    "Catalog",
-    "All Nanodegrees and courses while subscribed"
+    "Pause",
+    "The FAQ says you can pause the subscription when you have met a goal, and come back later. It does not describe a refund window."
    ]
   ],
-  "good": "Motivated learners who can finish a Nanodegree in a few focused months.",
-  "bad": "Casual or budget learners.",
-  "take": "Use the four-month bundle only if you can commit the hours.",
+  "good": "Someone who can put real weeks into one Nanodegree and wants project reviews, not just videos. At the FAQ's four-month price, $846 is the bill for a program the FAQ itself says often takes two to six months. Four months of $249 would be $996, and $846 is $150 less, which is the 15% the FAQ claims (150 divided by 996).",
+  "bad": "Casual learners, and anyone comparing it with a broad catalog subscription. <a href=\"coursera.html\">Coursera Plus</a> was $399 for a year at our last full read of that plan. Udacity's four-month FAQ price is already more than twice that, and it does not become a cheap second year: the plans page says the 4-month deal converts to month-to-month. If you only need one Python course, look at <a href=\"codecademy.html\">Codecademy</a> or a single <a href=\"udemy.html\">Udemy</a> course instead.",
+  "take": "Treat $249 and $846 as the prices Udacity's own support FAQ still publishes, not as a number we saw painted on the plans page on 20 Nov. Open <a href=\"https://www.udacity.com/plans\" rel=\"nofollow noopener\">udacity.com/plans</a> and read the checkout, because the FAQ also mentions personalised offers. If the four-month bundle is what you want, finish inside those four months. The footnote on the plans page says the discount applies to the first 4 months and then the membership goes month-to-month.",
   "sources": [
    [
-    "Udacity Support: subscription FAQ",
+    "Udacity Support: subscription FAQ ($249 a month, $846 for four months)",
     "https://support.udacity.com/hc/en-us/articles/17527771361165-FAQs-about-Udacity-s-New-Subscription"
    ],
    [
-    "Udacity plans",
+    "Udacity plans page",
     "https://www.udacity.com/plans"
    ]
-  ]
+  ],
+  "extra": "\n<h2>The support FAQ and the plans page do not match in form</h2>\n<p>We opened both on 20 Nov 2026. The <a href=\"https://support.udacity.com/hc/en-us/articles/17527771361165-FAQs-about-Udacity-s-New-Subscription\" rel=\"nofollow noopener\">subscription FAQ</a> is blunt: a monthly subscription is $249, and paying $846 up front for four months saves 15%. The same article later says students subscribe monthly or annually. It does not explain how \"annual\" relates to the four-month price. We are leaving both wordings here so the conflict is visible.</p>\n<p>The <a href=\"https://www.udacity.com/plans\" rel=\"nofollow noopener\">plans page</a> described three products in the HTML we could read: a monthly subscription, a 4-month subscription it called the best value, and team plans. The dollar slots said \"Loading\". Two footnotes were readable. A discount applies to the first 4 months, then the plan converts to month-to-month. The 4-month total is framed around the average time to complete a Nanodegree. Individual plans include the content library, hands-on projects, human project feedback, and a Udacity-verified certification, according to the comparison table on that page.</p>\n<h2>What $846 is being compared with</h2>\n<div class=\"tw\"><table>\n<caption>A four-month Udacity bill against a year of Coursera Plus</caption>\n<thead><tr><th scope=\"col\"></th><th scope=\"col\">Udacity, support FAQ</th><th scope=\"col\">Coursera Plus, our last read of that plan</th></tr></thead>\n<tbody>\n<tr><th scope=\"row\">Sticker</th><td>$249 a month, or $846 for the first four months</td><td>$59 a month, or $399 a year</td></tr>\n<tr><th scope=\"row\">What you can enrol in</th><td>Any Nanodegree or course while the subscription is active. Not one program by itself.</td><td>Most of the Coursera catalog. Degrees are separate.</td></tr>\n<tr><th scope=\"row\">Certificate</th><td>Nanodegree certificate after the projects are passed</td><td>Course and professional certificates from the partner that built the course</td></tr>\n</tbody></table></div>\n<p>The arithmetic on Udacity's own four-month claim: 249 times 4 is 996, and 996 minus 846 is 150, which is 15.1% off. That checks out against the \"save 15%\" line. It is a discount on the first four months, not a permanent rate, if the plans-page footnote is the rule the checkout uses.</p>\n<p>The FAQ's catalog description is the other concrete figure. It says there are over 80 Nanodegree programs, usually about two to six months, and over 300 shorter courses. A Nanodegree certificate requires passing the projects. You can be enrolled in more than one thing at a time while the subscription is active. If you finish early, the FAQ says you can pause rather than keep paying. It does not promise a refund of the months you did not use.</p>\n<p>The head-to-head write-up is <a href=\"../compare/udacity-vs-coursera.html\">Udacity vs Coursera</a>. For cheaper ways to practice code before spending $249, see <a href=\"../compare/best-platforms-to-learn-coding-and-tech.html\">best platforms to learn coding and tech</a> and the <a href=\"../pricing-tracker/\">price tracker</a>.</p>\n",
+  "updated": {
+   "date": "2026-11-20",
+   "nice": "November 20, 2026",
+   "note": "re-read the subscription FAQ and the plans page. Kept the FAQ's $249 and $846 figures, noted that the plans page did not print a dollar amount, and spelled out the four-month-to-monthly conversion, the ban on buying one Nanodegree alone, and the project rule for the certificate."
+  }
  },
  "futurelearn": {
   "name": "FutureLearn",
-  "tagline": "short university courses, UK roots",
+  "tagline": "Unlimited is $349.99 a year",
   "url": "https://www.futurelearn.com/",
-  "verdict": "FutureLearn offers short courses from universities and organisations; Unlimited gives a year of access to most of them.",
+  "verdict": "FutureLearn Unlimited, on the page we read on 20 Nov 2026, is $349.99 billed annually, shown as $29.17 a month. The $244.99 offer from our October checks was not on that page. Unlimited includes a digital Certificate of Achievement on the short courses it covers, and it excludes microcredentials, degrees and ExpertTrack subscription courses.",
   "facts": [
    [
     "Pricing model",
-    "Unlimited annual subscription; individual upgrades also sold"
+    "Unlimited is an annual subscription. The page we checked showed one price, not a separate monthly total. One-off upgrades for single courses still exist, priced on each course."
    ],
    [
     "Unlimited price",
-    "$349.99/year list; $244.99 first-year offer shown on Oct 15, 2026"
+    "$349.99 a year, displayed as $29.17 a month, on 20 Nov 2026. No introductory price was printed on the page. The $244.99 figure from October was not there."
    ],
    [
     "Renewal",
-    "Annual subscription auto-renews"
+    "Unlimited renews automatically. FutureLearn says it emails three days before renewal. Cancel before the period ends and you keep access until that period ends."
    ],
    [
     "Catalog",
-    "1,400+ courses (per FutureLearn)"
+    "The Unlimited page says 1,400+ short courses from 200+ institutions. Unlimited does not include Paid Upfront courses (microcredentials and degrees), Subscription Access courses inside an ExpertTrack, or program assessments. Open taster courses for degrees are included."
+   ],
+   [
+    "Certificates",
+    "A printable digital Certificate of Achievement on included short courses, once you are eligible. If you cancel, you keep those certificates and you keep access to the courses where you earned one. Other courses go back to a free-learner experience. The Unlimited page does not say the certificate is university credit."
    ]
   ],
-  "good": "Learners who like short, structured university courses in health, teaching, psychology and business.",
-  "bad": "Learners wanting deep technical tracks.",
-  "take": "Buy Unlimited during an offer and note the renewal date.",
+  "good": "Someone who wants a stack of short university courses for a year and cares about keeping the certificate afterwards. At $349.99, Unlimited is $49.01 less than the $399 Coursera Plus annual price from our October read of Coursera. The catalogs are not the same product. FutureLearn's own page puts the count at 1,400+ short courses and names what is left out.",
+  "bad": "Learners who need a microcredential, a degree, or an ExpertTrack. Those are outside Unlimited, and buying Unlimited will not unlock them. It is also a weak choice if you wanted the October discount: $244.99 was not on the page on 20 Nov, so budget $349.99 unless the checkout shows something lower that day.",
+  "take": "Ignore old screenshots of a 30% Unlimited offer unless the live page shows it. The number on 20 Nov was $349.99 for the year. Before you pay, filter the short-course list to \"Included in Unlimited\" and see whether the courses you want are in that set. After you earn a Certificate of Achievement, cancelling does not take that course away. That is the useful part of the renewal terms, and it is spelled out on the <a href=\"https://www.futurelearn.com/unlimited\" rel=\"nofollow noopener\">Unlimited page</a>. The wider comparison is <a href=\"../compare/futurelearn-vs-coursera.html\">FutureLearn vs Coursera</a>.",
   "sources": [
    [
     "FutureLearn Unlimited",
@@ -679,7 +715,13 @@
     "FutureLearn Help: Renewing Unlimited",
     "https://futurelearn.zendesk.com/hc/en-us/articles/360020402379-Renewing-Unlimited"
    ]
-  ]
+  ],
+  "extra": "\n<h2>The October discount was not on the page</h2>\n<p>On 15 Oct and again on 28 Oct, FutureLearn's Unlimited page showed a $349.99 list price and a $244.99 offer. On 20 Nov 2026 the same URL showed one figure: $29.17 a month, $349.99 billed annually. There was no struck-through price and no \"30% off\" line. We are retiring $244.99 as a current price. If a sale returns, it will be on that page, not in this paragraph.</p>\n<p>$29.17 times 12 is $350.04, a few cents over the $349.99 billed total. The page is showing a rounded monthly equivalent of the annual charge, not a $29.17 bill you can pay twelve separate times. We did not see a distinct monthly Unlimited price.</p>\n<h2>What the $349.99 does not buy</h2>\n<p>The <a href=\"https://www.futurelearn.com/unlimited\" rel=\"nofollow noopener\">Unlimited page</a> is explicit about the holes. You get stand-alone short courses that offer a Certificate of Achievement. You do not get Paid Upfront courses, and the page names microcredentials and degrees in that group. You do not get Subscription Access courses that sit inside an ExpertTrack. You do not get program assessments. Degree taster courses that are open to anyone are included. The practical test is the filter labelled Included in Unlimited. A course card without that label is a separate purchase.</p>\n<p>The page also says the subscription covers 1,400+ courses and more than 200 institutions. That is FutureLearn's count, from the page, not a catalog we inventoried.</p>\n<h2>What you keep if you cancel</h2>\n<p>Renewal is automatic, with an email three days before. Cancel before the period ends and access runs to the end of the period you paid for. Then three things happen, in the page's own split:</p>\n<ul>\n<li>You keep every Certificate of Achievement you have earned.</li>\n<li>You keep Unlimited-style access to each course where you earned one.</li>\n<li>Courses where you did not earn a certificate go back to the free-learner experience.</li>\n</ul>\n<p>If you resubscribe later, the page says you regain the courses from the last subscription. That makes Unlimited less of a cliff than a rental that locks the door on every file. It still is not a reason to pay for a year of courses you have not looked at. <a href=\"coursera.html\">Coursera Plus</a> at $399 a year is the nearest wide subscription, and <a href=\"../compare/futurelearn-vs-coursera.html\">FutureLearn vs Coursera</a> puts the certificate rules next to each other. Both prices are in the <a href=\"../pricing-tracker/\">price tracker</a>.</p>\n",
+  "updated": {
+   "date": "2026-11-20",
+   "nice": "November 20, 2026",
+   "note": "re-read the Unlimited page. The price showing was $349.99 a year ($29.17 a month). The $244.99 offer was not on the page. Recorded what Unlimited excludes and what you keep after cancelling."
+  }
  },
  "khan-academy": {
   "name": "Khan Academy",
@@ -761,40 +803,66 @@
  },
  "babbel": {
   "name": "Babbel",
-  "tagline": "structured language lessons",
+  "tagline": "14 languages, 12-month plan $107.40",
   "url": "https://www.babbel.com/",
-  "verdict": "Babbel teaches languages through structured, conversation-focused lessons, sold as subscriptions with a lifetime option.",
+  "verdict": "Babbel's own review page, read on 20 Nov 2026, still prices a 12-month plan at $107.40 ($8.95 a month), six months at $80.70 and lifetime at $299.99. Full lessons are paid and ad-free. The first lesson of every course is free, and Babbel Live is no longer sold to individual learners.",
   "facts": [
    [
     "Pricing model",
-    "Subscriptions of several lengths, plus a lifetime option"
+    "Subscriptions paid in advance for a set period, plus a one-time Lifetime plan. Babbel's pricing help article says the price also depends on your country and on whether you buy from Babbel, a partner site, Google or Apple."
    ],
    [
     "Price",
-    "$17.95 for 1 month; $45.75 per 3 months; $80.70 per 6 months; $107.40 per 12 months; Lifetime $299.99"
+    "On Babbel's review page, 20 Nov 2026: 6 months at $13.45 a month ($80.70 billed each 6 months), 12 months at $8.95 a month ($107.40 for the year), Lifetime $299.99 once. The page says 1-month and 3-month plans exist but does not print those totals. The $17.95 and $45.75 figures from our 15 Oct read of the prices app were not re-confirmed, because that page returned no prices without JavaScript."
+   ],
+   [
+    "Free option",
+    "Registration is free, and the first lesson of every course is free to try. Full courses need a subscription. Babbel says the lessons carry no ads."
    ],
    [
     "Format",
-    "Short lessons focused on practical conversation"
+    "Lessons of about 10 to 15 minutes, built around practical conversation, written for the learner's native language. 14 languages."
    ],
    [
     "Certificates",
-    "No"
-   ]
-  ],
-  "good": "Beginners who want structured grammar and dialogue.",
-  "bad": "Learners wanting a free app.",
-  "take": "Longer plans cost less per month; compare with Duolingo's free tier first.",
-  "sources": [
-   [
-    "Babbel prices",
-    "https://my.babbel.com/en/prices"
+    "No course certificate on the pages we checked."
    ],
    [
-    "Babbel review page",
-    "https://www.babbel.com/babbel-review"
+    "Renewal",
+    "Renews for the same period unless you cancel before the renewal date. You keep access until the time you already paid for ends. Deleting the app does not cancel the subscription. The help articles we read do not state a money-back window."
    ]
-  ]
+  ],
+  "good": "Adults who want short, structured dialogue lessons and will actually open the app most weeks. At the 12-month price on Babbel's review page, a year is $107.40, which is less than <a href=\"rosetta-stone.html\">Rosetta Stone</a>'s $159 yearly plan, with the caveat below about how many languages that Babbel plan includes.",
+  "bad": "Anyone who needs a free full course, a certificate, or a live teacher. Babbel's review page says Babbel Live is no longer available for individual consumers. It is also a poor fit if you want dozens of languages in one obvious bundle: see the disagreement between Babbel's own pages, described under the next heading.",
+  "take": "Read the checkout label before you pay for a year. If it is one language, lifetime at $299.99 is the only Babbel product their review page describes as covering every language, and it costs about 2.8 years of the 12-month plan. If the checkout says all languages, the 12-month plan is the simpler buy and lifetime is a bet that you will still be using Babbel in year three. Start with the free first lesson, or with <a href=\"duolingo.html\">Duolingo</a> if you are not ready to pay.",
+  "sources": [
+   [
+    "Babbel review page (plans, 14 languages, lesson length, Babbel Live)",
+    "https://www.babbel.com/babbel-review"
+   ],
+   [
+    "Babbel Help: Pricing",
+    "https://support.babbel.com/hc/en-us/articles/19650417983378-Pricing"
+   ],
+   [
+    "Babbel Help: subscriptions",
+    "https://support.babbel.com/hc/en-us/articles/205600308-Babbel-subscriptions"
+   ],
+   [
+    "Babbel Help: try Babbel for free",
+    "https://support.babbel.com/hc/en-us/articles/205600498-Try-Babbel-for-free"
+   ],
+   [
+    "Babbel Help: canceling a subscription",
+    "https://support.babbel.com/hc/en-us/articles/205600298-Canceling-a-subscription"
+   ]
+  ],
+  "extra": "\n<h2>Two official pages disagree on languages</h2>\n<p>This is the part worth slowing down for. Babbel's <a href=\"https://www.babbel.com/babbel-review\" rel=\"nofollow noopener\">review page</a>, read on 20 Nov 2026, says each language needs its own subscription unless you buy lifetime access. The <a href=\"https://support.babbel.com/hc/en-us/articles/205600308-Babbel-subscriptions\" rel=\"nofollow noopener\">subscriptions help article</a> describes an \"All languages\" subscription for the whole self-study catalog, and lists Lifetime as a separate choice. Both pages are Babbel's. We are not going to pretend they say the same thing. Open the checkout and read whether the plan name is one language or all 14 before you enter a card.</p>\n<p>The 14 languages named on the review page are Spanish (Spain and Mexico are separate courses), French, German, Italian, Portuguese, Dutch, Swedish, Norwegian, Danish, Polish, Turkish, Russian, Indonesian and English. An English speaker learning Spanish does not get the same course as a French speaker learning Spanish: Babbel says each course is written for the learner's native language.</p>\n<h2>A year of Babbel against the other two apps</h2>\n<div class=\"tw\"><table>\n<caption>Prices re-read on 20 Nov 2026 from each company's own pages</caption>\n<thead><tr><th scope=\"col\">Plan</th><th scope=\"col\">Price we could verify</th><th scope=\"col\">Languages</th></tr></thead>\n<tbody>\n<tr><th scope=\"row\">Babbel, 12 months</th><td>$107.40 for the year, shown as $8.95 a month</td><td>Review page and help article disagree. Check the checkout.</td></tr>\n<tr><th scope=\"row\">Babbel, 6 months</th><td>$80.70 every 6 months, shown as $13.45 a month</td><td>Same question</td></tr>\n<tr><th scope=\"row\">Babbel Lifetime</th><td>$299.99 once</td><td>Review page: every language. 299.99 divided by 107.40 is about 2.8 years of the 12-month price.</td></tr>\n<tr><th scope=\"row\"><a href=\"rosetta-stone.html\">Rosetta Stone</a>, yearly</th><td>$159 billed once for the year ($13.25 a month)</td><td>All 25 languages on one subscription, on the plans page</td></tr>\n<tr><th scope=\"row\"><a href=\"duolingo.html\">Duolingo</a></th><td>The course content is free, with ads and limits</td><td>Many more languages, and less explicit grammar</td></tr>\n</tbody></table></div>\n<p>We are not reprinting the 1-month and 3-month totals from 15 Oct ($17.95 and $45.75). Babbel's review page still says those shorter plans exist, but <a href=\"https://my.babbel.com/en/prices\" rel=\"nofollow noopener\">my.babbel.com/en/prices</a> returned no prices without JavaScript on 20 Nov. The <a href=\"https://support.babbel.com/hc/en-us/articles/19650417983378-Pricing\" rel=\"nofollow noopener\">pricing help article</a> also warns that Google and Apple charges can differ from the website.</p>\n<h2>What you can try without paying</h2>\n<p>The <a href=\"https://support.babbel.com/hc/en-us/articles/205600498-Try-Babbel-for-free\" rel=\"nofollow noopener\">free-lesson article</a> says you can register at no cost and open the first lesson of every course. That is enough to hear whether the dialogue style suits you. It is not a free catalog. The same article says Babbel runs no ads, and it credits a team of over 150 experts for the courses. We are citing that as Babbel's description, not as an independent headcount.</p>\n<p>If you wanted a teacher on a video call, stop here. Babbel's review page says Babbel Live is no longer available for individual consumers. For the free-versus-paid choice, read <a href=\"../compare/babbel-vs-duolingo.html\">Babbel vs Duolingo</a>, then <a href=\"../compare/best-language-learning-apps.html\">best language learning apps</a>, which adds Rosetta Stone. The <a href=\"../subscription-calculator/\">monthly vs annual calculator</a> still shows the 15 Oct one-month price beside the 12-month total, and the note on that row says the one-month figure was not re-read.</p>\n",
+  "updated": {
+   "date": "2026-11-20",
+   "nice": "November 20, 2026",
+   "note": "re-read the review page, pricing help, subscriptions help, free-lesson article and cancel article. Confirmed the 6-month, 12-month and lifetime prices. Dropped the 1-month and 3-month totals because the prices app did not return them without JavaScript. Noted the conflict between the review page and the help article on whether one subscription covers every language."
+  }
  },
  "duolingo": {
   "name": "Duolingo",
@@ -851,33 +919,41 @@
  },
  "alison": {
   "name": "Alison",
-  "tagline": "free courses, optional paid certificates",
+  "tagline": "free to finish, pay only for the certificate",
   "url": "https://alison.com/",
-  "verdict": "Alison courses are free to study and finish. You can download a free learner record; formal digital or printed certificates are optional purchases.",
+  "verdict": "Alison still lets you study and finish a course without paying. The certificate help article, marked updated the day before we read it on 20 Nov 2026, says you need 70% on every assessment, a free Learner Record is enough to show you finished, and a digital or parchment certificate is a separate purchase in the Shop. The article does not print the Shop prices.",
   "facts": [
    [
     "Pricing model",
-    "Free courses; optional paid certificates"
+    "Courses are free to study and complete. Certificates are optional purchases. The help article points to the Shop for the amounts and does not list them."
    ],
    [
     "Free option",
-    "Study and complete free"
+    "Study every section and sit the assessments at no charge. A Learner Record of a finished course is free. You do not have to buy a certificate to have finished."
+   ],
+   [
+    "Pass mark",
+    "Complete every section (a green tick on each) and score at least 70% on each assessment. That rule is in the certificate help article."
    ],
    [
     "Certificates",
-    "Free learner record; certificates sold in Alison's shop, some courses include free digital ones"
+    "After you pass, a digital certificate or a mailed parchment can be bought in the Shop. Some courses include a free digital certificate. The certificate language is the language of the final assessment. A purchased certificate carries a QR code that opens a verification page."
+   ],
+   [
+    "Paying in the app",
+    "The help article says digital certificates bought in the Alison app can be paid with Apple Pay or Google Pay only. The browser Shop also offers card, PayPal and bank transfer. Printed certificates need a full delivery address."
    ]
   ],
-  "good": "Budget learners who want proof of completion.",
-  "bad": "Anyone wanting recognised university credentials.",
-  "take": "Good free starting point; pay only if an employer values the certificate.",
+  "good": "A learner who wants a structured free course and can live with a Learner Record, or who will pay the Shop price only if a specific employer has said an Alison certificate counts. The 70% rule is at least a real bar, unlike a certificate that appears for pressing play.",
+  "bad": "Anyone who needs a university transcript or a professional licence. Alison's certificate is Alison's. It is also a clumsy fit if you care which language is printed on the certificate and you sit the final quiz in the wrong one: the help article says you must retake the assessment in the other language and score higher than before. A parchment already posted is not reprinted. You place a new order.",
+  "take": "Finish the course free, download the Learner Record, and only then open the Shop. Do not assume a dollar amount from an old review. The help article we read refuses to state one and sends you to the Shop, where the price can move. If the goal is a free school curriculum with no certificate upsell, <a href=\"khan-academy.html\">Khan Academy</a> is the cleaner product. If you want a free audit and a paid university-style certificate, compare <a href=\"edx.html\">edX</a> in <a href=\"../compare/best-free-online-course-platforms.html\">best free online course platforms</a>.",
   "sources": [
    [
     "Alison Help: Is Alison really free?",
     "https://helpcenter.alison.com/en/articles/8206417-is-alison-really-free"
    ],
    [
-    "Alison Help: How do I get my certificate?",
+    "Alison Help: How do I get my certificate? (showed an update the day before 20 Nov 2026)",
     "https://helpcenter.alison.com/en/articles/8206422-how-do-i-get-my-certificate"
    ]
   ],
@@ -886,7 +962,13 @@
     "Oct 16, 2026: Alison adds free in-browser Python coding labs",
     "news/alison-free-interactive-python-coding-labs.html"
    ]
-  ]
+  ],
+  "extra": "\n<h2>The 70 percent rule</h2>\n<p>Alison's <a href=\"https://helpcenter.alison.com/en/articles/8206422-how-do-i-get-my-certificate\" rel=\"nofollow noopener\">certificate article</a> was marked \"Updated yesterday\" when we opened it on 20 Nov 2026. The completion rule is concrete. Every section needs a green tick, and every assessment needs a score of at least 70%. Until both are true, there is nothing in the Shop to buy.</p>\n<p>The <a href=\"https://helpcenter.alison.com/en/articles/8206417-is-alison-really-free\" rel=\"nofollow noopener\">\"is Alison really free\" article</a> still says you can study and finish without paying, and that a Learner Record can be downloaded. The certificate article repeats the point in plainer words: you do not have to purchase a certificate in order to certify. The Learner Record is the free proof. The digital file and the parchment are souvenirs you pay for.</p>\n<h2>The language trap on the certificate</h2>\n<p>The certificate language is chosen for you. It is the language you used for the final assessment. If you want a different language on the certificate, you retake that assessment in the other language, and the language updates only if the new score is higher than the old one. The digital file then switches. A parchment that has already been dispatched does not. The article says you would place a new order, and it tells you to check the language before you pay so you are not charged twice.</p>\n<p>Check the name spelling in the Shop before you pay as well. The article walks through an Edit Name step and warns that a correction later costs extra. We are not quoting a correction fee, because the article does not state one.</p>\n<h2>How the Shop takes payment</h2>\n<p>In a browser, the article lists credit or debit card, PayPal, and bank transfer. In the app, digital certificates and digital diplomas are limited to Apple Pay or Google Pay, which the article attributes to Apple and Google rules. If you do not have those, it says to switch to the browser. Printed certificates need a delivery address, and the article suggests a postcode and a PO Box.</p>\n<p>A bought certificate or diploma includes a QR code. Scanning it opens an Alison page that shows the credential. The transcript has a verification link too. That is useful if an employer asks whether the PDF is real. It does not make the certificate a degree. For free platforms side by side, use <a href=\"../compare/best-free-online-course-platforms.html\">best free online course platforms</a>. Alison's prices, such as they are, stay as \"see the Shop\" in the <a href=\"../pricing-tracker/\">price tracker</a> until the help centre prints a number.</p>\n",
+  "updated": {
+   "date": "2026-11-20",
+   "nice": "November 20, 2026",
+   "note": "re-read the free-course article and the certificate article. Added the 70% assessment rule, the free Learner Record, the certificate-language rule, and the app payment limit. Did not invent Shop prices."
+  }
  },
  "teachable": {
   "name": "Teachable",
@@ -948,39 +1030,57 @@
  },
  "rosetta-stone": {
   "name": "Rosetta Stone",
-  "tagline": "immersion-style language learning",
+  "tagline": "25 languages, $159 a year",
   "url": "https://www.rosettastone.com/",
-  "verdict": "Rosetta Stone teaches languages through immersion and offers subscriptions and a one-time lifetime option covering all its languages.",
+  "verdict": "Rosetta Stone's plans page, read on 20 Nov 2026, charges $19.99 a month or $159 for the year, and that subscription includes all 25 languages. The yearly plan costs less than eight months of the monthly plan. A lifetime subscription is still described in a support article, but neither that article nor the plans page printed a lifetime price.",
   "facts": [
    [
     "Pricing model",
-    "Subscriptions and a lifetime option"
-   ],
-   [
-    "Lifetime",
-    "Access while the product and services remain available and supported"
+    "Monthly or yearly subscription for one person. A lifetime subscription is described in Rosetta Stone's support centre, without a price on the pages we checked."
    ],
    [
     "Price",
-    "$19.99/month billed monthly, or $159/year ($13.25/month)"
+    "$19.99 a month billed monthly, or $13.25 a month billed yearly as $159. The plans page labels the yearly option as save 33%."
+   ],
+   [
+    "Free option",
+    "Not listed on the plans page we checked on 20 Nov 2026."
+   ],
+   [
+    "Format",
+    "Immersion lessons, the TruAccent speech tool, Chat Missions for conversation practice, 500+ flashcard sets, and Sapphire Studio for making your own materials. The plans page says one subscription covers all 25 languages."
+   ],
+   [
+    "Languages",
+    "The plans page lists Spanish (Spain), Spanish (Latin America), German, French, Italian, Dutch, Arabic, Korean, Swedish, Japanese, Hebrew, Chinese, Greek, Persian, Turkish, Russian, Vietnamese, Hindi, Portuguese (Brazil), Filipino (Tagalog), Irish, Latin, English (American), English (British) and Polish."
+   ],
+   [
+    "Lifetime",
+    "The support article dated 12 Jan 2026 says a lifetime subscription lasts while the products and services you bought remain available and supported, that each license is for one person, and that it cannot be transferred. It does not state a price."
    ],
    [
     "Certificates",
-    "No"
+    "Not advertised on the plans page we checked."
    ]
   ],
-  "good": "Learners who like immersion and want many languages.",
-  "bad": "Learners on a tight budget.",
-  "take": "Read the lifetime terms before buying.",
+  "good": "A learner who wants several languages on one bill and likes immersion without translation drills. $159 a year for 25 languages is the clean comparison with <a href=\"babbel.html\">Babbel</a>, whose review page prices 12 months at $107.40 and then argues with its own help centre about whether that plan is one language or all of them.",
+  "bad": "A tight budget, or anyone who wants a certificate. There is no free tier on the plans page we opened. Nineteen dollars and ninety-nine cents a month with no printed refund window is an expensive way to discover you will not keep the habit. Try <a href=\"duolingo.html\">Duolingo</a> first if you are unsure.",
+  "take": "The yearly plan is the one that matches how the product is priced. $159 divided by $19.99 is 7.95, so the annual bill costs less than paying monthly once you are in month 8. The plans page's \"save 33%\" line also checks: twelve months at $19.99 is $239.88, and $159 is about 34% less. Do not buy a lifetime plan from a third-party seller on the strength of the support article. That article defines the term and does not list a current price.",
   "sources": [
    [
-    "Rosetta Stone Support: Lifetime subscription",
-    "https://support.rosettastone.com/about-our-lifetime-subscription/"
+    "Rosetta Stone plans and pricing",
+    "https://www.rosettastone.com/buy"
    ],
    [
-    "Rosetta Stone plans",
-    "https://www.rosettastone.com/buy"
+    "Rosetta Stone Support: lifetime subscription (bylined January 12, 2026)",
+    "https://support.rosettastone.com/about-our-lifetime-subscription/"
    ]
-  ]
+  ],
+  "extra": "\n<h2>Eight months is the break-even</h2>\n<p>The <a href=\"https://www.rosettastone.com/buy\" rel=\"nofollow noopener\">plans page</a> on 20 Nov 2026 showed two numbers and a language list, not a maze of promo codes. Monthly is $19.99, charged every month. Yearly is $159, shown as $13.25 a month, with a \"save 33%\" label. Twelve times $19.99 is $239.88. The difference is $80.88, which is 33.7% off the monthly run-rate. That is the label, rounded.</p>\n<p>Divide 159 by 19.99 and you get 7.95. From the eighth month, the yearly plan has cost less than staying on monthly. If you might quit in month three, monthly is the smaller loss, and only if you actually cancel. The plans page we read did not state a refund window.</p>\n<h2>What the $159 includes</h2>\n<p>The same page says the subscription is all-access: all 25 languages, not a pick-one model. It names immersive lessons, TruAccent, Chat Missions, more than 500 flashcard sets, and Sapphire Studio. The 25 names on the page are Spanish from Spain, Spanish from Latin America, German, French, Italian, Dutch, Arabic, Korean, Swedish, Japanese, Hebrew, Chinese, Greek, Persian, Turkish, Russian, Vietnamese, Hindi, Portuguese from Brazil, Filipino (Tagalog), Irish, Latin, American English, British English and Polish.</p>\n<p>Set that beside Babbel. Babbel's review page, the same day, priced 12 months at $107.40 and lifetime at $299.99, and said each language is a separate subscription unless you buy lifetime. Rosetta Stone's plans page does not make you have that argument: 25 languages are in the subscription description. Babbel is cheaper for a year if one language is all you want. Rosetta Stone is the simpler bill if you want more than one. The three-way version is <a href=\"../compare/best-language-learning-apps.html\">best language learning apps</a>.</p>\n<h2>Lifetime, without a price</h2>\n<p>Rosetta Stone's <a href=\"https://support.rosettastone.com/about-our-lifetime-subscription/\" rel=\"nofollow noopener\">lifetime article</a>, bylined 12 Jan 2026, is still up. It says lifetime means access for as long as the products and services you purchased remain available and supported, that the license is for one person, and that it cannot be transferred. It tells you to read the terms. It does not say how many dollars lifetime costs today, and the plans page we opened did not show a lifetime box either. If a lifetime offer appears at checkout, the price on that screen is the price. We do not have a second number to quote.</p>\n",
+  "updated": {
+   "date": "2026-11-20",
+   "nice": "November 20, 2026",
+   "note": "re-read the plans page ($19.99 a month or $159 a year, all 25 languages) and the lifetime support article. No lifetime price was printed on either page."
+  }
  }
 }

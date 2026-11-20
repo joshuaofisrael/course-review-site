@@ -287,18 +287,18 @@
     "answer": "Duolingo for a free daily habit; Babbel for structured, conversation-focused lessons.",
     "sections": [],
     "updated": {
-      "date": "2026-10-27",
-      "nice": "October 27, 2026",
-      "note": "added a 5-question FAQ on free use, prices, grammar vs habit-building, refunds and certificates."
+      "date": "2026-11-20",
+      "nice": "November 20, 2026",
+      "note": "Babbel prices, the free first lesson, and the cancel terms re-read on Babbel's own pages. Dropped the unverified 1-month and 3-month totals."
     },
     "faq": [
       [
         "Is Duolingo free, and is Babbel?",
-        "Duolingo is free: it says every learner gets the same lesson content, with ads and some limits on the free plan. Super Duolingo removes ads and adds unlimited hearts and personalised practice, with a 1-week free trial. Babbel has no free plan; it is sold as subscriptions of several lengths plus a lifetime option. See our <a href=\"../reviews/duolingo.html\">Duolingo review</a> and <a href=\"../reviews/babbel.html\">Babbel review</a>."
+        "Duolingo is free: it says every learner gets the same lesson content, with ads and some limits on the free plan. Super Duolingo removes ads and adds unlimited hearts and personalised practice, with a 1-week free trial. Babbel lets you register free and try the first lesson of every course. Full lessons need a subscription, and Babbel's review page also sells a lifetime plan. See our <a href=\"../reviews/duolingo.html\">Duolingo review</a> and <a href=\"../reviews/babbel.html\">Babbel review</a>."
       ],
       [
         "How much does Babbel cost?",
-        "At our last check, Babbel charged $17.95 for 1 month, $45.75 for 3 months, $80.70 for 6 months or $107.40 for 12 months (about $8.95 a month), and $299.99 for lifetime access. Super Duolingo prices vary by plan and app store, so check Duolingo's own Super page. The <a href=\"../pricing-tracker/index.html\">price and free-trial tracker</a> shows when each figure was checked, and the <a href=\"../subscription-calculator/index.html\">monthly vs annual calculator</a> shows what a longer plan saves."
+        "On 20 Nov 2026 Babbel's own review page listed 6 months at $13.45 a month ($80.70), 12 months at $8.95 a month ($107.40) and lifetime at $299.99. It says 1-month and 3-month plans exist but does not print those totals, and the prices app did not return them without JavaScript, so we are not repeating the 15 Oct figures of $17.95 and $45.75. Super Duolingo prices vary by plan and app store, so check Duolingo's own Super page. The <a href=\"../pricing-tracker/\">price tracker</a> shows the check date."
       ],
       [
         "Which is better for grammar and real conversation?",
@@ -306,7 +306,7 @@
       ],
       [
         "Can I get a refund on Babbel or Duolingo?",
-        "Duolingo's terms say payments are nonrefundable unless the law requires otherwise, and subscriptions bought through the App Store or Google Play are refunded through Apple or Google. We have not yet verified Babbel's refund terms on an official page, so read its terms before buying a long plan or lifetime access. Using Duolingo's free plan or the 1-week Super trial first is the lowest-risk way to test either approach."
+        "Duolingo's terms say payments are nonrefundable unless the law requires otherwise, and subscriptions bought through the App Store or Google Play are refunded through Apple or Google. Babbel's cancel article, read on 20 Nov 2026, says you can stop auto-renewal and keep access until the period you already paid for ends. It does not state a money-back window. Deleting the Babbel app does not cancel the subscription."
       ],
       [
         "Do Babbel or Duolingo give certificates?",
@@ -385,9 +385,9 @@
     "answer": "Coursera is far cheaper and offers university certificates; Udacity is a pricier, project-intensive sprint.",
     "sections": [],
     "updated": {
-      "date": "2026-10-19",
-      "nice": "October 19, 2026",
-      "note": "Coursera's free option now reflects its August 2025 switch from free auditing to a free first-module preview."
+      "date": "2026-11-20",
+      "nice": "November 20, 2026",
+      "note": "Udacity row re-read against the support FAQ and the plans page. The FAQ still lists $249 a month or $846 for four months. The plans page did not print a dollar amount."
     }
   },
   "futurelearn-vs-coursera": {
@@ -405,9 +405,9 @@
     "answer": "Coursera has the bigger catalog and certificate range; FutureLearn suits short courses in health, teaching and psychology.",
     "sections": [],
     "updated": {
-      "date": "2026-10-28",
-      "nice": "October 28, 2026",
-      "note": "added a 5-question FAQ on which to choose, free options, prices, certificates and renewals; FutureLearn Unlimited price and Coursera Plus monthly price re-checked today."
+      "date": "2026-11-20",
+      "nice": "November 20, 2026",
+      "note": "FutureLearn Unlimited re-read. The page showed $349.99 a year and did not show the $244.99 offer."
     },
     "faq": [
       [
@@ -420,7 +420,7 @@
       ],
       [
         "How much do FutureLearn Unlimited and Coursera Plus cost?",
-        "On October 28, 2026, FutureLearn's Unlimited page listed $349.99 a year, shown at $244.99 with a 30% offer. Coursera Plus was $59 a month on October 28, or $399 a year at our October 15 check. FutureLearn also sells one-off upgrades for individual short courses, priced on each course page. FutureLearn's Premium courses are not included in Unlimited. Use the <a href=\"../subscription-calculator/index.html\">monthly vs annual calculator</a> to see when an annual plan pays off."
+        "On 20 Nov 2026 FutureLearn's Unlimited page listed $349.99 a year, shown as $29.17 a month. The $244.99 offer from our October checks was not on the page. Coursera Plus was $59 a month on 28 Oct, or $399 a year at our 15 Oct check. FutureLearn also sells one-off upgrades for individual short courses, priced on each course page. Microcredentials, degrees and ExpertTrack subscription courses are outside Unlimited. Use the <a href=\"../subscription-calculator/\">monthly vs annual calculator</a> for plans that have a true monthly price."
       ],
       [
         "How do I get a certificate on FutureLearn or Coursera?",
@@ -428,7 +428,7 @@
       ],
       [
         "Do they auto-renew, and can I get a refund?",
-        "FutureLearn's annual and monthly Unlimited plans renew automatically unless you cancel before the renewal date; after cancelling you keep access until the period ends, and you keep any certificates you've earned. Coursera's monthly Plus plan starts with a 7-day free trial, and annual Plus has a 14-day money-back guarantee, though certificates earned in that window are revoked if you take the refund. We haven't found a general refund policy for FutureLearn Unlimited on its help pages, so check before you buy. Full details are in our <a href=\"../reviews/futurelearn.html\">FutureLearn review</a> and <a href=\"../reviews/coursera.html\">Coursera review</a>."
+        "FutureLearn's Unlimited page, read on 20 Nov 2026, says the subscription renews automatically and that FutureLearn emails three days before. That page showed the annual charge ($349.99), not a separate monthly price. Cancel before the period ends and you keep access until it ends. You keep Certificates of Achievement, and you keep access to courses where you earned one. Coursera's monthly Plus plan starts with a 7-day free trial, and annual Plus has a 14-day money-back guarantee, though certificates earned in that window are revoked if you take the refund. We have not found a general refund window for FutureLearn Unlimited, so check before you buy. Full details are in our <a href=\"../reviews/futurelearn.html\">FutureLearn review</a> and <a href=\"../reviews/coursera.html\">Coursera review</a>."
       ]
     ],
     "sources": [
@@ -516,9 +516,9 @@
       ]
     ],
     "updated": {
-      "date": "2026-10-19",
-      "nice": "October 19, 2026",
-      "note": "added a 5-question FAQ, clarified what edX's free audit track includes, and noted that Coursera replaced free auditing with a first-module preview in August 2025."
+      "date": "2026-11-20",
+      "nice": "November 20, 2026",
+      "note": "Alison row updated from the certificate help article re-read on 20 Nov: free Learner Record, 70% assessments, Shop prices not printed."
     }
   },
   "best-online-course-platforms-for-certificates": {
@@ -540,7 +540,7 @@
     "faq": [
       [
         "Which online course platform has the best certificates?",
-        "For most career goals, <a href=\"../reviews/coursera.html\">Coursera</a>. Its certificates come from courses built with university and company partners, and Coursera Plus ($59 a month or $399 a year) includes unlimited certificates. <a href=\"../reviews/edx.html\">edX</a> verified certificates are a good pay-per-course alternative. <a href=\"../reviews/udacity.html\">Udacity</a> Nanodegree certificates suit intensive tech programs but cost far more ($249 a month)."
+        "For most career goals, <a href=\"../reviews/coursera.html\">Coursera</a>. Its certificates come from courses built with university and company partners, and Coursera Plus ($59 a month or $399 a year) includes unlimited certificates. <a href=\"../reviews/edx.html\">edX</a> verified certificates are a good pay-per-course alternative. <a href=\"../reviews/udacity.html\">Udacity</a> Nanodegree certificates suit intensive tech programs. Udacity's support FAQ, re-read on 20 Nov 2026, still says $249 a month. The plans page did not print a dollar amount that day."
       ],
       [
         "Are online course certificates accredited?",
@@ -566,9 +566,9 @@
       ]
     ],
     "updated": {
-      "date": "2026-10-19",
-      "nice": "October 19, 2026",
-      "note": "added a 5-question FAQ, including MasterClass's separate certificate courses."
+      "date": "2026-11-20",
+      "nice": "November 20, 2026",
+      "note": "Udacity price in the certificate FAQ pointed back at the support FAQ re-read on 20 Nov, and at the plans page not showing a dollar figure."
     }
   },
   "best-language-learning-apps": {
@@ -587,9 +587,9 @@
     "answer": "Start with Duolingo free; move to Babbel for structure or Rosetta Stone for immersion.",
     "sections": [],
     "updated": {
-      "date": "2026-10-26",
-      "nice": "October 26, 2026",
-      "note": "added a 5-question FAQ on free use, prices, lifetime plans, certificates and which app to start with."
+      "date": "2026-11-20",
+      "nice": "November 20, 2026",
+      "note": "Babbel and Rosetta Stone prices re-read on each company's own pages. Rosetta Stone's yearly plan is $159 and covers 25 languages."
     },
     "faq": [
       [
@@ -598,7 +598,7 @@
       ],
       [
         "How much do Babbel and Rosetta Stone cost?",
-        "At our last check, Babbel charged $17.95 for 1 month, $45.75 for 3 months, $80.70 for 6 months or $107.40 for 12 months, with a $299.99 lifetime option. Rosetta Stone charged $19.99 a month billed monthly or $159 a year. Prices change often, so the <a href=\"../pricing-tracker/index.html\">price and free-trial tracker</a> lists the date each figure was checked."
+        "On 20 Nov 2026 Babbel's review page listed $80.70 for 6 months, $107.40 for 12 months and $299.99 lifetime. Shorter-plan totals were not printed there. Rosetta Stone's plans page the same day showed $19.99 a month or $159 a year, for all 25 languages. The <a href=\"../pricing-tracker/\">price tracker</a> has the check date on each row."
       ],
       [
         "Is a lifetime language app plan worth it?",
@@ -632,9 +632,9 @@
     "answer": "Codecademy for beginners, DataCamp for data, Pluralsight for IT certifications, Udemy for one-off skills.",
     "sections": [],
     "updated": {
-      "date": "2026-10-26",
-      "nice": "October 26, 2026",
-      "note": "added a 5-question FAQ on free options, trials, prices, certificates and refunds."
+      "date": "2026-11-20",
+      "nice": "November 20, 2026",
+      "note": "Udacity price line tied to the support FAQ re-read on 20 Nov. The plans page still did not show a dollar figure in the HTML."
     },
     "faq": [
       [
@@ -647,7 +647,7 @@
       ],
       [
         "How much do coding platforms cost?",
-        "At our last checks, Codecademy Pro cost $19.99 a month billed annually or $39.99 billed monthly, DataCamp Premium $35 a month billed monthly, and Pluralsight Core Tech $21 a month billed yearly or $30 billed monthly. Udacity All Access cost $249 a month or $846 for four months upfront, and Udemy's Personal Plan started at $13.00 a month. The <a href=\"../pricing-tracker/index.html\">price tracker</a> shows the check date for each figure."
+        "At our last checks, Codecademy Pro cost $19.99 a month billed annually or $39.99 billed monthly, DataCamp Premium $35 a month billed monthly, and Pluralsight Core Tech $21 a month billed yearly or $30 billed monthly. Udacity's support FAQ, re-read on 20 Nov 2026, still lists $249 a month or $846 for four months up front. The plans page did not print a dollar amount, and Udemy's Personal Plan started at $13.00 a month. The <a href=\"../pricing-tracker/index.html\">price tracker</a> shows the check date for each figure."
       ],
       [
         "Do coding platform certificates help you get a job?",
@@ -769,7 +769,7 @@
       ],
       [
         "Pricing snapshot",
-        "Brilliant Premium lists individual plans at $30/month or $20/month billed annually, plus family plans, with a free plan that includes a daily lesson. Codecademy offers a free basic tier; Plus and Pro are paid (Plus from about $14.99/month billed annually; Pro from about $19.99/month billed annually at last check), with a 7-day trial that requires a card."
+        "On 20 Nov 2026 Brilliant's subscribe page showed an annual list price of $20 a month for one person and $40 a month for a family of 6, billed yearly, plus a Black Friday display of $14 and $28 a month. The free account is capped at 2 keys a day, one concept or practice set each. Codecademy's basic tier is free. Plus and Pro are paid (Plus from about $14.99 a month billed annually and Pro from about $19.99 a month billed annually at our last check of those tiers), with a 7-day trial that requires a card."
       ],
       [
         "Certificates",
@@ -783,7 +783,7 @@
     "faq": [
       [
         "Is Brilliant free?",
-        "Brilliant offers a free plan with a daily lesson. Full unlimited access requires Premium. K-12 teachers and students may qualify for free Premium per Brilliant's help pages."
+        "Brilliant's free account gives you 2 keys a day. Each key opens one concept or one practice set, and you cannot skip ahead. Unlimited lessons, no ads, and full use of the Koji tutor require Premium. The details are in Brilliant's free-versus-Premium help article, updated 30 Oct 2026 and re-read on 20 Nov."
       ],
       [
         "Does Codecademy have a free tier?",
@@ -817,9 +817,9 @@
       ]
     ],
     "updated": {
-      "date": "2026-11-05",
-      "nice": "November 5, 2026",
-      "note": "new evergreen comparison of interactive STEM puzzles vs browser-based coding practice."
+      "date": "2026-11-20",
+      "nice": "November 20, 2026",
+      "note": "Brilliant prices and the free-account cap re-read. The free plan is 2 keys a day, not an unlimited daily lesson. Annual list prices and the Black Friday display are from the subscribe page."
     }
   },
   "linkedin-learning-vs-coursera": {
