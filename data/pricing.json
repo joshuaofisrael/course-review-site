@@ -1,282 +1,330 @@
 [
- [
-  "masterclass",
-  "Not offered (annual membership only)",
-  "Standard $10/mo, Plus $15/mo, Premium $20/mo (billed annually)",
-  "SEE",
-  "SEE",
-  "30-day money-back guarantee",
-  "Main membership: no. MasterClass Certificates sold separately (15–20-hour courses with a capstone; from $299 per course or a Certificates Annual Pass)",
-  "https://www.masterclass.com/checkout",
-  {
-   "checked": "2026-10-20",
-   "note": "Oct 20, 2026: certificate details re-checked on the MasterClass Certificates help centre ($299 starting price per MasterClass's 2026 announcements); other cells from the Oct 15 check.",
-   "link": [
-    "MasterClass Certificates pricing (help centre)",
-    "https://www.masterclass.com/help-center/certificates/answers/pricing-for-master-class-certificates--id--ZCf8XPJzQOyxgUkdrgV2YA"
-   ]
-  }
- ],
- [
-  "coursera",
-  "Coursera Plus $59/mo; single programs $49–$79/mo",
-  "Coursera Plus $399/yr",
-  "7 days",
-  "Free preview of the first module of most courses (replaced free auditing in Aug 2025); some Community Impact courses free in full; financial aid available",
-  "Annual Plus: 14-day money-back guarantee",
-  "Yes, on completion (paid plan or financial aid)",
-  "https://www.coursera.org/courseraplus",
-  {
-   "checked": "2026-10-20",
-   "note": "Oct 20, 2026: monthly price, 7-day trial, 14-day annual refund and free preview re-checked; annual price from the Oct 15 check.",
-   "link": [
-    "Coursera Blog: course preview replaces audit",
-    "https://blog.coursera.org/introducing-courseras-new-course-preview-experience/"
-   ]
-  }
- ],
- [
-  "skillshare",
-  "Web: annual only (monthly billing via the app stores)",
-  "$167.88/yr (shown as $13.99/mo), billed in full after the trial",
-  "7 days",
-  "SEE",
-  "7-day trial: one-time refund if requested within 48 hours of the charge and unused; no refunds on renewals (EU/UK: 14-day cooling-off)",
-  "Certificates and badges (not accredited credentials)",
-  "https://help.skillshare.com/hc/en-us/articles/4402806767117-How-do-Skillshare-subscriptions-pricing-and-refunds-work",
-  {
-   "checked": "2026-10-20",
-   "note": "Oct 20, 2026: web price, trial billing and certificates re-checked on Skillshare's pricing page; app-store monthly option and refund terms from earlier checks.",
-   "link": [
-    "Skillshare pricing",
-    "https://www.skillshare.com/en/pricing"
-   ]
-  }
- ],
- [
-  "udemy",
-  "Personal Plan from $13.00/mo (billed monthly or annually)",
-  "SEE",
-  "SEE",
-  "SEE",
-  "SEE",
-  "SEE",
-  "https://www.udemy.com/personal-plan/"
- ],
- [
-  "linkedin-learning",
-  "SEE",
-  "SEE",
-  "SEE",
-  "No standalone individual plan",
-  "SEE",
-  "SEE",
-  "https://www.linkedin.com/help/learning/answer/a700791"
- ],
- [
-  "edx",
-  "Priced per course",
-  "Priced per course",
-  "Not applicable",
-  "Audit track (no graded work or certificate)",
-  "SEE",
-  "Verified track (paid)",
-  "https://support.edx.org/hc/en-us/articles/360013426573-What-are-the-differences-between-audit-free-and-verified-paid-courses"
- ],
- [
-  "codecademy",
-  "Plus $29.99; Pro $39.99",
-  "Plus $14.99/mo; Pro $19.99/mo (billed annually)",
-  "7 days (card required)",
-  "Basic: $0",
-  "No refunds on subscriptions (exceptions via support)",
-  "Plus and Pro: certificates of completion",
-  "https://www.codecademy.com/pricing"
- ],
- [
-  "datacamp",
-  "Premium $35/mo",
-  "Premium $14/mo billed annually (special price; $28 struck out)",
-  "SEE",
-  "Basic: first chapter of every course",
-  "Fees non-refundable except as stated in Terms",
-  "Premium and Teams",
-  "https://www.datacamp.com/pricing"
- ],
- [
-  "brilliant",
-  "Individual $30 was in the 20 Nov page data with a Black Friday discount attached. Family monthly not reprinted.",
-  "List: individual $20/mo and family $40/mo (6 seats), billed yearly. Black Friday display the same day: $14 and $28 per month.",
-  "Not shown on the subscribe page; help index says trials are sometimes offered",
-  "Free account: 2 keys a day (one concept or practice set each)",
-  "SEE",
-  "Not advertised",
-  "https://brilliant.org/subscribe/",
-  {
-   "checked": "2026-11-20",
-   "note": "20 Nov 2026: annual list prices and the Black Friday display re-read on the subscribe page. Free tier updated to the 2-key daily cap.",
-   "link": [
-    "Brilliant subscribe",
-    "https://brilliant.org/subscribe/"
-   ]
-  }
- ],
- [
-  "domestika",
-  "Plus $33.90/mo",
-  "Plus $164.50 first year; renews at $329",
-  "SEE",
-  "SEE",
-  "SEE",
-  "Yes, for purchased courses completed",
-  "https://www.domestika.org/en/plus"
- ],
- [
-  "pluralsight",
-  "Core Tech $30/mo; Complete $55/mo",
-  "Core Tech $21/mo; AI+/Cloud+/Data+/Security+ $24.50/mo; Complete $39/mo (billed yearly)",
-  "10 days (selection of labs; full labs and sandboxes need a paid plan)",
-  "SEE",
-  "No refunds on individual subscriptions",
-  "SEE",
-  "https://www.pluralsight.com/individuals/pricing",
-  {
-   "checked": "2026-10-28",
-   "note": "Oct 28, 2026: free trial and refund policy re-checked on Pluralsight Help; prices from the Oct 15 check (pricing page renders prices with JavaScript).",
-   "link": [
-    "Pluralsight Help: Free trial for individuals",
-    "https://help.pluralsight.com/hc/en-us/articles/24425968776724-Free-trial-for-individuals"
-   ]
-  }
- ],
- [
-  "udacity",
-  "$249/mo on the support FAQ, re-read 20 Nov 2026. The plans page did not print a dollar amount.",
-  "$846 for 4 months up front on the same FAQ (described as 15% off). Plans page: discount covers the first 4 months, then month-to-month.",
-  "SEE",
-  "No free catalog on the FAQ or plans page",
-  "SEE",
-  "Nanodegree certificate after the projects are passed",
-  "https://support.udacity.com/hc/en-us/articles/17527771361165-FAQs-about-Udacity-s-New-Subscription",
-  {
-   "checked": "2026-11-20",
-   "note": "20 Nov 2026: FAQ prices re-read. Plans page described the 4-month bundle but did not show a dollar figure in the HTML.",
-   "link": [
-    "Udacity subscription FAQ",
-    "https://support.udacity.com/hc/en-us/articles/17527771361165-FAQs-about-Udacity-s-New-Subscription"
-   ]
-  }
- ],
- [
-  "futurelearn",
-  "SEE",
-  "Unlimited $349.99/yr, shown as $29.17/mo, on 20 Nov 2026. The $244.99 offer was not on the page.",
-  "SEE",
-  "Limited access to many short courses; Unlimited is the paid year",
-  "SEE",
-  "Digital Certificate of Achievement on included short courses, once eligible",
-  "https://www.futurelearn.com/unlimited",
-  {
-   "checked": "2026-11-20",
-   "note": "20 Nov 2026: Unlimited page showed $349.99 a year and no $244.99 offer.",
-   "link": [
-    "FutureLearn Unlimited",
-    "https://www.futurelearn.com/unlimited"
-   ]
-  }
- ],
- [
-  "khan-academy",
-  "Free",
-  "Free",
-  "Not applicable",
-  "Core library free",
-  "Not applicable",
-  "SEE",
-  "https://support.khanacademy.org/hc/en-us/articles/202260114-Does-it-cost-money-to-use-Khan-Academy"
- ],
- [
-  "great-courses-plus",
-  "EUR only seen: €18/mo (US price: see official)",
-  "EUR only seen: €135/yr (US price: see official)",
-  "7 days (new customers)",
-  "SEE",
-  "No refund for early termination",
-  "SEE",
-  "https://plus.thegreatcourses.com/customer/plans"
- ],
- [
-  "babbel",
-  "1-month and 3-month totals not reconfirmed 20 Nov (prices page needs JavaScript). 6 months: $13.45/mo ($80.70)",
-  "$107.40/yr ($8.95/mo); Lifetime $299.99 once, on Babbel's review page",
-  "SEE",
-  "Registration free; first lesson of every course free",
-  "Cancel before renewal and keep the time already paid for. Help pages we read state no money-back window.",
-  "No",
-  "https://www.babbel.com/babbel-review",
-  {
-   "checked": "2026-11-20",
-   "note": "20 Nov 2026: 6-month, 12-month and lifetime prices re-read on Babbel's review page. Shorter-plan totals from 15 Oct were not repeated.",
-   "link": [
-    "Babbel review page",
-    "https://www.babbel.com/babbel-review"
-   ]
-  }
- ],
- [
-  "duolingo",
-  "Super: SEE",
-  "Super: SEE",
-  "1 week",
-  "Yes (free plan)",
-  "Payments nonrefundable unless required by law; app-store refunds via Apple/Google",
-  "SEE",
-  "https://www.duolingo.com/super"
- ],
- [
-  "alison",
-  "Free courses",
-  "Free courses",
-  "Not applicable",
-  "Study and complete free, including assessments",
-  "SEE",
-  "Free Learner Record. Digital and parchment certificates are optional Shop purchases; the help article does not list the prices. Pass mark is 70% on each assessment.",
-  "https://helpcenter.alison.com/en/articles/8206417-is-alison-really-free",
-  {
-   "checked": "2026-11-20",
-   "note": "20 Nov 2026: certificate article re-read. Courses stay free to finish. Shop prices are still not printed in the help centre. Pass mark is 70%.",
-   "link": [
-    "Alison Help: how do I get my certificate?",
-    "https://helpcenter.alison.com/en/articles/8206422-how-do-i-get-my-certificate"
-   ]
-  }
- ],
- [
-  "teachable",
-  "Starter $39, Builder $89, Growth $189 (creator plans)",
-  "Starter $29/mo, Builder $69/mo, Growth $139/mo billed annually",
-  "7 days",
-  "No free plan",
-  "30-day money-back guarantee",
-  "Growth plan: course certificates",
-  "https://www.teachable.com/pricing"
- ],
- [
-  "rosetta-stone",
-  "$19.99/mo",
-  "$159/yr ($13.25/mo), all 25 languages",
-  "SEE",
-  "Not listed on the plans page checked 20 Nov 2026",
-  "SEE",
-  "Not advertised on the plans page",
-  "https://www.rosettastone.com/buy",
-  {
-   "checked": "2026-11-20",
-   "note": "20 Nov 2026: plans page re-read at $19.99 a month or $159 a year for all 25 languages. No lifetime price was printed.",
-   "link": [
-    "Rosetta Stone plans",
-    "https://www.rosettastone.com/buy"
-   ]
-  }
- ]
+  [
+    "masterclass",
+    "Not offered (annual membership only)",
+    "Standard $10/mo, Plus $15/mo, Premium $20/mo (billed annually)",
+    "SEE",
+    "SEE",
+    "30-day money-back guarantee",
+    "Main membership: no. MasterClass Certificates sold separately (15–20-hour courses with a capstone; from $299 per course or a Certificates Annual Pass)",
+    "https://www.masterclass.com/checkout",
+    {
+      "checked": "2026-10-20",
+      "note": "Oct 20, 2026: certificate details re-checked on the MasterClass Certificates help centre ($299 starting price per MasterClass's 2026 announcements); other cells from the Oct 15 check.",
+      "link": [
+        "MasterClass Certificates pricing (help centre)",
+        "https://www.masterclass.com/help-center/certificates/answers/pricing-for-master-class-certificates--id--ZCf8XPJzQOyxgUkdrgV2YA"
+      ]
+    }
+  ],
+  [
+    "coursera",
+    "Coursera Plus $59/mo; single programs $49–$79/mo",
+    "Coursera Plus $399/yr",
+    "7 days",
+    "Free preview of the first module of most courses (replaced free auditing in Aug 2025); some Community Impact courses free in full; financial aid available",
+    "Annual Plus: 14-day money-back guarantee",
+    "Yes, on completion (paid plan or financial aid)",
+    "https://www.coursera.org/courseraplus",
+    {
+      "checked": "2026-10-20",
+      "note": "Oct 20, 2026: monthly price, 7-day trial, 14-day annual refund and free preview re-checked; annual price from the Oct 15 check.",
+      "link": [
+        "Coursera Blog: course preview replaces audit",
+        "https://blog.coursera.org/introducing-courseras-new-course-preview-experience/"
+      ]
+    }
+  ],
+  [
+    "skillshare",
+    "Web: annual only (monthly billing via the app stores)",
+    "$167.88/yr (shown as $13.99/mo), billed in full after the trial",
+    "7 days",
+    "SEE",
+    "7-day trial: one-time refund if requested within 48 hours of the charge and unused; no refunds on renewals (EU/UK: 14-day cooling-off)",
+    "Certificates and badges (not accredited credentials)",
+    "https://help.skillshare.com/hc/en-us/articles/4402806767117-How-do-Skillshare-subscriptions-pricing-and-refunds-work",
+    {
+      "checked": "2026-11-21",
+      "note": "21 Nov 2026: pricing page still showed $167.88 a year ($13.99 a month, paid annually), plus certificates and badges. Earlier refund detail was not re-read today.",
+      "link": [
+        "Skillshare pricing",
+        "https://www.skillshare.com/en/pricing"
+      ]
+    }
+  ],
+  [
+    "udemy",
+    "Personal Plan from $13.00/mo (billed monthly or annually)",
+    "SEE",
+    "SEE",
+    "SEE",
+    "SEE",
+    "SEE",
+    "https://www.udemy.com/personal-plan/"
+  ],
+  [
+    "linkedin-learning",
+    "SEE",
+    "SEE",
+    "SEE",
+    "No standalone individual plan",
+    "SEE",
+    "SEE",
+    "https://www.linkedin.com/help/learning/answer/a700791"
+  ],
+  [
+    "edx",
+    "Priced per course",
+    "Priced per course",
+    "Not applicable",
+    "Audit track (no graded work or certificate)",
+    "SEE",
+    "Verified track (paid)",
+    "https://support.edx.org/hc/en-us/articles/360013426573-What-are-the-differences-between-audit-free-and-verified-paid-courses"
+  ],
+  [
+    "codecademy",
+    "Plus $29.99; Pro $39.99",
+    "Plus $14.99/mo; Pro $19.99/mo (billed annually). Each annual plan includes 1 live workshop.",
+    "Page says try Plus or Pro for free, and does not print a day count",
+    "Basic: $0, with limited courses",
+    "Refund article did not load on 21 Nov 2026",
+    "Certificate of completion on Plus and Pro. Professional certifications are Pro only.",
+    "https://www.codecademy.com/pricing",
+    {
+      "checked": "2026-11-21",
+      "note": "21 Nov 2026: prices unchanged. Career paths, certification paths and interview prep are Pro only. Workshop is annual-only on Plus and Pro.",
+      "link": [
+        "Codecademy pricing",
+        "https://www.codecademy.com/pricing"
+      ]
+    }
+  ],
+  [
+    "datacamp",
+    "Not printed on the 21 Nov pricing page. $35/mo is the 15 Oct figure and is not repeated as current.",
+    "Special price $11/mo billed annually ($132 if multiplied by 12). The page also printed $28.",
+    "SEE",
+    "Basic: first chapter of every course (pricing page). Help article of 14 Oct says first lesson of 700+ courses.",
+    "Pricing FAQ says cancel any time and does not describe a refund.",
+    "Premium: certificates included. Basic: not included, per the comparison table. AI Engineering track is a separate add-on.",
+    "https://www.datacamp.com/pricing",
+    {
+      "checked": "2026-11-21",
+      "note": "21 Nov 2026: pricing table showed Premium at $11 a month billed annually, and the page also printed $28. Monthly $35 was not in the view.",
+      "link": [
+        "DataCamp pricing",
+        "https://www.datacamp.com/pricing"
+      ]
+    }
+  ],
+  [
+    "brilliant",
+    "Individual $30 was in the 20 Nov page data with a Black Friday discount attached. Family monthly not reprinted.",
+    "List: individual $20/mo and family $40/mo (6 seats), billed yearly. Black Friday display the same day: $14 and $28 per month.",
+    "Not shown on the subscribe page; help index says trials are sometimes offered",
+    "Free account: 2 keys a day (one concept or practice set each)",
+    "SEE",
+    "Not advertised",
+    "https://brilliant.org/subscribe/",
+    {
+      "checked": "2026-11-20",
+      "note": "20 Nov 2026: annual list prices and the Black Friday display re-read on the subscribe page. Free tier updated to the 2-key daily cap.",
+      "link": [
+        "Brilliant subscribe",
+        "https://brilliant.org/subscribe/"
+      ]
+    }
+  ],
+  [
+    "domestika",
+    "Plus $33.90/mo",
+    "$246.75 the first year ($20.59/mo). Renews at $329.",
+    "SEE",
+    "Plus members can watch the catalog while subscribed. Keeping a course takes a credit.",
+    "Cancel renewal any time, per the Plus page. No refund window was printed.",
+    "Certificate when you finish a course you purchased or redeemed, not merely watched.",
+    "https://www.domestika.org/en/plus",
+    {
+      "checked": "2026-11-21",
+      "note": "21 Nov 2026: first-year price was $246.75, not the older $164.50. Monthly still $33.90. Renewal still $329.",
+      "link": [
+        "Domestika Plus",
+        "https://www.domestika.org/en/plus"
+      ]
+    }
+  ],
+  [
+    "pluralsight",
+    "Core Tech $30/mo; Complete $55/mo",
+    "Core Tech $21/mo; AI+/Cloud+/Data+/Security+ $24.50/mo; Complete $39/mo (billed yearly)",
+    "10 days (selection of labs; full labs and sandboxes need a paid plan)",
+    "SEE",
+    "No refunds on individual subscriptions",
+    "SEE",
+    "https://www.pluralsight.com/individuals/pricing",
+    {
+      "checked": "2026-10-28",
+      "note": "Oct 28, 2026: free trial and refund policy re-checked on Pluralsight Help; prices from the Oct 15 check (pricing page renders prices with JavaScript).",
+      "link": [
+        "Pluralsight Help: Free trial for individuals",
+        "https://help.pluralsight.com/hc/en-us/articles/24425968776724-Free-trial-for-individuals"
+      ]
+    }
+  ],
+  [
+    "udacity",
+    "$249/mo on the support FAQ, re-read 20 Nov 2026. The plans page did not print a dollar amount.",
+    "$846 for 4 months up front on the same FAQ (described as 15% off). Plans page: discount covers the first 4 months, then month-to-month.",
+    "SEE",
+    "No free catalog on the FAQ or plans page",
+    "SEE",
+    "Nanodegree certificate after the projects are passed",
+    "https://support.udacity.com/hc/en-us/articles/17527771361165-FAQs-about-Udacity-s-New-Subscription",
+    {
+      "checked": "2026-11-20",
+      "note": "20 Nov 2026: FAQ prices re-read. Plans page described the 4-month bundle but did not show a dollar figure in the HTML.",
+      "link": [
+        "Udacity subscription FAQ",
+        "https://support.udacity.com/hc/en-us/articles/17527771361165-FAQs-about-Udacity-s-New-Subscription"
+      ]
+    }
+  ],
+  [
+    "futurelearn",
+    "SEE",
+    "Unlimited $349.99/yr, shown as $29.17/mo, on 20 Nov 2026. The $244.99 offer was not on the page.",
+    "SEE",
+    "Limited access to many short courses; Unlimited is the paid year",
+    "SEE",
+    "Digital Certificate of Achievement on included short courses, once eligible",
+    "https://www.futurelearn.com/unlimited",
+    {
+      "checked": "2026-11-20",
+      "note": "20 Nov 2026: Unlimited page showed $349.99 a year and no $244.99 offer.",
+      "link": [
+        "FutureLearn Unlimited",
+        "https://www.futurelearn.com/unlimited"
+      ]
+    }
+  ],
+  [
+    "khan-academy",
+    "Free",
+    "Free",
+    "Not applicable",
+    "Core library free, no ads (help article re-read 21 Nov 2026; article date 20 Sep 2021)",
+    "Not applicable",
+    "Not described on the free-library article",
+    "https://support.khanacademy.org/hc/en-us/articles/202260114-Does-it-cost-money-to-use-Khan-Academy",
+    {
+      "checked": "2026-11-21",
+      "note": "21 Nov 2026: free-library article re-read. Khanmigo homepage offered teachers a free sign-up and printed no learner price.",
+      "link": [
+        "Khan Academy Help: Does it cost money?",
+        "https://support.khanacademy.org/hc/en-us/articles/202260114-Does-it-cost-money-to-use-Khan-Academy"
+      ]
+    }
+  ],
+  [
+    "great-courses-plus",
+    "$4.99/mo for the first 2 months, then $15.99 (US plan data, 21 Nov 2026)",
+    "No annual US price in the plan data we could read",
+    "Button says free trial; the plan data did not state a number of free days",
+    "SEE",
+    "No refund for early termination. Access ends at the end of the paid period.",
+    "Not mentioned in the plan benefits or homepage FAQ",
+    "https://plus.thegreatcourses.com/customer/plans",
+    {
+      "checked": "2026-11-21",
+      "note": "21 Nov 2026: US plan data showed $4.99 for two months, then $15.99, offer banner through 30 Nov. No annual price and no stated trial length.",
+      "link": [
+        "The Great Courses Plus plans data",
+        "https://plus.thegreatcourses.com/rest/V1/plans"
+      ]
+    }
+  ],
+  [
+    "babbel",
+    "1-month and 3-month totals not reconfirmed 20 Nov (prices page needs JavaScript). 6 months: $13.45/mo ($80.70)",
+    "$107.40/yr ($8.95/mo); Lifetime $299.99 once, on Babbel's review page",
+    "SEE",
+    "Registration free; first lesson of every course free",
+    "Cancel before renewal and keep the time already paid for. Help pages we read state no money-back window.",
+    "No",
+    "https://www.babbel.com/babbel-review",
+    {
+      "checked": "2026-11-20",
+      "note": "20 Nov 2026: 6-month, 12-month and lifetime prices re-read on Babbel's review page. Shorter-plan totals from 15 Oct were not repeated.",
+      "link": [
+        "Babbel review page",
+        "https://www.babbel.com/babbel-review"
+      ]
+    }
+  ],
+  [
+    "duolingo",
+    "Super: not printed on the help article or the public Super page, 21 Nov 2026",
+    "Super: not printed. Sign in and open the Shop.",
+    "Not stated on the pages we could read 21 Nov 2026",
+    "Yes. Same lesson content as Super, with ads and limits.",
+    "Terms, re-read 21 Nov 2026: payments nonrefundable unless the law requires otherwise. Apple and Google handle their own refunds.",
+    "SEE",
+    "https://www.duolingo.com/help/super-duolingo",
+    {
+      "checked": "2026-11-21",
+      "note": "21 Nov 2026: Super help article and terms re-read. No public Super price and no trial length on the pages that loaded.",
+      "link": [
+        "Duolingo Help: Super Duolingo",
+        "https://www.duolingo.com/help/super-duolingo"
+      ]
+    }
+  ],
+  [
+    "alison",
+    "Free courses",
+    "Free courses",
+    "Not applicable",
+    "Study and complete free, including assessments",
+    "SEE",
+    "Free Learner Record. Digital and parchment certificates are optional Shop purchases; the help article does not list the prices. Pass mark is 70% on each assessment.",
+    "https://helpcenter.alison.com/en/articles/8206417-is-alison-really-free",
+    {
+      "checked": "2026-11-20",
+      "note": "20 Nov 2026: certificate article re-read. Courses stay free to finish. Shop prices are still not printed in the help centre. Pass mark is 70%.",
+      "link": [
+        "Alison Help: how do I get my certificate?",
+        "https://helpcenter.alison.com/en/articles/8206422-how-do-i-get-my-certificate"
+      ]
+    }
+  ],
+  [
+    "teachable",
+    "Starter $39, Builder $89, Growth $189 (creator plans)",
+    "Starter $29/mo, Builder $69/mo, Growth $139/mo billed annually",
+    "7 days",
+    "No free plan",
+    "30-day money-back guarantee",
+    "Growth plan: course certificates",
+    "https://www.teachable.com/pricing"
+  ],
+  [
+    "rosetta-stone",
+    "$19.99/mo",
+    "$159/yr ($13.25/mo), all 25 languages",
+    "SEE",
+    "Not listed on the plans page checked 20 Nov 2026",
+    "SEE",
+    "Not advertised on the plans page",
+    "https://www.rosettastone.com/buy",
+    {
+      "checked": "2026-11-20",
+      "note": "20 Nov 2026: plans page re-read at $19.99 a month or $159 a year for all 25 languages. No lifetime price was printed.",
+      "link": [
+        "Rosetta Stone plans",
+        "https://www.rosettastone.com/buy"
+      ]
+    }
+  ]
 ]

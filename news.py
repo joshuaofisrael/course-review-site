@@ -1,20 +1,20 @@
 # News posts: at most one a day, only real relevant news, own words, cited. Newest first.
 NEWS=[
 {"slug":"edx-fall-2026-discount-verified-certificates","date":"2026-10-25","nice":"October 25, 2026",
- "title":"edX takes 15% off certificates until November 4",
- "desc":"edX's FALL2026 code takes 15% off select verified courses and certificate programs until Nov 4, 2026. What's covered, the fine print, and how to use it.",
- "body":"""<p>edX is running a fall promotion that takes 15% off select paid offerings until November 4, 2026. According to edX's promotion page, the discount covers select verified courses, Professional Certificates, MicroBachelors programs and MicroMasters programs, and you apply it by entering the code <strong>FALL2026</strong> at checkout on edX.org. The offer ends at 11:59 p.m. US Eastern Time on November 4.</p>
-<h2>The fine print</h2>
-<p>edX's terms say the discount does not apply to degree programs, cannot be combined with any other discount code or offer, and can be changed or cancelled by edX at any time. It applies to <em>select</em> courses and programs, so check that the price drops at checkout before you rely on it. We have not tested the code ourselves.</p>
-<h2>How to get the most from it</h2>
-<p>The discount only matters if you were going to pay. Most edX courses can still be audited for free, with temporary access to the course materials but no graded assignments or certificate. A sensible approach is to audit the first part of a course, decide whether you actually want the verified certificate, and only then upgrade with the code before November 4 (and before that course's own upgrade deadline). If you are weighing edX against a subscription, our <a href="../compare/coursera-vs-edx.html">Coursera vs edX comparison</a> covers how per-course pricing compares with Coursera Plus.</p>
-<p>This is a time-limited offer from edX itself; CourseGauge has no affiliate relationship with edX and earns nothing if you use the code.</p>
-<h2>Where to go next</h2>
-<ul><li><a href="../reviews/edx.html">edX review</a>: how the free audit track and verified certificates work</li>
-<li><a href="../compare/coursera-vs-edx.html">Coursera vs edX</a></li>
-<li><a href="../compare/best-online-course-platforms-for-certificates.html">Best online course platforms for certificates</a></li>
-<li><a href="../compare/best-free-online-course-platforms.html">Best free online course platforms</a></li></ul>""",
- "sources":[("edX: Your Fall reset has arrived (FALL2026 promotion and terms)","https://www.edx.org/courses-and-programs-promo"),
+ "modified":"2026-11-21","modified_nice":"November 21, 2026",
+ "title":"edX's certificate code is now CYBERMONTH2026",
+ "desc":"On 21 Nov 2026 edX's promo page showed CYBERMONTH2026 for 15% off select certificates until Nov 26. FALL2026 was gone.",
+ "next":[("../reviews/edx.html","edX review","cat-general"),
+         ("../compare/coursera-vs-edx.html","Coursera vs edX","cat-general"),
+         ("../compare/best-online-course-platforms-for-certificates.html","Best platforms for certificates","cat-general"),
+         ("../compare/best-free-online-course-platforms.html","Best free course platforms","cat-general")],
+ "body":"""<p><strong>Updated November 21, 2026.</strong> The promo URL we cited in October no longer mentions FALL2026. On 21 Nov the same page, <a href="https://www.edx.org/courses-and-programs-promo" rel="nofollow noopener">edx.org/courses-and-programs-promo</a>, was headlined as Cyber Month. Its body says to take 15% off selected verified courses, Professional Certificates, MicroBachelors programs and MicroMasters programs with the code <strong>CYBERMONTH2026</strong>, until November 26. A banner on that page also says "save up to 20%" and names the same code. The FAQ and the asterisk disclaimer both say the offer runs until 11:59 p.m. US Eastern Time on November 26, 2026, does not apply to degree programs, cannot be combined with other discounts, and can be changed or cancelled by edX. We have not put the code through a checkout, so the percentage a given course actually drops is whatever that checkout shows.</p>
+<h2>What the October note said</h2>
+<p>On October 25 the same URL advertised FALL2026, 15% off select verified courses and those same program types, ending at 11:59 p.m. Eastern on November 4. That wording is no longer on the page. If a cart still accepts FALL2026, that is edX's checkout, not something this page can promise.</p>
+<h2>Whether the discount is worth using</h2>
+<p>It only matters if you were going to pay. Most edX courses can still be audited for free, with temporary access to the materials and no graded assignments or certificate. Audit the opening material, decide whether you want the verified certificate, and only then try the code, before November 26 and before that course's own upgrade deadline. Our <a href="../compare/coursera-vs-edx.html">Coursera vs edX comparison</a> puts per-course pricing next to Coursera Plus.</p>
+<p>This is edX's own offer. CourseGauge has no affiliate relationship with edX and earns nothing if you use the code.</p>""",
+ "sources":[("edX promo page, read 21 Nov 2026 (CYBERMONTH2026, through Nov 26)","https://www.edx.org/courses-and-programs-promo"),
   ("edX Help: Audit vs verified courses","https://support.edx.org/hc/en-us/articles/360013426573-What-are-the-differences-between-audit-free-and-verified-paid-courses")]},
 {"slug":"alison-free-interactive-python-coding-labs","date":"2026-10-16","nice":"October 16, 2026",
  "title":"Alison adds free in-browser Python coding labs",
@@ -26,12 +26,11 @@ NEWS=[
 <h2>Why it matters if you're learning to code</h2>
 <p>Write-and-run practice inside the lesson has been one of the main reasons people pay for platforms such as Codecademy and DataCamp, and it is the format many beginners find sticks better than video alone. Codecademy already has a free Basic tier, but its paid Plus and Pro plans start at $14.99 a month billed annually (US list price, checked October 15, 2026). A free hands-on Python option from Alison gives beginners on a zero budget another way to practise before deciding whether a paid plan is worth it.</p>
 <p>Two caveats. First, we have not yet worked through the new labs ourselves, so treat this as news rather than a review. Second, Alison's certificates are its own CPD-accredited credentials, not university certificates; if you need a credential employers widely recognise, compare the options in our <a href="../compare/best-online-course-platforms-for-certificates.html">certificates guide</a>.</p>
-<h2>Where to go next</h2>
-<ul><li><a href="../reviews/alison.html">Alison review</a>: how its free courses and paid certificates work</li>
-<li><a href="../compare/best-platforms-to-learn-coding-and-tech.html">Best platforms to learn coding and tech</a></li>
-<li><a href="../compare/codecademy-vs-datacamp.html">Codecademy vs DataCamp</a></li>
-<li><a href="../compare/best-free-online-course-platforms.html">Best free online course platforms</a></li>
-<li><a href="../subscription-calculator/index.html">Monthly vs annual calculator</a>, if you do go paid</li></ul>""",
+""",
+ "next":[("../reviews/alison.html","Alison review","cat-general"),
+         ("../compare/best-platforms-to-learn-coding-and-tech.html","Best platforms to learn coding","cat-tech"),
+         ("../compare/codecademy-vs-datacamp.html","Codecademy vs DataCamp","cat-tech"),
+         ("../reviews/codecademy.html","Codecademy review","cat-tech")],
  "sources":[("Alison press release: Alison Launches Interactive Coding Labs (Oct 15, 2026)","https://alison.com/press-room/company-news-&-announcements/alison-launches-interactive-coding-labs-that-let-learners-write-and-run-real-code-inside-the-courses"),
   ("Alison Blog: Learn Python by Doing, Not Just Watching","https://alison.com/blog/learn-python-not-just-watching"),
   ("Alison: Python coding courses","https://alison.com/tag/python-coding"),
@@ -39,15 +38,20 @@ NEWS=[
 ]
 for n in NEWS:
     src='<h2>Sources</h2><ul class="src">'+"".join(f'<li><a href="{H.escape(u)}" rel="nofollow noopener">{H.escape(t)}</a></li>' for t,u in n["sources"])+'</ul>'
-    body=f'<article><h1>{n["title"]}</h1><p><small>By the {BRAND} editors · Published <time datetime="{n["date"]}">{n["nice"]}</time></small></p>{n["body"]}{src}<p class="src">Written by {BRAND} from the sources above. No sponsorship or payment from any company mentioned. Spotted an error? <a href="../contact.html">Tell us</a>.</p></article>'
+    mod=n.get("modified",n["date"])
+    when=f'Published <time datetime="{n["date"]}">{n["nice"]}</time>'
+    if mod!=n["date"]:
+        when+=f' · Updated <time datetime="{mod}">{n["modified_nice"]}</time>'
+    follow=next_reads(n.get("next") or [],heading="Keep reading")
+    body=f'<article><h1>{n["title"]}</h1><p><small>By the {BRAND} editors · {when}</small></p>{n["body"]}{follow}{src}<p class="src">Written by {BRAND} from the sources above. No sponsorship or payment from any company mentioned. Spotted an error? <a href="../contact.html">Tell us</a>.</p></article>'
     url=f'{BASE}/news/{n["slug"]}.html'
-    ld={"@context":"https://schema.org","@type":"NewsArticle","headline":n["title"],"description":n["desc"],"datePublished":n["date"],"dateModified":n["date"],"url":url,"mainEntityOfPage":url,"author":{"@type":"Organization","name":BRAND,"url":BASE},"publisher":{"@id":ORG_ID},"image":OG_IMG,"isAccessibleForFree":True}
+    ld={"@context":"https://schema.org","@type":"NewsArticle","headline":n["title"],"description":n["desc"],"datePublished":n["date"],"dateModified":mod,"url":url,"mainEntityOfPage":url,"author":{"@type":"Organization","name":BRAND,"url":BASE},"publisher":{"@id":ORG_ID},"image":OG_IMG,"isAccessibleForFree":True}
     page(f'news/{n["slug"]}.html',n["title"],n["desc"],body,ld,crumbs=[("News","news/"),(n["title"],None)],ogtype="article")
-    LASTMOD[url]=n["date"]
+    LASTMOD[url]=mod
 li="".join(f'<li><a href="{n["slug"]}.html">{n["title"]}</a> <small>({n["nice"]})</small></li>' for n in NEWS)
 page("news/index.html","Online Learning News","Short, sourced news on online course platforms: launches, price changes and what they mean for learners.",f"<h1>Online learning news</h1><p>Short, sourced updates on course platforms, written in our own words with links to the original announcements. We only post when something genuinely matters to learners.</p><ul>{li}</ul><h2>Evergreen guides</h2><p>News moves fast; these pages are kept up to date: <a href='../pricing-tracker/'>price and free-trial tracker</a> · <a href='../subscription-calculator/'>monthly vs annual calculator</a> · <a href='../reviews/'>platform reviews</a> · <a href='../compare/'>comparisons</a>.</p>",crumbs=[("News",None)])
 LASTMOD[f"{BASE}/news/"]=max(NEWS[0]["date"],"2026-10-18")  # Oct 18: evergreen links added
 LASTMOD[f"{BASE}/reviews/alison.html"]="2026-10-16"
-LASTMOD[f"{BASE}/"]="2026-10-25"  # Oct 25: homepage FAQ + meta (b8a1b3e) and latest-news block
+LASTMOD[f"{BASE}/"]="2026-11-21"  # Nov 21: homepage news line updated after the edX promo page changed
 LASTMOD[f"{BASE}/about.html"]="2026-10-18"  # Oct 18: method section expanded
 LASTMOD[f"{BASE}/pricing-tracker/"]=max(["2026-10-18"]+[r[8]["checked"] for r in json.load(open("data/pricing.json")) if len(r)>8])  # Oct 18 FAQ; later = dated row re-checks

@@ -1,3 +1,23 @@
+## 2026-11-21 (high-RPM day: upgrade, refreshes, compliance)
+
+**Priority:** two substantive pages (Great Courses Plus upgrade, plus the Kajabi review on a separate unmerged PR because its assigned photo is missing), two named refreshes (Codecademy, DataCamp), and a doubled quality pass on the next-thinnest pages (Khan Academy, Duolingo, Domestika, Skillshare vs Domestika).
+
+**Re-read on 21 Nov 2026, and only those pages:**
+- The Great Courses Plus plans page and its plan data: US offer is $4.99 a month for two months, then $15.99, banner through 30 Nov 2026, no refund for early termination. No annual US price and no stated free-day count, so the old euro prices and the 7-day trial are not repeated.
+- Codecademy pricing: Basic $0, Plus $14.99/$29.99, Pro $19.99/$39.99, unchanged. Career paths and interview tools are Pro only. The annual workshop is on both paid annual plans. Trial and refund help articles did not load, so those day-counts are not restated as reconfirmed.
+- DataCamp pricing: Premium special $11 a month billed annually. The page also printed $28. The October $14 and $35 figures were not in this view. Help overview of 14 Oct 2026: AI Engineering track is not included in Premium.
+- Domestika Plus: $33.90 a month, $246.75 the first year, renewal $329. The $164.50 first-year price was not on the page. Credits are what keep a course.
+- Skillshare pricing: still $167.88 a year.
+- Khan Academy help article (dated 20 Sep 2021): library still free, no ads. Khanmigo homepage: free teacher sign-up, no learner price printed.
+- Duolingo Super help and terms: same lessons for everyone, payments nonrefundable unless the law requires otherwise. No public Super price and no trial length on the pages that loaded.
+- edX promo page: FALL2026 is gone. CYBERMONTH2026, 15% off select certificates, until 26 Nov 2026, 11:59 p.m. Eastern. A banner on the same page also says up to 20%.
+
+**Engagement:** review and comparison next-reads are 4 thumbnail cards mid-article and at the end. Card thumbnails now carry an AI-generated caption linking to /image-policy/. News stories use the same thumbnail next-reads. Article photos were already captioned.
+
+**Not merged here:** Kajabi review. The assigned file `/workspace/image-bank/which/creator-recording-course.png` is not on this machine. PR #8 (Thinkific) stays open for the same missing photos. Its topic was not redone.
+
+**Checks:** `python3 build.py`; `python3 audit.py` issues are only thanks.html (noindex, out of sitemap); `python3 scripts/legal_gate.py check` 0 HOLD_REVIEW. AdSense tag, ads.txt, GA4 and the Cloudflare beacon were not removed.
+
 ## 2026-11-19 (compliance + Teachable refresh)
 
 **Priority:** compliance only (no new article topic).

@@ -26,7 +26,7 @@ footer{font-size:.9rem;padding:22px 0}footer p{margin:.4em 0}.src{font-size:.9re
 h1{color:#1b4d3e;line-height:1.2;margin:.4em 0 .5em}h2{color:#1b4d3e;margin:1.6em 0 .5em;padding-bottom:.2em;border-bottom:2px solid #f2c14e;display:inline-block}
 header{background:linear-gradient(135deg,#1b4d3e,#256a55);box-shadow:0 2px 8px rgba(0,0,0,.15)}main{padding-top:28px}
 .card{box-shadow:0 1px 4px rgba(0,0,0,.08);transition:box-shadow .2s,transform .2s}.card:hover{box-shadow:0 6px 16px rgba(0,0,0,.14);transform:translateY(-2px)}
-.card.t{padding:0;overflow:hidden}.card.t img{display:block;width:100%;height:auto;aspect-ratio:16/9;object-fit:cover}.card .cb{padding:12px 14px}.card h3{margin:.2em 0}
+.card.t{padding:0;overflow:hidden}.card.t img{display:block;width:100%;height:auto;aspect-ratio:16/9;object-fit:cover}.card .cb{padding:12px 14px}.card h3{margin:.2em 0}.card .cap{margin:0;padding:4px 14px 0;font-size:.75rem;line-height:1.4;color:#555}
 figure.ban{margin:0 0 18px}figure.ban img{display:block;width:100%;height:auto;border-radius:12px;box-shadow:0 4px 18px rgba(0,0,0,.18);background:#e9e5da}figure.ban.art{margin:18px 0}figure.ban figcaption{font-size:.82rem;color:#555;margin-top:6px}
 .byline{font-size:.92rem;color:#444;margin:.2em 0 1em}.check{background:#fff;border:1px solid #c5d5cf;border-radius:8px;padding:14px 16px;margin:18px 0}.check h2{margin-top:0;border:0;padding:0;display:block;font-size:1.05rem}.check ul{margin:.4em 0 0;padding-left:1.2em}.next h2{margin-top:1.2em}
 .hero{position:relative;margin:0 0 22px;border-radius:14px;overflow:hidden;box-shadow:0 6px 24px rgba(0,0,0,.22);background:#1b4d3e}.hero img{display:block;width:100%;height:auto;aspect-ratio:2/1;object-fit:cover}
@@ -74,7 +74,7 @@ def imgfor(path):
 def pic(name,suf,r,cls="",eager=False,w=None,h=None):
     w,h=(w,h) if w else IMGDIM.get(name,(1024,576)) if suf=="" else {"-md":(800,450),"-sm":(480,270)}[suf]
     return f'<img src="{r}images/{name}{suf}.webp" width="{w}" height="{h}" alt="{_H.escape(IMGS[name])}"'+(' fetchpriority="high"' if eager else ' loading="lazy" decoding="async"')+'>'
-def thumb(name): return f'<img src="@@/images/{name}-sm.webp" width="480" height="270" alt="{_H.escape(IMGS[name])}" loading="lazy" decoding="async">'
+def thumb(name): return f'<img src="@@/images/{name}-sm.webp" width="480" height="270" alt="{_H.escape(IMGS[name])}" loading="lazy" decoding="async"><p class="cap"><small>AI-generated image. <a href="@@/image-policy/">Image policy</a></small></p>'
 def inject_img(body,path,r):
     n=imgfor(path)
     if not n or path=="index.html": return body
@@ -151,7 +151,7 @@ def topupd(u): return f'<p class="src">Last updated {u["nice"]}</p>' if u else '
 def srcs(l,u=None):
     seen=[];[seen.append(x) for x in l if x not in seen]
     # Pages re-checked on this run say so. Older pages keep the standing check date plus their own update note.
-    checked = u["nice"] if u and str(u.get("date",""))=="2026-11-20" else CHECKED
+    checked = u["nice"] if u and str(u.get("date",""))>="2026-11-20" else CHECKED
     return '<h2>Sources</h2><ul class="src">'+"".join(f'<li><a href="{u}" rel="nofollow noopener">{t}</a></li>' for t,u in seen)+f'</ul><p class="src">Facts checked {checked}. Prices are US list prices, change often and vary by region; confirm on the provider\'s site before buying. <a href="../about.html">How we research and check facts</a>.</p>'+upd(u)
 R=json.load(open("data/reviews.json"))
 C=json.load(open("data/compare.json"))
@@ -197,7 +197,7 @@ def news_block(k):
     return ('<h2>Latest news</h2><ul>'+''.join(f'<li><a href="../{u}">{t}</a></li>' for t,u in n)+'</ul>') if n else ''
 for k,v in R.items():
     nr=rel_items(k)
-    mid=next_reads(nr[:2],heading="Related reading")
+    mid=next_reads(nr[:4],heading="Related reading")
     end=next_reads(nr,heading="Keep reading")
     extra=v.get("extra") or ""
     body=f"""<h1>{v['name']} review ({Y}): {v['tagline']}</h1>{byline()}{topupd(v.get('updated'))}
@@ -225,7 +225,7 @@ for k,c in C.items():
     for href,title,img in (("../pricing-tracker/","Price and free-trial tracker","cat-general"),("../quiz/","Platform quiz","cat-general")):
         if len(nr)>=4: break
         if all(href!=i[0] for i in nr): nr.append((href,title,img))
-    mid=next_reads(nr[:2],heading="Related reading")
+    mid=next_reads(nr[:4],heading="Related reading")
     end=next_reads(nr[:4],heading="Keep reading")
     body=f"<h1>{c['title']}</h1>{byline()}{topupd(c.get('updated'))}<p><strong>Short answer:</strong> {c['answer']}</p><p>See every plan side by side in the <a href='../pricing-tracker/index.html'>price tracker</a> or try the <a href='../quiz/index.html'>platform quiz</a>.</p><div class='tw'><table><tr><th></th>{hdr}</tr>{rows}</table></div>{mid}"+''.join(f"<h2>{h}</h2><p>{t}</p>" for h,t in c['sections'])+("<!--FAQ-->" if c.get('faq') else "")+check_another_compare(k,c)+end+srcs(c.get('sources',[])+[s for p in c['p'] for s in R[p]['sources']],c.get('updated'))
     if c.get('updated'): LASTMOD[f"{BASE}/compare/{k}.html"]=c['updated']['date']
@@ -255,9 +255,18 @@ for f in sorted(os.listdir("data/legal")):
 exec(open("extras.py").read())
 exec(open("calc.py").read())
 exec(open("news.py").read())
+def _home_cards(html, prefix):
+    """Point card links at a section, and leave image-policy captions at the site root."""
+    html = html.replace("@@/", "")
+    def repl(m):
+        u = m.group(1)
+        if u.startswith(("http", "/", "#", "mailto")) or u.startswith("image-policy"):
+            return m.group(0)
+        return f'href="{prefix}{u}"'
+    return _re.sub(r'href="([^"]*)"', repl, html)
 home=f"""<div class="hero">{pic("hero-home","","",eager=True)}<div class="ht"><h1>Find the online course platform that fits how you learn</h1><p>Independent, sourced reviews, comparisons and price tools.</p></div></div><p class="src"><small>AI-generated image. <a href="image-policy/">Image policy</a></small></p><p>{BRAND} compares subscription and pay-per-course learning platforms on what actually matters: price, trial and refund terms, certificates and the kind of teaching you get. Every fact links to a public source.</p>
 <p><a href="pricing-tracker/index.html"><strong>Price and free-trial tracker</strong></a>: 20 platforms, every figure sourced. <a href="quiz/index.html"><strong>Which platform fits you?</strong></a> Take the 5-question quiz.</p>
-<p><a href="subscription-calculator/index.html"><strong>Monthly or annual?</strong></a> Our break-even calculator shows how many months of use make an annual plan cheaper on 12 popular plans.</p><h2>Latest news</h2><ul>{''.join(f'<li><a href="news/{n["slug"]}.html">{n["title"]}</a> <small>({n["nice"]})</small></li>' for n in NEWS[:3])}</ul><p><a href="news/">All online learning news</a> · <a href="about.html">How we research</a></p><h2>Popular comparisons</h2><div class="cards">{cc.replace('href="','href="compare/').replace('@@/','')}</div><h2>Reviews</h2><div class="cards">{cards.replace('href="','href="reviews/').replace('@@/','')}</div>"""
+<p><a href="subscription-calculator/index.html"><strong>Monthly or annual?</strong></a> Our break-even calculator shows how many months of use make an annual plan cheaper on 12 popular plans.</p><h2>Latest news</h2><ul>{''.join(f'<li><a href="news/{n["slug"]}.html">{n["title"]}</a> <small>({n["nice"]})</small></li>' for n in NEWS[:3])}</ul><p><a href="news/">All online learning news</a> · <a href="about.html">How we research</a></p><h2>Popular comparisons</h2><div class="cards">{_home_cards(cc,"compare/")}</div><h2>Reviews</h2><div class="cards">{_home_cards(cards,"reviews/")}</div>"""
 page("index.html","Online Course Platform Reviews and Comparisons","Independent, sourced reviews of 20 online course platforms, with price and free-trial tracking, side-by-side comparisons and a quiz to find the right fit.",home,faq=[("How do I choose an online course platform?","Start with your goal: certificates for a career (Coursera, edX), practical skills from individual courses (Udemy), creative classes (Skillshare, MasterClass) or languages (Duolingo). Then compare price, free trial and refund terms. Our <a href='quiz/'>5-question quiz</a> narrows it down."),
 ("Is a subscription or a one-off course purchase better value?","It depends on how much you will use it. Subscriptions suit regular learners, while buying single courses suits a specific skill. Our <a href='subscription-calculator/'>monthly vs annual calculator</a> shows how many months of use make an annual plan cheaper."),
 ("Which platforms offer a free trial?","Trial terms vary by platform and change often. Our <a href='pricing-tracker/'>price and free-trial tracker</a> lists current trials and prices for 20 platforms, each linked to the platform's own pages."),
@@ -279,7 +288,10 @@ def _llms():
        "## Recent fact updates (checked against official sources)",
        f"- October 19, 2026: Coursera completed its combination with Udemy on May 11, 2026; Udemy is a wholly owned Coursera subsidiary, but the platforms, accounts and subscriptions still run separately. See {BASE}/compare/coursera-vs-udemy.html",
        f"- October 19, 2026: Coursera replaced free course auditing with a free preview of the first module of most courses in August 2025; edX still offers a free audit track. See {BASE}/compare/best-free-online-course-platforms.html",
-       f"- October 19, 2026: MasterClass sells MasterClass Certificates separately from its membership: 15 to 20-hour courses with a capstone project, from $299 per course or a Certificates Annual Pass. See {BASE}/reviews/masterclass.html","",
+       f"- October 19, 2026: MasterClass sells MasterClass Certificates separately from its membership: 15 to 20-hour courses with a capstone project, from $299 per course or a Certificates Annual Pass. See {BASE}/reviews/masterclass.html",
+       f"- November 21, 2026: The Great Courses Plus US plan we could read is $4.99 a month for two months, then $15.99, with no refund for early cancellation. See {BASE}/reviews/great-courses-plus.html",
+       f"- November 21, 2026: DataCamp's pricing page showed Premium at $11 a month billed annually. Domestika Plus showed $246.75 for the first year and $329 on renewal. See {BASE}/reviews/datacamp.html and {BASE}/compare/skillshare-vs-domestika.html",
+       f"- November 21, 2026: edX's promo page no longer shows FALL2026. It shows CYBERMONTH2026, 15% off select certificates, until November 26, 2026. See {BASE}/news/edx-fall-2026-discount-verified-certificates.html","",
        "## Tools and data",
        item(f"{BASE}/pricing-tracker/",extra=f" CSV: {BASE}/pricing-tracker/coursegauge-pricing-tracker.csv"),
        item(f"{BASE}/subscription-calculator/",extra=f" Key finding: annual billing pays off after {lo} to {hi} months of use (median {med:g}) across {len(PLANS)} plans. CSV: {BASE}/subscription-calculator/coursegauge-annual-vs-monthly.csv"),
