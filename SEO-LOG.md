@@ -1,3 +1,9 @@
+## 2026-11-21 (Kajabi review, held for the assigned photo)
+
+New review at /reviews/kajabi.html from Kajabi's pricing page, the plans help article, and the US payments article dated 20 Oct 2026, all read 21 Nov 2026. Basic $179 / $1,716 a year, Growth $249 / $2,388, Pro $499 / $4,788. No revenue share. US card rates on the pricing page: 2.9%, 2.8% and 2.7% plus 30 cents. Kickstarter ($89) and Parked ($29) are in the help article and were not cards on the public page.
+
+The page uses the existing business-category photo because `/workspace/image-bank/which/creator-recording-course.png` does not exist. Do not merge until that photo is in place. PR #8 (Thinkific) was not touched.
+
 ## 2026-11-19 (compliance + Teachable refresh)
 
 **Priority:** compliance only (no new article topic).
