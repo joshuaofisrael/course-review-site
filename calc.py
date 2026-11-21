@@ -7,14 +7,14 @@ PLANS=[
 ("coursera","Coursera Plus",59,399,399,"$399/yr","Annual plan has a 14-day money-back guarantee."),
 ("codecademy","Codecademy Plus",29.99,179.88,179.88,"$14.99/mo billed annually",""),
 ("codecademy","Codecademy Pro",39.99,239.88,239.88,"$19.99/mo billed annually",""),
-("datacamp","DataCamp Premium",35,168,168,"$14/mo billed annually (special price)","Annual figure is a special price; at the struck-out $28/mo ($336/yr) break-even would be 10 months."),
+("datacamp","DataCamp Premium",35,132,132,"$11/mo billed annually (special price on 21 Nov 2026)","$132 is 11 times 12. The pricing page also printed $28 and did not show a monthly dollar amount, so the $35 monthly figure remains the 15 Oct 2026 number."),
 ("brilliant","Brilliant Individual",30,240,240,"$20/mo billed annually","List prices. On 20 Nov 2026 the subscribe page showed this $20/month annual rate, and also a Black Friday price of $14/month ($168 for the year)."),
 ("brilliant","Brilliant Family (up to 6)",60,480,480,"$40/mo billed annually","The $40/month annual list (6 seats, $480 a year) was on the subscribe page on 20 Nov 2026. The $60 monthly figure is from 15 Oct 2026 and was not reprinted in that view."),
 ("pluralsight","Pluralsight Core Tech",30,252,252,"$21/mo billed yearly","No refunds on individual subscriptions."),
 ("pluralsight","Pluralsight Complete",55,468,468,"$39/mo billed yearly","No refunds on individual subscriptions."),
 ("babbel","Babbel (1-month vs 12-month)",17.95,107.40,107.40,"$107.40/yr","The $17.95 one-month price is from 15 Oct 2026. On 20 Nov Babbel's review page still listed $107.40 for 12 months, $80.70 for 6 months and $299.99 lifetime. The checkout did not show the one-month total without JavaScript."),
 ("rosetta-stone","Rosetta Stone",19.99,159,159,"$159/yr","Re-read on the plans page 20 Nov 2026: $19.99 billed monthly or $159 billed yearly, all 25 languages."),
-("domestika","Domestika Plus",33.90,164.50,329,"$164.50 first year, renews at $329","First-year price is an introductory offer; at the $329 renewal price break-even is 10 months."),
+("domestika","Domestika Plus",33.90,246.75,329,"$246.75 first year, renews at $329","Re-read 21 Nov 2026. The Plus page showed $20.59 a month, $246.75 for the year, then renewal at $329. At the renewal price, break-even is 10 months."),
 ]
 def be(m,a): return math.ceil(a/m-1e-9)
 rows=[];bes=[];data=[]
@@ -27,7 +27,9 @@ os.makedirs("subscription-calculator",exist_ok=True)
 pcts=[round(100*(12*m-a)/(12*m)) for k,name,m,a,ren,shown,note in PLANS]
 with open("subscription-calculator/coursegauge-annual-vs-monthly.csv","w",newline="") as f:
     w=csv.writer(f); w.writerow(["Plan","Monthly price (USD)","Annual total first year (USD)","Annual renewal (USD)","Break-even months","12-month saving (USD)","Source","Prices checked"])
-    for (k,name,m,a,ren,shown,note),b in zip(PLANS,bes): w.writerow([name,f"{m:.2f}",f"{a:.2f}",f"{ren:.2f}",b,f"{12*m-a:.2f}",SRC[k],"2026-10-15"])
+    for (k,name,m,a,ren,shown,note),b in zip(PLANS,bes):
+        checked="2026-11-21" if k in ("datacamp","domestika") else "2026-10-15"
+        w.writerow([name,f"{m:.2f}",f"{a:.2f}",f"{ren:.2f}",b,f"{12*m-a:.2f}",SRC[k],checked])
 opts="".join(f'<option value="{i}">{H.escape(d["n"])}</option>' for i,d in enumerate(data))+'<option value="custom">Another plan (enter prices)</option>'
 js="""<script>
 const D=%s;
@@ -50,11 +52,11 @@ body=f"""<h1>Monthly or annual? Online course subscription break-even calculator
 <label for="months">How many months will you actually use it?</label><br><input id="months" name="months" type="number" min="1" max="36" value="6" inputmode="numeric"></fieldset>
 <p><button type="submit">Compare</button></p></form>
 <div id="calcout" aria-live="polite"><noscript><p>The calculator needs JavaScript. The table below shows the break-even month for every plan.</p></noscript></div>
-<div class="tw"><table><caption>Monthly vs annual billing on {len(PLANS)} online learning plans (US list prices from October 15, 2026; Babbel, Brilliant and Rosetta Stone notes re-checked November 20, 2026)</caption>
+<div class="tw"><table><caption>Monthly vs annual billing on {len(PLANS)} online learning plans (US list prices; DataCamp and Domestika re-read November 21, 2026, Babbel, Brilliant and Rosetta Stone on November 20)</caption>
 <tr><th scope="col">Plan</th><th scope="col">Monthly</th><th scope="col">Annual (first year)</th><th scope="col">Annual, per month</th><th scope="col">Annual pays off from</th><th scope="col">Saving over 12 months</th><th scope="col">Source</th></tr>{"".join(rows)}</table></div>
 <p><a href="coursegauge-annual-vs-monthly.csv" download>Download the data (CSV)</a> · Free to cite with a link to this page (CC BY 4.0).</p>
 <h2>What the numbers show</h2>
-<ul><li>The quickest payback is on discounted annual offers: DataCamp's special annual price and Domestika's first-year price both pay off within {min(be(35,168),be(33.90,164.50))} months, but both are promotional and Domestika renews at $329.</li>
+<ul><li>The quickest payback is on discounted annual offers: DataCamp's 21 Nov special ($11 a month, treated here as $132) pays off within {be(35,132)} months of the old $35 monthly rate, and Domestika's first-year price pays off within {be(33.90,246.75)} months. Both are promotional. Domestika renews at $329, which needs {be(33.90,329)} months.</li>
 <li>Codecademy prices annual billing at about half the monthly rate, so annual wins from 6 months of use. Babbel's one-month price in this table is the 15 Oct 2026 figure; the 12-month total was still $107.40 on Babbel's review page on 20 Nov 2026.</li>
 <li>Coursera Plus at $399 a year beats $59 a month from month 7.</li>
 <li>Brilliant, Rosetta Stone and Pluralsight discount annual plans less (about 29% to 34% over a year), so you need 8 or 9 months of use before annual is the better deal.</li></ul>
@@ -63,15 +65,15 @@ body=f"""<h1>Monthly or annual? Online course subscription break-even calculator
 <li><strong>Use the free trial to test your habit.</strong> If you are not using a trial most days, the monthly plan, or a free option, is probably the safer bet. Our <a href="../compare/best-free-online-course-platforms.html">guide to free course platforms</a> covers the no-cost alternatives.</li>
 <li><strong>Watch renewal prices.</strong> Introductory annual prices can jump at renewal. Set a reminder a week before the renewal date.</li>
 <li><strong>Prices vary.</strong> These are US list prices. Taxes, app-store billing and regional pricing change the totals, so confirm on the official page before buying.</li></ul>
-<h2>Method</h2><p>Monthly price and annual total come from each platform's official pricing page. The standing figures were read on October 15, 2026. Notes on Babbel, Brilliant and Rosetta Stone say what a 20 November 2026 re-check confirmed or could not confirm. Where a platform shows annual billing as a per-month figure, we multiplied it by 12. "Annual pays off from" is the smallest whole number of months for which paying monthly costs at least as much as one year of annual billing. Platforms that only sell annual memberships (such as MasterClass) or whose US prices we could not confirm are left out rather than estimated. The calculator runs entirely in your browser and stores nothing.</p>
+<h2>Method</h2><p>Monthly price and annual total come from each platform's official pricing page. The standing figures were read on October 15, 2026. Notes on Babbel, Brilliant and Rosetta Stone say what a 20 November 2026 re-check confirmed or could not confirm. On 21 November 2026 we re-read DataCamp and Domestika and replaced their annual totals. DataCamp's page did not show a monthly dollar amount that day, so its $35 monthly cell is still the October figure. Where a platform shows annual billing as a per-month figure, we multiplied it by 12. "Annual pays off from" is the smallest whole number of months for which paying monthly costs at least as much as one year of annual billing. Platforms that only sell annual memberships (such as MasterClass) or whose US prices we could not confirm are left out rather than estimated. The calculator runs entirely in your browser and stores nothing.</p>
 <p>Related: <a href="../compare/codecademy-vs-datacamp.html">Codecademy vs DataCamp</a> · <a href="../compare/coursera-vs-udemy.html">Coursera vs Udemy</a> · <a href="../compare/best-language-learning-apps.html">Best language learning apps</a> · <a href="../quiz/index.html">Platform quiz</a></p>
 {js}"""
-app={"@context":"https://schema.org","@type":"WebApplication","name":"CourseGauge monthly vs annual course subscription calculator","url":f"{BASE}/subscription-calculator/","applicationCategory":"FinanceApplication","operatingSystem":"Any","isAccessibleForFree":True,"offers":{"@type":"Offer","price":"0","priceCurrency":"USD"},"creator":{"@type":"Organization","name":"CourseGauge"},"dateModified":"2026-11-20"}
+app={"@context":"https://schema.org","@type":"WebApplication","name":"CourseGauge monthly vs annual course subscription calculator","url":f"{BASE}/subscription-calculator/","applicationCategory":"FinanceApplication","operatingSystem":"Any","isAccessibleForFree":True,"offers":{"@type":"Offer","price":"0","priceCurrency":"USD"},"creator":{"@type":"Organization","name":"CourseGauge"},"dateModified":"2026-11-21"}
 CALC_FAQ=[
 ("Is an annual online course subscription worth it?",f"Only if you will keep learning most of the year. On the {len(PLANS)} plans we compared, annual billing costs the same or less than monthly once you use it for {lo} to {hi} months in a year (median {med:g} months). Below that, paying monthly and cancelling is cheaper."),
 ("How do I work out the break-even month myself?",f"Divide the annual price by the monthly price and round up. For Coursera Plus, $399 a year divided by $59 a month is about 6.8, so annual is cheaper from month {be(59,399)}."),
 ("Can I get a refund on an annual plan?",'It depends on the platform. Coursera Plus annual has a 14-day money-back guarantee, while Pluralsight individual plans are not refundable. Check every policy in our <a href="../pricing-tracker/">price and free-trial tracker</a> before paying for a year.'),
-("Do introductory annual prices last?",f"Not always. Domestika Plus costs $164.50 in the first year but renews at $329, which moves break-even from {be(33.90,164.50)} months to {be(33.90,329)}. DataCamp's annual figure is also a special price, so check the renewal price before you buy."),
+("Do introductory annual prices last?",f"Not always. Domestika Plus, re-read on 21 Nov 2026, costs $246.75 in the first year and renews at $329, which moves break-even from {be(33.90,246.75)} months to {be(33.90,329)}. DataCamp's annual figure is also a special price, so check the renewal price before you buy."),
 ]
-page("subscription-calculator/index.html","Monthly vs Annual Course Subscription Calculator",f"When does an annual course plan pay off? Break-even months ({lo} to {hi}) for Coursera Plus, Codecademy, DataCamp, Brilliant and more, with a free calculator.",body,app,crumbs=[("Calculator",None)],faq=CALC_FAQ,modified="2026-11-20")
-LASTMOD[f"{BASE}/subscription-calculator/"]="2026-11-20"  # Nov 20: Babbel, Brilliant and Rosetta Stone notes re-checked
+page("subscription-calculator/index.html","Monthly vs Annual Course Subscription Calculator",f"When does an annual course plan pay off? Break-even months ({lo} to {hi}) for Coursera Plus, Codecademy, DataCamp, Brilliant and more, with a free calculator.",body,app,crumbs=[("Calculator",None)],faq=CALC_FAQ,modified="2026-11-21")
+LASTMOD[f"{BASE}/subscription-calculator/"]="2026-11-21"  # Nov 21: DataCamp special and Domestika first-year price replaced
