@@ -56,7 +56,7 @@ IMGS={ # name -> (alt text describing the photo)
  "cmp-khan-coursera":"Sunlit desk with notebook, coffee and laptop showing colorful abstract lesson cards",
  "cmp-brilliant-codecademy":"Dual monitors with abstract code and puzzle grid above a mechanical keyboard"}
 IMGDIM={"hero-home":(1280,720)}
-CAT={"creative":["masterclass","skillshare","domestika"],"tech":["codecademy","datacamp","pluralsight","udacity"],"business":["linkedin-learning","teachable"]}
+CAT={"creative":["masterclass","skillshare","domestika"],"tech":["codecademy","datacamp","pluralsight","udacity"],"business":["linkedin-learning","teachable","kajabi"]}
 def catof(keys):
     c=[next((g for g,l in CAT.items() if k in l),"general") for k in keys]
     return "cat-"+max(sorted(set(c)),key=lambda g:(c.count(g),-c.index(g)))
@@ -151,7 +151,7 @@ def topupd(u): return f'<p class="src">Last updated {u["nice"]}</p>' if u else '
 def srcs(l,u=None):
     seen=[];[seen.append(x) for x in l if x not in seen]
     # Pages re-checked on this run say so. Older pages keep the standing check date plus their own update note.
-    checked = u["nice"] if u and str(u.get("date",""))=="2026-11-20" else CHECKED
+    checked = u["nice"] if u and str(u.get("date",""))>="2026-11-20" else CHECKED
     return '<h2>Sources</h2><ul class="src">'+"".join(f'<li><a href="{u}" rel="nofollow noopener">{t}</a></li>' for t,u in seen)+f'</ul><p class="src">Facts checked {checked}. Prices are US list prices, change often and vary by region; confirm on the provider\'s site before buying. <a href="../about.html">How we research and check facts</a>.</p>'+upd(u)
 R=json.load(open("data/reviews.json"))
 C=json.load(open("data/compare.json"))
@@ -212,7 +212,7 @@ for k,v in R.items():
       {"@context":"https://schema.org","@type":"Review","itemReviewed":{"@type":"Organization","name":v['name'],"url":v['url']},"author":{"@type":"Organization","name":BRAND,"url":f"{BASE}/"},"publisher":{"@id":ORG_ID},"reviewBody":v['verdict']},
       crumbs=[("Reviews","reviews/"),(f"{v['name']} review",None)],ogtype="article",modified=(v.get('updated') or {}).get('date'))
 cards=''.join(f'<div class="card t">{thumb(catof([k]))}<div class="cb"><h3><a href="{k}.html">{v["name"]}</a></h3><p>{v["tagline"]}</p></div></div>' for k,v in R.items())
-page("reviews/index.html","Online Course Platform Reviews","Independent reviews of 20 online course platforms, from MasterClass and Coursera to Duolingo, with prices, trials, refunds and sources.",f"<h1>Online course platform reviews</h1><p>Each review covers pricing, free trials, refund terms, certificates and who the platform suits, with every fact linked to the platform's own pages. Not sure where to start? Take the <a href='../quiz/'>platform quiz</a>, see <a href='../compare/'>side-by-side comparisons</a> or check today's figures in the <a href='../pricing-tracker/'>price tracker</a>.</p><div class='cards'>{cards.replace('@@/','../')}</div>",crumbs=[("Reviews",None)])
+page("reviews/index.html","Online Course Platform Reviews",f"Independent reviews of {len(R)} online course platforms, from MasterClass and Coursera to Duolingo, with prices, trials, refunds and sources.",f"<h1>Online course platform reviews</h1><p>Each review covers pricing, free trials, refund terms, certificates and who the platform suits, with every fact linked to the platform's own pages. Not sure where to start? Take the <a href='../quiz/'>platform quiz</a>, see <a href='../compare/'>side-by-side comparisons</a> or check today's figures in the <a href='../pricing-tracker/'>price tracker</a>.</p><div class='cards'>{cards.replace('@@/','../')}</div>",crumbs=[("Reviews",None)])
 C=json.load(open("data/compare.json"))
 for k,c in C.items():
     rows=''.join("<tr><th scope='row'>"+f+"</th>"+''.join(f"<td>{dict(R[p]['facts']).get(f,'—')}</td>" for p in c['p'])+"</tr>" for f in c['fields'])
@@ -256,11 +256,11 @@ exec(open("extras.py").read())
 exec(open("calc.py").read())
 exec(open("news.py").read())
 home=f"""<div class="hero">{pic("hero-home","","",eager=True)}<div class="ht"><h1>Find the online course platform that fits how you learn</h1><p>Independent, sourced reviews, comparisons and price tools.</p></div></div><p class="src"><small>AI-generated image. <a href="image-policy/">Image policy</a></small></p><p>{BRAND} compares subscription and pay-per-course learning platforms on what actually matters: price, trial and refund terms, certificates and the kind of teaching you get. Every fact links to a public source.</p>
-<p><a href="pricing-tracker/index.html"><strong>Price and free-trial tracker</strong></a>: 20 platforms, every figure sourced. <a href="quiz/index.html"><strong>Which platform fits you?</strong></a> Take the 5-question quiz.</p>
+<p><a href="pricing-tracker/index.html"><strong>Price and free-trial tracker</strong></a>: {len(R)} platforms, every figure sourced. <a href="quiz/index.html"><strong>Which platform fits you?</strong></a> Take the 5-question quiz.</p>
 <p><a href="subscription-calculator/index.html"><strong>Monthly or annual?</strong></a> Our break-even calculator shows how many months of use make an annual plan cheaper on 12 popular plans.</p><h2>Latest news</h2><ul>{''.join(f'<li><a href="news/{n["slug"]}.html">{n["title"]}</a> <small>({n["nice"]})</small></li>' for n in NEWS[:3])}</ul><p><a href="news/">All online learning news</a> · <a href="about.html">How we research</a></p><h2>Popular comparisons</h2><div class="cards">{cc.replace('href="','href="compare/').replace('@@/','')}</div><h2>Reviews</h2><div class="cards">{cards.replace('href="','href="reviews/').replace('@@/','')}</div>"""
-page("index.html","Online Course Platform Reviews and Comparisons","Independent, sourced reviews of 20 online course platforms, with price and free-trial tracking, side-by-side comparisons and a quiz to find the right fit.",home,faq=[("How do I choose an online course platform?","Start with your goal: certificates for a career (Coursera, edX), practical skills from individual courses (Udemy), creative classes (Skillshare, MasterClass) or languages (Duolingo). Then compare price, free trial and refund terms. Our <a href='quiz/'>5-question quiz</a> narrows it down."),
+page("index.html","Online Course Platform Reviews and Comparisons",f"Independent, sourced reviews of {len(R)} online course platforms, with price and free-trial tracking, side-by-side comparisons and a quiz to find the right fit.",home,faq=[("How do I choose an online course platform?","Start with your goal: certificates for a career (Coursera, edX), practical skills from individual courses (Udemy), creative classes (Skillshare, MasterClass) or languages (Duolingo). Then compare price, free trial and refund terms. Our <a href='quiz/'>5-question quiz</a> narrows it down."),
 ("Is a subscription or a one-off course purchase better value?","It depends on how much you will use it. Subscriptions suit regular learners, while buying single courses suits a specific skill. Our <a href='subscription-calculator/'>monthly vs annual calculator</a> shows how many months of use make an annual plan cheaper."),
-("Which platforms offer a free trial?","Trial terms vary by platform and change often. Our <a href='pricing-tracker/'>price and free-trial tracker</a> lists current trials and prices for 20 platforms, each linked to the platform's own pages."),
+("Which platforms offer a free trial?",f"Trial terms vary by platform and change often. Our <a href='pricing-tracker/'>price and free-trial tracker</a> lists current trials and prices for {len(R)} platforms, each linked to the platform's own pages."),
 ("Do online course certificates count for anything?","Certificates of completion show you finished a course but are not accredited degrees. Some university-backed certificates on platforms such as Coursera and edX carry more weight with employers. Each <a href='reviews/'>review</a> notes what certificate a platform offers."),
 ("How does CourseGauge research its reviews?","Every price, trial and refund fact is linked to the platform's own pages or a named source, and pages show when they were last checked. CourseGauge has no affiliate relationships and earns no commission. See <a href='about.html'>how we research</a>.")])
 LASTMOD[f"{BASE}/privacy.html"]="2026-11-05"
@@ -279,7 +279,8 @@ def _llms():
        "## Recent fact updates (checked against official sources)",
        f"- October 19, 2026: Coursera completed its combination with Udemy on May 11, 2026; Udemy is a wholly owned Coursera subsidiary, but the platforms, accounts and subscriptions still run separately. See {BASE}/compare/coursera-vs-udemy.html",
        f"- October 19, 2026: Coursera replaced free course auditing with a free preview of the first module of most courses in August 2025; edX still offers a free audit track. See {BASE}/compare/best-free-online-course-platforms.html",
-       f"- October 19, 2026: MasterClass sells MasterClass Certificates separately from its membership: 15 to 20-hour courses with a capstone project, from $299 per course or a Certificates Annual Pass. See {BASE}/reviews/masterclass.html","",
+       f"- October 19, 2026: MasterClass sells MasterClass Certificates separately from its membership: 15 to 20-hour courses with a capstone project, from $299 per course or a Certificates Annual Pass. See {BASE}/reviews/masterclass.html",
+       f"- November 21, 2026: Kajabi's pricing page lists Basic at $179 a month ($1,716 a year), Growth at $249 ($2,388) and Pro at $499 ($4,788), and says it takes no revenue share. See {BASE}/reviews/kajabi.html","",
        "## Tools and data",
        item(f"{BASE}/pricing-tracker/",extra=f" CSV: {BASE}/pricing-tracker/coursegauge-pricing-tracker.csv"),
        item(f"{BASE}/subscription-calculator/",extra=f" Key finding: annual billing pays off after {lo} to {hi} months of use (median {med:g}) across {len(PLANS)} plans. CSV: {BASE}/subscription-calculator/coursegauge-annual-vs-monthly.csv"),

@@ -278,5 +278,23 @@
     "https://www.rosettastone.com/buy"
    ]
   }
- ]
+ ],
+[
+ "kajabi",
+ "Basic $179; Growth $249; Pro $499",
+ "Basic $1,716; Growth $2,388; Pro $4,788",
+ "14 days, then the plan you chose. 30-day money-back guarantee on the three public plans.",
+ "No free plan on the pricing page",
+ "30-day money-back guarantee on Basic, Growth and Pro",
+ "Not a learner certificate. Creators on Pro get a branded app; course certificates depend on the creator.",
+ "https://www.kajabi.com/pricing",
+ {
+  "checked": "2026-11-21",
+  "note": "21 Nov 2026: public cards were Basic, Growth and Pro. US card rates 2.9%, 2.8% and 2.7% plus 30 cents. No revenue share. Help centre also lists Kickstarter at $89 and Parked at $29, which were not on the cards.",
+  "link": [
+   "Kajabi pricing",
+   "https://www.kajabi.com/pricing"
+  ]
+ }
+]
 ]
