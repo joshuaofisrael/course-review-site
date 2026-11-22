@@ -1170,5 +1170,68 @@
       "nice": "November 20, 2026",
       "note": "first full read of the pricing page (modified 3 Nov 2026) and the Stripe gateway-fee article. No free plan. Start is $109 a month or $82 a month billed annually."
     }
+  },
+  "kajabi": {
+    "name": "Kajabi",
+    "tagline": "Basic is $179 a month, 0% revenue share",
+    "url": "https://www.kajabi.com/pricing",
+    "verdict": "Kajabi is a creator platform, not a course catalog. On 21 Nov 2026 its pricing page listed Basic at $179 a month, Growth at $249 and Pro at $499, each with a 14-day trial and a 30-day money-back guarantee. The page says Kajabi takes no revenue share. US card rates on the same page are 2.9% + 30\u00a2 on Basic, 2.8% + 30\u00a2 on Growth and 2.7% + 30\u00a2 on Pro.",
+    "facts": [
+      [
+        "Who it is for",
+        "People selling their own courses, coaching, memberships, downloads or podcasts. A learner does not subscribe to Kajabi. They buy from one creator's site."
+      ],
+      [
+        "Plans on the pricing page",
+        "Read 21 Nov 2026. Basic $179 a month, or $143 a month billed annually at $1,716 (save $432). Growth $249 a month, or $199 a month billed annually at $2,388 (save $600). Pro $499 a month, or $399 a month billed annually at $4,788 (save $1,200). Each card says 14 days free and a 30-day money-back guarantee."
+      ],
+      [
+        "Plans only in the help centre",
+        "The help article Kajabi plans and pricing, which showed Updated yesterday when we opened it on 21 Nov, also lists Kickstarter at $89 a month or $852 a year, and Parked at $29 a month. Those two were not cards on the public pricing page."
+      ],
+      [
+        "What the fee is not",
+        "The pricing page says 0% revenue share: Kajabi takes no cut of what you sell. Processing fees still apply, and the page says they vary by country and payment provider."
+      ],
+      [
+        "US card rate",
+        "On the pricing comparison, labelled for US entities: Basic 2.9% + 30\u00a2, Growth 2.8% + 30\u00a2, Pro 2.7% + 30\u00a2. A separate fee if you use an outside processor, excluding PayPal and Kajabi Payments: Basic 2%, Growth 1%, Pro 0.5%."
+      ],
+      [
+        "Limits",
+        "Products you can sell: Basic 5, Growth 50, Pro unlimited. Contacts: 2,500, 25,000 and 100,000. Websites: 1, 1 and 3. A pricing FAQ says extra contacts come in blocks of 25,000 for $125 a month."
+      ],
+      [
+        "Extra card fees",
+        "Kajabi's US payments article, dated 20 Oct 2026, adds 0.7% on subscriptions and payment plans, on top of the card rate, including the first charge. Refunding a charge does not return the original processing fee. A dispute is $15."
+      ]
+    ],
+    "good": "A creator who will use the site, the email and the checkout, and who would rather pay a card rate than a percentage of every sale. On a one-time $1,000 charge, Basic's US card line is $29.30 (2.9% plus 30\u00a2). Growth is $28.30. Pro is $27.30. Those are the pricing-page rates, before the 0.7% the US article adds when the charge is a subscription. <a href=\"teachable.html\">Teachable</a>, re-read the same day, still lists Starter at $39 a month with a 7.5% transaction fee, which is $75 on that same $1,000. The two fees are not the same kind of charge: Teachable's 7.5% sits on top of a processor, and Kajabi's percentage is the card rate itself.",
+    "bad": "A learner looking for a catalog, and a creator with one small product. Basic is $140 a month more than Teachable Starter before anyone buys anything. Until sales are large enough that a 7.5% platform fee hurts more than a $179 subscription, the cheaper plan can be the one with the percentage. Kajabi's own page did not show Kickstarter ($89 on the help article) among the three cards, so do not budget a plan you cannot see at checkout.",
+    "take": "Count products first. Basic stops at 5, Growth at 50, Pro says unlimited. Then read the card rate for the plan, not the 0% headline alone. A banner on the pricing page said \"6 MONTH DISCOUNT\" for a Black Friday offer and did not print a lower price on the plan cards, so the figures above are the prices that were printed. The creator comparison on this site is the <a href=\"teachable.html\">Teachable review</a>. Prices for both sit in the <a href=\"../pricing-tracker/\">price tracker</a>.",
+    "extra": "\n<h2>Three cards, and two more plans in the help centre</h2>\n<p>Kajabi's <a href=\"https://www.kajabi.com/pricing\" rel=\"nofollow noopener\">pricing page</a>, read 21 Nov 2026, shows Basic, Growth and Pro. Annual billing is labelled save 20%. The arithmetic holds. Basic: 179 times 12 is $2,148, the annual total is $1,716, and the difference is $432. Growth: 249 times 12 is $2,988, against $2,388, a $600 gap. Pro: 499 times 12 is $5,988, against $4,788, a $1,200 gap. Each annual price divided by 12 is the monthly figure on the card ($143, $199 and $399).</p>\n<p>The <a href=\"https://help.kajabi.com/en/articles/18440112-kajabi-plans-and-pricing\" rel=\"nofollow noopener\">plans article</a> in the help centre, marked updated the day before we read it, adds Kickstarter at $89 a month or $852 a year, and a Parked plan at $29 a month with no annual option. It also lists a 5% Stripe fee on Kickstarter when Kajabi Payments is available in your country. None of that was a card on the marketing page. If the checkout does not offer Kickstarter, the $89 figure is a help-centre price, not a button you can press.</p>\n<h2>What 0% revenue share leaves out</h2>\n<p>The page says Kajabi takes no cut of a sale. The comparison table then prints the card rate, and it limits that table to US entities. A $1,000 one-time charge at those rates:</p>\n<div class=\"tw\"><table>\n<caption>US card line on a one-time $1,000 sale, Kajabi pricing page, 21 Nov 2026</caption>\n<thead><tr><th scope=\"col\">Plan</th><th scope=\"col\">Card rate</th><th scope=\"col\">On $1,000</th><th scope=\"col\">Outside processor, if you do not use Kajabi Payments</th></tr></thead>\n<tbody>\n<tr><th scope=\"row\">Basic</th><td>2.9% + 30\u00a2</td><td>$29.30</td><td>2% more, and the processor's own fee</td></tr>\n<tr><th scope=\"row\">Growth</th><td>2.8% + 30\u00a2</td><td>$28.30</td><td>1% more</td></tr>\n<tr><th scope=\"row\">Pro</th><td>2.7% + 30\u00a2</td><td>$27.30</td><td>0.5% more</td></tr>\n</tbody></table></div>\n<p>The outside-processor column excludes PayPal and Kajabi Payments, which is what the pricing page says. The <a href=\"https://help.kajabi.com/en/articles/17174624-kajabi-payments-fees-united-states\" rel=\"nofollow noopener\">US payments article</a>, dated 20 Oct 2026, adds 0.7% when the charge is a subscription or a payment plan, including the first one. On a $1,000 subscription charge that is another $7, so Basic would be $36.30 before any international or invoicing extra. The same article says a refund does not give the processing fee back, and a dispute is $15. International cards add 1.5%.</p>\n<p>Set that next to Teachable, whose pricing page we also opened on 21 Nov. Starter was still $39 a month, or $29 billed annually, with a 7.5% transaction fee on the card. Builder was $89 and Growth $189, with annual equivalents of $69 and $139. A Black Friday layer was on that page too. The useful difference is the shape of the fee, not a single winner. Kajabi Basic costs $140 more per month than Teachable Starter before a sale, and then takes a card rate instead of 7.5% on top of a processor. A creator with a few sales a month should do the sum on their own numbers. The write-up of Teachable's plans is the <a href=\"teachable.html\">Teachable review</a>.</p>\n<h2>The limits that actually stop you</h2>\n<p>Products you can sell, and the page names courses, coaching, memberships, downloads and podcasts: 5 on Basic, 50 on Growth, unlimited on Pro. Contacts: 2,500, 25,000 and 100,000. The FAQ says you can add contacts in blocks of 25,000 for $125 a month without changing plan. Websites: one on Basic and Growth, three on Pro. The branded app is a Pro row, and the page calls it a $199 a month value. AI credits are 0, 500 and 1,000, with 500 more for $15 a month. A banner over the prices said \"6 MONTH DISCOUNT\" and did not replace the numbers on the cards. Until a lower figure is printed on the plan itself, these are the prices.</p>\n",
+    "sources": [
+      [
+        "Kajabi pricing (plans, limits and US card rates, read 21 Nov 2026)",
+        "https://www.kajabi.com/pricing"
+      ],
+      [
+        "Kajabi Help: plans and pricing (showed an update the day before 21 Nov 2026)",
+        "https://help.kajabi.com/en/articles/18440112-kajabi-plans-and-pricing"
+      ],
+      [
+        "Kajabi Payments fees: United States (dated 20 Oct 2026)",
+        "https://help.kajabi.com/en/articles/17174624-kajabi-payments-fees-united-states"
+      ],
+      [
+        "Teachable pricing (read 21 Nov 2026, for the fee comparison)",
+        "https://www.teachable.com/pricing"
+      ]
+    ],
+    "updated": {
+      "date": "2026-11-21",
+      "nice": "November 21, 2026",
+      "note": "first review. Prices, limits and US card rates are from Kajabi's pricing page on 21 Nov 2026. Kickstarter and Parked are from the help article, because they were not on the public cards. The US payments article supplies the 0.7% subscription add-on."
+    }
   }
 }
